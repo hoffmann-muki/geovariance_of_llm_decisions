@@ -116,6 +116,4 @@ Inapplicable edits reduce the workload. A pilot using 12 descriptions, four coun
 | 3. Main experiments | Evaluate all four models | Complete prediction logs and documented exclusions |
 | 4. Analysis and reporting | Estimate paired effects and review representative changes | Reproducible results and research report |
 
-For a three-person team, assign ownership of data and review, inference and reproducibility, and analysis and reporting. Input review will be shared. The provisional schedule is four to six weeks, subject to the pilot's runtime and cost estimates.
-
 The final report will include a country-by-edit heatmap with uncertainty and sample counts, a country-swap disagreement figure, directional-transition tables, and representative original/edited descriptions.
