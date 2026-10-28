@@ -30,9 +30,11 @@ Region assignments will use the `country` and `region` columns. The file named `
 
 ### Experiment A: Controlled Edits to Real Events
 
-Sample **20 protests and 20 riots per country**, yielding 400 events. Add **20 battles and 20 violence-against-civilians events** from each of the six eligible countries, yielding another 240. The target is **640 real events**, analyzed separately as protest/riot and battle/civilian-violence samples.
+Sample **20 protests and 16 riots per country**, yielding 360 events. Add **20 battles and 20 violence-against-civilians events** from each of the six eligible countries, yielding another 240. The target is **600 real events**, analyzed separately as protest/riot and battle/civilian-violence samples. The riot quota reflects the common available support after restricting subtypes, grouping similar reports, and matching description lengths.
 
-Sampling will use a fixed seed and no replacement. Remove duplicate notes and limit near-identical reports from the same episode. Use sub-event type, reporting month, and description length to improve comparability, and document actor composition. Reviewers will confirm that each description supports its recorded label before model evaluation. If a shared class cannot meet its quota after review, reduce that class quota consistently across the relevant countries.
+The primary sample will use shared subtypes: Peaceful protest, Violent demonstration, Armed clash, and Attack. Other valid subtypes remain in the source inventory. Within each event class, countries will receive identical quotas across description-length bands, derived from their common available support after pilot allocation. Selection within a band will minimize distance from shared word-count targets. Month and actor composition and residual length differences will be reported.
+
+Sampling will use a fixed seed and no replacement. Remove duplicate input texts and select at most one representative per detected text family. Initial grouping spans locations within an administrative region over seven days. An independent audit will compare the selected texts across locations, administrative regions, and sample roles within each country and seven-day window. Similarity at or above 0.90 will trigger family linking and resampling. Reviewers will then confirm label support and edit suitability before model evaluation. If a shared class cannot meet its quota, reduce that class quota consistently across the relevant countries and document the revised target.
 
 Use the event notes as model inputs and retain country and label metadata for analysis. Apply each eligible edit independently to the original description. Include all accepted events in the primary analysis, regardless of whether a model initially classifies them correctly. This experiment tests sensitivity in realistic descriptions; remaining differences in reporting and event content limit causal interpretations of cross-country comparisons.
 
@@ -40,7 +42,7 @@ Use the event notes as model inputs and retain country and label metadata for an
 
 Construct **120 short descriptions**, 20 for each of the six event types: violence against civilians, battles, explosions/remote violence, protests, riots, and strategic developments. Derive them from diverse real examples and retain source identifiers for audit and analysis.
 
-Each description will contain one country placeholder and generic actors and locations. Remove other geographic clues, including demonyms, named organizations, currencies, and source names. Two reviewers will approve the label, plausibility across the selected countries, and all applicable edits.
+Each description will contain one country placeholder and generic actors and locations. Remove other geographic clues, including demonyms, named organizations, currencies, and source names. Separate AI-agent reviewers will assess label support, plausibility across the selected countries, and applicable edits; disagreements require explicit adjudication. Record review as AI-only, with no assumption of model diversity or human verification.
 
 Render every accepted description under all ten countries, with the same edits in each version. The resulting **description × country × edit × model** design isolates country-name effects and tests whether country identity changes the effect of an edit. For example, a description of two organized armed groups exchanging gunfire can receive the same framing change under each country name.
 
@@ -55,13 +57,15 @@ Each input will have an original condition and up to seven edited conditions. Ed
 | Original | No edit | Reference description |
 | Neutral control | Equivalent wording, such as `two unarmed civilians` → `two civilians who were unarmed` | Facts, evaluation, and source status |
 | Actor identity | State/non-state identity or actor designation | Armed/civilian roles, action, and target |
-| Legitimizing framing | Reported justification or favorable characterization | Event mechanics and participants |
+| Legitimizing framing | Favorable evaluative characterization | Event mechanics and participants; no invented justification facts |
 | Delegitimizing framing | Unfavorable characterization | Event mechanics and participants |
 | Action wording | Equivalent verb or phrase | Action and outcome |
 | Intensity | Evaluative intensity language | Force mechanism, casualties, and civilian involvement |
-| Source attribution | Provenance language | Reported event facts |
+| Source attribution | Deliberately synthetic source identity/type | Reported event facts, uncertainty, and attribution scope |
 
 All edits must preserve the event-type criteria. Changes to identity or source framing are intentional interventions; changes to casualties, civilian targeting, or whether an action occurred are outside this protocol. Review all constructed-description edits, all uncertain natural-event edits, and a stratified sample of the remaining edits. Record changed spans, applicability, and review decisions. Exclude edits with uncertain labels and treat unavailable interventions as missing conditions.
+
+Pilot review uses separate AI-agent contexts for notes-only classification, semantic challenge, and methods validation, followed by adjudication. Record AI-only provenance and review every exact pilot original/edited pair before inference. Apply the case-specific restrictions in the [accepted pilot review](data/pilot/report.md); input acceptance does not approve unconstructed variants. AI judgments used in curation can bias model comparisons, so review agreement is not an independent accuracy estimate.
 
 ## Models and Inference
 
@@ -90,20 +94,21 @@ Report countries individually and summarize regions with equal country weights. 
 
 ## Implementation and Workload
 
-A small Python pipeline will contain four scripts:
+The experiment pipeline will use the following scripts:
 
 - `prepare_data.py`: inventory, deduplication, sampling, and sample manifest.
-- `build_variants.py`: descriptions, country renderings, edits, and validation records.
-- `run_models.py`: local/API inference, caching, retries, and prediction logs.
-- `analyze.py`: paired metrics, confidence intervals, tables, and figures.
+- `finalize_pilot.py`: reviewed-input validation, reserve quarantine, and accepted-pilot export.
+- `build_variants.py` (planned): descriptions, country renderings, edits, and validation records.
+- `run_models.py` (planned): local/API inference, caching, retries, and prediction logs.
+- `analyze.py` (planned): paired metrics, confidence intervals, tables, and figures.
 
-Use one experiment configuration, frozen input tables, a common prediction format, and a report directory. At eight conditions per input, the main study has the following upper bound:
+Record settings in output manifests and use frozen input tables and a common prediction format. At eight conditions per input, the main study has the following upper bound:
 
 | Experiment | Calculation | Classifications |
 | --- | --- | ---: |
-| Real events | 640 events × 8 conditions × 4 models | 20,480 |
+| Real events | 600 events × 8 conditions × 4 models | 19,200 |
 | Matched descriptions | 120 descriptions × 10 countries × 8 conditions × 4 models | 38,400 |
-| Total | Before repeated-input checks and retries | **58,880** |
+| Total | Before repeated-input checks and retries | **57,600** |
 
 Inapplicable edits reduce the workload. A pilot using 12 descriptions, four countries, two models, and a small real-event sample will establish edit validity, parsing reliability, runtime, and API cost. Use separate pilot examples and freeze the protocol before the main run. If necessary, reduce sample sizes consistently while retaining the paired design and reporting the resulting uncertainty.
 

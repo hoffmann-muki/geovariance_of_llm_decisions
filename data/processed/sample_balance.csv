@@ -1,0 +1,632 @@
+country,event_type,dimension,value,population_count,sampling_pool_count,main_count,pilot_count,reserve_count
+Brazil,Battles,actor_group,external_other,1,1,0,0,0
+Brazil,Battles,actor_group,non_state_armed,1734,1706,8,0,2
+Brazil,Battles,actor_group,state,2746,2699,12,0,3
+Brazil,Battles,length_bin,1-40,1267,1242,4,0,1
+Brazil,Battles,length_bin,41-80,2657,2610,11,0,3
+Brazil,Battles,length_bin,81+,557,554,5,0,1
+Brazil,Battles,sub_event_type,Armed clash,4481,4406,20,0,5
+Brazil,Battles,year_month,2024-10,232,230,1,0,0
+Brazil,Battles,year_month,2024-11,337,323,3,0,0
+Brazil,Battles,year_month,2024-12,294,290,2,0,0
+Brazil,Battles,year_month,2025-01,404,397,1,0,1
+Brazil,Battles,year_month,2025-02,353,351,1,0,0
+Brazil,Battles,year_month,2025-03,353,351,1,0,0
+Brazil,Battles,year_month,2025-04,388,382,2,0,0
+Brazil,Battles,year_month,2025-05,396,385,3,0,0
+Brazil,Battles,year_month,2025-06,364,356,2,0,0
+Brazil,Battles,year_month,2025-07,429,425,2,0,1
+Brazil,Battles,year_month,2025-08,428,418,0,0,2
+Brazil,Battles,year_month,2025-09,369,364,2,0,1
+Brazil,Battles,year_month,2025-10,134,134,0,0,0
+Brazil,Protests,actor_group,protesters,1394,1248,20,0,5
+Brazil,Protests,length_bin,1-40,519,479,8,0,2
+Brazil,Protests,length_bin,41-80,735,651,11,0,3
+Brazil,Protests,length_bin,81+,140,118,1,0,0
+Brazil,Protests,sub_event_type,Excessive force against protesters,8,0,0,0,0
+Brazil,Protests,sub_event_type,Peaceful protest,1333,1248,20,0,5
+Brazil,Protests,sub_event_type,Protest with intervention,53,0,0,0,0
+Brazil,Protests,year_month,2024-10,67,53,2,0,0
+Brazil,Protests,year_month,2024-11,101,85,0,0,0
+Brazil,Protests,year_month,2024-12,72,64,0,0,0
+Brazil,Protests,year_month,2025-01,70,65,0,0,0
+Brazil,Protests,year_month,2025-02,93,90,2,0,0
+Brazil,Protests,year_month,2025-03,141,127,2,0,1
+Brazil,Protests,year_month,2025-04,111,101,2,0,0
+Brazil,Protests,year_month,2025-05,129,118,3,0,1
+Brazil,Protests,year_month,2025-06,113,102,2,0,0
+Brazil,Protests,year_month,2025-07,116,112,0,0,1
+Brazil,Protests,year_month,2025-08,138,128,3,0,1
+Brazil,Protests,year_month,2025-09,207,174,4,0,1
+Brazil,Protests,year_month,2025-10,36,29,0,0,0
+Brazil,Riots,actor_group,rioters,580,257,16,0,5
+Brazil,Riots,length_bin,1-40,262,87,0,0,0
+Brazil,Riots,length_bin,41-80,281,144,11,0,3
+Brazil,Riots,length_bin,81+,37,26,5,0,2
+Brazil,Riots,sub_event_type,Mob violence,314,0,0,0,0
+Brazil,Riots,sub_event_type,Violent demonstration,266,257,16,0,5
+Brazil,Riots,year_month,2024-10,36,19,0,0,0
+Brazil,Riots,year_month,2024-11,51,24,0,0,1
+Brazil,Riots,year_month,2024-12,35,8,0,0,0
+Brazil,Riots,year_month,2025-01,36,11,1,0,1
+Brazil,Riots,year_month,2025-02,50,25,2,0,1
+Brazil,Riots,year_month,2025-03,56,27,3,0,1
+Brazil,Riots,year_month,2025-04,45,24,1,0,0
+Brazil,Riots,year_month,2025-05,56,35,3,0,1
+Brazil,Riots,year_month,2025-06,44,18,1,0,0
+Brazil,Riots,year_month,2025-07,35,16,0,0,0
+Brazil,Riots,year_month,2025-08,57,19,1,0,0
+Brazil,Riots,year_month,2025-09,58,22,3,0,0
+Brazil,Riots,year_month,2025-10,21,9,1,0,0
+Brazil,Violence against civilians,actor_group,external_other,1,1,0,0,0
+Brazil,Violence against civilians,actor_group,non_state_armed,5141,4890,19,0,5
+Brazil,Violence against civilians,actor_group,state,164,157,1,0,0
+Brazil,Violence against civilians,length_bin,1-40,1226,1153,7,0,2
+Brazil,Violence against civilians,length_bin,41-80,3763,3588,10,0,2
+Brazil,Violence against civilians,length_bin,81+,317,307,3,0,1
+Brazil,Violence against civilians,sub_event_type,Abduction/forced disappearance,64,0,0,0,0
+Brazil,Violence against civilians,sub_event_type,Attack,5232,5048,20,0,5
+Brazil,Violence against civilians,sub_event_type,Sexual violence,10,0,0,0,0
+Brazil,Violence against civilians,year_month,2024-10,288,275,2,0,0
+Brazil,Violence against civilians,year_month,2024-11,437,413,1,0,0
+Brazil,Violence against civilians,year_month,2024-12,460,435,2,0,1
+Brazil,Violence against civilians,year_month,2025-01,473,448,0,0,0
+Brazil,Violence against civilians,year_month,2025-02,381,360,1,0,0
+Brazil,Violence against civilians,year_month,2025-03,417,399,3,0,0
+Brazil,Violence against civilians,year_month,2025-04,385,371,1,0,0
+Brazil,Violence against civilians,year_month,2025-05,399,379,1,0,1
+Brazil,Violence against civilians,year_month,2025-06,398,381,3,0,1
+Brazil,Violence against civilians,year_month,2025-07,486,469,2,0,0
+Brazil,Violence against civilians,year_month,2025-08,518,491,2,0,1
+Brazil,Violence against civilians,year_month,2025-09,505,480,2,0,1
+Brazil,Violence against civilians,year_month,2025-10,159,147,0,0,0
+China,Protests,actor_group,protesters,1324,866,20,2,5
+China,Protests,length_bin,1-40,933,646,8,2,2
+China,Protests,length_bin,41-80,376,211,11,0,3
+China,Protests,length_bin,81+,15,9,1,0,0
+China,Protests,sub_event_type,Excessive force against protesters,12,0,0,0,0
+China,Protests,sub_event_type,Peaceful protest,1254,866,20,2,5
+China,Protests,sub_event_type,Protest with intervention,58,0,0,0,0
+China,Protests,year_month,2024-10,92,72,1,0,0
+China,Protests,year_month,2024-11,142,109,0,1,1
+China,Protests,year_month,2024-12,140,100,1,1,1
+China,Protests,year_month,2025-01,161,68,1,0,0
+China,Protests,year_month,2025-02,72,53,0,0,0
+China,Protests,year_month,2025-03,118,85,0,0,0
+China,Protests,year_month,2025-04,131,79,5,0,1
+China,Protests,year_month,2025-05,107,62,2,0,1
+China,Protests,year_month,2025-06,94,60,2,0,0
+China,Protests,year_month,2025-07,75,59,1,0,0
+China,Protests,year_month,2025-08,64,33,2,0,0
+China,Protests,year_month,2025-09,100,65,5,0,1
+China,Protests,year_month,2025-10,28,21,0,0,0
+China,Riots,actor_group,rioters,59,57,16,2,5
+China,Riots,length_bin,1-40,11,11,0,0,0
+China,Riots,length_bin,41-80,37,35,11,2,3
+China,Riots,length_bin,81+,11,11,5,0,2
+China,Riots,sub_event_type,Violent demonstration,59,57,16,2,5
+China,Riots,year_month,2024-11,3,3,1,0,0
+China,Riots,year_month,2024-12,2,2,0,0,0
+China,Riots,year_month,2025-01,2,2,1,0,1
+China,Riots,year_month,2025-03,5,5,0,0,1
+China,Riots,year_month,2025-04,9,9,3,1,0
+China,Riots,year_month,2025-05,7,7,3,0,0
+China,Riots,year_month,2025-06,6,5,1,0,1
+China,Riots,year_month,2025-07,7,7,2,0,1
+China,Riots,year_month,2025-08,3,3,2,0,0
+China,Riots,year_month,2025-09,15,14,3,1,1
+Colombia,Battles,actor_group,external_other,1,1,0,0,0
+Colombia,Battles,actor_group,non_state_armed,615,582,10,0,3
+Colombia,Battles,actor_group,state,346,336,10,0,2
+Colombia,Battles,length_bin,1-40,326,308,4,0,1
+Colombia,Battles,length_bin,41-80,539,520,11,0,3
+Colombia,Battles,length_bin,81+,97,91,5,0,1
+Colombia,Battles,sub_event_type,Armed clash,962,919,20,0,5
+Colombia,Battles,year_month,2024-10,57,50,1,0,0
+Colombia,Battles,year_month,2024-11,62,57,0,0,0
+Colombia,Battles,year_month,2024-12,51,50,2,0,0
+Colombia,Battles,year_month,2025-01,75,67,2,0,0
+Colombia,Battles,year_month,2025-02,66,61,2,0,0
+Colombia,Battles,year_month,2025-03,87,86,3,0,1
+Colombia,Battles,year_month,2025-04,98,98,1,0,2
+Colombia,Battles,year_month,2025-05,74,74,1,0,0
+Colombia,Battles,year_month,2025-06,75,71,1,0,0
+Colombia,Battles,year_month,2025-07,95,91,2,0,1
+Colombia,Battles,year_month,2025-08,102,99,3,0,1
+Colombia,Battles,year_month,2025-09,87,82,1,0,0
+Colombia,Battles,year_month,2025-10,33,33,1,0,0
+Colombia,Protests,actor_group,protesters,1706,1517,20,0,5
+Colombia,Protests,length_bin,1-40,410,386,8,0,2
+Colombia,Protests,length_bin,41-80,1165,1023,11,0,3
+Colombia,Protests,length_bin,81+,131,108,1,0,0
+Colombia,Protests,sub_event_type,Excessive force against protesters,1,0,0,0,0
+Colombia,Protests,sub_event_type,Peaceful protest,1697,1517,20,0,5
+Colombia,Protests,sub_event_type,Protest with intervention,8,0,0,0,0
+Colombia,Protests,year_month,2024-10,134,109,3,0,0
+Colombia,Protests,year_month,2024-11,128,123,1,0,1
+Colombia,Protests,year_month,2024-12,84,83,0,0,0
+Colombia,Protests,year_month,2025-01,87,83,0,0,0
+Colombia,Protests,year_month,2025-02,109,86,0,0,0
+Colombia,Protests,year_month,2025-03,191,164,4,0,1
+Colombia,Protests,year_month,2025-04,115,109,5,0,0
+Colombia,Protests,year_month,2025-05,269,214,4,0,2
+Colombia,Protests,year_month,2025-06,146,137,2,0,0
+Colombia,Protests,year_month,2025-07,133,121,1,0,0
+Colombia,Protests,year_month,2025-08,143,134,0,0,1
+Colombia,Protests,year_month,2025-09,128,115,0,0,0
+Colombia,Protests,year_month,2025-10,39,39,0,0,0
+Colombia,Riots,actor_group,rioters,280,113,16,0,5
+Colombia,Riots,length_bin,1-40,27,6,0,0,0
+Colombia,Riots,length_bin,41-80,211,83,11,0,3
+Colombia,Riots,length_bin,81+,42,24,5,0,2
+Colombia,Riots,sub_event_type,Mob violence,166,0,0,0,0
+Colombia,Riots,sub_event_type,Violent demonstration,114,113,16,0,5
+Colombia,Riots,year_month,2024-10,13,5,1,0,0
+Colombia,Riots,year_month,2024-11,25,11,2,0,0
+Colombia,Riots,year_month,2024-12,15,8,2,0,0
+Colombia,Riots,year_month,2025-01,9,2,0,0,0
+Colombia,Riots,year_month,2025-02,20,7,1,0,0
+Colombia,Riots,year_month,2025-03,22,9,0,0,0
+Colombia,Riots,year_month,2025-04,28,7,1,0,0
+Colombia,Riots,year_month,2025-05,39,20,3,0,2
+Colombia,Riots,year_month,2025-06,14,8,3,0,0
+Colombia,Riots,year_month,2025-07,19,5,0,0,0
+Colombia,Riots,year_month,2025-08,22,5,0,0,0
+Colombia,Riots,year_month,2025-09,34,12,1,0,1
+Colombia,Riots,year_month,2025-10,20,14,2,0,2
+Colombia,Violence against civilians,actor_group,external_other,1,1,0,0,0
+Colombia,Violence against civilians,actor_group,non_state_armed,1394,1142,19,0,5
+Colombia,Violence against civilians,actor_group,state,12,11,1,0,0
+Colombia,Violence against civilians,length_bin,1-40,132,86,7,0,2
+Colombia,Violence against civilians,length_bin,41-80,1028,856,10,0,2
+Colombia,Violence against civilians,length_bin,81+,247,212,3,0,1
+Colombia,Violence against civilians,sub_event_type,Abduction/forced disappearance,221,0,0,0,0
+Colombia,Violence against civilians,sub_event_type,Attack,1182,1154,20,0,5
+Colombia,Violence against civilians,sub_event_type,Sexual violence,4,0,0,0,0
+Colombia,Violence against civilians,year_month,2024-10,78,55,1,0,0
+Colombia,Violence against civilians,year_month,2024-11,100,83,0,0,0
+Colombia,Violence against civilians,year_month,2024-12,98,83,2,0,0
+Colombia,Violence against civilians,year_month,2025-01,121,92,2,0,1
+Colombia,Violence against civilians,year_month,2025-02,103,91,2,0,0
+Colombia,Violence against civilians,year_month,2025-03,140,115,2,0,1
+Colombia,Violence against civilians,year_month,2025-04,115,93,3,0,1
+Colombia,Violence against civilians,year_month,2025-05,114,93,1,0,0
+Colombia,Violence against civilians,year_month,2025-06,74,60,2,0,0
+Colombia,Violence against civilians,year_month,2025-07,117,104,2,0,0
+Colombia,Violence against civilians,year_month,2025-08,134,113,2,0,0
+Colombia,Violence against civilians,year_month,2025-09,164,134,1,0,2
+Colombia,Violence against civilians,year_month,2025-10,49,38,0,0,0
+India,Battles,actor_group,external_other,225,48,3,0,1
+India,Battles,actor_group,non_state_armed,161,159,7,1,1
+India,Battles,actor_group,state,201,192,10,1,3
+India,Battles,length_bin,1-40,193,97,4,0,1
+India,Battles,length_bin,41-80,332,245,11,2,3
+India,Battles,length_bin,81+,62,57,5,0,1
+India,Battles,sub_event_type,Armed clash,585,399,20,2,5
+India,Battles,sub_event_type,Government regains territory,2,0,0,0,0
+India,Battles,year_month,2024-10,15,15,1,0,0
+India,Battles,year_month,2024-11,52,51,3,1,1
+India,Battles,year_month,2024-12,33,33,2,0,1
+India,Battles,year_month,2025-01,37,36,1,0,0
+India,Battles,year_month,2025-02,23,22,2,0,0
+India,Battles,year_month,2025-03,33,32,0,0,0
+India,Battles,year_month,2025-04,72,43,3,0,1
+India,Battles,year_month,2025-05,216,65,4,1,2
+India,Battles,year_month,2025-06,24,24,0,0,0
+India,Battles,year_month,2025-07,21,21,2,0,0
+India,Battles,year_month,2025-08,30,26,1,0,0
+India,Battles,year_month,2025-09,29,29,1,0,0
+India,Battles,year_month,2025-10,2,2,0,0,0
+India,Protests,actor_group,protesters,19799,13779,20,2,5
+India,Protests,length_bin,1-40,6630,5105,8,0,2
+India,Protests,length_bin,41-80,11755,7989,11,2,3
+India,Protests,length_bin,81+,1414,685,1,0,0
+India,Protests,sub_event_type,Excessive force against protesters,4,0,0,0,0
+India,Protests,sub_event_type,Peaceful protest,18811,13779,20,2,5
+India,Protests,sub_event_type,Protest with intervention,984,0,0,0,0
+India,Protests,year_month,2024-10,1070,697,3,0,0
+India,Protests,year_month,2024-11,1229,926,1,0,0
+India,Protests,year_month,2024-12,2029,1325,3,1,1
+India,Protests,year_month,2025-01,1458,968,0,0,0
+India,Protests,year_month,2025-02,1435,1029,4,0,0
+India,Protests,year_month,2025-03,1821,1165,0,0,0
+India,Protests,year_month,2025-04,1821,1473,2,1,1
+India,Protests,year_month,2025-05,1214,887,0,0,0
+India,Protests,year_month,2025-06,1532,1038,1,0,0
+India,Protests,year_month,2025-07,2185,1337,1,0,1
+India,Protests,year_month,2025-08,1822,1335,0,0,1
+India,Protests,year_month,2025-09,1737,1249,5,0,1
+India,Protests,year_month,2025-10,446,350,0,0,0
+India,Riots,actor_group,rioters,2330,631,16,2,5
+India,Riots,length_bin,1-40,711,90,0,0,0
+India,Riots,length_bin,41-80,1433,432,11,2,3
+India,Riots,length_bin,81+,186,109,5,0,2
+India,Riots,sub_event_type,Mob violence,1643,0,0,0,0
+India,Riots,sub_event_type,Violent demonstration,687,631,16,2,5
+India,Riots,year_month,2024-10,132,25,0,0,0
+India,Riots,year_month,2024-11,212,65,4,0,1
+India,Riots,year_month,2024-12,161,54,0,0,1
+India,Riots,year_month,2025-01,128,33,1,0,0
+India,Riots,year_month,2025-02,146,39,2,0,0
+India,Riots,year_month,2025-03,207,56,0,0,0
+India,Riots,year_month,2025-04,261,91,1,1,1
+India,Riots,year_month,2025-05,161,41,3,0,0
+India,Riots,year_month,2025-06,220,56,0,0,1
+India,Riots,year_month,2025-07,257,58,2,0,0
+India,Riots,year_month,2025-08,171,33,0,0,0
+India,Riots,year_month,2025-09,213,67,3,1,1
+India,Riots,year_month,2025-10,61,13,0,0,0
+India,Violence against civilians,actor_group,external_other,5,4,0,0,0
+India,Violence against civilians,actor_group,non_state_armed,485,404,14,2,2
+India,Violence against civilians,actor_group,state,194,180,6,0,3
+India,Violence against civilians,length_bin,1-40,268,231,7,0,2
+India,Violence against civilians,length_bin,41-80,370,320,10,2,2
+India,Violence against civilians,length_bin,81+,46,37,3,0,1
+India,Violence against civilians,sub_event_type,Abduction/forced disappearance,66,0,0,0,0
+India,Violence against civilians,sub_event_type,Attack,593,588,20,2,5
+India,Violence against civilians,sub_event_type,Sexual violence,25,0,0,0,0
+India,Violence against civilians,year_month,2024-10,47,39,0,0,0
+India,Violence against civilians,year_month,2024-11,75,64,3,1,1
+India,Violence against civilians,year_month,2024-12,57,51,2,1,1
+India,Violence against civilians,year_month,2025-01,52,40,0,0,0
+India,Violence against civilians,year_month,2025-02,49,44,3,0,0
+India,Violence against civilians,year_month,2025-03,62,52,2,0,1
+India,Violence against civilians,year_month,2025-04,58,49,1,0,0
+India,Violence against civilians,year_month,2025-05,52,44,2,0,0
+India,Violence against civilians,year_month,2025-06,50,47,0,0,0
+India,Violence against civilians,year_month,2025-07,68,58,3,0,1
+India,Violence against civilians,year_month,2025-08,51,43,1,0,1
+India,Violence against civilians,year_month,2025-09,46,41,3,0,0
+India,Violence against civilians,year_month,2025-10,17,16,0,0,0
+Libya,Battles,actor_group,non_state_armed,142,114,18,2,5
+Libya,Battles,actor_group,state,8,6,2,0,0
+Libya,Battles,length_bin,1-40,25,24,4,0,1
+Libya,Battles,length_bin,41-80,69,67,11,2,3
+Libya,Battles,length_bin,81+,56,29,5,0,1
+Libya,Battles,sub_event_type,Armed clash,138,120,20,2,5
+Libya,Battles,sub_event_type,Government regains territory,2,0,0,0,0
+Libya,Battles,sub_event_type,Non-state actor overtakes territory,10,0,0,0,0
+Libya,Battles,year_month,2024-10,3,3,0,0,0
+Libya,Battles,year_month,2024-11,10,10,2,0,0
+Libya,Battles,year_month,2024-12,1,1,1,0,0
+Libya,Battles,year_month,2025-01,11,10,2,0,0
+Libya,Battles,year_month,2025-02,7,6,3,0,0
+Libya,Battles,year_month,2025-03,10,10,2,0,0
+Libya,Battles,year_month,2025-04,11,11,0,0,0
+Libya,Battles,year_month,2025-05,40,20,3,1,1
+Libya,Battles,year_month,2025-06,11,7,0,0,0
+Libya,Battles,year_month,2025-07,17,15,2,1,1
+Libya,Battles,year_month,2025-08,12,11,2,0,1
+Libya,Battles,year_month,2025-09,15,14,2,0,2
+Libya,Battles,year_month,2025-10,2,2,1,0,0
+Libya,Protests,actor_group,protesters,167,140,20,2,5
+Libya,Protests,length_bin,1-40,66,57,8,1,2
+Libya,Protests,length_bin,41-80,83,72,11,1,3
+Libya,Protests,length_bin,81+,18,11,1,0,0
+Libya,Protests,sub_event_type,Excessive force against protesters,6,0,0,0,0
+Libya,Protests,sub_event_type,Peaceful protest,154,140,20,2,5
+Libya,Protests,sub_event_type,Protest with intervention,7,0,0,0,0
+Libya,Protests,year_month,2024-10,10,9,1,0,0
+Libya,Protests,year_month,2024-11,8,6,1,0,0
+Libya,Protests,year_month,2024-12,4,3,1,0,0
+Libya,Protests,year_month,2025-01,14,11,1,0,0
+Libya,Protests,year_month,2025-02,12,10,0,0,1
+Libya,Protests,year_month,2025-03,6,6,1,0,0
+Libya,Protests,year_month,2025-04,14,12,3,0,0
+Libya,Protests,year_month,2025-05,49,36,7,2,2
+Libya,Protests,year_month,2025-06,14,12,2,0,0
+Libya,Protests,year_month,2025-07,14,13,3,0,1
+Libya,Protests,year_month,2025-08,8,8,0,0,0
+Libya,Protests,year_month,2025-09,9,9,0,0,1
+Libya,Protests,year_month,2025-10,5,5,0,0,0
+Libya,Riots,actor_group,rioters,72,38,16,2,3
+Libya,Riots,length_bin,1-40,14,11,0,0,0
+Libya,Riots,length_bin,41-80,40,22,11,2,3
+Libya,Riots,length_bin,81+,18,5,5,0,0
+Libya,Riots,sub_event_type,Mob violence,11,0,0,0,0
+Libya,Riots,sub_event_type,Violent demonstration,61,38,16,2,3
+Libya,Riots,year_month,2024-10,1,1,1,0,0
+Libya,Riots,year_month,2024-11,4,4,0,0,1
+Libya,Riots,year_month,2024-12,2,2,1,0,0
+Libya,Riots,year_month,2025-01,10,4,1,0,0
+Libya,Riots,year_month,2025-02,1,1,0,0,1
+Libya,Riots,year_month,2025-03,6,3,0,0,1
+Libya,Riots,year_month,2025-04,2,0,0,0,0
+Libya,Riots,year_month,2025-05,26,9,7,1,0
+Libya,Riots,year_month,2025-06,5,3,3,0,0
+Libya,Riots,year_month,2025-07,10,6,1,1,0
+Libya,Riots,year_month,2025-08,3,3,0,0,0
+Libya,Riots,year_month,2025-09,2,2,2,0,0
+Libya,Violence against civilians,actor_group,external_other,1,1,0,0,0
+Libya,Violence against civilians,actor_group,non_state_armed,128,97,19,2,5
+Libya,Violence against civilians,actor_group,state,22,11,1,0,0
+Libya,Violence against civilians,length_bin,1-40,46,35,7,0,2
+Libya,Violence against civilians,length_bin,41-80,85,57,10,2,2
+Libya,Violence against civilians,length_bin,81+,20,17,3,0,1
+Libya,Violence against civilians,sub_event_type,Abduction/forced disappearance,39,0,0,0,0
+Libya,Violence against civilians,sub_event_type,Attack,111,109,20,2,5
+Libya,Violence against civilians,sub_event_type,Sexual violence,1,0,0,0,0
+Libya,Violence against civilians,year_month,2024-10,5,1,0,0,0
+Libya,Violence against civilians,year_month,2024-11,16,14,1,1,1
+Libya,Violence against civilians,year_month,2024-12,4,3,0,0,0
+Libya,Violence against civilians,year_month,2025-01,12,5,1,0,0
+Libya,Violence against civilians,year_month,2025-02,9,7,1,0,1
+Libya,Violence against civilians,year_month,2025-03,20,12,2,0,0
+Libya,Violence against civilians,year_month,2025-04,18,15,4,0,1
+Libya,Violence against civilians,year_month,2025-05,9,9,3,0,1
+Libya,Violence against civilians,year_month,2025-06,6,6,1,0,0
+Libya,Violence against civilians,year_month,2025-07,13,8,1,0,0
+Libya,Violence against civilians,year_month,2025-08,14,8,3,0,0
+Libya,Violence against civilians,year_month,2025-09,19,15,2,1,1
+Libya,Violence against civilians,year_month,2025-10,6,6,1,0,0
+Mexico,Battles,actor_group,external_other,1,1,0,0,0
+Mexico,Battles,actor_group,non_state_armed,1583,1534,17,2,5
+Mexico,Battles,actor_group,state,138,138,3,0,0
+Mexico,Battles,length_bin,1-40,650,625,4,0,1
+Mexico,Battles,length_bin,41-80,936,916,11,2,3
+Mexico,Battles,length_bin,81+,136,132,5,0,1
+Mexico,Battles,sub_event_type,Armed clash,1722,1673,20,2,5
+Mexico,Battles,year_month,2024-10,108,103,2,0,0
+Mexico,Battles,year_month,2024-11,129,127,0,0,0
+Mexico,Battles,year_month,2024-12,128,121,3,0,0
+Mexico,Battles,year_month,2025-01,160,157,2,0,1
+Mexico,Battles,year_month,2025-02,140,133,0,0,1
+Mexico,Battles,year_month,2025-03,146,142,2,1,1
+Mexico,Battles,year_month,2025-04,148,137,3,0,1
+Mexico,Battles,year_month,2025-05,177,174,2,1,1
+Mexico,Battles,year_month,2025-06,145,141,1,0,0
+Mexico,Battles,year_month,2025-07,148,145,2,0,0
+Mexico,Battles,year_month,2025-08,119,119,0,0,0
+Mexico,Battles,year_month,2025-09,124,124,2,0,0
+Mexico,Battles,year_month,2025-10,50,50,1,0,0
+Mexico,Protests,actor_group,protesters,6486,5858,20,2,5
+Mexico,Protests,length_bin,1-40,3069,2930,8,0,2
+Mexico,Protests,length_bin,41-80,3272,2815,11,2,3
+Mexico,Protests,length_bin,81+,145,113,1,0,0
+Mexico,Protests,sub_event_type,Excessive force against protesters,5,0,0,0,0
+Mexico,Protests,sub_event_type,Peaceful protest,6415,5858,20,2,5
+Mexico,Protests,sub_event_type,Protest with intervention,66,0,0,0,0
+Mexico,Protests,year_month,2024-10,368,343,2,0,0
+Mexico,Protests,year_month,2024-11,476,444,2,0,0
+Mexico,Protests,year_month,2024-12,342,305,0,0,0
+Mexico,Protests,year_month,2025-01,450,422,0,0,0
+Mexico,Protests,year_month,2025-02,720,602,1,0,1
+Mexico,Protests,year_month,2025-03,746,636,4,1,2
+Mexico,Protests,year_month,2025-04,429,412,4,0,0
+Mexico,Protests,year_month,2025-05,680,619,3,1,1
+Mexico,Protests,year_month,2025-06,532,488,1,0,1
+Mexico,Protests,year_month,2025-07,483,414,1,0,0
+Mexico,Protests,year_month,2025-08,503,477,2,0,0
+Mexico,Protests,year_month,2025-09,537,499,0,0,0
+Mexico,Protests,year_month,2025-10,220,197,0,0,0
+Mexico,Riots,actor_group,rioters,601,226,16,2,5
+Mexico,Riots,length_bin,1-40,172,26,0,0,0
+Mexico,Riots,length_bin,41-80,343,139,11,2,3
+Mexico,Riots,length_bin,81+,86,61,5,0,2
+Mexico,Riots,sub_event_type,Mob violence,374,0,0,0,0
+Mexico,Riots,sub_event_type,Violent demonstration,227,226,16,2,5
+Mexico,Riots,year_month,2024-10,34,12,1,0,0
+Mexico,Riots,year_month,2024-11,28,8,0,0,0
+Mexico,Riots,year_month,2024-12,47,11,0,0,0
+Mexico,Riots,year_month,2025-01,52,14,0,0,0
+Mexico,Riots,year_month,2025-02,41,8,0,0,0
+Mexico,Riots,year_month,2025-03,67,43,6,1,2
+Mexico,Riots,year_month,2025-04,65,25,2,1,1
+Mexico,Riots,year_month,2025-05,46,29,2,0,1
+Mexico,Riots,year_month,2025-06,54,17,0,0,1
+Mexico,Riots,year_month,2025-07,41,15,1,0,0
+Mexico,Riots,year_month,2025-08,55,15,2,0,0
+Mexico,Riots,year_month,2025-09,54,21,1,0,0
+Mexico,Riots,year_month,2025-10,17,8,1,0,0
+Mexico,Violence against civilians,actor_group,non_state_armed,6101,5731,20,2,4
+Mexico,Violence against civilians,actor_group,state,68,59,0,0,1
+Mexico,Violence against civilians,length_bin,1-40,3309,3126,7,2,2
+Mexico,Violence against civilians,length_bin,41-80,2612,2430,10,0,2
+Mexico,Violence against civilians,length_bin,81+,248,234,3,0,1
+Mexico,Violence against civilians,sub_event_type,Abduction/forced disappearance,323,0,0,0,0
+Mexico,Violence against civilians,sub_event_type,Attack,5805,5790,20,2,5
+Mexico,Violence against civilians,sub_event_type,Sexual violence,41,0,0,0,0
+Mexico,Violence against civilians,year_month,2024-10,370,343,2,0,0
+Mexico,Violence against civilians,year_month,2024-11,521,484,1,1,1
+Mexico,Violence against civilians,year_month,2024-12,436,409,2,0,0
+Mexico,Violence against civilians,year_month,2025-01,516,480,1,0,0
+Mexico,Violence against civilians,year_month,2025-02,516,483,3,0,0
+Mexico,Violence against civilians,year_month,2025-03,491,464,2,0,0
+Mexico,Violence against civilians,year_month,2025-04,539,499,0,0,1
+Mexico,Violence against civilians,year_month,2025-05,491,464,2,0,1
+Mexico,Violence against civilians,year_month,2025-06,586,552,0,0,1
+Mexico,Violence against civilians,year_month,2025-07,548,528,2,1,1
+Mexico,Violence against civilians,year_month,2025-08,512,474,2,0,0
+Mexico,Violence against civilians,year_month,2025-09,468,445,2,0,0
+Mexico,Violence against civilians,year_month,2025-10,175,165,1,0,0
+Morocco,Protests,actor_group,protesters,3083,1444,20,0,5
+Morocco,Protests,length_bin,1-40,401,376,8,0,2
+Morocco,Protests,length_bin,41-80,2422,1003,11,0,3
+Morocco,Protests,length_bin,81+,260,65,1,0,0
+Morocco,Protests,sub_event_type,Excessive force against protesters,1,0,0,0,0
+Morocco,Protests,sub_event_type,Peaceful protest,3022,1444,20,0,5
+Morocco,Protests,sub_event_type,Protest with intervention,60,0,0,0,0
+Morocco,Protests,year_month,2024-10,156,61,1,0,0
+Morocco,Protests,year_month,2024-11,303,104,0,0,1
+Morocco,Protests,year_month,2024-12,254,95,1,0,0
+Morocco,Protests,year_month,2025-01,260,114,1,0,0
+Morocco,Protests,year_month,2025-02,141,102,1,0,0
+Morocco,Protests,year_month,2025-03,169,97,1,0,0
+Morocco,Protests,year_month,2025-04,320,141,1,0,1
+Morocco,Protests,year_month,2025-05,315,143,3,0,1
+Morocco,Protests,year_month,2025-06,199,105,1,0,0
+Morocco,Protests,year_month,2025-07,276,141,4,0,1
+Morocco,Protests,year_month,2025-08,276,125,1,0,0
+Morocco,Protests,year_month,2025-09,284,135,4,0,1
+Morocco,Protests,year_month,2025-10,130,81,1,0,0
+Morocco,Riots,actor_group,rioters,87,64,16,0,5
+Morocco,Riots,length_bin,1-40,6,0,0,0,0
+Morocco,Riots,length_bin,41-80,60,49,11,0,3
+Morocco,Riots,length_bin,81+,21,15,5,0,2
+Morocco,Riots,sub_event_type,Mob violence,22,0,0,0,0
+Morocco,Riots,sub_event_type,Violent demonstration,65,64,16,0,5
+Morocco,Riots,year_month,2024-11,6,2,1,0,0
+Morocco,Riots,year_month,2024-12,2,0,0,0,0
+Morocco,Riots,year_month,2025-01,2,0,0,0,0
+Morocco,Riots,year_month,2025-03,3,1,0,0,0
+Morocco,Riots,year_month,2025-04,1,1,0,0,0
+Morocco,Riots,year_month,2025-05,2,0,0,0,0
+Morocco,Riots,year_month,2025-06,3,0,0,0,0
+Morocco,Riots,year_month,2025-07,3,0,0,0,0
+Morocco,Riots,year_month,2025-08,4,1,0,0,0
+Morocco,Riots,year_month,2025-09,27,27,9,0,1
+Morocco,Riots,year_month,2025-10,34,32,6,0,4
+Pakistan,Battles,actor_group,external_other,27,23,0,0,0
+Pakistan,Battles,actor_group,non_state_armed,925,901,17,0,4
+Pakistan,Battles,actor_group,state,354,347,3,0,1
+Pakistan,Battles,length_bin,1-40,479,471,4,0,1
+Pakistan,Battles,length_bin,41-80,712,695,11,0,3
+Pakistan,Battles,length_bin,81+,115,105,5,0,1
+Pakistan,Battles,sub_event_type,Armed clash,1306,1271,20,0,5
+Pakistan,Battles,year_month,2024-10,50,50,2,0,0
+Pakistan,Battles,year_month,2024-11,112,94,1,0,0
+Pakistan,Battles,year_month,2024-12,91,91,1,0,0
+Pakistan,Battles,year_month,2025-01,92,91,0,0,0
+Pakistan,Battles,year_month,2025-02,98,97,1,0,0
+Pakistan,Battles,year_month,2025-03,130,127,2,0,0
+Pakistan,Battles,year_month,2025-04,105,104,1,0,0
+Pakistan,Battles,year_month,2025-05,148,145,1,0,2
+Pakistan,Battles,year_month,2025-06,88,86,3,0,0
+Pakistan,Battles,year_month,2025-07,117,117,2,0,2
+Pakistan,Battles,year_month,2025-08,124,120,4,0,1
+Pakistan,Battles,year_month,2025-09,110,108,0,0,0
+Pakistan,Battles,year_month,2025-10,41,41,2,0,0
+Pakistan,Protests,actor_group,protesters,7446,3170,20,0,5
+Pakistan,Protests,length_bin,1-40,4973,1877,8,0,2
+Pakistan,Protests,length_bin,41-80,2393,1253,11,0,3
+Pakistan,Protests,length_bin,81+,80,40,1,0,0
+Pakistan,Protests,sub_event_type,Excessive force against protesters,11,0,0,0,0
+Pakistan,Protests,sub_event_type,Peaceful protest,7352,3170,20,0,5
+Pakistan,Protests,sub_event_type,Protest with intervention,83,0,0,0,0
+Pakistan,Protests,year_month,2024-10,409,215,4,0,0
+Pakistan,Protests,year_month,2024-11,538,229,0,0,0
+Pakistan,Protests,year_month,2024-12,538,237,0,0,0
+Pakistan,Protests,year_month,2025-01,636,282,2,0,0
+Pakistan,Protests,year_month,2025-02,643,277,1,0,0
+Pakistan,Protests,year_month,2025-03,753,352,1,0,2
+Pakistan,Protests,year_month,2025-04,844,461,5,0,2
+Pakistan,Protests,year_month,2025-05,555,260,0,0,1
+Pakistan,Protests,year_month,2025-06,535,196,2,0,0
+Pakistan,Protests,year_month,2025-07,564,179,0,0,0
+Pakistan,Protests,year_month,2025-08,492,169,3,0,0
+Pakistan,Protests,year_month,2025-09,699,197,1,0,0
+Pakistan,Protests,year_month,2025-10,240,116,1,0,0
+Pakistan,Riots,actor_group,rioters,220,125,16,0,5
+Pakistan,Riots,length_bin,1-40,59,23,0,0,0
+Pakistan,Riots,length_bin,41-80,131,80,11,0,3
+Pakistan,Riots,length_bin,81+,30,22,5,0,2
+Pakistan,Riots,sub_event_type,Mob violence,66,0,0,0,0
+Pakistan,Riots,sub_event_type,Violent demonstration,154,125,16,0,5
+Pakistan,Riots,year_month,2024-10,32,23,5,0,1
+Pakistan,Riots,year_month,2024-11,19,13,1,0,1
+Pakistan,Riots,year_month,2024-12,15,7,0,0,0
+Pakistan,Riots,year_month,2025-01,23,3,1,0,0
+Pakistan,Riots,year_month,2025-02,11,9,0,0,0
+Pakistan,Riots,year_month,2025-03,14,8,1,0,0
+Pakistan,Riots,year_month,2025-04,31,22,5,0,1
+Pakistan,Riots,year_month,2025-05,14,5,0,0,1
+Pakistan,Riots,year_month,2025-06,20,8,2,0,0
+Pakistan,Riots,year_month,2025-07,9,3,0,0,0
+Pakistan,Riots,year_month,2025-08,6,5,0,0,0
+Pakistan,Riots,year_month,2025-09,13,8,0,0,0
+Pakistan,Riots,year_month,2025-10,13,11,1,0,1
+Pakistan,Violence against civilians,actor_group,external_other,2,2,0,0,0
+Pakistan,Violence against civilians,actor_group,non_state_armed,644,504,16,0,4
+Pakistan,Violence against civilians,actor_group,state,634,138,4,0,1
+Pakistan,Violence against civilians,length_bin,1-40,773,270,7,0,2
+Pakistan,Violence against civilians,length_bin,41-80,475,349,10,0,2
+Pakistan,Violence against civilians,length_bin,81+,32,25,3,0,1
+Pakistan,Violence against civilians,sub_event_type,Abduction/forced disappearance,629,0,0,0,0
+Pakistan,Violence against civilians,sub_event_type,Attack,650,644,20,0,5
+Pakistan,Violence against civilians,sub_event_type,Sexual violence,1,0,0,0,0
+Pakistan,Violence against civilians,year_month,2024-10,53,26,3,0,0
+Pakistan,Violence against civilians,year_month,2024-11,81,37,2,0,0
+Pakistan,Violence against civilians,year_month,2024-12,71,32,4,0,0
+Pakistan,Violence against civilians,year_month,2025-01,103,55,0,0,0
+Pakistan,Violence against civilians,year_month,2025-02,105,50,1,0,0
+Pakistan,Violence against civilians,year_month,2025-03,104,58,1,0,0
+Pakistan,Violence against civilians,year_month,2025-04,134,74,0,0,2
+Pakistan,Violence against civilians,year_month,2025-05,144,68,1,0,0
+Pakistan,Violence against civilians,year_month,2025-06,118,68,1,0,2
+Pakistan,Violence against civilians,year_month,2025-07,103,44,2,0,0
+Pakistan,Violence against civilians,year_month,2025-08,117,66,2,0,1
+Pakistan,Violence against civilians,year_month,2025-09,114,54,3,0,0
+Pakistan,Violence against civilians,year_month,2025-10,33,12,0,0,0
+South Korea,Protests,actor_group,protesters,6406,6285,20,0,5
+South Korea,Protests,length_bin,1-40,615,589,8,0,2
+South Korea,Protests,length_bin,41-80,5091,5013,11,0,3
+South Korea,Protests,length_bin,81+,700,683,1,0,0
+South Korea,Protests,sub_event_type,Peaceful protest,6375,6285,20,0,5
+South Korea,Protests,sub_event_type,Protest with intervention,31,0,0,0,0
+South Korea,Protests,year_month,2024-10,330,325,0,0,0
+South Korea,Protests,year_month,2024-11,562,553,1,0,0
+South Korea,Protests,year_month,2024-12,834,808,4,0,2
+South Korea,Protests,year_month,2025-01,415,400,2,0,0
+South Korea,Protests,year_month,2025-02,449,429,0,0,0
+South Korea,Protests,year_month,2025-03,664,652,1,0,1
+South Korea,Protests,year_month,2025-04,612,604,1,0,1
+South Korea,Protests,year_month,2025-05,473,470,4,0,0
+South Korea,Protests,year_month,2025-06,471,466,1,0,0
+South Korea,Protests,year_month,2025-07,575,572,4,0,1
+South Korea,Protests,year_month,2025-08,405,400,0,0,0
+South Korea,Protests,year_month,2025-09,562,553,2,0,0
+South Korea,Protests,year_month,2025-10,54,53,0,0,0
+South Korea,Riots,actor_group,rioters,29,27,16,0,5
+South Korea,Riots,length_bin,41-80,15,15,11,0,3
+South Korea,Riots,length_bin,81+,14,12,5,0,2
+South Korea,Riots,sub_event_type,Mob violence,2,0,0,0,0
+South Korea,Riots,sub_event_type,Violent demonstration,27,27,16,0,5
+South Korea,Riots,year_month,2024-10,1,1,1,0,0
+South Korea,Riots,year_month,2024-11,4,4,2,0,1
+South Korea,Riots,year_month,2024-12,1,1,1,0,0
+South Korea,Riots,year_month,2025-01,5,3,2,0,1
+South Korea,Riots,year_month,2025-02,4,4,2,0,1
+South Korea,Riots,year_month,2025-03,4,4,2,0,0
+South Korea,Riots,year_month,2025-04,7,7,4,0,1
+South Korea,Riots,year_month,2025-05,1,1,1,0,0
+South Korea,Riots,year_month,2025-08,1,1,0,0,1
+South Korea,Riots,year_month,2025-09,1,1,1,0,0
+United States,Protests,actor_group,protesters,16337,12940,20,0,5
+United States,Protests,length_bin,1-40,4357,3924,8,0,2
+United States,Protests,length_bin,41-80,10195,7477,11,0,3
+United States,Protests,length_bin,81+,1785,1539,1,0,0
+United States,Protests,sub_event_type,Excessive force against protesters,15,0,0,0,0
+United States,Protests,sub_event_type,Peaceful protest,16023,12940,20,0,5
+United States,Protests,sub_event_type,Protest with intervention,299,0,0,0,0
+United States,Protests,year_month,2024-10,531,432,0,0,0
+United States,Protests,year_month,2024-11,627,537,3,0,0
+United States,Protests,year_month,2024-12,511,422,1,0,0
+United States,Protests,year_month,2025-01,670,616,0,0,0
+United States,Protests,year_month,2025-02,1569,1337,0,0,0
+United States,Protests,year_month,2025-03,1993,1777,6,0,2
+United States,Protests,year_month,2025-04,2408,1720,3,0,2
+United States,Protests,year_month,2025-05,1196,1078,0,0,0
+United States,Protests,year_month,2025-06,2657,1573,2,0,1
+United States,Protests,year_month,2025-07,1554,1095,1,0,0
+United States,Protests,year_month,2025-08,981,911,2,0,0
+United States,Protests,year_month,2025-09,1285,1111,1,0,0
+United States,Protests,year_month,2025-10,355,331,1,0,0
+United States,Riots,actor_group,rioters,130,71,16,0,2
+United States,Riots,length_bin,1-40,2,1,0,0,0
+United States,Riots,length_bin,41-80,49,11,11,0,0
+United States,Riots,length_bin,81+,79,59,5,0,2
+United States,Riots,sub_event_type,Mob violence,58,0,0,0,0
+United States,Riots,sub_event_type,Violent demonstration,72,71,16,0,2
+United States,Riots,year_month,2024-10,9,2,0,0,0
+United States,Riots,year_month,2024-11,9,1,0,0,0
+United States,Riots,year_month,2024-12,5,1,0,0,0
+United States,Riots,year_month,2025-01,2,0,0,0,0
+United States,Riots,year_month,2025-02,18,15,9,0,0
+United States,Riots,year_month,2025-03,7,2,0,0,0
+United States,Riots,year_month,2025-04,5,3,1,0,0
+United States,Riots,year_month,2025-05,10,6,1,0,0
+United States,Riots,year_month,2025-06,36,26,3,0,1
+United States,Riots,year_month,2025-07,9,3,1,0,0
+United States,Riots,year_month,2025-08,6,3,1,0,0
+United States,Riots,year_month,2025-09,11,6,0,0,1
+United States,Riots,year_month,2025-10,3,3,0,0,0

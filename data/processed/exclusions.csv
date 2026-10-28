@@ -1,0 +1,10 @@
+source_file,source_record,event_id_cnty,country,reason,retained_event_id
+east_asia_conflict_data.csv,5601,JPN12921,Japan,duplicate_notes,JPN12914
+east_asia_conflict_data.csv,7512,CHN16905,China,duplicate_notes,CHN16904
+east_asia_conflict_data.csv,7919,CHN16952,China,duplicate_notes,CHN16951
+north_african_conflict_data.csv,3704,AFG68737,Afghanistan,duplicate_notes,AFG68736
+north_african_conflict_data.csv,3905,AFG68723,Afghanistan,duplicate_notes,AFG68722
+north_african_conflict_data.csv,9670,AFG69828,Afghanistan,duplicate_notes,AFG69827
+north_america_conflict_data.csv,7538,MEX121973,Mexico,duplicate_notes,MEX121971
+north_america_conflict_data.csv,11208,USA78354,United States,duplicate_notes,USA78353
+north_america_conflict_data.csv,21480,MEX121974,Mexico,duplicate_notes,MEX121972

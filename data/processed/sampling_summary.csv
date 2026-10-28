@@ -1,0 +1,33 @@
+study_group,country,event_type,eligible_events,eligible_groups,pilot_requested,pilot_selected,pilot_shortfall,pilot_available_groups,main_requested,main_selected,main_shortfall,main_available_groups,reserve_requested,reserve_selected,reserve_shortfall,reserve_available_groups
+battles_civilian_violence,Brazil,Battles,4406,4406,0,0,0,4406,20,20,0,4406,5,5,0,4386
+battles_civilian_violence,Brazil,Violence against civilians,5048,5048,0,0,0,5048,20,20,0,5048,5,5,0,5028
+battles_civilian_violence,Colombia,Battles,919,919,0,0,0,919,20,20,0,919,5,5,0,899
+battles_civilian_violence,Colombia,Violence against civilians,1154,1154,0,0,0,1154,20,20,0,1154,5,5,0,1134
+battles_civilian_violence,India,Battles,399,399,2,2,0,399,20,20,0,397,5,5,0,377
+battles_civilian_violence,India,Violence against civilians,588,588,2,2,0,588,20,20,0,586,5,5,0,566
+battles_civilian_violence,Libya,Battles,120,120,2,2,0,120,20,20,0,118,5,5,0,98
+battles_civilian_violence,Libya,Violence against civilians,109,109,2,2,0,109,20,20,0,107,5,5,0,87
+battles_civilian_violence,Mexico,Battles,1673,1673,2,2,0,1673,20,20,0,1671,5,5,0,1651
+battles_civilian_violence,Mexico,Violence against civilians,5790,5790,2,2,0,5790,20,20,0,5788,5,5,0,5768
+battles_civilian_violence,Pakistan,Battles,1271,1271,0,0,0,1271,20,20,0,1271,5,5,0,1251
+battles_civilian_violence,Pakistan,Violence against civilians,644,644,0,0,0,644,20,20,0,644,5,5,0,624
+protests_riots,Brazil,Protests,1248,1248,0,0,0,1248,20,20,0,1248,5,5,0,1228
+protests_riots,Brazil,Riots,257,257,0,0,0,257,16,16,0,257,5,5,0,241
+protests_riots,China,Protests,866,866,2,2,0,866,20,20,0,864,5,5,0,844
+protests_riots,China,Riots,57,57,2,2,0,57,16,16,0,55,5,5,0,39
+protests_riots,Colombia,Protests,1517,1517,0,0,0,1517,20,20,0,1517,5,5,0,1497
+protests_riots,Colombia,Riots,113,113,0,0,0,113,16,16,0,113,5,5,0,97
+protests_riots,India,Protests,13779,13779,2,2,0,13779,20,20,0,13777,5,5,0,13757
+protests_riots,India,Riots,631,631,2,2,0,631,16,16,0,629,5,5,0,613
+protests_riots,Libya,Protests,140,140,2,2,0,140,20,20,0,138,5,5,0,118
+protests_riots,Libya,Riots,38,38,2,2,0,38,16,16,0,36,5,3,2,20
+protests_riots,Mexico,Protests,5858,5858,2,2,0,5858,20,20,0,5856,5,5,0,5836
+protests_riots,Mexico,Riots,226,226,2,2,0,226,16,16,0,224,5,5,0,208
+protests_riots,Morocco,Protests,1444,1444,0,0,0,1444,20,20,0,1444,5,5,0,1424
+protests_riots,Morocco,Riots,64,64,0,0,0,64,16,16,0,64,5,5,0,48
+protests_riots,Pakistan,Protests,3170,3170,0,0,0,3170,20,20,0,3170,5,5,0,3150
+protests_riots,Pakistan,Riots,125,125,0,0,0,125,16,16,0,125,5,5,0,109
+protests_riots,South Korea,Protests,6285,6285,0,0,0,6285,20,20,0,6285,5,5,0,6265
+protests_riots,South Korea,Riots,27,27,0,0,0,27,16,16,0,27,5,5,0,11
+protests_riots,United States,Protests,12940,12940,0,0,0,12940,20,20,0,12940,5,5,0,12920
+protests_riots,United States,Riots,71,71,0,0,0,71,16,16,0,71,5,2,3,55

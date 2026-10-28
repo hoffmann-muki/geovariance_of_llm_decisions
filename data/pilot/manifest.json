@@ -1,0 +1,89 @@
+{
+  "accepted_input_count": 28,
+  "active_reserves": 154,
+  "actor_composition_after": {
+    "non_state_armed": 9,
+    "protesters": 8,
+    "rioters": 8,
+    "state": 3
+  },
+  "actor_composition_before": {
+    "non_state_armed": 11,
+    "protesters": 8,
+    "rioters": 8,
+    "state": 1
+  },
+  "edit_eligibility": {
+    "action_wording": {
+      "eligible_for_drafting": 28
+    },
+    "actor_identity": {
+      "eligible_for_drafting": 16,
+      "excluded_from_initial_batch": 12
+    },
+    "delegitimizing_framing": {
+      "eligible_for_drafting": 28
+    },
+    "intensity": {
+      "requires_recipe_review": 28
+    },
+    "legitimizing_framing": {
+      "eligible_for_drafting": 28
+    },
+    "neutral_control": {
+      "eligible_for_drafting": 28
+    },
+    "source_attribution": {
+      "eligible_for_drafting": 28
+    }
+  },
+  "experimental_inference_performed": false,
+  "format_version": 1,
+  "human_review_performed": false,
+  "inputs": {
+    "finalizer_sha256": "8a4dd82442c6492ca0971c880e838c52147cb346845f2e7d7fd4f6ff0ac762e3",
+    "preprocessing_manifest_sha256": "1e15960ec2bb5fc960ea0397d844d722a7e549b85be87b5c36732f7c7806557e",
+    "preprocessor_sha256": "96ff4f300694370d46681b6455107c8b4335b18e76e80ab68a982f6434dd8aa4",
+    "review_sha256": "720ae8fce25d0215205b9f647c62d687e5b21fa114ab6dbf3c0e16ae96b69c76"
+  },
+  "original_slots_changed": 9,
+  "outputs": {
+    "available_reserves.csv": {
+      "sha256": "df8c99f383e492033bd19d6f312efffc8fa660413b06c8101faff2a3042de758"
+    },
+    "cohort_changes.csv": {
+      "sha256": "661173a81edaadba28a2fc8b03e588e57ab5ec9702cb26542ad99fbe272bf0ef"
+    },
+    "edit_eligibility.csv": {
+      "sha256": "fb1e89c96446713e5025a2ffdff18d6189dc67abff49a613748d59dc9794a9b3"
+    },
+    "pilot.csv": {
+      "sha256": "c85855f95b1a26e145718a7923f9168549fde3dc55257787f41bb70b40b38fa9"
+    },
+    "report.md": {
+      "sha256": "7085ba5249d7078dc72e87297e339b5c85fee7413cf36377091d4ee671a73690"
+    }
+  },
+  "quarantined_reserves": [
+    "CHN15848"
+  ],
+  "review_date": "2026-10-27",
+  "review_mode": "ai_only_adversarial_user_authorized",
+  "similarity_audit": {
+    "autojunk": false,
+    "direction": "both; maximum directional score triggers a flag",
+    "flags": [],
+    "pairs_checked": 21490,
+    "quarantine_evidence": [
+      {
+        "forward_similarity": 0.927631579,
+        "other_event_id": "CHN15848",
+        "pilot_event_id": "CHN16073",
+        "reverse_similarity": 0.927631579
+      }
+    ],
+    "scope": "all dates/countries; pilot vs main/active reserves and within pilot",
+    "threshold": 0.9
+  },
+  "variants_approved": false
+}
