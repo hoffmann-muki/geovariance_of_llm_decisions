@@ -47,7 +47,7 @@ SAMPLE_FIELDS = [
 ISSUE_FIELDS = ["source_file", "source_record", "event_id_cnty", "country", "reason", "retained_event_id"]
 
 
-# Study sampling and comparison settings; copied into each output manifest.
+# Initial allocation settings; accepted targets are recorded in the review adjudications.
 DEFAULT_CONFIG = {
     "seed": 42,
     "main_per_cell": 20,
@@ -620,7 +620,7 @@ def run(input_dir, output_dir, config):
         raise RuntimeError("A related-event group occurs more than once across sample roles")
     main_shortfalls = sum(s["main_shortfall"] for s in sampling)
     comparability_passed = all(r["primary_subtype_met"] and r["length_targets_met"] for r in comparable)
-    status = "awaiting_review"
+    status = "prepared"
     if main_shortfalls:
         status = "quota_shortfall"
     elif not audit["passed"] or not comparability_passed:

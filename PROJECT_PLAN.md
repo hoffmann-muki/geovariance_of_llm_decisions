@@ -30,7 +30,7 @@ Region assignments will use the `country` and `region` columns. The file named `
 
 ### Experiment A: Controlled Edits to Real Events
 
-Sample **20 protests and 16 riots per country**, yielding 360 events. Add **20 battles and 20 violence-against-civilians events** from each of the six eligible countries, yielding another 240. The target is **600 real events**, analyzed separately as protest/riot and battle/civilian-violence samples. The riot quota reflects the common available support after restricting subtypes, grouping similar reports, and matching description lengths.
+Sample **20 protests and 15 riots per country**, yielding 350 events. Add **20 battles and 20 violence-against-civilians events** from each of the six eligible countries, yielding another 240. The target is **590 real events**, analyzed separately as protest/riot and battle/civilian-violence samples. The riot quota reflects common support after subtype restriction, text grouping, length matching, and AI review. The original 600-event allocation contained 16 riots per country; one rejected US description exhausted its length band, so the corresponding shared target was removed in all ten countries.
 
 The primary sample will use shared subtypes: Peaceful protest, Violent demonstration, Armed clash, and Attack. Other valid subtypes remain in the source inventory. Within each event class, countries will receive identical quotas across description-length bands, derived from their common available support after pilot allocation. Selection within a band will minimize distance from shared word-count targets. Month and actor composition and residual length differences will be reported.
 
@@ -65,7 +65,7 @@ Each input will have an original condition and up to seven edited conditions. Ed
 
 All edits must preserve the event-type criteria. Changes to identity or source framing are intentional interventions; changes to casualties, civilian targeting, or whether an action occurred are outside this protocol. Review all constructed-description edits, all uncertain natural-event edits, and a stratified sample of the remaining edits. Record changed spans, applicability, and review decisions. Exclude edits with uncertain labels and treat unavailable interventions as missing conditions.
 
-Pilot review uses separate AI-agent contexts for notes-only classification, semantic challenge, and methods validation, followed by adjudication. Record AI-only provenance and review every exact pilot original/edited pair before inference. Apply the case-specific restrictions in the [accepted pilot review](data/pilot/report.md); input acceptance does not approve unconstructed variants. AI judgments used in curation can bias model comparisons, so review agreement is not an independent accuracy estimate.
+Pilot review uses separate AI-agent contexts for notes-only classification, semantic challenge, and methods validation, followed by adjudication. Record AI-only provenance and review every exact pilot original/edited pair before inference. Apply the case-specific restrictions in the [accepted pilot review](data/accepted/report.md); input acceptance does not approve unconstructed variants. AI judgments used in curation can bias model comparisons, so review agreement is not an independent accuracy estimate.
 
 ## Models and Inference
 
@@ -97,7 +97,7 @@ Report countries individually and summarize regions with equal country weights. 
 The experiment pipeline will use the following scripts:
 
 - `prepare_data.py`: inventory, deduplication, sampling, and sample manifest.
-- `finalize_pilot.py`: reviewed-input validation, reserve quarantine, and accepted-pilot export.
+- `finalize_inputs.py`: review validation, corrective curation, reserve quarantine, and accepted-input export.
 - `build_variants.py` (planned): descriptions, country renderings, edits, and validation records.
 - `run_models.py` (planned): local/API inference, caching, retries, and prediction logs.
 - `analyze.py` (planned): paired metrics, confidence intervals, tables, and figures.
@@ -106,9 +106,9 @@ Record settings in output manifests and use frozen input tables and a common pre
 
 | Experiment | Calculation | Classifications |
 | --- | --- | ---: |
-| Real events | 600 events × 8 conditions × 4 models | 19,200 |
+| Real events | 590 events × 8 conditions × 4 models | 18,880 |
 | Matched descriptions | 120 descriptions × 10 countries × 8 conditions × 4 models | 38,400 |
-| Total | Before repeated-input checks and retries | **57,600** |
+| Total | Before repeated-input checks and retries | **57,280** |
 
 Inapplicable edits reduce the workload. A pilot using 12 descriptions, four countries, two models, and a small real-event sample will establish edit validity, parsing reliability, runtime, and API cost. Use separate pilot examples and freeze the protocol before the main run. If necessary, reduce sample sizes consistently while retaining the paired design and reporting the resulting uncertainty.
 

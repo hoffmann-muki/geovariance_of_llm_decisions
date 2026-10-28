@@ -1,0 +1,185 @@
+{
+  "accepted_main_count": 590,
+  "accepted_pilot_count": 28,
+  "active_reserves": 144,
+  "actor_composition_after": {
+    "non_state_armed": 9,
+    "protesters": 8,
+    "rioters": 8,
+    "state": 3
+  },
+  "actor_composition_before": {
+    "non_state_armed": 11,
+    "protesters": 8,
+    "rioters": 8,
+    "state": 1
+  },
+  "edit_eligibility": {
+    "action_wording": {
+      "eligible_for_drafting": 28
+    },
+    "actor_identity": {
+      "eligible_for_drafting": 16,
+      "excluded_from_initial_batch": 12
+    },
+    "delegitimizing_framing": {
+      "eligible_for_drafting": 28
+    },
+    "intensity": {
+      "requires_recipe_review": 28
+    },
+    "legitimizing_framing": {
+      "eligible_for_drafting": 28
+    },
+    "neutral_control": {
+      "eligible_for_drafting": 28
+    },
+    "source_attribution": {
+      "eligible_for_drafting": 28
+    }
+  },
+  "experimental_inference_performed": false,
+  "format_version": 1,
+  "human_review_performed": false,
+  "human_review_required": false,
+  "inputs": {
+    "finalizer_sha256": "739c8e55d15159e5c4420135e64331056f835f808ff5f914727f1db5ee0b7d62",
+    "preprocessing_manifest_sha256": "c04f61c62fef7a6434e69f086f44b9d8040b8ae95bb1d96ba84c00e88d5cb638",
+    "preprocessor_sha256": "1c42a332ccf1ad8729d182d8a73680e7044707d83b1e972524d2669b6c7d4ecd",
+    "review_sha256": "22fcb95396a7bcb75c6c872f418041519076fff22aabaabf1161ad6db1437249",
+    "sample_review_sha256": "666e3ad02149950f419639236c7364a2b0cc15072d10f9ea4f0a23c43f87fa9d"
+  },
+  "main_quota_correction": {
+    "human_review_required": false,
+    "main_per_event_type": {
+      "Battles": 20,
+      "Protests": 20,
+      "Riots": 15,
+      "Violence against civilians": 20
+    },
+    "omit_for_balance": [
+      "BRA94991",
+      "CHN17067",
+      "COL33074",
+      "IND178520",
+      "LBY12283",
+      "MEX100901",
+      "MOR15392",
+      "PAK153457",
+      "KOR40250",
+      "USA76659"
+    ],
+    "rationale": "The excluded US record, USA76659, exhausts the available Violent demonstration representatives in its 41–80-word band. The correction removes the shared 50-word target once in every country, reducing riots uniformly from 16 to 15 per country while retaining all other length targets. Seven other rejected main inputs are replaced from reviewed reserves. The original 600-record allocation is preserved for audit.",
+    "removed_length_bin": "41-80",
+    "removed_target_word_count": "50",
+    "replacements": [
+      {
+        "accepted_event_id": "COL31997",
+        "original_event_id": "COL34209",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "4"
+      },
+      {
+        "accepted_event_id": "IND172298",
+        "original_event_id": "IND202727",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "1"
+      },
+      {
+        "accepted_event_id": "MEX103088",
+        "original_event_id": "MEX100710",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "5"
+      },
+      {
+        "accepted_event_id": "MEX105161",
+        "original_event_id": "MEX101458",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "3"
+      },
+      {
+        "accepted_event_id": "PAK151859",
+        "original_event_id": "PAK153592",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "5"
+      },
+      {
+        "accepted_event_id": "CHN16586",
+        "original_event_id": "CHN17171",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "1"
+      },
+      {
+        "accepted_event_id": "CHN16643",
+        "original_event_id": "CHN17572",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "1"
+      }
+    ],
+    "review_date": "2026-10-28"
+  },
+  "main_reserve_promotions": [
+    "CHN16586",
+    "CHN16643",
+    "COL31997",
+    "IND172298",
+    "MEX103088",
+    "MEX105161",
+    "PAK151859"
+  ],
+  "outputs": {
+    "available_reserves.csv": {
+      "sha256": "0c78af6478f4c6d292e366bac2f2d202e9809b7c5687535d6b18564223db2858"
+    },
+    "cohort_changes.csv": {
+      "sha256": "61190ca010c0dd70a5437e628aba25e33998cf92ac2cd1c2cad532614e3a2a8c"
+    },
+    "edit_eligibility.csv": {
+      "sha256": "fb1e89c96446713e5025a2ffdff18d6189dc67abff49a613748d59dc9794a9b3"
+    },
+    "main.csv": {
+      "sha256": "4ddea0b83b1050313c1a16cf41bee31bb1b1962f44721abe65a6844e7efcf4b8"
+    },
+    "pilot.csv": {
+      "sha256": "c85855f95b1a26e145718a7923f9168549fde3dc55257787f41bb70b40b38fa9"
+    },
+    "report.md": {
+      "sha256": "8c662ac867ec5b3b32072782411e6a13dd0ff3b07dd0a65c5ad66edba11e08f5"
+    }
+  },
+  "pilot_slots_changed": 9,
+  "quarantined_reserves": [
+    "CHN15848"
+  ],
+  "review_date": "2026-10-28",
+  "review_mode": "ai_only_adversarial_user_authorized",
+  "sample_review": {
+    "main": {
+      "accept": 220,
+      "accept_with_constraints": 372,
+      "exclude": 8
+    },
+    "reserve": {
+      "accept": 47,
+      "accept_with_constraints": 105,
+      "exclude": 3
+    }
+  },
+  "similarity_audit": {
+    "autojunk": false,
+    "direction": "both; maximum directional score triggers a flag",
+    "flags": [],
+    "pairs_checked": 20930,
+    "quarantine_evidence": [
+      {
+        "forward_similarity": 0.927631579,
+        "other_event_id": "CHN15848",
+        "pilot_event_id": "CHN16073",
+        "reverse_similarity": 0.927631579
+      }
+    ],
+    "scope": "all dates/countries; pilot vs main/active reserves and within pilot",
+    "threshold": 0.9
+  },
+  "variants_approved": false
+}

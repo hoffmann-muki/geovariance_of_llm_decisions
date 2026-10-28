@@ -95,7 +95,7 @@ class PreparationTests(unittest.TestCase):
         with path.open(newline="", encoding="utf-8") as stream:
             return list(csv.DictReader(stream))
 
-    def test_end_to_end_preserves_sources_and_leaves_reviews_pending(self):
+    def test_end_to_end_preserves_sources_and_records_allocations(self):
         before = prep.file_digest(self.inputs / "events.csv")
         output, report = self.run_preparation()
         self.assertEqual(report["sample_counts"], {"main": 12, "pilot": 2, "reserve": 4})
@@ -107,7 +107,7 @@ class PreparationTests(unittest.TestCase):
             for row in self.csv(output / name):
                 self.assertEqual(row["notes"], original[row["event_id_cnty"]]["notes"])
                 self.assertEqual(row["notes"], self.rows[int(row["source_record"]) - 1]["notes"])
-        self.assertEqual(report["status"], "awaiting_review")
+        self.assertEqual(report["status"], "prepared")
         self.assertEqual(before, prep.file_digest(self.inputs / "events.csv"))
         manifest = json.loads((output / "manifest.json").read_text())
         self.assertEqual(manifest["inputs"][0]["sha256"], before)

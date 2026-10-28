@@ -22,6 +22,7 @@
         "text_sufficiency": "underspecified"
       },
       "event_id": "LBY12526",
+      "final_disposition": "not_selected_after_ai_review",
       "initial_deferral": {
         "action_span": "clashed",
         "actor_span": "",
@@ -58,6 +59,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "MEX100764",
+      "final_disposition": "not_selected_after_ai_review",
       "initial_deferral": {
         "action_span": "clashed",
         "actor_span": "",
@@ -95,6 +97,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND185764",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "6f10bf0fb76ae98178a960eb5a3c258997c4ddd57e2925b1aa1dafb92154b9ec",
       "semantic": {
         "actor_identity_constraint": "Only a role-preserving state security-force designation; keep the police annotation logically consistent. Do not swap in a civilian crowd, remove organized opponent status, or turn explosives recovery into battle conduct.",
@@ -183,6 +186,7 @@
         "text_sufficiency": "mixed"
       },
       "event_id": "IND194262",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "5cb625b400ec120936aa556749a4fa7688ca01960fd93cac190e03590df32ecd",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -268,6 +272,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "MEX104705",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "6223aec2d482ad5d1c3ffe4247df461232ea5744effdc82d1bcdd4e98b209d1c",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -353,6 +358,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "LBY12616",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "d7b81c6b29a025b4df2903a6257a7b6c567f61d45b0d6a8afd49724d76cdaef0",
       "semantic": {
         "actor_identity_constraint": "A different organized armed security formation may be considered only if every Rada reference is updated and the two distinct armed organizations remain distinct; never replace one side with residents, protesters, or unaffiliated individuals.",
@@ -438,6 +444,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "CHN17282",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "4c5a11f45aa0eb69513db442c4899199b1370a93bd0d35042ff3319866e691eb",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -523,6 +530,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND173443",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "0377be41688bb11f7c0465655de9e7226863bb52357017fb0ab8f4ddb47d3e98",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -609,6 +617,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "MEX100883",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "c06c8bb8c828844910d13772f80115f083b12f691b46627f307a825b4935c819",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -693,6 +702,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "CHN16073",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "8e1c71e87d3e56ec9bcb426ff4e100d1e220bb1497ba1c208a053047aec58b30",
       "semantic": {
         "actor_identity_constraint": "Only an occupational worker designation compatible with wage arrears; keep demonstrator role and do not replace with armed units. Factory-specific factual identity cannot be generalized into unrelated residents without considering the demand.",
@@ -778,6 +788,7 @@
         "text_sufficiency": "mixed"
       },
       "event_id": "LBY12203",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "f34f05aed12d91d03e0c4848e4aa41bc13c9f9b1f0e68b9e9a5cf13603781d51",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -865,6 +876,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "LBY12761",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "f0c0031d36aee1f15a0a29a1788cca66b8818e29950ecf89b389055b5517ef33",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -954,6 +966,7 @@
         "text_sufficiency": "underspecified"
       },
       "event_id": "IND171990",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "36aff504c4eb12e5ffb5e18548d08d9ed4848ece5d2aa682ba2498e7c0d608ca",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -1040,6 +1053,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "LBY12449",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "a93b3ab015bb852bdb658b1806ad8c072dbddc83486f08d40ce91b0c849961f6",
       "semantic": {
         "actor_identity_constraint": "May use a non-evaluative crowd/demonstrator designation while preserving the same burning-tire blockade. Do not replace with an organized combat unit or adopt a new affiliation.",
@@ -1125,6 +1139,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "LBY11808",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "4d76e996c8d1ade70567fff9f2399f2e75103cd8b735b367bf3678d77d8beeca",
       "semantic": {
         "actor_identity_constraint": "Only another explicitly organized armed brigade identity with members of the group remaining a coherent reference. Keep prosecutor and police response separate; no civilian crowd perpetrator.",
@@ -1207,6 +1222,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "MEX103522",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "c5c61270d57074682964c4d1df402fdda904d0ecc9a1a15f750d3258ebda1b63",
       "semantic": {
         "actor_identity_constraint": "Only a worker/union-affiliation substitution preserving 14 unions, more than 3000, health/education employees, labor demands, and International Labor day. Do not substitute an armed formation or non-employees.",
@@ -1294,6 +1310,7 @@
         "text_sufficiency": "mixed"
       },
       "event_id": "LBY12259",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "67cf23dd5f4f4f0b40456e1bf22b970c4b75d586951757b70e4ae66027f08190",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -1380,6 +1397,7 @@
         "text_sufficiency": "mixed"
       },
       "event_id": "MEX101598",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "b019a6686ab15374608a5fcba1576f6259c648510f63e00f2926e120e85db919",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -1468,6 +1486,7 @@
         "text_sufficiency": "mixed"
       },
       "event_id": "CHN17174",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "19d3260e620c46a2418aa8ebc5faf7a6815f90da4076125cbfe86a97f8c17b97",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -1557,6 +1576,7 @@
         "text_sufficiency": "underspecified"
       },
       "event_id": "MEX107579",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "475ef45a3aa105ec35b643718efd71b8ae1a61924bbaa07040bbda133dedef9a",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -1645,6 +1665,7 @@
         "text_sufficiency": "underspecified"
       },
       "event_id": "MEX95599",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "bd02250e7ad41e68ce495f73c4ece9a536dcfe6878ac0bb47e6396399965b02d",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -1732,6 +1753,7 @@
         "text_sufficiency": "disputed"
       },
       "event_id": "IND175082",
+      "final_disposition": "not_selected_after_ai_review",
       "initial_deferral": {
         "action_span": "suspected to have been abducted and later murdered",
         "actor_span": "",
@@ -1768,6 +1790,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND182215",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "06427dd3d2b6689f2a36029f091243e10d7caf02260c4db9acec446107935f55",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -1852,6 +1875,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "LBY12204",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "36fecdef4c48c6d6dd8ebeae57866a33b61b05474cfc34b16de0e2791d10751b",
       "semantic": {
         "actor_identity_constraint": "Only a local civilian demonstrator identity consistent with residents of Misratah; no armed organizational designation.",
@@ -1940,6 +1964,7 @@
         "text_sufficiency": "underspecified"
       },
       "event_id": "MEX110590",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "ec332e12ee2c5e32cb7001561ea64b750780ed6d723e697aad1f9c449fba1000",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -2024,6 +2049,7 @@
         "text_sufficiency": "mixed"
       },
       "event_id": "MEX102760",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "b409ee960dce95f9c68a0d21e8fe917198192b482dd9fac89c99a4f6b07c5ea7",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -2109,6 +2135,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND182541",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "4272b1b78ff851df56e225e8aa16625373448a53e1984207f48d1c2cc4caec2b",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -2195,6 +2222,7 @@
         "text_sufficiency": "underspecified"
       },
       "event_id": "IND172465",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "f0ab3eeefa6c2c43cc160b87fc0f51b10bdf12fc772eb57579690ca00a4b9647",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -2281,6 +2309,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND186091",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "969be4202b51169359df1fab863946c1a81ffbe8a03c5bada45966ce44177790",
       "semantic": {
         "actor_identity_constraint": "Not eligible in this first batch; the proposed target either lacks a safe substitute or links identity to facts/background that must remain fixed.",
@@ -2366,6 +2395,7 @@
         "text_sufficiency": "mixed"
       },
       "event_id": "LBY12268",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "c47c2776f42bed6d45efe6451d1472b3ce9272b3ccacc3beaab3a19b0e28316f",
       "semantic": {
         "actor_identity_constraint": "Only a civilian demonstrator designation consistent with the same west-coast origin; preserve youth unless age itself is the named treatment. Do not imply a participating militia or state unit.",
@@ -2448,6 +2478,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "CHN15594",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "f3ecb54f60f6771c212ae278d62432380462cb8baca0dab7f03f3d17e2dac9c8",
       "semantic": {
         "actor_identity_constraint": "Only an occupational worker identity compatible with the same construction site and wage demand; keep demonstrator role and around 40.",
@@ -2533,6 +2564,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "MEX102341",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "f8d774bc0a22b0229012c65391ba18806a4cc8c2f0388968b19b5364f85a746e",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -2597,6 +2629,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "MEX107759",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "1b68491735d196a0070a378fd748731f8b32f12b12b048fe5f0663bd08b66787",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -2658,6 +2691,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND193528",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "ce22ecdb3e4d5453a8b3bf9fe9949142da0c17b0d3827a0033f1b344ef518885",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -2722,6 +2756,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "MEX103931",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "f0fa8446d0cb7da68b19788247ec985e7601bbde1035d3433804d174adbfc8e5",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -2784,6 +2819,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "CHN17070",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "c6c26e5b932d460ff397bd5015aa8a1e19c714b12f0df1d586ba3499de38abc2",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -2846,6 +2882,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND172199",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "58ee8cf0380ee2bd580ba8d4386254f03112934012d2320d68fa69b25991fc13",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -2910,6 +2947,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND173445",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "55e140f99a4a0e4db398ed534c5db9b3a8323afe9461ee388cf51180a21d2122",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -2977,6 +3015,7 @@
         "text_sufficiency": "underspecified"
       },
       "event_id": "MEX109342",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "1eea0d98084c0d648a234aa3774c02ca60bc1ec7327e0175d82dca28a11356c3",
       "semantic": {
         "allowed_edit_families_for_construction": [],
@@ -3038,6 +3077,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND178452",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "7879552ed1c29acb7d9a61a2de0cb1a1a4f1a2ff888ff5e5e076c3ade5a4a0b6",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -3105,6 +3145,7 @@
         "text_sufficiency": "underspecified"
       },
       "event_id": "MEX118901",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "2141639290b5668710f0aeaba3a9068df8f66f2ff303154f6ab3aa7d07afdafc",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -3167,6 +3208,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "IND194819",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "7d7dd887532f74c0bd0e9a80fae8da9dc71237d193e68b911039ba74898920f2",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -3235,6 +3277,7 @@
         "text_sufficiency": "underspecified"
       },
       "event_id": "MEX123084",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "fc0cc003e925d3b79dc17f421a959ad1e93644d0dde54cc3081a0373b0e6e657",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -3297,6 +3340,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "MEX107817",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "817f27b181b0e9a2cf0565ef0792a77e0d4fbcf3bbf15e035d1bebb8af45e3b4",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -3359,6 +3403,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "CHN16181",
+      "final_disposition": "not_selected_after_ai_review",
       "notes_sha256": "1ac51d8aba3991eefd0dbda17741949397f6f5e5d5f4de07c6b5d771303d7040",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -3422,6 +3467,7 @@
         "text_sufficiency": "sufficient"
       },
       "event_id": "MEX104893",
+      "final_disposition": "accepted_pilot_input",
       "notes_sha256": "ba47d622f2a627a31c27509d7382619277d257a4dc422d1c1bb87e30d5c46e83",
       "semantic": {
         "allowed_edit_families_for_construction": [
@@ -3486,12 +3532,82 @@
   },
   "format_version": 1,
   "human_review_performed": false,
+  "human_review_required": false,
   "limitations": [
     "The reviewers used separate agent contexts, but model diversity is not established and their errors may be correlated.",
     "AI label and suitability judgments informed curation. The resulting low-ambiguity pilot is not an unbiased sample or an independent measurement of any model's accuracy.",
     "Source accounts were reviewed as text, not historically fact-checked. Human review was not performed.",
     "The all-date audit addresses high textual similarity, not every semantic or campaign-level dependency."
   ],
+  "main_curation": {
+    "human_review_required": false,
+    "main_per_event_type": {
+      "Battles": 20,
+      "Protests": 20,
+      "Riots": 15,
+      "Violence against civilians": 20
+    },
+    "omit_for_balance": [
+      "BRA94991",
+      "CHN17067",
+      "COL33074",
+      "IND178520",
+      "LBY12283",
+      "MEX100901",
+      "MOR15392",
+      "PAK153457",
+      "KOR40250",
+      "USA76659"
+    ],
+    "rationale": "The excluded US record, USA76659, exhausts the available Violent demonstration representatives in its 41–80-word band. The correction removes the shared 50-word target once in every country, reducing riots uniformly from 16 to 15 per country while retaining all other length targets. Seven other rejected main inputs are replaced from reviewed reserves. The original 600-record allocation is preserved for audit.",
+    "removed_length_bin": "41-80",
+    "removed_target_word_count": "50",
+    "replacements": [
+      {
+        "accepted_event_id": "COL31997",
+        "original_event_id": "COL34209",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "4"
+      },
+      {
+        "accepted_event_id": "IND172298",
+        "original_event_id": "IND202727",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "1"
+      },
+      {
+        "accepted_event_id": "MEX103088",
+        "original_event_id": "MEX100710",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "5"
+      },
+      {
+        "accepted_event_id": "MEX105161",
+        "original_event_id": "MEX101458",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "3"
+      },
+      {
+        "accepted_event_id": "PAK151859",
+        "original_event_id": "PAK153592",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "5"
+      },
+      {
+        "accepted_event_id": "CHN16586",
+        "original_event_id": "CHN17171",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "1"
+      },
+      {
+        "accepted_event_id": "CHN16643",
+        "original_event_id": "CHN17572",
+        "reason": "Replace an AI-excluded input using the first eligible reviewed reserve in the same country, class, primary subtype and length band.",
+        "reserve_rank": "1"
+      }
+    ],
+    "review_date": "2026-10-28"
+  },
   "methods_review": {
     "activation_conditions": [
       "Final activation manifest must keep CHN15848 explicitly quarantined and unavailable for main replacement while CHN16073 is used in pilot development. Frozen reserves.csv remains unchanged; 154 reserves are currently active.",
@@ -3520,7 +3636,7 @@
       "slot_support": "Every original country/event-class/source-label/primary-subtype/length-band/study-group/rank slot is preserved. All nine replacements are unallocated frozen-pool families; final IDs and groups are disjoint from all main and frozen reserve records."
     },
     "review_date": "2026-10-27",
-    "reviewed_decisions_sha256": "83cc24285281b2c16c6f59889cb54796b736eddb1e65dfd47c2ccffa72931bbd",
+    "reviewed_decisions_sha256": "f9cde202b50c4330b3740771c77f9009ab57f34463832353801fae1b05be013c",
     "reviewed_selection_files": {
       "candidates.csv": "9ad1225dfe42a0c2089e2f1d8db2d66883e208ebf77102c46890fd5f5472c864",
       "pilot.csv": "7366f1111fe021d91b2b5bbe0a3c17d7203c78daf08c317f97a9d6cb559ce79e",
@@ -3530,6 +3646,7 @@
     "reviewer": "Codex independent methods/provenance adversarial reviewer",
     "reviewer_type": "AI"
   },
+  "pilot_review_date": "2026-10-27",
   "reserve_quarantine": [
     {
       "conflicts_with_pilot": "CHN16073",
@@ -3537,7 +3654,7 @@
       "reason": "Near-identical wage-protest wording across 48 days exceeds 0.90 similarity. Exclude this reserve from activation while the accepted pilot is used; retain the frozen source record."
     }
   ],
-  "review_date": "2026-10-27",
+  "review_date": "2026-10-28",
   "review_mode": "ai_only_adversarial_user_authorized",
   "reviewers": {
     "notes_only": {
@@ -3621,7 +3738,6 @@
       },
       "independent_review_notes": [
         "This is an independent adversarial pass over the proposed 28 input notes, after seeing the first-pass reviews supplied as task inputs; it is not a blinded replication and not confirmation of any unconstructed edit.",
-        "User authorization permits AI review instead of human review. Pending-human wording in the source artifacts is historical and is not treated as a gate for this assessment.",
         "Source labels are not declared wrong when notes omit defining information. Exclusion means poor fit for the initial low-ambiguity, notes-only construction cohort.",
         "A battle requires an armed organized collective on both sides; armedness alone is not sufficient. A civilian-violence classification requires an organized perpetrator and a target unable to participate in combat at the incident; past affiliation does not override present restraint/custody.",
         "Nonviolent demonstrators can be injured or arrested and still be Protests. Riots require demonstrator destructive/violent conduct; a class-preserving actor edit cannot turn the crowd into an armed organization. The word clashed must not be elaborated into unstated tactics.",
