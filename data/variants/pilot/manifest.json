@@ -1,0 +1,51 @@
+{
+  "accepted_review_units": 251,
+  "countries": [
+    "China",
+    "India",
+    "Libya",
+    "Mexico"
+  ],
+  "format_version": 1,
+  "human_review_performed": false,
+  "human_review_required": false,
+  "inference_performed": false,
+  "inputs": {
+    "accepted_manifest_sha256": "fe8052481ede34a4f301aacd11ab32762dfb6b783f3a93ea4d4335def6284960",
+    "builder_sha256": "e00469ba40fef30de5483e5bc5044c65e22e86c53f6390712a67a8dd5003e209",
+    "input_review_sha256": "22fcb95396a7bcb75c6c872f418041519076fff22aabaabf1161ad6db1437249",
+    "processed_manifest_sha256": "c04f61c62fef7a6434e69f086f44b9d8040b8ae95bb1d96ba84c00e88d5cb638",
+    "recipes_sha256": "6ce4ee712ec3f2da15bbbd5681c9e51dbd94b65f9559c3c888ec4bfdcbf36a45"
+  },
+  "outputs": {
+    "changes.csv": {
+      "sha256": "7662b2091b1a4502739ab49fb2709d35ecccfa67a7d3c5c7664df35b67d1c038"
+    },
+    "omissions.csv": {
+      "sha256": "3624dbd086c3d04ce6ec9412b232d3f713ded8b23846076f206781f36cf17591"
+    },
+    "report.md": {
+      "sha256": "e0a6a6d9aea9271193b0de73c005941340b79f45994e90b454758aa124c4a39c"
+    },
+    "stimuli.csv": {
+      "sha256": "870f86ca1e506c4ef823fadf637a8df4a591e0de5e0a8a1304769015af9e91fc"
+    }
+  },
+  "recipe_version": "pilot-v1",
+  "review_date": "2026-10-28",
+  "review_units": 254,
+  "status": "ai_reviewed",
+  "stimulus_counts": {
+    "real": 195,
+    "synthetic": 336
+  },
+  "synthetic_source_audit": {
+    "additional_sources": 4,
+    "autojunk": false,
+    "conflicts": [],
+    "direction": "both",
+    "pairs_checked": 3174,
+    "scope": "all dates and countries; additional synthetic source notes vs allocated inputs and each other",
+    "threshold": 0.9
+  }
+}

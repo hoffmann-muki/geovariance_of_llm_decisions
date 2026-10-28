@@ -1,0 +1,461 @@
+stimulus_id,original_id,original_start,original_end,original_span,edited_start,edited_end,edited_span
+real:IND185764:neutral_control,real:IND185764:original,3,14,30 May 2025,3,13,2025-05-30
+real:IND185764:action_wording,real:IND185764:original,50,76,clashed and exchanged fire,50,76,clashed and traded gunfire
+real:IND185764:legitimizing_framing,real:IND185764:original,50,76,clashed and exchanged fire,50,88,commendably clashed and exchanged fire
+real:IND185764:delegitimizing_framing,real:IND185764:original,50,76,clashed and exchanged fire,50,90,reprehensibly clashed and exchanged fire
+real:IND185764:source_attribution,real:IND185764:original,50,101,clashed and exchanged fire with Naxal-Maoist cadres,50,134,"clashed and exchanged fire with Naxal-Maoist cadres, according to a local newspaper,"
+real:IND185764:actor_identity,real:IND185764:original,16,49,security forces (coded as police),16,72,Central Reserve Police Force personnel (coded as police)
+real:IND185764:intensity,real:IND185764:original,50,76,clashed and exchanged fire,50,88,clashed in an intense exchange of fire
+real:IND173445:neutral_control,real:IND173445:original,3,18,1 December 2024,3,13,2024-12-01
+real:IND173445:action_wording,real:IND173445:original,45,83,clashed with armed CPI (Maoist) cadres,45,82,fought with armed CPI (Maoist) cadres
+real:IND173445:legitimizing_framing,real:IND173445:original,45,83,clashed with armed CPI (Maoist) cadres,45,95,commendably clashed with armed CPI (Maoist) cadres
+real:IND173445:delegitimizing_framing,real:IND173445:original,45,83,clashed with armed CPI (Maoist) cadres,45,97,reprehensibly clashed with armed CPI (Maoist) cadres
+real:IND173445:source_attribution,real:IND173445:original,20,83,Greyhounds police forces clashed with armed CPI (Maoist) cadres,20,115,"according to a local newspaper, Greyhounds police forces clashed with armed CPI (Maoist) cadres"
+real:IND173445:actor_identity,real:IND173445:original,20,44,Greyhounds police forces,20,51,Telangana Special Police forces
+real:IND173445:intensity,real:IND173445:original,45,83,clashed with armed CPI (Maoist) cadres,45,93,clashed intensely with armed CPI (Maoist) cadres
+real:IND186091:neutral_control,real:IND186091:original,3,16,25 April 2025,3,13,2025-04-25
+real:IND186091:action_wording,real:IND186091:original,105,135,assaulted three men in custody,105,145,physically attacked three men in custody
+real:IND186091:legitimizing_framing,real:IND186091:original,105,135,assaulted three men in custody,105,147,commendably assaulted three men in custody
+real:IND186091:delegitimizing_framing,real:IND186091:original,105,135,assaulted three men in custody,105,149,reprehensibly assaulted three men in custody
+real:IND186091:source_attribution,real:IND186091:original,105,135,assaulted three men in custody,105,167,"assaulted three men in custody, according to a local newspaper"
+real:IND178452:neutral_control,real:IND178452:original,3,19,19 February 2025,3,13,2025-02-19
+real:IND178452:action_wording,real:IND178452:original,96,116,killed two civilians,96,130,caused the deaths of two civilians
+real:IND178452:legitimizing_framing,real:IND178452:original,96,116,killed two civilians,96,128,commendably killed two civilians
+real:IND178452:delegitimizing_framing,real:IND178452:original,96,116,killed two civilians,96,130,reprehensibly killed two civilians
+real:IND178452:source_attribution,real:IND178452:original,96,162,"killed two civilians, including a Shiksha doot (temporary teacher)",96,195,"killed two civilians, including a Shiksha doot (temporary teacher), according to a local newspaper,"
+real:IND178452:actor_identity,real:IND178452:original,21,95,the Aaamdai Area Committee of the East Bastar division of the CPI (Maoist),21,105,the military committee of the People's Liberation Guerrilla Army of the CPI (Maoist)
+real:LBY12203:neutral_control,real:LBY12203:original,3,13,9 May 2025,3,13,2025-05-09
+real:LBY12203:action_wording,real:LBY12203:original,81,100,clashed in Al Khums,81,99,fought in Al Khums
+real:LBY12203:legitimizing_framing,real:LBY12203:original,81,100,clashed in Al Khums,81,112,commendably clashed in Al Khums
+real:LBY12203:delegitimizing_framing,real:LBY12203:original,81,100,clashed in Al Khums,81,114,reprehensibly clashed in Al Khums
+real:LBY12203:source_attribution,real:LBY12203:original,81,119,"clashed in Al Khums (Al Marqab, West).",81,151,"clashed in Al Khums (Al Marqab, West), according to a local newspaper."
+real:LBY12203:intensity,real:LBY12203:original,81,100,clashed in Al Khums,81,110,clashed intensely in Al Khums
+real:LBY12616:neutral_control,real:LBY12616:original,3,14,3 June 2025,3,13,2025-06-03
+real:LBY12616:action_wording,real:LBY12616:original,86,114,clashed in Tripoli - Tripoli,86,113,fought in Tripoli - Tripoli
+real:LBY12616:legitimizing_framing,real:LBY12616:original,86,114,clashed in Tripoli - Tripoli,86,126,commendably clashed in Tripoli - Tripoli
+real:LBY12616:delegitimizing_framing,real:LBY12616:original,86,114,clashed in Tripoli - Tripoli,86,128,reprehensibly clashed in Tripoli - Tripoli
+real:LBY12616:source_attribution,real:LBY12616:original,86,131,"clashed in Tripoli - Tripoli (Tripoli, West).",86,163,"clashed in Tripoli - Tripoli (Tripoli, West), according to a local newspaper."
+real:LBY12616:actor_identity,real:LBY12616:original,16,52,the Special Deterrence Forces (Rada),16,33,the 444th Brigade
+real:LBY12616:actor_identity,real:LBY12616:original,268,315,including Rada and the General Security Service,249,309,including the 444th Brigade and the General Security Service
+real:LBY12616:intensity,real:LBY12616:original,86,114,clashed in Tripoli - Tripoli,86,124,clashed intensely in Tripoli - Tripoli
+real:LBY11808:neutral_control,real:LBY11808:original,7,22,3 November 2024,7,17,2024-11-03
+real:LBY11808:action_wording,real:LBY11808:original,53,85,abducted and tortured a civilian,53,86,kidnapped and tortured a civilian
+real:LBY11808:legitimizing_framing,real:LBY11808:original,53,85,abducted and tortured a civilian,53,97,commendably abducted and tortured a civilian
+real:LBY11808:delegitimizing_framing,real:LBY11808:original,53,85,abducted and tortured a civilian,53,99,reprehensibly abducted and tortured a civilian
+real:LBY11808:source_attribution,real:LBY11808:original,53,137,"abducted and tortured a civilian for ransom in Al Qaryat (Al Jabal Al Gharbi, West).",53,169,"abducted and tortured a civilian for ransom in Al Qaryat (Al Jabal Al Gharbi, West), according to a local newspaper."
+real:LBY11808:actor_identity,real:LBY11808:original,35,52,the 444th Brigade,35,52,the 111th Brigade
+real:LBY12761:neutral_control,real:LBY12761:original,3,20,29 September 2025,3,13,2025-09-29
+real:LBY12761:action_wording,real:LBY12761:original,50,76,shot dead the deputy mayor,50,79,fatally shot the deputy mayor
+real:LBY12761:legitimizing_framing,real:LBY12761:original,50,76,shot dead the deputy mayor,50,88,commendably shot dead the deputy mayor
+real:LBY12761:delegitimizing_framing,real:LBY12761:original,50,76,shot dead the deputy mayor,50,90,reprehensibly shot dead the deputy mayor
+real:LBY12761:source_attribution,real:LBY12761:original,22,76,an unidentified armed group shot dead the deputy mayor,22,108,"according to a local newspaper, an unidentified armed group shot dead the deputy mayor"
+real:MEX104705:neutral_control,real:MEX104705:original,3,14,24 May 2025,3,13,2025-05-24
+real:MEX104705:action_wording,real:MEX104705:original,43,75,there was an armed clash between,43,74,an armed clash occurred between
+real:MEX104705:legitimizing_framing,real:MEX104705:original,43,75,there was an armed clash between,43,86,there was a commendable armed clash between
+real:MEX104705:delegitimizing_framing,real:MEX104705:original,43,75,there was an armed clash between,43,88,there was a reprehensible armed clash between
+real:MEX104705:source_attribution,real:MEX104705:original,43,129,there was an armed clash between several members of the CJNG and the municipal police.,43,161,"there was an armed clash between several members of the CJNG and the municipal police, according to a local newspaper."
+real:MEX104705:intensity,real:MEX104705:original,43,75,there was an armed clash between,43,83,there was an intense armed clash between
+real:MEX107817:neutral_control,real:MEX107817:original,3,15,29 July 2025,3,13,2025-07-29
+real:MEX107817:action_wording,real:MEX107817:original,93,153,"opened fire at officers of the National Guard, who shot back",93,151,"fired at officers of the National Guard, who returned fire"
+real:MEX107817:legitimizing_framing,real:MEX107817:original,93,153,"opened fire at officers of the National Guard, who shot back",93,165,"commendably opened fire at officers of the National Guard, who shot back"
+real:MEX107817:delegitimizing_framing,real:MEX107817:original,93,153,"opened fire at officers of the National Guard, who shot back",93,167,"reprehensibly opened fire at officers of the National Guard, who shot back"
+real:MEX107817:source_attribution,real:MEX107817:original,47,177,"armed individuals linked to Los Chapitos gang opened fire at officers of the National Guard, who shot back in Colonia Los Angeles.",47,209,"according to a local newspaper, armed individuals linked to Los Chapitos gang opened fire at officers of the National Guard, who shot back in Colonia Los Angeles."
+real:MEX107817:actor_identity,real:MEX107817:original,75,92,Los Chapitos gang,75,89,Los Mayos gang
+real:MEX107817:intensity,real:MEX107817:original,93,153,"opened fire at officers of the National Guard, who shot back",93,176,"opened fire at officers of the National Guard, who shot back in an intense exchange"
+real:MEX104893:neutral_control,real:MEX104893:original,3,14,28 May 2025,3,13,2025-05-28
+real:MEX104893:action_wording,real:MEX104893:original,131,167,beat and injured at least one farmer,131,188,administered a beating to and injured at least one farmer
+real:MEX104893:legitimizing_framing,real:MEX104893:original,131,167,beat and injured at least one farmer,131,179,commendably beat and injured at least one farmer
+real:MEX104893:delegitimizing_framing,real:MEX104893:original,131,167,beat and injured at least one farmer,131,181,reprehensibly beat and injured at least one farmer
+real:MEX104893:source_attribution,real:MEX104893:original,66,98,videos published on social media,66,83,a local newspaper
+real:MEX104893:actor_identity,real:MEX104893:original,100,130,four municipal police officers,100,138,four municipal traffic police officers
+real:MEX107759:neutral_control,real:MEX107759:original,3,15,26 July 2025,3,13,2025-07-26
+real:MEX107759:action_wording,real:MEX107759:original,66,94,shot and killed three people,66,91,fatally shot three people
+real:MEX107759:legitimizing_framing,real:MEX107759:original,66,94,shot and killed three people,66,106,commendably shot and killed three people
+real:MEX107759:delegitimizing_framing,real:MEX107759:original,66,94,shot and killed three people,66,108,reprehensibly shot and killed three people
+real:MEX107759:source_attribution,real:MEX107759:original,46,94,members of the CJNG shot and killed three people,46,126,"according to a local newspaper, members of the CJNG shot and killed three people"
+real:MEX107759:actor_identity,real:MEX107759:original,46,65,members of the CJNG,46,75,members of the Sinaloa Cartel
+real:CHN16073:neutral_control,real:CHN16073:original,7,23,20 December 2024,7,17,2024-12-20
+real:CHN16073:action_wording,real:CHN16073:original,55,78,gathered to demonstrate,55,84,assembled for a demonstration
+real:CHN16073:legitimizing_framing,real:CHN16073:original,55,78,gathered to demonstrate,55,90,commendably gathered to demonstrate
+real:CHN16073:delegitimizing_framing,real:CHN16073:original,55,78,gathered to demonstrate,55,92,reprehensibly gathered to demonstrate
+real:CHN16073:source_attribution,real:CHN16073:original,39,145,"factory workers gathered to demonstrate in Jiaxing city, Zhejiang (coded to Nanhu) to demand wage arrears.",39,177,"factory workers gathered to demonstrate in Jiaxing city, Zhejiang (coded to Nanhu) to demand wage arrears, according to a local newspaper."
+real:CHN16073:actor_identity,real:CHN16073:original,39,54,factory workers,39,62,textile-factory workers
+real:CHN15594:neutral_control,real:CHN15594:original,3,19,19 November 2024,3,13,2024-11-19
+real:CHN15594:action_wording,real:CHN15594:original,52,115,gathered to demonstrate by chanting slogans and holding banners,52,116,assembled to demonstrate by chanting slogans and holding banners
+real:CHN15594:legitimizing_framing,real:CHN15594:original,52,75,gathered to demonstrate,52,87,commendably gathered to demonstrate
+real:CHN15594:delegitimizing_framing,real:CHN15594:original,52,75,gathered to demonstrate,52,89,reprehensibly gathered to demonstrate
+real:CHN15594:source_attribution,real:CHN15594:original,21,75,around 40 construction workers gathered to demonstrate,21,107,"according to a local newspaper, around 40 construction workers gathered to demonstrate"
+real:CHN15594:actor_identity,real:CHN15594:original,31,51,construction workers,31,61,construction-site electricians
+real:CHN17282:neutral_control,real:CHN17282:original,3,16,22 April 2025,3,13,2025-04-22
+real:CHN17282:action_wording,real:CHN17282:original,76,96,destroyed toll gates,76,97,demolished toll gates
+real:CHN17282:legitimizing_framing,real:CHN17282:original,76,96,destroyed toll gates,76,108,commendably destroyed toll gates
+real:CHN17282:delegitimizing_framing,real:CHN17282:original,76,96,destroyed toll gates,76,110,reprehensibly destroyed toll gates
+real:CHN17282:source_attribution,real:CHN17282:original,48,96,gathered to demonstrate and destroyed toll gates,48,129,"gathered to demonstrate and, according to a local newspaper, destroyed toll gates"
+real:CHN17070:neutral_control,real:CHN17070:original,3,20,11 September 2025,3,13,2025-09-11
+real:CHN17070:action_wording,real:CHN17070:original,90,110,broke apart railings,90,110,broke railings apart
+real:CHN17070:legitimizing_framing,real:CHN17070:original,90,110,broke apart railings,90,122,commendably broke apart railings
+real:CHN17070:delegitimizing_framing,real:CHN17070:original,90,110,broke apart railings,90,124,reprehensibly broke apart railings
+real:CHN17070:source_attribution,real:CHN17070:original,70,110,chanted slogans and broke apart railings,70,143,"chanted slogans and, according to a local newspaper, broke apart railings"
+real:CHN17070:actor_identity,real:CHN17070:original,22,44,a few hundred students,22,62,a few hundred vocational-school students
+real:IND173443:neutral_control,real:IND173443:original,3,18,1 December 2024,3,13,2024-12-01
+real:IND173443:action_wording,real:IND173443:original,170,186,staged a protest,170,184,held a protest
+real:IND173443:legitimizing_framing,real:IND173443:original,170,186,staged a protest,170,198,commendably staged a protest
+real:IND173443:delegitimizing_framing,real:IND173443:original,170,186,staged a protest,170,200,reprehensibly staged a protest
+real:IND173443:source_attribution,real:IND173443:original,170,211,staged a protest on the Hare Krishna Hill,170,244,"staged a protest, according to a local newspaper, on the Hare Krishna Hill"
+real:IND173443:intensity,real:IND173443:original,170,186,staged a protest,170,195,staged an intense protest
+real:IND182541:neutral_control,real:IND182541:original,3,16,16 April 2025,3,13,2025-04-16
+real:IND182541:action_wording,real:IND182541:original,74,96,held a protest outside,74,98,staged a protest outside
+real:IND182541:legitimizing_framing,real:IND182541:original,74,96,held a protest outside,74,108,commendably held a protest outside
+real:IND182541:delegitimizing_framing,real:IND182541:original,74,96,held a protest outside,74,110,reprehensibly held a protest outside
+real:IND182541:source_attribution,real:IND182541:original,74,136,held a protest outside the Enforcement Directorate (ED) office,74,169,"held a protest, according to a local newspaper, outside the Enforcement Directorate (ED) office"
+real:IND182541:intensity,real:IND182541:original,74,96,held a protest outside,74,105,held an intense protest outside
+real:IND194819:neutral_control,real:IND194819:original,3,20,21 September 2025,3,13,2025-09-21
+real:IND194819:action_wording,real:IND194819:original,374,456,"attacked a doctor, leaving him seriously injured, and vandalized hospital property",374,457,"assaulted a doctor, leaving him seriously injured, and vandalized hospital property"
+real:IND194819:legitimizing_framing,real:IND194819:original,374,456,"attacked a doctor, leaving him seriously injured, and vandalized hospital property",374,468,"commendably attacked a doctor, leaving him seriously injured, and vandalized hospital property"
+real:IND194819:delegitimizing_framing,real:IND194819:original,374,456,"attacked a doctor, leaving him seriously injured, and vandalized hospital property",374,470,"reprehensibly attacked a doctor, leaving him seriously injured, and vandalized hospital property"
+real:IND194819:source_attribution,real:IND194819:original,335,391,The situation escalated as the rioters attacked a doctor,335,423,"According to a local newspaper, the situation escalated as the rioters attacked a doctor"
+real:IND194819:actor_identity,real:IND194819:original,22,66,a large number of locals from Lilong Chajing,22,71,a large number of local women from Lilong Chajing
+real:IND182215:neutral_control,real:IND182215:original,3,16,11 April 2025,3,13,2025-04-11
+real:IND182215:action_wording,real:IND182215:original,106,151,held a demonstration and engaged in vandalism,106,160,staged a demonstration and committed acts of vandalism
+real:IND182215:legitimizing_framing,real:IND182215:original,106,151,held a demonstration and engaged in vandalism,106,163,commendably held a demonstration and engaged in vandalism
+real:IND182215:delegitimizing_framing,real:IND182215:original,106,151,held a demonstration and engaged in vandalism,106,165,reprehensibly held a demonstration and engaged in vandalism
+real:IND182215:source_attribution,real:IND182215:original,106,151,held a demonstration and engaged in vandalism,106,184,"held a demonstration and engaged in vandalism, according to a local newspaper,"
+real:LBY12268:neutral_control,real:LBY12268:original,3,14,15 May 2025,3,13,2025-05-15
+real:LBY12268:action_wording,real:LBY12268:original,42,63,protested in front of,42,66,demonstrated in front of
+real:LBY12268:legitimizing_framing,real:LBY12268:original,42,63,protested in front of,42,75,commendably protested in front of
+real:LBY12268:delegitimizing_framing,real:LBY12268:original,42,63,protested in front of,42,77,reprehensibly protested in front of
+real:LBY12268:source_attribution,real:LBY12268:original,42,91,protested in front of the UN mission headquarters,42,124,"protested, according to a local newspaper, in front of the UN mission headquarters"
+real:LBY12268:actor_identity,real:LBY12268:original,16,41,youth from the west coast,16,47,young women from the west coast
+real:LBY12268:intensity,real:LBY12268:original,42,63,protested in front of,42,77,held an intense protest in front of
+real:LBY12204:neutral_control,real:LBY12204:original,3,13,9 May 2025,3,13,2025-05-09
+real:LBY12204:action_wording,real:LBY12204:original,15,46,residents protested in Misratah,15,49,residents demonstrated in Misratah
+real:LBY12204:legitimizing_framing,real:LBY12204:original,15,46,residents protested in Misratah,15,58,residents commendably protested in Misratah
+real:LBY12204:delegitimizing_framing,real:LBY12204:original,15,46,residents protested in Misratah,15,60,residents reprehensibly protested in Misratah
+real:LBY12204:source_attribution,real:LBY12204:original,15,46,residents protested in Misratah,15,78,"according to a local newspaper, residents protested in Misratah"
+real:LBY12204:actor_identity,real:LBY12204:original,15,24,residents,15,31,female residents
+real:LBY12204:intensity,real:LBY12204:original,15,46,residents protested in Misratah,15,60,residents held an intense protest in Misratah
+real:LBY12259:neutral_control,real:LBY12259:original,3,14,14 May 2025,3,13,2025-05-14
+real:LBY12259:action_wording,real:LBY12259:original,35,67,stormed and ransacked two former,35,76,forcibly entered and ransacked two former
+real:LBY12259:legitimizing_framing,real:LBY12259:original,35,67,stormed and ransacked two former,35,79,commendably stormed and ransacked two former
+real:LBY12259:delegitimizing_framing,real:LBY12259:original,35,67,stormed and ransacked two former,35,81,reprehensibly stormed and ransacked two former
+real:LBY12449:neutral_control,real:LBY12449:original,3,14,4 July 2025,3,13,2025-07-04
+real:LBY12449:action_wording,real:LBY12449:original,35,87,blocked with burning tires one of the entrance roads,35,88,used burning tires to block one of the entrance roads
+real:LBY12449:legitimizing_framing,real:LBY12449:original,35,87,blocked with burning tires one of the entrance roads,35,99,commendably blocked with burning tires one of the entrance roads
+real:LBY12449:delegitimizing_framing,real:LBY12449:original,35,87,blocked with burning tires one of the entrance roads,35,101,reprehensibly blocked with burning tires one of the entrance roads
+real:LBY12449:source_attribution,real:LBY12449:original,35,120,"blocked with burning tires one of the entrance roads to Az Zawiyah (Az Zawiyah, West)",35,153,"blocked with burning tires one of the entrance roads to Az Zawiyah (Az Zawiyah, West), according to a local newspaper,"
+real:LBY12449:intensity,real:LBY12449:original,27,87,rioters blocked with burning tires one of the entrance roads,27,110,rioters mounted an intense blockade with burning tires on one of the entrance roads
+real:MEX101598:neutral_control,real:MEX101598:original,3,16,15 March 2025,3,13,2025-03-15
+real:MEX101598:action_wording,real:MEX101598:original,86,126,protested in Emiliana de Zubeldia square,86,129,demonstrated in Emiliana de Zubeldia square
+real:MEX101598:legitimizing_framing,real:MEX101598:original,86,126,protested in Emiliana de Zubeldia square,86,138,commendably protested in Emiliana de Zubeldia square
+real:MEX101598:delegitimizing_framing,real:MEX101598:original,86,126,protested in Emiliana de Zubeldia square,86,140,reprehensibly protested in Emiliana de Zubeldia square
+real:MEX101598:source_attribution,real:MEX101598:original,86,126,protested in Emiliana de Zubeldia square,86,159,"protested, according to a local newspaper, in Emiliana de Zubeldia square"
+real:MEX101598:intensity,real:MEX101598:original,86,126,protested in Emiliana de Zubeldia square,86,140,held an intense protest in Emiliana de Zubeldia square
+real:MEX103522:neutral_control,real:MEX103522:original,3,13,1 May 2025,3,13,2025-05-01
+real:MEX103522:action_wording,real:MEX103522:original,109,124,joined protests,109,133,participated in protests
+real:MEX103522:legitimizing_framing,real:MEX103522:original,109,124,joined protests,109,136,commendably joined protests
+real:MEX103522:delegitimizing_framing,real:MEX103522:original,109,124,joined protests,109,138,reprehensibly joined protests
+real:MEX103522:source_attribution,real:MEX103522:original,73,124,more than 3000 workers of 14 unions joined protests,73,156,"according to a local newspaper, more than 3000 workers of 14 unions joined protests"
+real:MEX103522:actor_identity,real:MEX103522:original,88,108,workers of 14 unions,88,120,workers of 14 independent unions
+real:MEX103522:intensity,real:MEX103522:original,109,124,joined protests,109,132,joined intense protests
+real:MEX100883:neutral_control,real:MEX100883:original,3,16,11 March 2025,3,13,2025-03-11
+real:MEX100883:action_wording,real:MEX100883:original,389,456,throw bottles and food to a local PVEM congressman that was injured,389,453,"throw bottles and food at a local PVEM congressman, injuring him"
+real:MEX100883:legitimizing_framing,real:MEX100883:original,389,411,throw bottles and food,389,423,commendably throw bottles and food
+real:MEX100883:delegitimizing_framing,real:MEX100883:original,389,411,throw bottles and food,389,425,reprehensibly throw bottles and food
+real:MEX100883:source_attribution,real:MEX100883:original,323,411,"During the event, pro-bullfighting and pro-cockfighting attendees throw bottles and food",323,443,"During the event, according to a local newspaper, pro-bullfighting and pro-cockfighting attendees throw bottles and food"
+real:MEX102760:neutral_control,real:MEX102760:original,3,16,15 April 2025,3,13,2025-04-15
+real:MEX102760:action_wording,real:MEX102760:original,214,294,used burning tires to block Patzcuaro-Uruapan road and demand that he be located,214,296,blocked Patzcuaro-Uruapan road using burning tires and demanded that he be located
+real:MEX102760:legitimizing_framing,real:MEX102760:original,214,264,used burning tires to block Patzcuaro-Uruapan road,214,276,commendably used burning tires to block Patzcuaro-Uruapan road
+real:MEX102760:delegitimizing_framing,real:MEX102760:original,214,264,used burning tires to block Patzcuaro-Uruapan road,214,278,reprehensibly used burning tires to block Patzcuaro-Uruapan road
+real:MEX102760:intensity,real:MEX102760:original,214,294,used burning tires to block Patzcuaro-Uruapan road and demand that he be located,214,319,mounted an intense blockade of Patzcuaro-Uruapan road using burning tires and demanded that he be located
+synthetic:syn_01:neutral_control:China,synthetic:syn_01:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_01:neutral_control:India,synthetic:syn_01:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_01:neutral_control:Libya,synthetic:syn_01:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_01:neutral_control:Mexico,synthetic:syn_01:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_01:actor_identity:China,synthetic:syn_01:original:China,58,73,factory workers,58,78,construction workers
+synthetic:syn_01:actor_identity:India,synthetic:syn_01:original:India,58,73,factory workers,58,78,construction workers
+synthetic:syn_01:actor_identity:Libya,synthetic:syn_01:original:Libya,58,73,factory workers,58,78,construction workers
+synthetic:syn_01:actor_identity:Mexico,synthetic:syn_01:original:Mexico,59,74,factory workers,59,79,construction workers
+synthetic:syn_01:action_wording:China,synthetic:syn_01:original:China,74,125,gathered outside a workplace to demand unpaid wages,74,126,assembled outside a workplace to demand unpaid wages
+synthetic:syn_01:action_wording:India,synthetic:syn_01:original:India,74,125,gathered outside a workplace to demand unpaid wages,74,126,assembled outside a workplace to demand unpaid wages
+synthetic:syn_01:action_wording:Libya,synthetic:syn_01:original:Libya,74,125,gathered outside a workplace to demand unpaid wages,74,126,assembled outside a workplace to demand unpaid wages
+synthetic:syn_01:action_wording:Mexico,synthetic:syn_01:original:Mexico,75,126,gathered outside a workplace to demand unpaid wages,75,127,assembled outside a workplace to demand unpaid wages
+synthetic:syn_01:legitimizing_framing:China,synthetic:syn_01:original:China,74,102,gathered outside a workplace,74,114,commendably gathered outside a workplace
+synthetic:syn_01:legitimizing_framing:India,synthetic:syn_01:original:India,74,102,gathered outside a workplace,74,114,commendably gathered outside a workplace
+synthetic:syn_01:legitimizing_framing:Libya,synthetic:syn_01:original:Libya,74,102,gathered outside a workplace,74,114,commendably gathered outside a workplace
+synthetic:syn_01:legitimizing_framing:Mexico,synthetic:syn_01:original:Mexico,75,103,gathered outside a workplace,75,115,commendably gathered outside a workplace
+synthetic:syn_01:delegitimizing_framing:China,synthetic:syn_01:original:China,74,102,gathered outside a workplace,74,116,reprehensibly gathered outside a workplace
+synthetic:syn_01:delegitimizing_framing:India,synthetic:syn_01:original:India,74,102,gathered outside a workplace,74,116,reprehensibly gathered outside a workplace
+synthetic:syn_01:delegitimizing_framing:Libya,synthetic:syn_01:original:Libya,74,102,gathered outside a workplace,74,116,reprehensibly gathered outside a workplace
+synthetic:syn_01:delegitimizing_framing:Mexico,synthetic:syn_01:original:Mexico,75,103,gathered outside a workplace,75,117,reprehensibly gathered outside a workplace
+synthetic:syn_01:source_attribution:China,synthetic:syn_01:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_01:source_attribution:India,synthetic:syn_01:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_01:source_attribution:Libya,synthetic:syn_01:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_01:source_attribution:Mexico,synthetic:syn_01:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_02:neutral_control:China,synthetic:syn_02:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_02:neutral_control:India,synthetic:syn_02:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_02:neutral_control:Libya,synthetic:syn_02:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_02:neutral_control:Mexico,synthetic:syn_02:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_02:actor_identity:China,synthetic:syn_02:original:China,68,88,construction workers,68,86,electrical workers
+synthetic:syn_02:actor_identity:India,synthetic:syn_02:original:India,68,88,construction workers,68,86,electrical workers
+synthetic:syn_02:actor_identity:Libya,synthetic:syn_02:original:Libya,68,88,construction workers,68,86,electrical workers
+synthetic:syn_02:actor_identity:Mexico,synthetic:syn_02:original:Mexico,69,89,construction workers,69,87,electrical workers
+synthetic:syn_02:action_wording:China,synthetic:syn_02:original:China,137,173,chanting slogans and holding banners,137,176,chanting slogans and displaying banners
+synthetic:syn_02:action_wording:India,synthetic:syn_02:original:India,137,173,chanting slogans and holding banners,137,176,chanting slogans and displaying banners
+synthetic:syn_02:action_wording:Libya,synthetic:syn_02:original:Libya,137,173,chanting slogans and holding banners,137,176,chanting slogans and displaying banners
+synthetic:syn_02:action_wording:Mexico,synthetic:syn_02:original:Mexico,138,174,chanting slogans and holding banners,138,177,chanting slogans and displaying banners
+synthetic:syn_02:legitimizing_framing:China,synthetic:syn_02:original:China,89,133,demonstrated outside their construction site,89,145,commendably demonstrated outside their construction site
+synthetic:syn_02:legitimizing_framing:India,synthetic:syn_02:original:India,89,133,demonstrated outside their construction site,89,145,commendably demonstrated outside their construction site
+synthetic:syn_02:legitimizing_framing:Libya,synthetic:syn_02:original:Libya,89,133,demonstrated outside their construction site,89,145,commendably demonstrated outside their construction site
+synthetic:syn_02:legitimizing_framing:Mexico,synthetic:syn_02:original:Mexico,90,134,demonstrated outside their construction site,90,146,commendably demonstrated outside their construction site
+synthetic:syn_02:delegitimizing_framing:China,synthetic:syn_02:original:China,89,133,demonstrated outside their construction site,89,147,reprehensibly demonstrated outside their construction site
+synthetic:syn_02:delegitimizing_framing:India,synthetic:syn_02:original:India,89,133,demonstrated outside their construction site,89,147,reprehensibly demonstrated outside their construction site
+synthetic:syn_02:delegitimizing_framing:Libya,synthetic:syn_02:original:Libya,89,133,demonstrated outside their construction site,89,147,reprehensibly demonstrated outside their construction site
+synthetic:syn_02:delegitimizing_framing:Mexico,synthetic:syn_02:original:Mexico,90,134,demonstrated outside their construction site,90,148,reprehensibly demonstrated outside their construction site
+synthetic:syn_02:source_attribution:China,synthetic:syn_02:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_02:source_attribution:India,synthetic:syn_02:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_02:source_attribution:Libya,synthetic:syn_02:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_02:source_attribution:Mexico,synthetic:syn_02:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_03:neutral_control:China,synthetic:syn_03:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_03:neutral_control:India,synthetic:syn_03:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_03:neutral_control:Libya,synthetic:syn_03:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_03:neutral_control:Mexico,synthetic:syn_03:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_03:actor_identity:China,synthetic:syn_03:original:China,72,125,property owners belonging to a residents' association,72,123,property owners belonging to a business association
+synthetic:syn_03:actor_identity:India,synthetic:syn_03:original:India,72,125,property owners belonging to a residents' association,72,123,property owners belonging to a business association
+synthetic:syn_03:actor_identity:Libya,synthetic:syn_03:original:Libya,72,125,property owners belonging to a residents' association,72,123,property owners belonging to a business association
+synthetic:syn_03:actor_identity:Mexico,synthetic:syn_03:original:Mexico,73,126,property owners belonging to a residents' association,73,124,property owners belonging to a business association
+synthetic:syn_03:action_wording:China,synthetic:syn_03:original:China,171,191,destroyed toll gates,171,192,demolished toll gates
+synthetic:syn_03:action_wording:India,synthetic:syn_03:original:India,171,191,destroyed toll gates,171,192,demolished toll gates
+synthetic:syn_03:action_wording:Libya,synthetic:syn_03:original:Libya,171,191,destroyed toll gates,171,192,demolished toll gates
+synthetic:syn_03:action_wording:Mexico,synthetic:syn_03:original:Mexico,172,192,destroyed toll gates,172,193,demolished toll gates
+synthetic:syn_03:legitimizing_framing:China,synthetic:syn_03:original:China,171,191,destroyed toll gates,171,203,commendably destroyed toll gates
+synthetic:syn_03:legitimizing_framing:India,synthetic:syn_03:original:India,171,191,destroyed toll gates,171,203,commendably destroyed toll gates
+synthetic:syn_03:legitimizing_framing:Libya,synthetic:syn_03:original:Libya,171,191,destroyed toll gates,171,203,commendably destroyed toll gates
+synthetic:syn_03:legitimizing_framing:Mexico,synthetic:syn_03:original:Mexico,172,192,destroyed toll gates,172,204,commendably destroyed toll gates
+synthetic:syn_03:delegitimizing_framing:China,synthetic:syn_03:original:China,171,191,destroyed toll gates,171,205,reprehensibly destroyed toll gates
+synthetic:syn_03:delegitimizing_framing:India,synthetic:syn_03:original:India,171,191,destroyed toll gates,171,205,reprehensibly destroyed toll gates
+synthetic:syn_03:delegitimizing_framing:Libya,synthetic:syn_03:original:Libya,171,191,destroyed toll gates,171,205,reprehensibly destroyed toll gates
+synthetic:syn_03:delegitimizing_framing:Mexico,synthetic:syn_03:original:Mexico,172,192,destroyed toll gates,172,206,reprehensibly destroyed toll gates
+synthetic:syn_03:source_attribution:China,synthetic:syn_03:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_03:source_attribution:India,synthetic:syn_03:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_03:source_attribution:Libya,synthetic:syn_03:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_03:source_attribution:Mexico,synthetic:syn_03:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_04:neutral_control:China,synthetic:syn_04:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_04:neutral_control:India,synthetic:syn_04:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_04:neutral_control:Libya,synthetic:syn_04:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_04:neutral_control:Mexico,synthetic:syn_04:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_04:actor_identity:China,synthetic:syn_04:original:China,72,120,students belonging to a student arts association,72,129,students belonging to a student environmental association
+synthetic:syn_04:actor_identity:India,synthetic:syn_04:original:India,72,120,students belonging to a student arts association,72,129,students belonging to a student environmental association
+synthetic:syn_04:actor_identity:Libya,synthetic:syn_04:original:Libya,72,120,students belonging to a student arts association,72,129,students belonging to a student environmental association
+synthetic:syn_04:actor_identity:Mexico,synthetic:syn_04:original:Mexico,73,121,students belonging to a student arts association,73,130,students belonging to a student environmental association
+synthetic:syn_04:action_wording:China,synthetic:syn_04:original:China,179,199,broke apart railings,179,199,broke railings apart
+synthetic:syn_04:action_wording:India,synthetic:syn_04:original:India,179,199,broke apart railings,179,199,broke railings apart
+synthetic:syn_04:action_wording:Libya,synthetic:syn_04:original:Libya,179,199,broke apart railings,179,199,broke railings apart
+synthetic:syn_04:action_wording:Mexico,synthetic:syn_04:original:Mexico,180,200,broke apart railings,180,200,broke railings apart
+synthetic:syn_04:legitimizing_framing:China,synthetic:syn_04:original:China,179,199,broke apart railings,179,211,commendably broke apart railings
+synthetic:syn_04:legitimizing_framing:India,synthetic:syn_04:original:India,179,199,broke apart railings,179,211,commendably broke apart railings
+synthetic:syn_04:legitimizing_framing:Libya,synthetic:syn_04:original:Libya,179,199,broke apart railings,179,211,commendably broke apart railings
+synthetic:syn_04:legitimizing_framing:Mexico,synthetic:syn_04:original:Mexico,180,200,broke apart railings,180,212,commendably broke apart railings
+synthetic:syn_04:delegitimizing_framing:China,synthetic:syn_04:original:China,179,199,broke apart railings,179,213,reprehensibly broke apart railings
+synthetic:syn_04:delegitimizing_framing:India,synthetic:syn_04:original:India,179,199,broke apart railings,179,213,reprehensibly broke apart railings
+synthetic:syn_04:delegitimizing_framing:Libya,synthetic:syn_04:original:Libya,179,199,broke apart railings,179,213,reprehensibly broke apart railings
+synthetic:syn_04:delegitimizing_framing:Mexico,synthetic:syn_04:original:Mexico,180,200,broke apart railings,180,214,reprehensibly broke apart railings
+synthetic:syn_04:source_attribution:China,synthetic:syn_04:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_04:source_attribution:India,synthetic:syn_04:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_04:source_attribution:Libya,synthetic:syn_04:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_04:source_attribution:Mexico,synthetic:syn_04:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_05:neutral_control:China,synthetic:syn_05:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_05:neutral_control:India,synthetic:syn_05:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_05:neutral_control:Libya,synthetic:syn_05:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_05:neutral_control:Mexico,synthetic:syn_05:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_05:actor_identity:China,synthetic:syn_05:original:China,58,82,national police officers,58,83,municipal police officers
+synthetic:syn_05:actor_identity:India,synthetic:syn_05:original:India,58,82,national police officers,58,83,municipal police officers
+synthetic:syn_05:actor_identity:Libya,synthetic:syn_05:original:Libya,58,82,national police officers,58,83,municipal police officers
+synthetic:syn_05:actor_identity:Mexico,synthetic:syn_05:original:Mexico,59,83,national police officers,59,84,municipal police officers
+synthetic:syn_05:action_wording:China,synthetic:syn_05:original:China,133,150,exchanged gunfire,133,153,fired at one another
+synthetic:syn_05:action_wording:India,synthetic:syn_05:original:India,133,150,exchanged gunfire,133,153,fired at one another
+synthetic:syn_05:action_wording:Libya,synthetic:syn_05:original:Libya,133,150,exchanged gunfire,133,153,fired at one another
+synthetic:syn_05:action_wording:Mexico,synthetic:syn_05:original:Mexico,134,151,exchanged gunfire,134,154,fired at one another
+synthetic:syn_05:legitimizing_framing:China,synthetic:syn_05:original:China,133,150,exchanged gunfire,133,162,commendably exchanged gunfire
+synthetic:syn_05:legitimizing_framing:India,synthetic:syn_05:original:India,133,150,exchanged gunfire,133,162,commendably exchanged gunfire
+synthetic:syn_05:legitimizing_framing:Libya,synthetic:syn_05:original:Libya,133,150,exchanged gunfire,133,162,commendably exchanged gunfire
+synthetic:syn_05:legitimizing_framing:Mexico,synthetic:syn_05:original:Mexico,134,151,exchanged gunfire,134,163,commendably exchanged gunfire
+synthetic:syn_05:delegitimizing_framing:China,synthetic:syn_05:original:China,133,150,exchanged gunfire,133,164,reprehensibly exchanged gunfire
+synthetic:syn_05:delegitimizing_framing:India,synthetic:syn_05:original:India,133,150,exchanged gunfire,133,164,reprehensibly exchanged gunfire
+synthetic:syn_05:delegitimizing_framing:Libya,synthetic:syn_05:original:Libya,133,150,exchanged gunfire,133,164,reprehensibly exchanged gunfire
+synthetic:syn_05:delegitimizing_framing:Mexico,synthetic:syn_05:original:Mexico,134,151,exchanged gunfire,134,165,reprehensibly exchanged gunfire
+synthetic:syn_05:source_attribution:China,synthetic:syn_05:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_05:source_attribution:India,synthetic:syn_05:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_05:source_attribution:Libya,synthetic:syn_05:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_05:source_attribution:Mexico,synthetic:syn_05:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_06:neutral_control:China,synthetic:syn_06:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_06:neutral_control:India,synthetic:syn_06:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_06:neutral_control:Libya,synthetic:syn_06:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_06:neutral_control:Mexico,synthetic:syn_06:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_06:actor_identity:China,synthetic:syn_06:original:China,119,143,national police officers,119,144,municipal police officers
+synthetic:syn_06:actor_identity:India,synthetic:syn_06:original:India,119,143,national police officers,119,144,municipal police officers
+synthetic:syn_06:actor_identity:Libya,synthetic:syn_06:original:Libya,119,143,national police officers,119,144,municipal police officers
+synthetic:syn_06:actor_identity:Mexico,synthetic:syn_06:original:Mexico,120,144,national police officers,120,145,municipal police officers
+synthetic:syn_06:action_wording:China,synthetic:syn_06:original:China,104,162,"opened fire on national police officers, who returned fire",104,153,"fired at national police officers, who fired back"
+synthetic:syn_06:action_wording:India,synthetic:syn_06:original:India,104,162,"opened fire on national police officers, who returned fire",104,153,"fired at national police officers, who fired back"
+synthetic:syn_06:action_wording:Libya,synthetic:syn_06:original:Libya,104,162,"opened fire on national police officers, who returned fire",104,153,"fired at national police officers, who fired back"
+synthetic:syn_06:action_wording:Mexico,synthetic:syn_06:original:Mexico,105,163,"opened fire on national police officers, who returned fire",105,154,"fired at national police officers, who fired back"
+synthetic:syn_06:legitimizing_framing:China,synthetic:syn_06:original:China,104,143,opened fire on national police officers,104,155,commendably opened fire on national police officers
+synthetic:syn_06:legitimizing_framing:India,synthetic:syn_06:original:India,104,143,opened fire on national police officers,104,155,commendably opened fire on national police officers
+synthetic:syn_06:legitimizing_framing:Libya,synthetic:syn_06:original:Libya,104,143,opened fire on national police officers,104,155,commendably opened fire on national police officers
+synthetic:syn_06:legitimizing_framing:Mexico,synthetic:syn_06:original:Mexico,105,144,opened fire on national police officers,105,156,commendably opened fire on national police officers
+synthetic:syn_06:delegitimizing_framing:China,synthetic:syn_06:original:China,104,143,opened fire on national police officers,104,157,reprehensibly opened fire on national police officers
+synthetic:syn_06:delegitimizing_framing:India,synthetic:syn_06:original:India,104,143,opened fire on national police officers,104,157,reprehensibly opened fire on national police officers
+synthetic:syn_06:delegitimizing_framing:Libya,synthetic:syn_06:original:Libya,104,143,opened fire on national police officers,104,157,reprehensibly opened fire on national police officers
+synthetic:syn_06:delegitimizing_framing:Mexico,synthetic:syn_06:original:Mexico,105,144,opened fire on national police officers,105,158,reprehensibly opened fire on national police officers
+synthetic:syn_06:source_attribution:China,synthetic:syn_06:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_06:source_attribution:India,synthetic:syn_06:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_06:source_attribution:Libya,synthetic:syn_06:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_06:source_attribution:Mexico,synthetic:syn_06:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_07:neutral_control:China,synthetic:syn_07:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_07:neutral_control:India,synthetic:syn_07:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_07:neutral_control:Libya,synthetic:syn_07:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_07:neutral_control:Mexico,synthetic:syn_07:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_07:actor_identity:China,synthetic:syn_07:original:China,63,88,municipal police officers,63,87,national police officers
+synthetic:syn_07:actor_identity:India,synthetic:syn_07:original:India,63,88,municipal police officers,63,87,national police officers
+synthetic:syn_07:actor_identity:Libya,synthetic:syn_07:original:Libya,63,88,municipal police officers,63,87,national police officers
+synthetic:syn_07:actor_identity:Mexico,synthetic:syn_07:original:Mexico,64,89,municipal police officers,64,88,national police officers
+synthetic:syn_07:action_wording:China,synthetic:syn_07:original:China,89,121,beat at least one unarmed farmer,89,134,repeatedly struck at least one unarmed farmer
+synthetic:syn_07:action_wording:India,synthetic:syn_07:original:India,89,121,beat at least one unarmed farmer,89,134,repeatedly struck at least one unarmed farmer
+synthetic:syn_07:action_wording:Libya,synthetic:syn_07:original:Libya,89,121,beat at least one unarmed farmer,89,134,repeatedly struck at least one unarmed farmer
+synthetic:syn_07:action_wording:Mexico,synthetic:syn_07:original:Mexico,90,122,beat at least one unarmed farmer,90,135,repeatedly struck at least one unarmed farmer
+synthetic:syn_07:legitimizing_framing:China,synthetic:syn_07:original:China,89,121,beat at least one unarmed farmer,89,133,commendably beat at least one unarmed farmer
+synthetic:syn_07:legitimizing_framing:India,synthetic:syn_07:original:India,89,121,beat at least one unarmed farmer,89,133,commendably beat at least one unarmed farmer
+synthetic:syn_07:legitimizing_framing:Libya,synthetic:syn_07:original:Libya,89,121,beat at least one unarmed farmer,89,133,commendably beat at least one unarmed farmer
+synthetic:syn_07:legitimizing_framing:Mexico,synthetic:syn_07:original:Mexico,90,122,beat at least one unarmed farmer,90,134,commendably beat at least one unarmed farmer
+synthetic:syn_07:delegitimizing_framing:China,synthetic:syn_07:original:China,89,121,beat at least one unarmed farmer,89,135,reprehensibly beat at least one unarmed farmer
+synthetic:syn_07:delegitimizing_framing:India,synthetic:syn_07:original:India,89,121,beat at least one unarmed farmer,89,135,reprehensibly beat at least one unarmed farmer
+synthetic:syn_07:delegitimizing_framing:Libya,synthetic:syn_07:original:Libya,89,121,beat at least one unarmed farmer,89,135,reprehensibly beat at least one unarmed farmer
+synthetic:syn_07:delegitimizing_framing:Mexico,synthetic:syn_07:original:Mexico,90,122,beat at least one unarmed farmer,90,136,reprehensibly beat at least one unarmed farmer
+synthetic:syn_07:source_attribution:China,synthetic:syn_07:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_07:source_attribution:India,synthetic:syn_07:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_07:source_attribution:Libya,synthetic:syn_07:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_07:source_attribution:Mexico,synthetic:syn_07:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_08:neutral_control:China,synthetic:syn_08:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_08:neutral_control:India,synthetic:syn_08:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_08:neutral_control:Libya,synthetic:syn_08:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_08:neutral_control:Mexico,synthetic:syn_08:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_08:actor_identity:China,synthetic:syn_08:original:China,72,92,organized armed gang,72,103,organized armed insurgent group
+synthetic:syn_08:actor_identity:India,synthetic:syn_08:original:India,72,92,organized armed gang,72,103,organized armed insurgent group
+synthetic:syn_08:actor_identity:Libya,synthetic:syn_08:original:Libya,72,92,organized armed gang,72,103,organized armed insurgent group
+synthetic:syn_08:actor_identity:Mexico,synthetic:syn_08:original:Mexico,73,93,organized armed gang,73,104,organized armed insurgent group
+synthetic:syn_08:action_wording:China,synthetic:syn_08:original:China,93,135,shot and killed three unarmed farm workers,93,143,killed three unarmed farm workers by shooting them
+synthetic:syn_08:action_wording:India,synthetic:syn_08:original:India,93,135,shot and killed three unarmed farm workers,93,143,killed three unarmed farm workers by shooting them
+synthetic:syn_08:action_wording:Libya,synthetic:syn_08:original:Libya,93,135,shot and killed three unarmed farm workers,93,143,killed three unarmed farm workers by shooting them
+synthetic:syn_08:action_wording:Mexico,synthetic:syn_08:original:Mexico,94,136,shot and killed three unarmed farm workers,94,144,killed three unarmed farm workers by shooting them
+synthetic:syn_08:legitimizing_framing:China,synthetic:syn_08:original:China,93,135,shot and killed three unarmed farm workers,93,147,commendably shot and killed three unarmed farm workers
+synthetic:syn_08:legitimizing_framing:India,synthetic:syn_08:original:India,93,135,shot and killed three unarmed farm workers,93,147,commendably shot and killed three unarmed farm workers
+synthetic:syn_08:legitimizing_framing:Libya,synthetic:syn_08:original:Libya,93,135,shot and killed three unarmed farm workers,93,147,commendably shot and killed three unarmed farm workers
+synthetic:syn_08:legitimizing_framing:Mexico,synthetic:syn_08:original:Mexico,94,136,shot and killed three unarmed farm workers,94,148,commendably shot and killed three unarmed farm workers
+synthetic:syn_08:delegitimizing_framing:China,synthetic:syn_08:original:China,93,135,shot and killed three unarmed farm workers,93,149,reprehensibly shot and killed three unarmed farm workers
+synthetic:syn_08:delegitimizing_framing:India,synthetic:syn_08:original:India,93,135,shot and killed three unarmed farm workers,93,149,reprehensibly shot and killed three unarmed farm workers
+synthetic:syn_08:delegitimizing_framing:Libya,synthetic:syn_08:original:Libya,93,135,shot and killed three unarmed farm workers,93,149,reprehensibly shot and killed three unarmed farm workers
+synthetic:syn_08:delegitimizing_framing:Mexico,synthetic:syn_08:original:Mexico,94,136,shot and killed three unarmed farm workers,94,150,reprehensibly shot and killed three unarmed farm workers
+synthetic:syn_08:source_attribution:China,synthetic:syn_08:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_08:source_attribution:India,synthetic:syn_08:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_08:source_attribution:Libya,synthetic:syn_08:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_08:source_attribution:Mexico,synthetic:syn_08:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_09:neutral_control:China,synthetic:syn_09:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_09:neutral_control:India,synthetic:syn_09:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_09:neutral_control:Libya,synthetic:syn_09:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_09:neutral_control:Mexico,synthetic:syn_09:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_09:actor_identity:China,synthetic:syn_09:original:China,72,93,organized armed group,72,103,organized armed insurgent group
+synthetic:syn_09:actor_identity:India,synthetic:syn_09:original:India,72,93,organized armed group,72,103,organized armed insurgent group
+synthetic:syn_09:actor_identity:Libya,synthetic:syn_09:original:Libya,72,93,organized armed group,72,103,organized armed insurgent group
+synthetic:syn_09:actor_identity:Mexico,synthetic:syn_09:original:Mexico,73,94,organized armed group,73,104,organized armed insurgent group
+synthetic:syn_09:action_wording:China,synthetic:syn_09:original:China,94,109,threw a grenade,94,110,hurled a grenade
+synthetic:syn_09:action_wording:India,synthetic:syn_09:original:India,94,109,threw a grenade,94,110,hurled a grenade
+synthetic:syn_09:action_wording:Libya,synthetic:syn_09:original:Libya,94,109,threw a grenade,94,110,hurled a grenade
+synthetic:syn_09:action_wording:Mexico,synthetic:syn_09:original:Mexico,95,110,threw a grenade,95,111,hurled a grenade
+synthetic:syn_09:legitimizing_framing:China,synthetic:syn_09:original:China,94,109,threw a grenade,94,121,commendably threw a grenade
+synthetic:syn_09:legitimizing_framing:India,synthetic:syn_09:original:India,94,109,threw a grenade,94,121,commendably threw a grenade
+synthetic:syn_09:legitimizing_framing:Libya,synthetic:syn_09:original:Libya,94,109,threw a grenade,94,121,commendably threw a grenade
+synthetic:syn_09:legitimizing_framing:Mexico,synthetic:syn_09:original:Mexico,95,110,threw a grenade,95,122,commendably threw a grenade
+synthetic:syn_09:delegitimizing_framing:China,synthetic:syn_09:original:China,94,109,threw a grenade,94,123,reprehensibly threw a grenade
+synthetic:syn_09:delegitimizing_framing:India,synthetic:syn_09:original:India,94,109,threw a grenade,94,123,reprehensibly threw a grenade
+synthetic:syn_09:delegitimizing_framing:Libya,synthetic:syn_09:original:Libya,94,109,threw a grenade,94,123,reprehensibly threw a grenade
+synthetic:syn_09:delegitimizing_framing:Mexico,synthetic:syn_09:original:Mexico,95,110,threw a grenade,95,124,reprehensibly threw a grenade
+synthetic:syn_09:source_attribution:China,synthetic:syn_09:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_09:source_attribution:India,synthetic:syn_09:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_09:source_attribution:Libya,synthetic:syn_09:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_09:source_attribution:Mexico,synthetic:syn_09:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_10:neutral_control:China,synthetic:syn_10:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_10:neutral_control:India,synthetic:syn_10:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_10:neutral_control:Libya,synthetic:syn_10:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_10:neutral_control:Mexico,synthetic:syn_10:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_10:actor_identity:China,synthetic:syn_10:original:China,61,97,unidentified organized armed militia,61,105,unidentified organized armed insurgent group
+synthetic:syn_10:actor_identity:India,synthetic:syn_10:original:India,61,97,unidentified organized armed militia,61,105,unidentified organized armed insurgent group
+synthetic:syn_10:actor_identity:Libya,synthetic:syn_10:original:Libya,61,97,unidentified organized armed militia,61,105,unidentified organized armed insurgent group
+synthetic:syn_10:actor_identity:Mexico,synthetic:syn_10:original:Mexico,62,98,unidentified organized armed militia,62,106,unidentified organized armed insurgent group
+synthetic:syn_10:action_wording:China,synthetic:syn_10:original:China,98,135,fired a shell from a distant position,98,138,launched a shell from a distant position
+synthetic:syn_10:action_wording:India,synthetic:syn_10:original:India,98,135,fired a shell from a distant position,98,138,launched a shell from a distant position
+synthetic:syn_10:action_wording:Libya,synthetic:syn_10:original:Libya,98,135,fired a shell from a distant position,98,138,launched a shell from a distant position
+synthetic:syn_10:action_wording:Mexico,synthetic:syn_10:original:Mexico,99,136,fired a shell from a distant position,99,139,launched a shell from a distant position
+synthetic:syn_10:legitimizing_framing:China,synthetic:syn_10:original:China,98,135,fired a shell from a distant position,98,147,commendably fired a shell from a distant position
+synthetic:syn_10:legitimizing_framing:India,synthetic:syn_10:original:India,98,135,fired a shell from a distant position,98,147,commendably fired a shell from a distant position
+synthetic:syn_10:legitimizing_framing:Libya,synthetic:syn_10:original:Libya,98,135,fired a shell from a distant position,98,147,commendably fired a shell from a distant position
+synthetic:syn_10:legitimizing_framing:Mexico,synthetic:syn_10:original:Mexico,99,136,fired a shell from a distant position,99,148,commendably fired a shell from a distant position
+synthetic:syn_10:delegitimizing_framing:China,synthetic:syn_10:original:China,98,135,fired a shell from a distant position,98,149,reprehensibly fired a shell from a distant position
+synthetic:syn_10:delegitimizing_framing:India,synthetic:syn_10:original:India,98,135,fired a shell from a distant position,98,149,reprehensibly fired a shell from a distant position
+synthetic:syn_10:delegitimizing_framing:Libya,synthetic:syn_10:original:Libya,98,135,fired a shell from a distant position,98,149,reprehensibly fired a shell from a distant position
+synthetic:syn_10:delegitimizing_framing:Mexico,synthetic:syn_10:original:Mexico,99,136,fired a shell from a distant position,99,150,reprehensibly fired a shell from a distant position
+synthetic:syn_10:source_attribution:China,synthetic:syn_10:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_10:source_attribution:India,synthetic:syn_10:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_10:source_attribution:Libya,synthetic:syn_10:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_10:source_attribution:Mexico,synthetic:syn_10:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_11:neutral_control:China,synthetic:syn_11:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_11:neutral_control:India,synthetic:syn_11:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_11:neutral_control:Libya,synthetic:syn_11:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_11:neutral_control:Mexico,synthetic:syn_11:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_11:actor_identity:China,synthetic:syn_11:original:China,77,105,two organized armed militias,77,113,two organized armed insurgent groups
+synthetic:syn_11:actor_identity:China,synthetic:syn_11:original:China,150,163,Both militias,158,179,Both insurgent groups
+synthetic:syn_11:actor_identity:India,synthetic:syn_11:original:India,77,105,two organized armed militias,77,113,two organized armed insurgent groups
+synthetic:syn_11:actor_identity:India,synthetic:syn_11:original:India,150,163,Both militias,158,179,Both insurgent groups
+synthetic:syn_11:actor_identity:Libya,synthetic:syn_11:original:Libya,77,105,two organized armed militias,77,113,two organized armed insurgent groups
+synthetic:syn_11:actor_identity:Libya,synthetic:syn_11:original:Libya,150,163,Both militias,158,179,Both insurgent groups
+synthetic:syn_11:actor_identity:Mexico,synthetic:syn_11:original:Mexico,78,106,two organized armed militias,78,114,two organized armed insurgent groups
+synthetic:syn_11:actor_identity:Mexico,synthetic:syn_11:original:Mexico,151,164,Both militias,159,180,Both insurgent groups
+synthetic:syn_11:action_wording:China,synthetic:syn_11:original:China,106,135,reached a ceasefire agreement,106,127,agreed to a ceasefire
+synthetic:syn_11:action_wording:India,synthetic:syn_11:original:India,106,135,reached a ceasefire agreement,106,127,agreed to a ceasefire
+synthetic:syn_11:action_wording:Libya,synthetic:syn_11:original:Libya,106,135,reached a ceasefire agreement,106,127,agreed to a ceasefire
+synthetic:syn_11:action_wording:Mexico,synthetic:syn_11:original:Mexico,107,136,reached a ceasefire agreement,107,128,agreed to a ceasefire
+synthetic:syn_11:legitimizing_framing:China,synthetic:syn_11:original:China,106,135,reached a ceasefire agreement,106,147,commendably reached a ceasefire agreement
+synthetic:syn_11:legitimizing_framing:India,synthetic:syn_11:original:India,106,135,reached a ceasefire agreement,106,147,commendably reached a ceasefire agreement
+synthetic:syn_11:legitimizing_framing:Libya,synthetic:syn_11:original:Libya,106,135,reached a ceasefire agreement,106,147,commendably reached a ceasefire agreement
+synthetic:syn_11:legitimizing_framing:Mexico,synthetic:syn_11:original:Mexico,107,136,reached a ceasefire agreement,107,148,commendably reached a ceasefire agreement
+synthetic:syn_11:delegitimizing_framing:China,synthetic:syn_11:original:China,106,135,reached a ceasefire agreement,106,149,reprehensibly reached a ceasefire agreement
+synthetic:syn_11:delegitimizing_framing:India,synthetic:syn_11:original:India,106,135,reached a ceasefire agreement,106,149,reprehensibly reached a ceasefire agreement
+synthetic:syn_11:delegitimizing_framing:Libya,synthetic:syn_11:original:Libya,106,135,reached a ceasefire agreement,106,149,reprehensibly reached a ceasefire agreement
+synthetic:syn_11:delegitimizing_framing:Mexico,synthetic:syn_11:original:Mexico,107,136,reached a ceasefire agreement,107,150,reprehensibly reached a ceasefire agreement
+synthetic:syn_11:source_attribution:China,synthetic:syn_11:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_11:source_attribution:India,synthetic:syn_11:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_11:source_attribution:Libya,synthetic:syn_11:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_11:source_attribution:Mexico,synthetic:syn_11:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
+synthetic:syn_12:neutral_control:China,synthetic:syn_12:original:China,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_12:neutral_control:India,synthetic:syn_12:original:India,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_12:neutral_control:Libya,synthetic:syn_12:original:Libya,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_12:neutral_control:Mexico,synthetic:syn_12:original:Mexico,3,15,12 June 2025,3,16,"June 12, 2025"
+synthetic:syn_12:actor_identity:China,synthetic:syn_12:original:China,77,108,organized armed insurgent group,77,100,organized armed militia
+synthetic:syn_12:actor_identity:India,synthetic:syn_12:original:India,77,108,organized armed insurgent group,77,100,organized armed militia
+synthetic:syn_12:actor_identity:Libya,synthetic:syn_12:original:Libya,77,108,organized armed insurgent group,77,100,organized armed militia
+synthetic:syn_12:actor_identity:Mexico,synthetic:syn_12:original:Mexico,78,109,organized armed insurgent group,78,101,organized armed militia
+synthetic:syn_12:action_wording:China,synthetic:syn_12:original:China,166,216,voluntarily surrendered to the regional government,166,223,gave themselves up voluntarily to the regional government
+synthetic:syn_12:action_wording:India,synthetic:syn_12:original:India,166,216,voluntarily surrendered to the regional government,166,223,gave themselves up voluntarily to the regional government
+synthetic:syn_12:action_wording:Libya,synthetic:syn_12:original:Libya,166,216,voluntarily surrendered to the regional government,166,223,gave themselves up voluntarily to the regional government
+synthetic:syn_12:action_wording:Mexico,synthetic:syn_12:original:Mexico,167,217,voluntarily surrendered to the regional government,167,224,gave themselves up voluntarily to the regional government
+synthetic:syn_12:legitimizing_framing:China,synthetic:syn_12:original:China,166,216,voluntarily surrendered to the regional government,166,228,commendably surrendered voluntarily to the regional government
+synthetic:syn_12:legitimizing_framing:India,synthetic:syn_12:original:India,166,216,voluntarily surrendered to the regional government,166,228,commendably surrendered voluntarily to the regional government
+synthetic:syn_12:legitimizing_framing:Libya,synthetic:syn_12:original:Libya,166,216,voluntarily surrendered to the regional government,166,228,commendably surrendered voluntarily to the regional government
+synthetic:syn_12:legitimizing_framing:Mexico,synthetic:syn_12:original:Mexico,167,217,voluntarily surrendered to the regional government,167,229,commendably surrendered voluntarily to the regional government
+synthetic:syn_12:delegitimizing_framing:China,synthetic:syn_12:original:China,166,216,voluntarily surrendered to the regional government,166,230,reprehensibly surrendered voluntarily to the regional government
+synthetic:syn_12:delegitimizing_framing:India,synthetic:syn_12:original:India,166,216,voluntarily surrendered to the regional government,166,230,reprehensibly surrendered voluntarily to the regional government
+synthetic:syn_12:delegitimizing_framing:Libya,synthetic:syn_12:original:Libya,166,216,voluntarily surrendered to the regional government,166,230,reprehensibly surrendered voluntarily to the regional government
+synthetic:syn_12:delegitimizing_framing:Mexico,synthetic:syn_12:original:Mexico,167,217,voluntarily surrendered to the regional government,167,231,reprehensibly surrendered voluntarily to the regional government
+synthetic:syn_12:source_attribution:China,synthetic:syn_12:original:China,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_12:source_attribution:India,synthetic:syn_12:original:India,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_12:source_attribution:Libya,synthetic:syn_12:original:Libya,39,56,a local newspaper,39,69,a national government bulletin
+synthetic:syn_12:source_attribution:Mexico,synthetic:syn_12:original:Mexico,40,57,a local newspaper,40,70,a national government bulletin
