@@ -1,124 +1,43 @@
-# Geographic Invariance in LLM Decision-Making
+# Study Design
 
-## Objective
+Test whether controlled edits affect LLM conflict-event classification differently across countries, whether country names alone change predictions, and whether these effects differ between open-weight and API models. Build on [earlier West African research](https://arxiv.org/html/2605.04177v1) and its [code](https://github.com/hoffmann-muki/llm-conflict-monitoring-eval), using an independent implementation.
 
-This study examines whether the features that influence LLM conflict-event classification have consistent effects across geographic contexts. It measures how controlled changes to actor identity, evaluative framing, action wording, intensity, and source attribution affect predictions, and whether those effects depend on the country.
+## Data and Experiments
 
-The project extends the geographic scope of [Are LLMs Ready for Conflict Monitoring? Empirical Evidence from West Africa](https://arxiv.org/html/2605.04177v1) and its [companion repository](https://github.com/hoffmann-muki/llm-conflict-monitoring-eval). It will use an independent implementation and a protocol developed for the following questions:
+Use ACLED event notes from ten countries. Starred countries also contribute battles and violence-against-civilians events to Experiment A.
 
-1. Does the same edit produce different classification effects across countries?
-2. Does changing only the country name alter the classification of an otherwise identical event?
-3. How do these effects differ between open-weight models and frontier models accessed through APIs?
-
-## Data and Geographic Scope
-
-The five CSV files in `conflict_data/` contain **137,947 events** dated **12 October 2024 through 10 October 2025**, with a common 31-column schema. Event IDs are unique; nine groups of records have identical notes. Country, event type, and description are present for every record.
-
-The proposed selection covers two countries in each of five regions:
-
-| Region | Countries | Countries eligible for the additional battle/civilian-violence sample |
-| --- | --- | --- |
-| Northern Africa | Libya, Morocco | Libya |
-| North America | Mexico, United States | Mexico |
-| South America | Brazil, Colombia | Both |
-| South Asia | India, Pakistan | Both |
-| East Asia | China, South Korea | Neither |
-
-Region assignments will use the `country` and `region` columns. The file named `north_african_conflict_data.csv` includes 3,541 records assigned to Caucasus and Central Asia. Event availability also varies: East Asia has no battles, and South Korea has only 29 riots. These constraints require comparisons within shared event classes rather than an identical six-class natural sample for every country.
-
-## Experimental Design
-
-### Experiment A: Controlled Edits to Real Events
-
-Sample **20 protests and 15 riots per country**, yielding 350 events. Add **20 battles and 20 violence-against-civilians events** from each of the six eligible countries, yielding another 240. The target is **590 real events**, analyzed separately as protest/riot and battle/civilian-violence samples. The riot quota reflects common support after subtype restriction, text grouping, length matching, and AI review. The original 600-event allocation contained 16 riots per country; one rejected US description exhausted its length band, so the corresponding shared target was removed in all ten countries.
-
-The primary sample will use shared subtypes: Peaceful protest, Violent demonstration, Armed clash, and Attack. Other valid subtypes remain in the source inventory. Within each event class, countries will receive identical quotas across description-length bands, derived from their common available support after pilot allocation. Selection within a band will minimize distance from shared word-count targets. Month and actor composition and residual length differences will be reported.
-
-Sampling will use a fixed seed and no replacement. Remove duplicate input texts and select at most one representative per detected text family. Initial grouping spans locations within an administrative region over seven days. An independent audit will compare the selected texts across locations, administrative regions, and sample roles within each country and seven-day window. Similarity at or above 0.90 will trigger family linking and resampling. Reviewers will then confirm label support and edit suitability before model evaluation. If a shared class cannot meet its quota, reduce that class quota consistently across the relevant countries and document the revised target.
-
-Use the event notes as model inputs and retain country and label metadata for analysis. Apply each eligible edit independently to the original description. Include all accepted events in the primary analysis, regardless of whether a model initially classifies them correctly. This experiment tests sensitivity in realistic descriptions; remaining differences in reporting and event content limit causal interpretations of cross-country comparisons.
-
-### Experiment B: Country and Edit Effects on Matched Descriptions
-
-Construct **120 short descriptions**, 20 for each of the six event types: violence against civilians, battles, explosions/remote violence, protests, riots, and strategic developments. Derive them from diverse real examples and retain source identifiers for audit and analysis.
-
-Each description will contain one country placeholder and generic actors and locations. Remove other geographic clues, including demonyms, named organizations, currencies, and source names. Separate AI-agent reviewers will assess label support, plausibility across the selected countries, and applicable edits; disagreements require explicit adjudication. Record review as AI-only, with no assumption of model diversity or human verification.
-
-Render every accepted description under all ten countries, with the same edits in each version. The resulting **description × country × edit × model** design isolates country-name effects and tests whether country identity changes the effect of an edit. For example, a description of two organized armed groups exchanging gunfire can receive the same framing change under each country name.
-
-These are hypothetical stimuli with reviewed labels. Their results establish sensitivity for the tested descriptions, while Experiment A assesses whether similar patterns appear in natural event reports.
-
-## Perturbations and Validation
-
-Each input will have an original condition and up to seven edited conditions. Edits will use deterministic rules and a fixed, reviewed phrase list; multiple interventions will not be combined.
-
-| Condition | Intervention | Required preservation |
-| --- | --- | --- |
-| Original | No edit | Reference description |
-| Neutral control | Equivalent wording, such as `two unarmed civilians` → `two civilians who were unarmed` | Facts, evaluation, and source status |
-| Actor identity | State/non-state identity or actor designation | Armed/civilian roles, action, and target |
-| Legitimizing framing | Favorable evaluative characterization | Event mechanics and participants; no invented justification facts |
-| Delegitimizing framing | Unfavorable characterization | Event mechanics and participants |
-| Action wording | Equivalent verb or phrase | Action and outcome |
-| Intensity | Evaluative intensity language | Force mechanism, casualties, and civilian involvement |
-| Source attribution | Deliberately synthetic source identity/type | Reported event facts, uncertainty, and attribution scope |
-
-All edits must preserve the event-type criteria. Changes to identity or source framing are intentional interventions; changes to casualties, civilian targeting, or whether an action occurred are outside this protocol. Review all constructed-description edits, all uncertain natural-event edits, and a stratified sample of the remaining edits. Record changed spans, applicability, and review decisions. Exclude edits with uncertain labels and treat unavailable interventions as missing conditions.
-
-Pilot review uses separate AI-agent contexts for notes-only classification, semantic challenge, and methods validation, followed by adjudication. Record AI-only provenance and review every exact pilot original/edited pair before inference. Apply the case-specific restrictions in the [accepted pilot review](data/accepted/report.md); input acceptance does not approve unconstructed variants. AI judgments used in curation can bias model comparisons, so review agreement is not an independent accuracy estimate.
-
-## Models and Inference
-
-Evaluate **four models**: two open-weight models from different families compatible with available compute, and two frontier API models from different providers. Finalize model versions after the pilot and use the same accepted inputs for every model.
-
-Develop one concise zero-shot prompt with explicit event-type definitions and structured label output. Instructions will remain constant across conditions, and dataset labels and identifiers will be excluded from prompts. Use fresh requests, randomized input order, minimal sampling where supported, and fixed settings. Document provider-specific formatting requirements.
-
-Cache completed requests and store raw responses, parsed labels, model and prompt versions, settings, errors, usage, and timestamps. Repeat a fixed subset of identical inputs to estimate response instability. Labels are sufficient for the primary outcomes; self-reported confidence is not required.
-
-## Analysis
-
-| Measure | Purpose |
+| Region | Countries |
 | --- | --- |
-| Baseline accuracy and confusion matrices | Establish performance on each reviewed sample |
-| Edit flip rate | Measure the proportion of predictions changed by an intervention |
-| Excess flip rate | Compare treatment and neutral-control flip rates on the same eligible events |
-| Directional effects | Record label transitions and percentage-point changes in accuracy and predicted-label frequencies |
-| Country-only disagreement | Measure baseline disagreement across the 45 country pairs for each constructed description |
-| Country-by-edit interaction | Compare the change induced by the same edit across country versions of the same description |
+| Northern Africa | Libya*, Morocco |
+| North America | Mexico*, United States |
+| South America | Brazil*, Colombia* |
+| South Asia | India*, Pakistan* |
+| East Asia | China, South Korea |
 
-The interaction analysis is the primary test of geographic invariance in feature sensitivity. Prespecify country contrasts and adjust for multiple comparisons. Track battle/civilian-violence and protest/riot transitions explicitly; treat analyses with limited class support as exploratory.
+**A — Real events:** 590 descriptions: 20 peaceful protests and 15 violent demonstrations per country, plus 20 armed clashes and 20 civilian attacks in each starred country. Analyze protest/riot and battle/civilian-violence samples separately. Preserve original notes, sample with a fixed seed, select one representative per detected text family, and match length-band quotas and word-count targets across countries. Keep pilot, main, and reserve families disjoint; report residual length, actor, and month differences.
 
-Estimate 95% bootstrap intervals by resampling source events in Experiment A and base-description families in Experiment B. Keep related countries and edits together, grouping descriptions derived from the same source event. Compare models on common valid pairs and report invalid-response rates separately. An initially correct subset will provide a secondary sensitivity analysis.
+**B — Matched descriptions:** 120 hypothetical descriptions, 20 per [ACLED event type](https://acleddata.com/methodology/acled-codebook), each rendered under all ten countries. Use generic actors and locations with one country placeholder; remove other geographic clues. Retain source identifiers and family links. Apply identical edits across country versions to isolate country-name and country-by-edit effects.
 
-Report countries individually and summarize regions with equal country weights. Balanced samples do not estimate countrywide operational accuracy, and two countries do not represent an entire region. Observable prediction changes characterize behavioral sensitivity rather than internal reasoning or legal legitimacy. Small effects with wide intervals are inconclusive; nonsignificant differences do not establish invariance.
+## Edits and Review
 
-## Implementation and Workload
+Each original receives up to seven independent conditions: neutral control, actor identity, legitimizing framing, delegitimizing framing, equivalent action wording, intensity, and synthetic source attribution. Use deterministic recipes and versioned phrase lists; do not combine interventions.
 
-The experiment pipeline will use the following scripts:
+Change only the designated cue. Keep class-defining mechanics, armed/civilian roles, casualties, weapons, claim certainty, and event boundaries fixed. Framing and intensity vary characterization, not facts; source substitutions must not imply verification. Record changed spans, applicability, and decisions. Exclude unavailable conditions from their denominators.
 
-- `prepare_data.py`: inventory, deduplication, sampling, and sample manifest.
-- `finalize_inputs.py`: review validation, corrective curation, reserve quarantine, and accepted-input export.
-- `build_variants.py` (planned): descriptions, country renderings, edits, and validation records.
-- `run_models.py` (planned): local/API inference, caching, retries, and prediction logs.
-- `analyze.py` (planned): paired metrics, confidence intervals, tables, and figures.
+Use separate adversarial AI review contexts and adjudicate disagreements. Review every pilot and synthetic original/edited pair, every uncertain natural-event pair, and a stratified sample of remaining natural-event pairs. Follow the existing [input restrictions](data/accepted/report.md); input acceptance does not approve variants.
 
-Record settings in output manifests and use frozen input tables and a common prediction format. At eight conditions per input, the main study has the following upper bound:
+## Models and Analysis
 
-| Experiment | Calculation | Classifications |
-| --- | --- | ---: |
-| Real events | 590 events × 8 conditions × 4 models | 18,880 |
-| Matched descriptions | 120 descriptions × 10 countries × 8 conditions × 4 models | 38,400 |
-| Total | Before repeated-input checks and retries | **57,280** |
+Evaluate four models: two open-weight models from different families and two API models from different providers. Freeze versions after the pilot. Use one zero-shot prompt with six-class definitions and structured output, fresh requests, randomized order, and minimal sampling. Exclude source labels and identifiers from prompts. Cache responses, predictions, settings, errors, usage, and timing; repeat a fixed subset to measure instability.
 
-Inapplicable edits reduce the workload. A pilot using 12 descriptions, four countries, two models, and a small real-event sample will establish edit validity, parsing reliability, runtime, and API cost. Use separate pilot examples and freeze the protocol before the main run. If necessary, reduce sample sizes consistently while retaining the paired design and reporting the resulting uncertainty.
+The primary outcome is the **country-by-edit interaction**. Measure baseline accuracy against reviewed labels, edit flip rates, excess flips relative to neutral controls on common eligible pairs, directional label transitions, and country-only disagreement across all 45 country pairs. Include all accepted inputs regardless of initial model correctness; use the initially correct subset only as a secondary analysis.
 
-## Schedule and Deliverables
+Prespecify country contrasts and multiplicity adjustment. Estimate 95% bootstrap intervals by source-event families in A and base-description families in B, keeping related countries and edits together. Compare models on common valid pairs, report invalid responses separately, and test sensitivity to qualified or disputed labels. Report countries individually and use equal country weights for regional summaries.
 
-| Stage | Work | Deliverable |
-| --- | --- | --- |
-| 1. Data and protocol | Confirm countries, quotas, label definitions, and review criteria | Sample manifest and reviewed candidate inputs |
-| 2. Pilot | Validate interventions and both inference backends | Measured workload and frozen protocol |
-| 3. Main experiments | Evaluate all four models | Complete prediction logs and documented exclusions |
-| 4. Analysis and reporting | Estimate paired effects and review representative changes | Reproducible results and research report |
+Natural-report comparisons remain observational. Balanced samples do not estimate operational accuracy or represent whole regions. Prediction changes measure behavioral sensitivity; nonsignificant differences do not establish invariance.
 
-The final report will include a country-by-edit heatmap with uncertainty and sample counts, a country-swap disagreement figure, directional-transition tables, and representative original/edited descriptions.
+## Execution
+
+Run two models on the 28-event real pilot and 12 synthetic descriptions rendered under four countries. Validate edits, parsing, response stability, runtime, and cost; freeze the protocol before the main run. The upper bound is **57,280 classifications**, excluding repeats and retries; inapplicable edits reduce it.
+
+Deliver reproducible prediction logs, paired effect estimates with uncertainty, a country-by-edit heatmap, country-swap disagreements, and representative original/edited pairs.
