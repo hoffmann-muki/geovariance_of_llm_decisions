@@ -45,10 +45,19 @@ def records():
                 row = {field: "" for field in sorted(prep.REQUIRED)}
                 row.update(
                     event_id_cnty=f"{country}_{event_type}_{number}",
-                    country=country, region="Example region", event_type=event_type,
-                    sub_event_type="Peaceful protest" if event_type == "Protests" else "Violent demonstration",
-                    event_date=f"2024-01-{number + 1:02d}", admin1="Example province",
-                    location=f"{event_type} town {number}", actor1="Participants", inter1="Protesters",
+                    country=country,
+                    region="Example region",
+                    event_type=event_type,
+                    sub_event_type=(
+                        "Peaceful protest"
+                        if event_type == "Protests"
+                        else "Violent demonstration"
+                    ),
+                    event_date=f"2024-01-{number + 1:02d}",
+                    admin1="Example province",
+                    location=f"{event_type} town {number}",
+                    actor1="Participants",
+                    inter1="Protesters",
                     notes=f"  {country} account {number}: {descriptions[event_type][number]}\nOriginal wording PRESERVED.  ",
                 )
                 rows.append(row)
@@ -57,12 +66,23 @@ def records():
 
 def config():
     return {
-        "seed": 42, "main_per_cell": 3, "pilot_per_cell": 1, "reserve_per_cell": 1,
+        "seed": 42,
+        "main_per_cell": 3,
+        "pilot_per_cell": 1,
+        "reserve_per_cell": 1,
         "pilot_countries": ["Alpha"],
         "country_regions": {"Alpha": "Example region", "Beta": "Example region"},
         "country_aliases": {},
-        "samples": [{"name": "protests_riots", "countries": ["Alpha", "Beta"], "event_types": ["Protests", "Riots"]}],
-        "near_duplicate_similarity": .9, "near_duplicate_days": 1, "length_bins_words": [40, 80],
+        "samples": [
+            {
+                "name": "protests_riots",
+                "countries": ["Alpha", "Beta"],
+                "event_types": ["Protests", "Riots"],
+            }
+        ],
+        "near_duplicate_similarity": 0.9,
+        "near_duplicate_days": 1,
+        "length_bins_words": [40, 80],
     }
 
 
@@ -80,7 +100,9 @@ class PreparationTests(unittest.TestCase):
         self.temp.cleanup()
 
     def write_inputs(self, rows=None):
-        with (self.inputs / "events.csv").open("w", newline="", encoding="utf-8") as stream:
+        with (self.inputs / "events.csv").open(
+            "w", newline="", encoding="utf-8"
+        ) as stream:
             writer = csv.DictWriter(stream, fieldnames=sorted(prep.REQUIRED))
             writer.writeheader()
             writer.writerows(self.rows if rows is None else rows)
@@ -98,15 +120,23 @@ class PreparationTests(unittest.TestCase):
     def test_end_to_end_preserves_sources_and_records_allocations(self):
         before = prep.file_digest(self.inputs / "events.csv")
         output, report = self.run_preparation()
-        self.assertEqual(report["sample_counts"], {"main": 12, "pilot": 2, "reserve": 4})
+        self.assertEqual(
+            report["sample_counts"], {"main": 12, "pilot": 2, "reserve": 4}
+        )
         main = self.csv(output / "candidates.csv")
-        self.assertEqual(set(Counter((r["country"], r["label"]) for r in main).values()), {3})
-        self.assertEqual({r["country"] for r in self.csv(output / "pilot.csv")}, {"Alpha"})
+        self.assertEqual(
+            set(Counter((r["country"], r["label"]) for r in main).values()), {3}
+        )
+        self.assertEqual(
+            {r["country"] for r in self.csv(output / "pilot.csv")}, {"Alpha"}
+        )
         original = {r["event_id_cnty"]: r for r in self.rows}
         for name in ("candidates.csv", "pilot.csv", "reserves.csv"):
             for row in self.csv(output / name):
                 self.assertEqual(row["notes"], original[row["event_id_cnty"]]["notes"])
-                self.assertEqual(row["notes"], self.rows[int(row["source_record"]) - 1]["notes"])
+                self.assertEqual(
+                    row["notes"], self.rows[int(row["source_record"]) - 1]["notes"]
+                )
         self.assertEqual(report["status"], "prepared")
         self.assertEqual(before, prep.file_digest(self.inputs / "events.csv"))
         manifest = json.loads((output / "manifest.json").read_text())
@@ -117,15 +147,22 @@ class PreparationTests(unittest.TestCase):
     def test_reruns_are_byte_identical(self):
         first, _ = self.run_preparation("first")
         second, _ = self.run_preparation("second")
-        self.assertEqual(sorted(p.name for p in first.iterdir()), sorted(p.name for p in second.iterdir()))
+        self.assertEqual(
+            sorted(p.name for p in first.iterdir()),
+            sorted(p.name for p in second.iterdir()),
+        )
         for path in first.iterdir():
-            self.assertEqual(path.read_bytes(), (second / path.name).read_bytes(), path.name)
+            self.assertEqual(
+                path.read_bytes(), (second / path.name).read_bytes(), path.name
+            )
 
     def test_seed_changes_selection(self):
         first, _ = self.run_preparation("first")
         changed = {**self.config, "seed": 99}
         second, _ = self.run_preparation("second", changed)
-        ids = lambda path: {r["event_id_cnty"] for r in self.csv(path / "candidates.csv")}
+        ids = lambda path: {
+            r["event_id_cnty"] for r in self.csv(path / "candidates.csv")
+        }
         self.assertNotEqual(ids(first), ids(second))
 
     def test_pilot_main_and_reserves_share_no_event_groups(self):
@@ -147,7 +184,11 @@ class PreparationTests(unittest.TestCase):
         self.assertEqual(len({r["event_group_id"] for r in pairs}), 1)
 
     def test_exact_duplicates_use_normalized_text_without_changing_notes(self):
-        a = {**self.rows[0], "event_id_cnty": "AAA", "notes": "  A FULLWIDTH Ａ report.\n"}
+        a = {
+            **self.rows[0],
+            "event_id_cnty": "AAA",
+            "notes": "  A FULLWIDTH Ａ report.\n",
+        }
         b = {**self.rows[1], "event_id_cnty": "ZZZ", "notes": "a fullwidth a REPORT."}
         self.write_inputs([a, b])
         raw, _, excluded = prep.read_sources(self.inputs, self.config)
@@ -170,7 +211,9 @@ class PreparationTests(unittest.TestCase):
         self.write_inputs([a, b])
         raw, _, excluded = prep.read_sources(self.inputs, self.config)
         self.assertEqual(prep.deduplicate(raw, excluded), [])
-        self.assertEqual([r["reason"] for r in excluded], ["conflicting_note_labels"] * 2)
+        self.assertEqual(
+            [r["reason"] for r in excluded], ["conflicting_note_labels"] * 2
+        )
 
     def test_identical_id_records_retain_one_record(self):
         self.write_inputs([self.rows[0], self.rows[0]])
@@ -187,9 +230,15 @@ class PreparationTests(unittest.TestCase):
         self.write_inputs(bad)
         raw, _, excluded = prep.read_sources(self.inputs, self.config)
         self.assertEqual(prep.deduplicate(raw, excluded), [])
-        self.assertEqual({r["reason"] for r in excluded}, {
-            "invalid_event_date", "missing_notes", "unknown_event_type", "country_region_mismatch",
-        })
+        self.assertEqual(
+            {r["reason"] for r in excluded},
+            {
+                "invalid_event_date",
+                "missing_notes",
+                "unknown_event_type",
+                "country_region_mismatch",
+            },
+        )
 
     def test_empty_optional_actor_remains_eligible(self):
         self.rows[0]["inter1"] = ""
@@ -212,10 +261,20 @@ class PreparationTests(unittest.TestCase):
         self.write_inputs(self.rows[:2])
         config_path = self.root / "config.json"
         config_path.write_text(json.dumps(self.config))
-        result = subprocess.run([
-            sys.executable, str(prep.ROOT / "prepare_data.py"), "--input-dir", str(self.inputs),
-            "--output-dir", str(self.root / "output"), "--config", str(config_path),
-        ], capture_output=True, text=True)
+        result = subprocess.run(
+            [
+                sys.executable,
+                str(prep.ROOT / "prepare_data.py"),
+                "--input-dir",
+                str(self.inputs),
+                "--output-dir",
+                str(self.root / "output"),
+                "--config",
+                str(config_path),
+            ],
+            capture_output=True,
+            text=True,
+        )
         self.assertEqual(result.returncode, 2, result.stderr)
         self.assertTrue((self.root / "output/quality_report.md").is_file())
 
@@ -247,11 +306,19 @@ class PreparationTests(unittest.TestCase):
     def test_similar_reports_at_different_locations_share_a_family(self):
         # Neighborhood-specific reports must remain in the same sampling family.
         left, right = copy.deepcopy(self.rows[:2])
-        left.update(event_date="2025-05-28", location="City - North", notes=(
-            "On 28 May 2025, overnight, rioters blocked a road with burning tires in City - North "
-            "calling for the government's resignation after armed clashes in the capital."
-        ))
-        right.update(event_date="2025-05-28", location="City - South", notes=left["notes"].replace("North", "South"))
+        left.update(
+            event_date="2025-05-28",
+            location="City - North",
+            notes=(
+                "On 28 May 2025, overnight, rioters blocked a road with burning tires in City - North "
+                "calling for the government's resignation after armed clashes in the capital."
+            ),
+        )
+        right.update(
+            event_date="2025-05-28",
+            location="City - South",
+            notes=left["notes"].replace("North", "South"),
+        )
         self.write_inputs([left, right])
         raw, _, excluded = prep.read_sources(self.inputs, self.config)
         kept = prep.deduplicate(raw, excluded)
@@ -262,10 +329,17 @@ class PreparationTests(unittest.TestCase):
     def test_selected_text_audit_ignores_admin_location_and_group_ids(self):
         raw, _, _ = prep.read_sources(self.inputs, self.config)
         left, right = raw[:2]
-        right.update(notes=left["notes"], _text_key=left["_text_key"], admin1="Other province", location="Other town")
+        right.update(
+            notes=left["notes"],
+            _text_key=left["_text_key"],
+            admin1="Other province",
+            location="Other town",
+        )
         left.update(sample_role="pilot", event_group_id="different-1")
         right.update(sample_role="main", event_group_id="different-2")
-        flags, audit = prep.audit_similarity({"main": [right], "pilot": [left], "reserve": []}, self.config)
+        flags, audit = prep.audit_similarity(
+            {"main": [right], "pilot": [left], "reserve": []}, self.config
+        )
         self.assertFalse(audit["passed"])
         self.assertEqual(len(flags), 1)
         self.assertEqual(flags[0]["similarity"], 1.0)
@@ -275,7 +349,11 @@ class PreparationTests(unittest.TestCase):
         # examples are selected on the first pass, forcing the final audit to act.
         self.config.update(main_per_cell=6, reserve_per_cell=2)
         extra = copy.deepcopy(self.rows[0])
-        extra.update(event_id_cnty="Alpha_similar", admin1="Other province", location="Different town")
+        extra.update(
+            event_id_cnty="Alpha_similar",
+            admin1="Other province",
+            location="Different town",
+        )
         extra["notes"] = extra["notes"].replace("hospital", "clinic")
         self.write_inputs(self.rows + [extra])
         output, report = self.run_preparation()
@@ -283,19 +361,31 @@ class PreparationTests(unittest.TestCase):
         self.assertGreater(report["similarity_audit"]["additional_links"], 0)
         self.assertEqual(report["similarity_audit"]["flagged_pairs"], 0)
         self.assertEqual(report["main_quota_shortfall"], 0)
-        selected = [r for name in ("candidates.csv", "pilot.csv", "reserves.csv") for r in self.csv(output / name)]
+        selected = [
+            r
+            for name in ("candidates.csv", "pilot.csv", "reserves.csv")
+            for r in self.csv(output / name)
+        ]
         chosen_ids = {r["event_id_cnty"] for r in selected}
         self.assertFalse({self.rows[0]["event_id_cnty"], "Alpha_similar"} <= chosen_ids)
 
     def test_comparison_uses_shared_subtypes_without_relabeling_sources(self):
-        self.config["primary_subtypes"] = {"Protests": "Peaceful protest", "Riots": "Violent demonstration"}
+        self.config["primary_subtypes"] = {
+            "Protests": "Peaceful protest",
+            "Riots": "Violent demonstration",
+        }
         self.rows[0]["sub_event_type"] = "Protest with intervention"
         self.rows[16]["sub_event_type"] = "Protest with intervention"
         self.write_inputs()
         output, report = self.run_preparation()
         self.assertEqual(report["excluded_rows"], 0)
         main = self.csv(output / "candidates.csv")
-        self.assertTrue(all(r["sub_event_type"] == self.config["primary_subtypes"][r["event_type"]] for r in main))
+        self.assertTrue(
+            all(
+                r["sub_event_type"] == self.config["primary_subtypes"][r["event_type"]]
+                for r in main
+            )
+        )
         self.assertEqual(report["eligible_rows"], len(self.rows))
 
     def test_word_length_allocations_are_identical_across_countries(self):
@@ -305,14 +395,23 @@ class PreparationTests(unittest.TestCase):
             number = int(row["event_id_cnty"].rsplit("_", 1)[1])
             medium = number < (5 if row["country"] == "Alpha" else 3)
             if medium:
-                row["notes"] += " Additional background describes the context and the events in detail." * 3
+                row["notes"] += (
+                    " Additional background describes the context and the events in detail."
+                    * 3
+                )
         self.write_inputs()
         output, report = self.run_preparation()
         self.assertEqual(report["main_quota_shortfall"], 0)
         rows = self.csv(output / "candidates.csv")
         for event_type in ("Protests", "Riots"):
-            by_country = {c: Counter(r["length_bin"] for r in rows if r["country"] == c and r["event_type"] == event_type)
-                          for c in ("Alpha", "Beta")}
+            by_country = {
+                c: Counter(
+                    r["length_bin"]
+                    for r in rows
+                    if r["country"] == c and r["event_type"] == event_type
+                )
+                for c in ("Alpha", "Beta")
+            }
             self.assertEqual(by_country["Alpha"], by_country["Beta"])
         self.assertTrue(report["comparability_passed"])
 
@@ -320,13 +419,21 @@ class PreparationTests(unittest.TestCase):
         self.config["match_length_bins"] = True
         for row in self.rows:
             if row["country"] == "Beta":
-                row["notes"] += " Additional background information on the event and surrounding community." * 10
+                row["notes"] += (
+                    " Additional background information on the event and surrounding community."
+                    * 10
+                )
         self.write_inputs()
         output, report = self.run_preparation()
         self.assertEqual(report["status"], "quota_shortfall")
         self.assertEqual(report["sample_counts"]["main"], 0)
         self.assertEqual(report["main_quota_shortfall"], 12)
-        self.assertTrue(all(r["main_requested"] == "3" for r in self.csv(output / "sampling_summary.csv")))
+        self.assertTrue(
+            all(
+                r["main_requested"] == "3"
+                for r in self.csv(output / "sampling_summary.csv")
+            )
+        )
 
     def test_event_class_quota_is_applied_consistently_to_all_countries(self):
         self.config["main_per_event_type"] = {"Riots": 2}
@@ -334,13 +441,22 @@ class PreparationTests(unittest.TestCase):
         output, report = self.run_preparation()
         main = self.csv(output / "candidates.csv")
         counts = Counter((r["country"], r["event_type"]) for r in main)
-        self.assertEqual(counts, {("Alpha", "Protests"): 3, ("Beta", "Protests"): 3,
-                                  ("Alpha", "Riots"): 2, ("Beta", "Riots"): 2})
+        self.assertEqual(
+            counts,
+            {
+                ("Alpha", "Protests"): 3,
+                ("Beta", "Protests"): 3,
+                ("Alpha", "Riots"): 2,
+                ("Beta", "Riots"): 2,
+            },
+        )
         self.assertEqual(report["main_quota_shortfall"], 0)
 
     def test_length_assignment_minimizes_total_distance_without_reusing_events(self):
-        rows = [{"event_id_cnty": str(i), "event_group_id": str(i), "word_count": n}
-                for i, n in enumerate([40, 43, 80])]
+        rows = [
+            {"event_id_cnty": str(i), "event_group_id": str(i), "word_count": n}
+            for i, n in enumerate([40, 43, 80])
+        ]
         used = set()
         chosen = prep.nearest_length_sample(rows, [41, 50], used, 42, "example")
         self.assertEqual(sum(abs(r["word_difference_from_target"]) for r in chosen), 8)
