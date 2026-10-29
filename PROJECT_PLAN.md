@@ -24,7 +24,7 @@ Each original receives up to seven independent conditions: neutral control, acto
 
 Change only the designated cue. Keep class-defining mechanics, armed/civilian roles, casualties, weapons, claim certainty, and event boundaries fixed. Framing and intensity vary characterization, not facts; source substitutions must not imply verification. Record changed spans, applicability, and decisions. Exclude unavailable conditions from their denominators.
 
-Use separate adversarial AI review contexts and adjudicate disagreements. Review every pilot and synthetic original/edited pair, every uncertain natural-event pair, and a stratified sample of remaining natural-event pairs. Follow the existing [input restrictions](data/accepted/report.md); input acceptance does not approve variants.
+Two separate adversarial AI contexts review every proposed real-event edit and every synthetic original/edited pair. Release only current versions accepted by both reviewers after adjudication; withhold unresolved objections and re-review corrections. Follow the existing [input restrictions](data/accepted/report.md); input acceptance does not approve variants.
 
 ## Models and Analysis
 
@@ -38,6 +38,6 @@ Natural-report comparisons remain observational. Balanced samples do not estimat
 
 ## Execution
 
-The reviewed stimulus pool contains 28 real events and 12 synthetic descriptions under four countries. An earlier DeepSeek/Llama inference pilot passed 150 technical checks; its outputs were removed after validation. Current work stops at data preparation: validate model input formats and lengths without sending inference requests. Construct and review the main variants and 120 synthetic bases before releasing the full stimulus set. The main-study upper bound is **28,640 classifications**, excluding repeats, retries, and E5 class-description embeddings; inapplicable edits reduce it.
+The [main data release](data/variants/main/report.md) contains reviewed stimuli, literal edit spans, eligibility denominators, token-length checks, input formatting and a seeded request order. Only data preparation is complete; no classification or embedding requests have been sent for the selected models. Verify provider compatibility before inference. Pilot-derived artifacts are retired; [source-family exclusions](data/reviews/pilot_exclusions.csv) and accepted original notes preserve separation. The main-study upper bound is **28,640 classifications**, excluding repeats, retries, and E5 class-description embeddings; inapplicable edits reduce it.
 
 Deliver reproducible prediction logs, paired effect estimates with uncertainty, a country-by-edit heatmap, country-swap disagreements, and representative original/edited pairs.

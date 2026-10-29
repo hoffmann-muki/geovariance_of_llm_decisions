@@ -1,0 +1,638 @@
+cohort,country,label,condition,count
+real,Brazil,B,action_wording,13
+real,Brazil,B,actor_identity,12
+real,Brazil,B,delegitimizing_framing,13
+real,Brazil,B,intensity,11
+real,Brazil,B,legitimizing_framing,13
+real,Brazil,B,neutral_control,20
+real,Brazil,B,original,20
+real,Brazil,B,source_attribution,5
+real,Brazil,P,action_wording,15
+real,Brazil,P,actor_identity,1
+real,Brazil,P,delegitimizing_framing,15
+real,Brazil,P,legitimizing_framing,15
+real,Brazil,P,neutral_control,20
+real,Brazil,P,original,20
+real,Brazil,P,source_attribution,13
+real,Brazil,R,action_wording,2
+real,Brazil,R,actor_identity,2
+real,Brazil,R,delegitimizing_framing,2
+real,Brazil,R,legitimizing_framing,2
+real,Brazil,R,neutral_control,15
+real,Brazil,R,original,15
+real,Brazil,R,source_attribution,1
+real,Brazil,V,action_wording,5
+real,Brazil,V,actor_identity,1
+real,Brazil,V,delegitimizing_framing,5
+real,Brazil,V,legitimizing_framing,5
+real,Brazil,V,neutral_control,20
+real,Brazil,V,original,20
+real,China,P,action_wording,17
+real,China,P,actor_identity,1
+real,China,P,delegitimizing_framing,17
+real,China,P,legitimizing_framing,17
+real,China,P,neutral_control,20
+real,China,P,original,20
+real,China,P,source_attribution,11
+real,China,R,actor_identity,5
+real,China,R,neutral_control,15
+real,China,R,original,15
+real,Colombia,B,action_wording,11
+real,Colombia,B,actor_identity,1
+real,Colombia,B,delegitimizing_framing,11
+real,Colombia,B,intensity,10
+real,Colombia,B,legitimizing_framing,11
+real,Colombia,B,neutral_control,20
+real,Colombia,B,original,20
+real,Colombia,B,source_attribution,5
+real,Colombia,P,action_wording,16
+real,Colombia,P,actor_identity,5
+real,Colombia,P,delegitimizing_framing,16
+real,Colombia,P,legitimizing_framing,16
+real,Colombia,P,neutral_control,20
+real,Colombia,P,original,20
+real,Colombia,P,source_attribution,10
+real,Colombia,R,action_wording,6
+real,Colombia,R,delegitimizing_framing,6
+real,Colombia,R,intensity,2
+real,Colombia,R,legitimizing_framing,6
+real,Colombia,R,neutral_control,15
+real,Colombia,R,original,15
+real,Colombia,R,source_attribution,4
+real,Colombia,V,action_wording,14
+real,Colombia,V,delegitimizing_framing,14
+real,Colombia,V,legitimizing_framing,14
+real,Colombia,V,neutral_control,20
+real,Colombia,V,original,20
+real,Colombia,V,source_attribution,5
+real,India,B,action_wording,13
+real,India,B,delegitimizing_framing,13
+real,India,B,intensity,13
+real,India,B,legitimizing_framing,13
+real,India,B,neutral_control,20
+real,India,B,original,20
+real,India,B,source_attribution,8
+real,India,P,action_wording,11
+real,India,P,delegitimizing_framing,11
+real,India,P,legitimizing_framing,11
+real,India,P,neutral_control,20
+real,India,P,original,20
+real,India,P,source_attribution,8
+real,India,R,action_wording,4
+real,India,R,actor_identity,1
+real,India,R,delegitimizing_framing,5
+real,India,R,intensity,2
+real,India,R,legitimizing_framing,5
+real,India,R,neutral_control,15
+real,India,R,original,15
+real,India,R,source_attribution,3
+real,India,V,action_wording,1
+real,India,V,delegitimizing_framing,1
+real,India,V,legitimizing_framing,1
+real,India,V,neutral_control,20
+real,India,V,original,20
+real,India,V,source_attribution,2
+real,Libya,B,action_wording,14
+real,Libya,B,delegitimizing_framing,15
+real,Libya,B,intensity,14
+real,Libya,B,legitimizing_framing,15
+real,Libya,B,neutral_control,20
+real,Libya,B,original,20
+real,Libya,B,source_attribution,3
+real,Libya,P,action_wording,19
+real,Libya,P,delegitimizing_framing,19
+real,Libya,P,legitimizing_framing,19
+real,Libya,P,neutral_control,20
+real,Libya,P,original,20
+real,Libya,P,source_attribution,12
+real,Libya,R,action_wording,7
+real,Libya,R,delegitimizing_framing,8
+real,Libya,R,intensity,1
+real,Libya,R,legitimizing_framing,8
+real,Libya,R,neutral_control,15
+real,Libya,R,original,15
+real,Libya,R,source_attribution,3
+real,Libya,V,action_wording,10
+real,Libya,V,delegitimizing_framing,10
+real,Libya,V,legitimizing_framing,10
+real,Libya,V,neutral_control,20
+real,Libya,V,original,20
+real,Libya,V,source_attribution,2
+real,Mexico,B,action_wording,10
+real,Mexico,B,actor_identity,1
+real,Mexico,B,delegitimizing_framing,10
+real,Mexico,B,intensity,9
+real,Mexico,B,legitimizing_framing,10
+real,Mexico,B,neutral_control,20
+real,Mexico,B,original,20
+real,Mexico,B,source_attribution,4
+real,Mexico,P,action_wording,18
+real,Mexico,P,delegitimizing_framing,18
+real,Mexico,P,legitimizing_framing,18
+real,Mexico,P,neutral_control,20
+real,Mexico,P,original,20
+real,Mexico,P,source_attribution,12
+real,Mexico,R,action_wording,2
+real,Mexico,R,actor_identity,1
+real,Mexico,R,delegitimizing_framing,2
+real,Mexico,R,intensity,1
+real,Mexico,R,legitimizing_framing,2
+real,Mexico,R,neutral_control,15
+real,Mexico,R,original,15
+real,Mexico,V,action_wording,8
+real,Mexico,V,delegitimizing_framing,8
+real,Mexico,V,legitimizing_framing,8
+real,Mexico,V,neutral_control,20
+real,Mexico,V,original,20
+real,Mexico,V,source_attribution,1
+real,Morocco,P,action_wording,15
+real,Morocco,P,actor_identity,1
+real,Morocco,P,delegitimizing_framing,15
+real,Morocco,P,legitimizing_framing,15
+real,Morocco,P,neutral_control,20
+real,Morocco,P,original,20
+real,Morocco,P,source_attribution,8
+real,Morocco,R,action_wording,3
+real,Morocco,R,delegitimizing_framing,3
+real,Morocco,R,intensity,2
+real,Morocco,R,legitimizing_framing,3
+real,Morocco,R,neutral_control,15
+real,Morocco,R,original,15
+real,Morocco,R,source_attribution,1
+real,Pakistan,B,action_wording,9
+real,Pakistan,B,delegitimizing_framing,9
+real,Pakistan,B,intensity,1
+real,Pakistan,B,legitimizing_framing,9
+real,Pakistan,B,neutral_control,20
+real,Pakistan,B,original,20
+real,Pakistan,B,source_attribution,4
+real,Pakistan,P,action_wording,10
+real,Pakistan,P,actor_identity,2
+real,Pakistan,P,delegitimizing_framing,10
+real,Pakistan,P,legitimizing_framing,10
+real,Pakistan,P,neutral_control,20
+real,Pakistan,P,original,20
+real,Pakistan,P,source_attribution,8
+real,Pakistan,R,actor_identity,1
+real,Pakistan,R,neutral_control,15
+real,Pakistan,R,original,15
+real,Pakistan,V,action_wording,10
+real,Pakistan,V,delegitimizing_framing,10
+real,Pakistan,V,legitimizing_framing,10
+real,Pakistan,V,neutral_control,20
+real,Pakistan,V,original,20
+real,Pakistan,V,source_attribution,5
+real,South Korea,P,action_wording,3
+real,South Korea,P,delegitimizing_framing,3
+real,South Korea,P,legitimizing_framing,3
+real,South Korea,P,neutral_control,20
+real,South Korea,P,original,20
+real,South Korea,P,source_attribution,3
+real,South Korea,R,action_wording,2
+real,South Korea,R,actor_identity,2
+real,South Korea,R,delegitimizing_framing,3
+real,South Korea,R,intensity,3
+real,South Korea,R,legitimizing_framing,3
+real,South Korea,R,neutral_control,15
+real,South Korea,R,original,15
+real,South Korea,R,source_attribution,3
+real,United States,P,action_wording,18
+real,United States,P,actor_identity,3
+real,United States,P,delegitimizing_framing,18
+real,United States,P,legitimizing_framing,18
+real,United States,P,neutral_control,20
+real,United States,P,original,20
+real,United States,P,source_attribution,18
+real,United States,R,actor_identity,3
+real,United States,R,neutral_control,15
+real,United States,R,original,15
+synthetic,Brazil,B,action_wording,20
+synthetic,Brazil,B,actor_identity,20
+synthetic,Brazil,B,delegitimizing_framing,20
+synthetic,Brazil,B,intensity,16
+synthetic,Brazil,B,legitimizing_framing,20
+synthetic,Brazil,B,neutral_control,20
+synthetic,Brazil,B,original,20
+synthetic,Brazil,B,source_attribution,20
+synthetic,Brazil,E,action_wording,20
+synthetic,Brazil,E,actor_identity,20
+synthetic,Brazil,E,delegitimizing_framing,19
+synthetic,Brazil,E,legitimizing_framing,19
+synthetic,Brazil,E,neutral_control,20
+synthetic,Brazil,E,original,20
+synthetic,Brazil,E,source_attribution,20
+synthetic,Brazil,P,action_wording,20
+synthetic,Brazil,P,actor_identity,20
+synthetic,Brazil,P,delegitimizing_framing,20
+synthetic,Brazil,P,legitimizing_framing,20
+synthetic,Brazil,P,neutral_control,20
+synthetic,Brazil,P,original,20
+synthetic,Brazil,P,source_attribution,20
+synthetic,Brazil,R,action_wording,20
+synthetic,Brazil,R,actor_identity,20
+synthetic,Brazil,R,delegitimizing_framing,20
+synthetic,Brazil,R,legitimizing_framing,20
+synthetic,Brazil,R,neutral_control,20
+synthetic,Brazil,R,original,20
+synthetic,Brazil,R,source_attribution,20
+synthetic,Brazil,S,action_wording,20
+synthetic,Brazil,S,actor_identity,20
+synthetic,Brazil,S,delegitimizing_framing,20
+synthetic,Brazil,S,legitimizing_framing,20
+synthetic,Brazil,S,neutral_control,20
+synthetic,Brazil,S,original,20
+synthetic,Brazil,S,source_attribution,20
+synthetic,Brazil,V,action_wording,16
+synthetic,Brazil,V,actor_identity,20
+synthetic,Brazil,V,delegitimizing_framing,20
+synthetic,Brazil,V,legitimizing_framing,20
+synthetic,Brazil,V,neutral_control,20
+synthetic,Brazil,V,original,20
+synthetic,Brazil,V,source_attribution,20
+synthetic,China,B,action_wording,20
+synthetic,China,B,actor_identity,20
+synthetic,China,B,delegitimizing_framing,20
+synthetic,China,B,intensity,16
+synthetic,China,B,legitimizing_framing,20
+synthetic,China,B,neutral_control,20
+synthetic,China,B,original,20
+synthetic,China,B,source_attribution,20
+synthetic,China,E,action_wording,20
+synthetic,China,E,actor_identity,20
+synthetic,China,E,delegitimizing_framing,19
+synthetic,China,E,legitimizing_framing,19
+synthetic,China,E,neutral_control,20
+synthetic,China,E,original,20
+synthetic,China,E,source_attribution,20
+synthetic,China,P,action_wording,20
+synthetic,China,P,actor_identity,20
+synthetic,China,P,delegitimizing_framing,20
+synthetic,China,P,legitimizing_framing,20
+synthetic,China,P,neutral_control,20
+synthetic,China,P,original,20
+synthetic,China,P,source_attribution,20
+synthetic,China,R,action_wording,20
+synthetic,China,R,actor_identity,20
+synthetic,China,R,delegitimizing_framing,20
+synthetic,China,R,legitimizing_framing,20
+synthetic,China,R,neutral_control,20
+synthetic,China,R,original,20
+synthetic,China,R,source_attribution,20
+synthetic,China,S,action_wording,20
+synthetic,China,S,actor_identity,20
+synthetic,China,S,delegitimizing_framing,20
+synthetic,China,S,legitimizing_framing,20
+synthetic,China,S,neutral_control,20
+synthetic,China,S,original,20
+synthetic,China,S,source_attribution,20
+synthetic,China,V,action_wording,16
+synthetic,China,V,actor_identity,20
+synthetic,China,V,delegitimizing_framing,20
+synthetic,China,V,legitimizing_framing,20
+synthetic,China,V,neutral_control,20
+synthetic,China,V,original,20
+synthetic,China,V,source_attribution,20
+synthetic,Colombia,B,action_wording,20
+synthetic,Colombia,B,actor_identity,20
+synthetic,Colombia,B,delegitimizing_framing,20
+synthetic,Colombia,B,intensity,16
+synthetic,Colombia,B,legitimizing_framing,20
+synthetic,Colombia,B,neutral_control,20
+synthetic,Colombia,B,original,20
+synthetic,Colombia,B,source_attribution,20
+synthetic,Colombia,E,action_wording,20
+synthetic,Colombia,E,actor_identity,20
+synthetic,Colombia,E,delegitimizing_framing,19
+synthetic,Colombia,E,legitimizing_framing,19
+synthetic,Colombia,E,neutral_control,20
+synthetic,Colombia,E,original,20
+synthetic,Colombia,E,source_attribution,20
+synthetic,Colombia,P,action_wording,20
+synthetic,Colombia,P,actor_identity,20
+synthetic,Colombia,P,delegitimizing_framing,20
+synthetic,Colombia,P,legitimizing_framing,20
+synthetic,Colombia,P,neutral_control,20
+synthetic,Colombia,P,original,20
+synthetic,Colombia,P,source_attribution,20
+synthetic,Colombia,R,action_wording,20
+synthetic,Colombia,R,actor_identity,20
+synthetic,Colombia,R,delegitimizing_framing,20
+synthetic,Colombia,R,legitimizing_framing,20
+synthetic,Colombia,R,neutral_control,20
+synthetic,Colombia,R,original,20
+synthetic,Colombia,R,source_attribution,20
+synthetic,Colombia,S,action_wording,20
+synthetic,Colombia,S,actor_identity,20
+synthetic,Colombia,S,delegitimizing_framing,20
+synthetic,Colombia,S,legitimizing_framing,20
+synthetic,Colombia,S,neutral_control,20
+synthetic,Colombia,S,original,20
+synthetic,Colombia,S,source_attribution,20
+synthetic,Colombia,V,action_wording,16
+synthetic,Colombia,V,actor_identity,20
+synthetic,Colombia,V,delegitimizing_framing,20
+synthetic,Colombia,V,legitimizing_framing,20
+synthetic,Colombia,V,neutral_control,20
+synthetic,Colombia,V,original,20
+synthetic,Colombia,V,source_attribution,20
+synthetic,India,B,action_wording,20
+synthetic,India,B,actor_identity,20
+synthetic,India,B,delegitimizing_framing,20
+synthetic,India,B,intensity,16
+synthetic,India,B,legitimizing_framing,20
+synthetic,India,B,neutral_control,20
+synthetic,India,B,original,20
+synthetic,India,B,source_attribution,20
+synthetic,India,E,action_wording,20
+synthetic,India,E,actor_identity,20
+synthetic,India,E,delegitimizing_framing,19
+synthetic,India,E,legitimizing_framing,19
+synthetic,India,E,neutral_control,20
+synthetic,India,E,original,20
+synthetic,India,E,source_attribution,20
+synthetic,India,P,action_wording,20
+synthetic,India,P,actor_identity,20
+synthetic,India,P,delegitimizing_framing,20
+synthetic,India,P,legitimizing_framing,20
+synthetic,India,P,neutral_control,20
+synthetic,India,P,original,20
+synthetic,India,P,source_attribution,20
+synthetic,India,R,action_wording,20
+synthetic,India,R,actor_identity,20
+synthetic,India,R,delegitimizing_framing,20
+synthetic,India,R,legitimizing_framing,20
+synthetic,India,R,neutral_control,20
+synthetic,India,R,original,20
+synthetic,India,R,source_attribution,20
+synthetic,India,S,action_wording,20
+synthetic,India,S,actor_identity,20
+synthetic,India,S,delegitimizing_framing,20
+synthetic,India,S,legitimizing_framing,20
+synthetic,India,S,neutral_control,20
+synthetic,India,S,original,20
+synthetic,India,S,source_attribution,20
+synthetic,India,V,action_wording,16
+synthetic,India,V,actor_identity,20
+synthetic,India,V,delegitimizing_framing,20
+synthetic,India,V,legitimizing_framing,20
+synthetic,India,V,neutral_control,20
+synthetic,India,V,original,20
+synthetic,India,V,source_attribution,20
+synthetic,Libya,B,action_wording,20
+synthetic,Libya,B,actor_identity,20
+synthetic,Libya,B,delegitimizing_framing,20
+synthetic,Libya,B,intensity,16
+synthetic,Libya,B,legitimizing_framing,20
+synthetic,Libya,B,neutral_control,20
+synthetic,Libya,B,original,20
+synthetic,Libya,B,source_attribution,20
+synthetic,Libya,E,action_wording,20
+synthetic,Libya,E,actor_identity,20
+synthetic,Libya,E,delegitimizing_framing,19
+synthetic,Libya,E,legitimizing_framing,19
+synthetic,Libya,E,neutral_control,20
+synthetic,Libya,E,original,20
+synthetic,Libya,E,source_attribution,20
+synthetic,Libya,P,action_wording,20
+synthetic,Libya,P,actor_identity,20
+synthetic,Libya,P,delegitimizing_framing,20
+synthetic,Libya,P,legitimizing_framing,20
+synthetic,Libya,P,neutral_control,20
+synthetic,Libya,P,original,20
+synthetic,Libya,P,source_attribution,20
+synthetic,Libya,R,action_wording,20
+synthetic,Libya,R,actor_identity,20
+synthetic,Libya,R,delegitimizing_framing,20
+synthetic,Libya,R,legitimizing_framing,20
+synthetic,Libya,R,neutral_control,20
+synthetic,Libya,R,original,20
+synthetic,Libya,R,source_attribution,20
+synthetic,Libya,S,action_wording,20
+synthetic,Libya,S,actor_identity,20
+synthetic,Libya,S,delegitimizing_framing,20
+synthetic,Libya,S,legitimizing_framing,20
+synthetic,Libya,S,neutral_control,20
+synthetic,Libya,S,original,20
+synthetic,Libya,S,source_attribution,20
+synthetic,Libya,V,action_wording,16
+synthetic,Libya,V,actor_identity,20
+synthetic,Libya,V,delegitimizing_framing,20
+synthetic,Libya,V,legitimizing_framing,20
+synthetic,Libya,V,neutral_control,20
+synthetic,Libya,V,original,20
+synthetic,Libya,V,source_attribution,20
+synthetic,Mexico,B,action_wording,20
+synthetic,Mexico,B,actor_identity,20
+synthetic,Mexico,B,delegitimizing_framing,20
+synthetic,Mexico,B,intensity,16
+synthetic,Mexico,B,legitimizing_framing,20
+synthetic,Mexico,B,neutral_control,20
+synthetic,Mexico,B,original,20
+synthetic,Mexico,B,source_attribution,20
+synthetic,Mexico,E,action_wording,20
+synthetic,Mexico,E,actor_identity,20
+synthetic,Mexico,E,delegitimizing_framing,19
+synthetic,Mexico,E,legitimizing_framing,19
+synthetic,Mexico,E,neutral_control,20
+synthetic,Mexico,E,original,20
+synthetic,Mexico,E,source_attribution,20
+synthetic,Mexico,P,action_wording,20
+synthetic,Mexico,P,actor_identity,20
+synthetic,Mexico,P,delegitimizing_framing,20
+synthetic,Mexico,P,legitimizing_framing,20
+synthetic,Mexico,P,neutral_control,20
+synthetic,Mexico,P,original,20
+synthetic,Mexico,P,source_attribution,20
+synthetic,Mexico,R,action_wording,20
+synthetic,Mexico,R,actor_identity,20
+synthetic,Mexico,R,delegitimizing_framing,20
+synthetic,Mexico,R,legitimizing_framing,20
+synthetic,Mexico,R,neutral_control,20
+synthetic,Mexico,R,original,20
+synthetic,Mexico,R,source_attribution,20
+synthetic,Mexico,S,action_wording,20
+synthetic,Mexico,S,actor_identity,20
+synthetic,Mexico,S,delegitimizing_framing,20
+synthetic,Mexico,S,legitimizing_framing,20
+synthetic,Mexico,S,neutral_control,20
+synthetic,Mexico,S,original,20
+synthetic,Mexico,S,source_attribution,20
+synthetic,Mexico,V,action_wording,16
+synthetic,Mexico,V,actor_identity,20
+synthetic,Mexico,V,delegitimizing_framing,20
+synthetic,Mexico,V,legitimizing_framing,20
+synthetic,Mexico,V,neutral_control,20
+synthetic,Mexico,V,original,20
+synthetic,Mexico,V,source_attribution,20
+synthetic,Morocco,B,action_wording,20
+synthetic,Morocco,B,actor_identity,20
+synthetic,Morocco,B,delegitimizing_framing,20
+synthetic,Morocco,B,intensity,16
+synthetic,Morocco,B,legitimizing_framing,20
+synthetic,Morocco,B,neutral_control,20
+synthetic,Morocco,B,original,20
+synthetic,Morocco,B,source_attribution,20
+synthetic,Morocco,E,action_wording,20
+synthetic,Morocco,E,actor_identity,20
+synthetic,Morocco,E,delegitimizing_framing,19
+synthetic,Morocco,E,legitimizing_framing,19
+synthetic,Morocco,E,neutral_control,20
+synthetic,Morocco,E,original,20
+synthetic,Morocco,E,source_attribution,20
+synthetic,Morocco,P,action_wording,20
+synthetic,Morocco,P,actor_identity,20
+synthetic,Morocco,P,delegitimizing_framing,20
+synthetic,Morocco,P,legitimizing_framing,20
+synthetic,Morocco,P,neutral_control,20
+synthetic,Morocco,P,original,20
+synthetic,Morocco,P,source_attribution,20
+synthetic,Morocco,R,action_wording,20
+synthetic,Morocco,R,actor_identity,20
+synthetic,Morocco,R,delegitimizing_framing,20
+synthetic,Morocco,R,legitimizing_framing,20
+synthetic,Morocco,R,neutral_control,20
+synthetic,Morocco,R,original,20
+synthetic,Morocco,R,source_attribution,20
+synthetic,Morocco,S,action_wording,20
+synthetic,Morocco,S,actor_identity,20
+synthetic,Morocco,S,delegitimizing_framing,20
+synthetic,Morocco,S,legitimizing_framing,20
+synthetic,Morocco,S,neutral_control,20
+synthetic,Morocco,S,original,20
+synthetic,Morocco,S,source_attribution,20
+synthetic,Morocco,V,action_wording,16
+synthetic,Morocco,V,actor_identity,20
+synthetic,Morocco,V,delegitimizing_framing,20
+synthetic,Morocco,V,legitimizing_framing,20
+synthetic,Morocco,V,neutral_control,20
+synthetic,Morocco,V,original,20
+synthetic,Morocco,V,source_attribution,20
+synthetic,Pakistan,B,action_wording,20
+synthetic,Pakistan,B,actor_identity,20
+synthetic,Pakistan,B,delegitimizing_framing,20
+synthetic,Pakistan,B,intensity,16
+synthetic,Pakistan,B,legitimizing_framing,20
+synthetic,Pakistan,B,neutral_control,20
+synthetic,Pakistan,B,original,20
+synthetic,Pakistan,B,source_attribution,20
+synthetic,Pakistan,E,action_wording,20
+synthetic,Pakistan,E,actor_identity,20
+synthetic,Pakistan,E,delegitimizing_framing,19
+synthetic,Pakistan,E,legitimizing_framing,19
+synthetic,Pakistan,E,neutral_control,20
+synthetic,Pakistan,E,original,20
+synthetic,Pakistan,E,source_attribution,20
+synthetic,Pakistan,P,action_wording,20
+synthetic,Pakistan,P,actor_identity,20
+synthetic,Pakistan,P,delegitimizing_framing,20
+synthetic,Pakistan,P,legitimizing_framing,20
+synthetic,Pakistan,P,neutral_control,20
+synthetic,Pakistan,P,original,20
+synthetic,Pakistan,P,source_attribution,20
+synthetic,Pakistan,R,action_wording,20
+synthetic,Pakistan,R,actor_identity,20
+synthetic,Pakistan,R,delegitimizing_framing,20
+synthetic,Pakistan,R,legitimizing_framing,20
+synthetic,Pakistan,R,neutral_control,20
+synthetic,Pakistan,R,original,20
+synthetic,Pakistan,R,source_attribution,20
+synthetic,Pakistan,S,action_wording,20
+synthetic,Pakistan,S,actor_identity,20
+synthetic,Pakistan,S,delegitimizing_framing,20
+synthetic,Pakistan,S,legitimizing_framing,20
+synthetic,Pakistan,S,neutral_control,20
+synthetic,Pakistan,S,original,20
+synthetic,Pakistan,S,source_attribution,20
+synthetic,Pakistan,V,action_wording,16
+synthetic,Pakistan,V,actor_identity,20
+synthetic,Pakistan,V,delegitimizing_framing,20
+synthetic,Pakistan,V,legitimizing_framing,20
+synthetic,Pakistan,V,neutral_control,20
+synthetic,Pakistan,V,original,20
+synthetic,Pakistan,V,source_attribution,20
+synthetic,South Korea,B,action_wording,20
+synthetic,South Korea,B,actor_identity,20
+synthetic,South Korea,B,delegitimizing_framing,20
+synthetic,South Korea,B,intensity,16
+synthetic,South Korea,B,legitimizing_framing,20
+synthetic,South Korea,B,neutral_control,20
+synthetic,South Korea,B,original,20
+synthetic,South Korea,B,source_attribution,20
+synthetic,South Korea,E,action_wording,20
+synthetic,South Korea,E,actor_identity,20
+synthetic,South Korea,E,delegitimizing_framing,19
+synthetic,South Korea,E,legitimizing_framing,19
+synthetic,South Korea,E,neutral_control,20
+synthetic,South Korea,E,original,20
+synthetic,South Korea,E,source_attribution,20
+synthetic,South Korea,P,action_wording,20
+synthetic,South Korea,P,actor_identity,20
+synthetic,South Korea,P,delegitimizing_framing,20
+synthetic,South Korea,P,legitimizing_framing,20
+synthetic,South Korea,P,neutral_control,20
+synthetic,South Korea,P,original,20
+synthetic,South Korea,P,source_attribution,20
+synthetic,South Korea,R,action_wording,20
+synthetic,South Korea,R,actor_identity,20
+synthetic,South Korea,R,delegitimizing_framing,20
+synthetic,South Korea,R,legitimizing_framing,20
+synthetic,South Korea,R,neutral_control,20
+synthetic,South Korea,R,original,20
+synthetic,South Korea,R,source_attribution,20
+synthetic,South Korea,S,action_wording,20
+synthetic,South Korea,S,actor_identity,20
+synthetic,South Korea,S,delegitimizing_framing,20
+synthetic,South Korea,S,legitimizing_framing,20
+synthetic,South Korea,S,neutral_control,20
+synthetic,South Korea,S,original,20
+synthetic,South Korea,S,source_attribution,20
+synthetic,South Korea,V,action_wording,16
+synthetic,South Korea,V,actor_identity,20
+synthetic,South Korea,V,delegitimizing_framing,20
+synthetic,South Korea,V,legitimizing_framing,20
+synthetic,South Korea,V,neutral_control,20
+synthetic,South Korea,V,original,20
+synthetic,South Korea,V,source_attribution,20
+synthetic,United States,B,action_wording,20
+synthetic,United States,B,actor_identity,20
+synthetic,United States,B,delegitimizing_framing,20
+synthetic,United States,B,intensity,16
+synthetic,United States,B,legitimizing_framing,20
+synthetic,United States,B,neutral_control,20
+synthetic,United States,B,original,20
+synthetic,United States,B,source_attribution,20
+synthetic,United States,E,action_wording,20
+synthetic,United States,E,actor_identity,20
+synthetic,United States,E,delegitimizing_framing,19
+synthetic,United States,E,legitimizing_framing,19
+synthetic,United States,E,neutral_control,20
+synthetic,United States,E,original,20
+synthetic,United States,E,source_attribution,20
+synthetic,United States,P,action_wording,20
+synthetic,United States,P,actor_identity,20
+synthetic,United States,P,delegitimizing_framing,20
+synthetic,United States,P,legitimizing_framing,20
+synthetic,United States,P,neutral_control,20
+synthetic,United States,P,original,20
+synthetic,United States,P,source_attribution,20
+synthetic,United States,R,action_wording,20
+synthetic,United States,R,actor_identity,20
+synthetic,United States,R,delegitimizing_framing,20
+synthetic,United States,R,legitimizing_framing,20
+synthetic,United States,R,neutral_control,20
+synthetic,United States,R,original,20
+synthetic,United States,R,source_attribution,20
+synthetic,United States,S,action_wording,20
+synthetic,United States,S,actor_identity,20
+synthetic,United States,S,delegitimizing_framing,20
+synthetic,United States,S,legitimizing_framing,20
+synthetic,United States,S,neutral_control,20
+synthetic,United States,S,original,20
+synthetic,United States,S,source_attribution,20
+synthetic,United States,V,action_wording,16
+synthetic,United States,V,actor_identity,20
+synthetic,United States,V,delegitimizing_framing,20
+synthetic,United States,V,legitimizing_framing,20
+synthetic,United States,V,neutral_control,20
+synthetic,United States,V,original,20
+synthetic,United States,V,source_attribution,20

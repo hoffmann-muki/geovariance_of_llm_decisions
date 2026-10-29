@@ -11,6 +11,15 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 import prepare_data as prep
+from utils import (
+    digest,
+    file_digest,
+    read_csv,
+    require,
+    verified_snapshot,
+    write_csv,
+    write_json,
+)
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "data/processed"
@@ -44,26 +53,6 @@ CHANGE_FIELDS = (
     "final_month",
     "reason",
 )
-
-
-def read_csv(path):
-    with path.open(newline="", encoding="utf-8-sig") as stream:
-        return list(csv.DictReader(stream))
-
-
-def require(condition, message):
-    if not condition:
-        raise ValueError(message)
-
-
-def verified_snapshot(path):
-    manifest = json.loads((path / "manifest.json").read_text())
-    for name, info in manifest["outputs"].items():
-        require(
-            prep.file_digest(path / name) == info["sha256"],
-            f"Prepared output changed: {name}",
-        )
-    return manifest
 
 
 def similarity_hits(pilot, others, threshold=0.90, within=True):
@@ -137,7 +126,7 @@ def decision_digest(review):
     }
     if "main_curation" in review:
         decisions["main_curation"] = review["main_curation"]
-    return prep.digest(json.dumps(decisions, sort_keys=True, ensure_ascii=False))
+    return digest(json.dumps(decisions, sort_keys=True, ensure_ascii=False))
 
 
 def load_review(path):
@@ -206,7 +195,7 @@ def validate_sample_review(reviews, allocated):
                 f"Unsupported input cannot be accepted: {event_id}",
             )
         require(
-            row["notes_sha256"] == prep.digest(source["notes"])
+            row["notes_sha256"] == digest(source["notes"])
             and bool(row["evidence_span"])
             and row["evidence_span"] in source["notes"],
             f"Sample review source/evidence mismatch: {event_id}",
@@ -379,7 +368,7 @@ def finalize(
     require(manifest["status"] == "prepared", "Preprocessing validation did not pass")
     for name, checksum in review["methods_review"]["reviewed_selection_files"].items():
         require(
-            prep.file_digest(source_dir / name) == checksum,
+            file_digest(source_dir / name) == checksum,
             f"Methods-reviewed selection changed: {name}",
         )
     original, main, reserves, pool = [
@@ -405,7 +394,7 @@ def finalize(
     for source in manifest["inputs"]:
         path = ROOT / "conflict_data" / source["file"]
         require(
-            prep.file_digest(path) == source["sha256"],
+            file_digest(path) == source["sha256"],
             f"Raw source changed: {path.name}",
         )
         for ordinal, row in enumerate(read_csv(path), 1):
@@ -416,7 +405,7 @@ def finalize(
         source = raw[case["source_file"], case["source_record"]]
         require(
             source["event_id_cnty"] == event_id
-            and prep.digest(source["notes"]) == case["notes_sha256"],
+            and digest(source["notes"]) == case["notes_sha256"],
             f"Reviewed source changed: {event_id}",
         )
     for row in main + reserves:
@@ -553,7 +542,7 @@ def finalize(
     ) as temporary:
         stage = Path(temporary) / "export"
         stage.mkdir()
-        prep.write_csv(
+        write_csv(
             stage / "pilot.csv",
             prep.SAMPLE_FIELDS
             + [
@@ -565,7 +554,7 @@ def finalize(
             ],
             pilot,
         )
-        prep.write_csv(
+        write_csv(
             stage / "main.csv",
             prep.SAMPLE_FIELDS
             + [
@@ -581,11 +570,11 @@ def finalize(
             ],
             main,
         )
-        prep.write_csv(
+        write_csv(
             stage / "edit_eligibility.csv", ["event_id", "family", "status"], edits
         )
-        prep.write_csv(stage / "cohort_changes.csv", CHANGE_FIELDS, changes)
-        prep.write_csv(
+        write_csv(stage / "cohort_changes.csv", CHANGE_FIELDS, changes)
+        write_csv(
             stage / "available_reserves.csv",
             prep.SAMPLE_FIELDS + ["eligibility_status", "review_decision"],
             active,
@@ -671,13 +660,14 @@ def finalize(
                 for f in FAMILIES
             },
             "inputs": {
-                "preprocessing_manifest_sha256": prep.file_digest(
+                "preprocessing_manifest_sha256": file_digest(
                     source_dir / "manifest.json"
                 ),
-                "review_sha256": prep.file_digest(review_path),
-                "sample_review_sha256": prep.file_digest(sample_review_path),
-                "finalizer_sha256": prep.file_digest(Path(__file__)),
-                "preprocessor_sha256": prep.file_digest(Path(prep.__file__)),
+                "review_sha256": file_digest(review_path),
+                "sample_review_sha256": file_digest(sample_review_path),
+                "finalizer_sha256": file_digest(Path(__file__)),
+                "preprocessor_sha256": file_digest(Path(prep.__file__)),
+                "utilities_sha256": file_digest(ROOT / "utils.py"),
             },
             "sample_review": {
                 role: dict(
@@ -691,10 +681,10 @@ def finalize(
             },
             "human_review_required": False,
             "outputs": {
-                p.name: {"sha256": prep.file_digest(p)} for p in sorted(stage.iterdir())
+                p.name: {"sha256": file_digest(p)} for p in sorted(stage.iterdir())
             },
         }
-        prep.write_json(stage / "manifest.json", result)
+        write_json(stage / "manifest.json", result)
         stage.rename(output_dir)
     return result
 

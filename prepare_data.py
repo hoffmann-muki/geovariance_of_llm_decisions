@@ -7,7 +7,6 @@ heuristic, not an assertion that two reports describe the same historical event.
 
 import argparse
 import csv
-import hashlib
 import json
 import re
 import statistics
@@ -18,6 +17,8 @@ from collections import Counter, defaultdict
 from datetime import date
 from difflib import SequenceMatcher
 from pathlib import Path
+
+from utils import digest, file_digest, write_csv, write_json
 
 ROOT = Path(__file__).resolve().parent
 LABELS = {
@@ -149,26 +150,6 @@ DEFAULT_CONFIG = {
     "near_duplicate_days": 7,
     "length_bins_words": [40, 80],
 }
-
-
-def digest(text):
-    return hashlib.sha256(text.encode("utf-8")).hexdigest()
-
-
-def file_digest(path):
-    with path.open("rb") as stream:
-        return (
-            hashlib.file_digest(stream, "sha256").hexdigest()
-            if hasattr(hashlib, "file_digest")
-            else digest_bytes(stream)
-        )
-
-
-def digest_bytes(stream):
-    result = hashlib.sha256()
-    for chunk in iter(lambda: stream.read(1024 * 1024), b""):
-        result.update(chunk)
-    return result.hexdigest()
 
 
 def text_key(text):
@@ -841,22 +822,6 @@ def sample_events(rows, config):
     return selected, list(summaries.values()), targets
 
 
-def write_csv(path, fields, rows):
-    with path.open("w", newline="", encoding="utf-8") as stream:
-        writer = csv.DictWriter(
-            stream, fieldnames=fields, extrasaction="ignore", lineterminator="\n"
-        )
-        writer.writeheader()
-        writer.writerows(rows)
-
-
-def write_json(path, value):
-    path.write_text(
-        json.dumps(value, indent=2, sort_keys=True, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-
-
 def sample_balance(eligible, selected, config, pool):
     counts = defaultdict(Counter)
     cells = {
@@ -1231,6 +1196,7 @@ def run(input_dir, output_dir, config):
             "label_map": LABELS,
             "actor_groups": ACTOR_GROUPS,
             "preprocessor_sha256": file_digest(Path(__file__)),
+            "utilities_sha256": file_digest(ROOT / "utils.py"),
             "python_version": sys.version.split()[0],
             "inputs": inventory,
             "sample_counts": report["sample_counts"],

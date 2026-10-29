@@ -5,6 +5,7 @@ Use [README.md](README.md) for entry points and commands, and [PROJECT_PLAN.md](
 ## Implementation
 
 - Keep the pipeline simple: Python 3.10+, standard library where practical, and focused scripts. Add dependencies only for a concrete need.
+- Put repository-wide helpers in `utils.py`; keep domain-specific logic with its owning pipeline.
 - Format changed Python files with Black targeting Python 3.10. Keep formatting separate from behavioral changes when requested.
 - Test input integrity, sampling, review decisions, and experiment invariants. Run the test suite before committing code changes; documentation-only changes need link and diff checks.
 - Fail explicitly on invalid inputs. Do not silently relax quotas, eligibility rules, or sample separation.
