@@ -10,10 +10,10 @@ import tempfile
 from collections import Counter
 from pathlib import Path
 
-import prepare_data as prep
-import model_inputs
-from finalize_inputs import FAMILIES, similarity_hits
-from utils import (
+from . import prepare_data as prep
+from . import model_inputs
+from .finalize_inputs import FAMILIES, similarity_hits
+from .utils import (
     digest,
     file_digest,
     read_csv,
@@ -23,7 +23,7 @@ from utils import (
     write_json,
 )
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 RECIPES = ROOT / "data/reviews/main_variants.json"
 EXTRA_FIELDS = [
     "label_support",
@@ -913,9 +913,11 @@ def build(
                     ROOT / "data/reviews/pilot_exclusions.csv"
                 ),
                 "builder_sha256": file_digest(Path(__file__)),
-                "utilities_sha256": file_digest(ROOT / "utils.py"),
+                "utilities_sha256": file_digest(Path(__file__).with_name("utils.py")),
                 "preprocessing_code_sha256": file_digest(Path(prep.__file__)),
-                "input_review_code_sha256": file_digest(ROOT / "finalize_inputs.py"),
+                "input_review_code_sha256": file_digest(
+                    Path(__file__).with_name("finalize_inputs.py")
+                ),
                 "model_input_code_sha256": file_digest(Path(model_inputs.__file__)),
             },
             "outputs": {p.name: {"sha256": file_digest(p)} for p in stage.iterdir()},

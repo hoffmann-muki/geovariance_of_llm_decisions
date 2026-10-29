@@ -4,9 +4,9 @@ import json
 import unittest
 from unittest.mock import patch
 
-import model_inputs as model
-import prepare_data as prep
-from utils import read_csv
+from src import model_inputs as model
+from src import prepare_data as prep
+from src.utils import read_csv
 
 
 def source_fixture():

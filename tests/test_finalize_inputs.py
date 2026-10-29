@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-import finalize_inputs as final
+from src import finalize_inputs as final
 
 
 class AcceptanceTests(unittest.TestCase):

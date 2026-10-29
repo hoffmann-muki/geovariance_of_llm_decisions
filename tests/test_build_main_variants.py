@@ -5,8 +5,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-import build_main_variants as build
-from utils import read_csv
+from src import build_main_variants as build
+from src.utils import read_csv
 
 
 class VariantTests(unittest.TestCase):

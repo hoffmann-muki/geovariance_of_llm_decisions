@@ -18,9 +18,9 @@ from datetime import date
 from difflib import SequenceMatcher
 from pathlib import Path
 
-from utils import digest, file_digest, write_csv, write_json
+from .utils import digest, file_digest, write_csv, write_json
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 LABELS = {
     "Violence against civilians": "V",
     "Battles": "B",
@@ -1196,7 +1196,7 @@ def run(input_dir, output_dir, config):
             "label_map": LABELS,
             "actor_groups": ACTOR_GROUPS,
             "preprocessor_sha256": file_digest(Path(__file__)),
-            "utilities_sha256": file_digest(ROOT / "utils.py"),
+            "utilities_sha256": file_digest(Path(__file__).with_name("utils.py")),
             "python_version": sys.version.split()[0],
             "inputs": inventory,
             "sample_counts": report["sample_counts"],

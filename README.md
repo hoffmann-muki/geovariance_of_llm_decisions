@@ -4,13 +4,15 @@
 
 Source data is in [conflict_data/](conflict_data/); reviewed source inputs are in [data/accepted/](data/accepted/).
 
+`src/` holds preparation, experiment, analysis and evaluation code; tests and data remain separate.
+
 Python 3.10+; install `requirements.txt` for token-length checks. Reproduce into unused directories:
 
 ```bash
 python3 -m pip install -r requirements.txt
-python3 prepare_data.py --output-dir data/processed_new
-python3 finalize_inputs.py --source-dir data/processed_new --output-dir data/accepted_new
-python3 build_main_variants.py --input-dir data/accepted_new --output-dir data/variants/main_new
+python3 -m src.prepare_data --output-dir data/processed_new
+python3 -m src.finalize_inputs --source-dir data/processed_new --output-dir data/accepted_new
+python3 -m src.build_main_variants --input-dir data/accepted_new --output-dir data/variants/main_new
 python3 -m unittest discover -s tests
 ```
 

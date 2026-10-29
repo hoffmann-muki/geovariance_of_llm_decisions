@@ -12,7 +12,7 @@ import unittest
 from collections import Counter
 from pathlib import Path
 
-import prepare_data as prep
+from src import prepare_data as prep
 
 
 def records():
@@ -264,7 +264,8 @@ class PreparationTests(unittest.TestCase):
         result = subprocess.run(
             [
                 sys.executable,
-                str(prep.ROOT / "prepare_data.py"),
+                "-m",
+                "src.prepare_data",
                 "--input-dir",
                 str(self.inputs),
                 "--output-dir",
@@ -274,6 +275,7 @@ class PreparationTests(unittest.TestCase):
             ],
             capture_output=True,
             text=True,
+            cwd=prep.ROOT,
         )
         self.assertEqual(result.returncode, 2, result.stderr)
         self.assertTrue((self.root / "output/quality_report.md").is_file())

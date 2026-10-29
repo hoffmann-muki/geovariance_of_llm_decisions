@@ -10,8 +10,8 @@ from collections import Counter
 from difflib import SequenceMatcher
 from pathlib import Path
 
-import prepare_data as prep
-from utils import (
+from . import prepare_data as prep
+from .utils import (
     digest,
     file_digest,
     read_csv,
@@ -21,7 +21,7 @@ from utils import (
     write_json,
 )
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/processed"
 REVIEW = ROOT / "data/reviews/input_review.json"
 SAMPLE_REVIEW = ROOT / "data/reviews/sample_review.csv"
@@ -667,7 +667,7 @@ def finalize(
                 "sample_review_sha256": file_digest(sample_review_path),
                 "finalizer_sha256": file_digest(Path(__file__)),
                 "preprocessor_sha256": file_digest(Path(prep.__file__)),
-                "utilities_sha256": file_digest(ROOT / "utils.py"),
+                "utilities_sha256": file_digest(Path(__file__).with_name("utils.py")),
             },
             "sample_review": {
                 role: dict(

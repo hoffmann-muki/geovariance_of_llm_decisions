@@ -5,9 +5,9 @@ import importlib.metadata
 import urllib.request
 from pathlib import Path
 
-from utils import digest, require
+from .utils import digest, require
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 
 ENCODER = "intfloat/multilingual-e5-large-instruct"
