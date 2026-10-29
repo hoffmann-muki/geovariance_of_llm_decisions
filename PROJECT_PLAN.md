@@ -1,6 +1,6 @@
 # Study Design
 
-Test whether controlled edits affect LLM conflict-event classification differently across countries, whether country names alone change predictions, and whether these effects differ between open-weight and API models. Build on [earlier West African research](https://arxiv.org/html/2605.04177v1) and its [code](https://github.com/hoffmann-muki/llm-conflict-monitoring-eval), using an independent implementation.
+Test whether controlled edits affect conflict-event classification differently across countries and whether country names alone change predictions. Assess geographic sensitivity within each model. Build on [earlier West African research](https://arxiv.org/html/2605.04177v1) and its [code](https://github.com/hoffmann-muki/llm-conflict-monitoring-eval), using an independent implementation.
 
 ## Data and Experiments
 
@@ -28,16 +28,16 @@ Use separate adversarial AI review contexts and adjudicate disagreements. Review
 
 ## Models and Analysis
 
-Evaluate four models: two open-weight models from different families and two API models from different providers. Freeze versions after the pilot. Use one zero-shot prompt with six-class definitions and structured output, fresh requests, randomized order, and minimal sampling. Exclude source labels and identifiers from prompts. Cache responses, predictions, settings, errors, usage, and timing; repeat a fixed subset to measure instability.
+Use two models: [Multilingual E5 Large Instruct](https://deepinfra.com/intfloat/multilingual-e5-large-instruct) through DeepInfra as the encoder, and [Llama 3.1 8B Instruct](https://openrouter.ai/meta-llama/llama-3.1-8b-instruct) through OpenRouter as the decoder. Freeze routing and settings before main inference. For E5, use a fixed task instruction and normalized cosine similarity against six frozen, country-neutral class descriptions; reject inputs exceeding its 512-token limit rather than truncate. For Llama, use the same class definitions in a zero-shot classification prompt with structured output. Exclude source labels and identifiers from model inputs. Randomize request order and retain responses, predictions, settings, errors, usage, and timing; repeat a fixed subset to measure instability.
 
 The primary outcome is the **country-by-edit interaction**. Measure baseline accuracy against reviewed labels, edit flip rates, excess flips relative to neutral controls on common eligible pairs, directional label transitions, and country-only disagreement across all 45 country pairs. Include all accepted inputs regardless of initial model correctness; use the initially correct subset only as a secondary analysis.
 
-Prespecify country contrasts and multiplicity adjustment. Estimate 95% bootstrap intervals by source-event families in A and base-description families in B, keeping related countries and edits together. Compare models on common valid pairs, report invalid responses separately, and test sensitivity to qualified or disputed labels. Report countries individually and use equal country weights for regional summaries.
+Prespecify country contrasts and multiplicity adjustment. Estimate 95% bootstrap intervals by source-event families in A and base-description families in B, keeping related countries and edits together. Analyze each model separately, report invalid responses separately, and test sensitivity to qualified or disputed labels. Report countries individually and use equal country weights for regional summaries.
 
 Natural-report comparisons remain observational. Balanced samples do not estimate operational accuracy or represent whole regions. Prediction changes measure behavioral sensitivity; nonsignificant differences do not establish invariance.
 
 ## Execution
 
-Run two models on the 28-event real pilot and 12 synthetic descriptions rendered under four countries. Validate edits, parsing, response stability, runtime, and cost; freeze the protocol before the main run. The upper bound is **57,280 classifications**, excluding repeats and retries; inapplicable edits reduce it.
+The reviewed stimulus pool contains 28 real events and 12 synthetic descriptions under four countries. An earlier DeepSeek/Llama inference pilot passed 150 technical checks; its outputs were removed after validation. Current work stops at data preparation: validate model input formats and lengths without sending inference requests. Construct and review the main variants and 120 synthetic bases before releasing the full stimulus set. The main-study upper bound is **28,640 classifications**, excluding repeats, retries, and E5 class-description embeddings; inapplicable edits reduce it.
 
 Deliver reproducible prediction logs, paired effect estimates with uncertainty, a country-by-edit heatmap, country-swap disagreements, and representative original/edited pairs.
