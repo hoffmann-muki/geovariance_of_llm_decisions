@@ -15,6 +15,7 @@ from .utils import (
     file_digest,
     load_secret,
     read_csv,
+    read_json,
     require,
     verified_snapshot,
     write_csv,
@@ -83,7 +84,7 @@ BUDGET = 0.05
 
 
 def reference_rows():
-    original = json.loads((inference.MAIN / "protocol.json").read_text())
+    original = read_json(inference.MAIN / "protocol.json")
     rows = []
     for label in CLASSES:
         for method, texts in (
@@ -426,7 +427,7 @@ def validate_reviews(rows, reviews):
 def prepare(directory, review_dir):
     require(not directory.exists(), "Use a new validation input directory")
     rows = read_csv(review_dir / "candidates.csv")
-    reviews = json.loads((review_dir / "reviews.json").read_text())
+    reviews = read_json(review_dir / "reviews.json")
     separation = validate_sources(rows)
     validate_reviews(rows, reviews)
     decisions = {r["input_id"]: r for r in reviews["adjudications"]}
@@ -464,11 +465,10 @@ def prepare(directory, review_dir):
     rows = [r for r in rows if r["split"] in {"development", "test", "reference"}]
     counter, tokenizer = model_inputs.load_token_counter()
     require(
-        tokenizer
-        == json.loads((inference.MAIN / "protocol.json").read_text())["tokenizer"],
+        tokenizer == read_json(inference.MAIN / "protocol.json")["tokenizer"],
         "Tokenizer changed",
     )
-    baseline_instruction = json.loads((inference.MAIN / "protocol.json").read_text())[
+    baseline_instruction = read_json(inference.MAIN / "protocol.json")[
         "encoder_instruction"
     ]
     tokens = {}
@@ -523,7 +523,7 @@ def prepare(directory, review_dir):
     write_json(directory / "reviews.json", reviews)
     write_json(
         directory / "selection_audit.json",
-        json.loads((review_dir / "selection_audit.json").read_text()),
+        read_json(review_dir / "selection_audit.json"),
     )
     config["outputs"] = {
         p.name: {"sha256": file_digest(p)} for p in directory.iterdir()
@@ -609,6 +609,11 @@ def predict(rows, vectors, config, method, split):
 
 
 def batch_requests(rows, config, phase, selected=None):
+    batch_size = config["batch_size"]
+    require(
+        type(batch_size) is int and 0 < batch_size <= BATCH_SIZE,
+        "Invalid validation batch size",
+    )
     texts = {}
     if phase == "development":
         texts.update(
@@ -628,7 +633,7 @@ def batch_requests(rows, config, phase, selected=None):
                 text = format_input(row["text"], instruction)
                 texts[digest(text)] = text
     ordered = sorted(texts.items())
-    return [ordered[i : i + BATCH_SIZE] for i in range(0, len(ordered), BATCH_SIZE)]
+    return [ordered[i : i + batch_size] for i in range(0, len(ordered), batch_size)]
 
 
 def fetch_batch(path, ident, batch, config, key):
@@ -654,8 +659,15 @@ def fetch_batch(path, ident, batch, config, key):
         )
         require(len(complete) < 12, "Validation request limit reached")
         reserve = inference.cost_bound(model, body)
+        budget = config["budget_usd"]
         require(
-            sum(e.get("accounted_cost_usd", 0) for e in events) + reserve <= BUDGET,
+            type(budget) in (int, float)
+            and math.isfinite(budget)
+            and 0 < budget <= BUDGET,
+            "Invalid validation budget",
+        )
+        require(
+            sum(e.get("accounted_cost_usd", 0) for e in events) + reserve <= budget,
             "Validation budget reached",
         )
         common = {
@@ -686,7 +698,14 @@ def fetch_batch(path, ident, batch, config, key):
             )
             cost, basis = inference.response_cost(response, model)
             result.update(status="valid", accounted_cost_usd=cost, cost_basis=basis)
-        except Exception as error:
+        except (
+            OSError,
+            ValueError,
+            KeyError,
+            TypeError,
+            IndexError,
+            AttributeError,
+        ) as error:
             result["error"] = (
                 f"{type(error).__name__}: {str(error).replace(key, '[REDACTED]')}"
             )
@@ -703,22 +722,45 @@ def fetch_batch(path, ident, batch, config, key):
     return dict(zip((sha for sha, _ in batch), embeddings))
 
 
+def guardrail_passed(candidate, baseline, thresholds):
+    keys = (
+        "test_correct_at_least",
+        "test_correct_per_class_at_least",
+        "improvement_over_baseline_at_least",
+    )
+    require(
+        all(type(thresholds[key]) is int and thresholds[key] >= 0 for key in keys),
+        "Invalid screening thresholds",
+    )
+    return (
+        candidate["correct"] >= thresholds["test_correct_at_least"]
+        and min(row["correct"] for row in candidate["by_class"].values())
+        >= thresholds["test_correct_per_class_at_least"]
+        and candidate["correct"] - baseline["correct"]
+        >= thresholds["improvement_over_baseline_at_least"]
+    )
+
+
 def render_report(input_dir, output_dir, run):
-    selection = json.loads((output_dir / "selection.json").read_text())
-    scores = json.loads((output_dir / "test_metrics.json").read_text())
-    predictions = json.loads((output_dir / "test_predictions.json").read_text())
+    config = read_json(input_dir / "manifest.json")
+    selection = read_json(output_dir / "selection.json")
+    scores = read_json(output_dir / "test_metrics.json")
+    predictions = read_json(output_dir / "test_predictions.json")
     selected = run["selected_method"]
     lines = [
         "# E5 Classification Validation",
         "",
-        "Sixty independent real events: 30 development and 30 untouched test notes, five per class in each split. No main, reserve or former pilot source families were submitted. Only E5 was called.",
+        f"{config['development_n']} development and {config['test_n']} untouched test events. "
+        "No main, reserve or former pilot source families were submitted. Only E5 was called.",
         "",
         "| Method | Development correct | Development macro-F1 |",
         "| --- | --- | --- |",
     ]
     for method in METHODS:
         score = selection["scores"][method]
-        lines.append(f"| {method} | {score['correct']}/30 | {score['macro_f1']:.3f} |")
+        lines.append(
+            f"| {method} | {score['correct']}/{score['n']} | {score['macro_f1']:.3f} |"
+        )
     lines += [
         "",
         f"Selected before test requests: **{selected}**, using development macro-F1, then accuracy, then method-list order. Test predictions were produced only for that method and the baseline.",
@@ -727,15 +769,20 @@ def render_report(input_dir, output_dir, run):
         "| --- | --- | --- |",
     ]
     for method, score in scores.items():
-        lines.append(f"| {method} | {score['correct']}/30 | {score['macro_f1']:.3f} |")
+        lines.append(
+            f"| {method} | {score['correct']}/{score['n']} | {score['macro_f1']:.3f} |"
+        )
     lines += [
         "",
         "| Class | Baseline correct | Selected correct |",
         "| --- | --- | --- |",
     ]
     for label in CLASSES:
+        baseline_class = scores["baseline"]["by_class"][label]
+        selected_class = scores[selected]["by_class"][label]
         lines.append(
-            f"| {label} | {scores['baseline']['by_class'][label]['correct']}/5 | {scores[selected]['by_class'][label]['correct']}/5 |"
+            f"| {label} | {baseline_class['correct']}/{baseline_class['n']} | "
+            f"{selected_class['correct']}/{selected_class['n']} |"
         )
     baseline = {r["input_id"]: r for r in predictions if r["method"] == "baseline"}
     corrected = [r for r in predictions if r["method"] == selected]
@@ -751,19 +798,25 @@ def render_report(input_dir, output_dir, run):
     )
     _, complete = inference.journal_state(output_dir / "attempts.jsonl")
     cost = math.fsum(r["accounted_cost_usd"] for r in complete.values())
+    thresholds = config["readiness_guardrail"]
     lines += [
         "",
-        f"Paired test changes: {fixed} baseline errors corrected; {introduced} previously correct labels changed incorrectly. The prespecified practical guardrail **{'passed' if run['guardrail_passed'] else 'did not pass'}**: at least 24/30 correct, at least 3/5 in every class, and at least three more correct than baseline.",
+        f"Paired test changes: {fixed} baseline errors corrected; "
+        f"{introduced} previously correct labels changed incorrectly. "
+        f"The prespecified practical guardrail **{'passed' if run['guardrail_passed'] else 'did not pass'}**: "
+        f"at least {thresholds['test_correct_at_least']} correct overall, "
+        f"{thresholds['test_correct_per_class_at_least']} correct in each class, and "
+        f"{thresholds['improvement_over_baseline_at_least']} more correct than baseline.",
         "",
         f"{len(complete)} embedding POSTs; estimated DeepInfra token charges ${cost:.6f}. Raw vectors, response indices, exact input-token counts, payload hashes and timings are retained in the journal. Selection is checksummed before test.",
         "",
         "The baseline uses the existing instruction and six definitions. Short definitions use one task sentence and concise class descriptions. Example centroids average three normalized, country-neutral example vectors per class and normalize each mean. Both corrections use the same short instruction; predictions select the largest cosine similarity with the frozen class-order tie rule. No model weights were trained.",
         "",
-        "Two separate adversarial AI contexts reviewed source-label support and reference semantics; one source-note review was blind to expected labels. Unclear notes were withheld before splitting. Additional V and S candidates were drawn after review shortfalls, using named-source-actor and nonviolent-subtype filters respectively. These curated 25–100-word notes are not an operational or country-balanced benchmark. Five test notes per class give limited precision, and the bundled changes do not isolate which component caused any gain.",
+        "Two separate adversarial AI contexts reviewed source-label support and reference semantics; one source-note review was blind to expected labels. Unclear notes were withheld before splitting. Additional V and S candidates were drawn after review shortfalls, using named-source-actor and nonviolent-subtype filters respectively. These curated 25–100-word notes are not an operational or country-balanced benchmark. Small class-specific test samples give limited precision, and the bundled changes do not isolate which component caused any gain.",
         "",
         "No method or reference was changed after development or test predictions. This check concerns basic classification utility, not geographic invariance. The main study, its stimuli and frozen protocol remain unchanged; adopting a correction requires a separately versioned protocol and fresh length checks before main inference.",
     ]
-    (output_dir / "report.md").write_text("\n".join(lines) + "\n")
+    (output_dir / "report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def run_phase(input_dir, output_dir, phase):
@@ -786,7 +839,7 @@ def run_phase(input_dir, output_dir, phase):
         )
     rows = read_csv(input_dir / "inputs.csv")
     validate_sources(rows)
-    validate_reviews(rows, json.loads((input_dir / "reviews.json").read_text()))
+    validate_reviews(rows, read_json(input_dir / "reviews.json"))
     require(
         Counter((r["split"], r["label"]) for r in rows if r["kind"] == "event")
         == Counter(
@@ -805,7 +858,7 @@ def run_phase(input_dir, output_dir, phase):
         manifest_path = output_dir / "manifest.json"
         binding = file_digest(input_dir / "manifest.json")
         run = (
-            json.loads(manifest_path.read_text())
+            read_json(manifest_path)
             if manifest_path.exists()
             else {"input_manifest_sha256": binding, "main_inference_performed": False}
         )
@@ -854,7 +907,7 @@ def run_phase(input_dir, output_dir, phase):
                 file_digest(output_dir / "selection.json") == run["selection_sha256"],
                 "Development selection changed",
             )
-            selection = json.loads((output_dir / "selection.json").read_text())
+            selection = read_json(output_dir / "selection.json")
             require(
                 run["selected_method"]
                 == selection["selected_method"]
@@ -933,10 +986,8 @@ def run_phase(input_dir, output_dir, phase):
         else:
             write_json(output_dir / "test_metrics.json", scores)
             candidate = scores[selected]
-            run["guardrail_passed"] = (
-                candidate["correct"] >= 24
-                and min(r["correct"] for r in candidate["by_class"].values()) >= 3
-                and candidate["correct"] - scores["baseline"]["correct"] >= 3
+            run["guardrail_passed"] = guardrail_passed(
+                candidate, scores["baseline"], config["readiness_guardrail"]
             )
         run[phase + "_complete"] = True
         run[phase + "_completed_at"] = inference.now()

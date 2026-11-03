@@ -93,7 +93,12 @@ def freeze_plan(output_file, main_dir=MAIN):
         "endpoint": "d = I(edit prediction != original prediction) - I(neutral prediction != original prediction)",
         "contrast_direction": "mean(d in country_a) minus mean(d in country_b); synthetic differences are paired by base description",
         "minimum_independent_families": MINIMUM_FAMILIES,
-        "real_primary_contrasts_by_class": {"P": 123, "B": 36, "V": 9, "R": 0},
+        "real_primary_contrasts_by_class": {
+            label: sum(
+                contrast["population"] == f"real:{label}" for contrast in contrasts
+            )
+            for label in ("P", "B", "V", "R")
+        },
         "tests": {
             "alternative": "two_sided",
             "real": "Approximate Welch mean test within each source class; observational country comparisons",

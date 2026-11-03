@@ -1,8 +1,8 @@
 """Prepare the adopted main protocol without submitting any model requests."""
 
 import argparse
-import json
 import math
+import os
 import tempfile
 from collections import Counter
 from pathlib import Path
@@ -12,6 +12,7 @@ from .utils import (
     digest,
     file_digest,
     read_csv,
+    read_json,
     require,
     verified_snapshot,
     write_csv,
@@ -22,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MAIN = ROOT / "data/variants/main"
 VALIDATION = ROOT / "data/e5_validation"
 RESULTS = ROOT / "runs/e5_validation"
+MODEL_DECISION = ROOT / "data/reviews/model_selection.json"
 
 
 def encoder_input(text, protocol):
@@ -56,7 +58,7 @@ def reviewed_references(protocol):
         == Counter({label: 3 for label in protocol["class_order"]}),
         "Selected reference counts changed",
     )
-    reviews = json.loads((VALIDATION / "reviews.json").read_text())
+    reviews = read_json(VALIDATION / "reviews.json")
     contexts = reviews["reviews"]
     require(
         len(contexts) == len({r["reviewer"] for r in contexts}) == 2,
@@ -99,6 +101,45 @@ def reviewed_references(protocol):
     return references
 
 
+def render_report(protocol, manifest, metrics, registry, output_dir):
+    decision = protocol["decision"]
+    encoder = protocol["provider_metadata"][model_inputs.ENCODER]
+    decoder = protocol["provider_metadata"][model_inputs.DECODER]
+    screening = (
+        "passed" if decision["original_screening_guardrail_passed"] else "failed"
+    )
+    class_scores = ", ".join(
+        f"{label} {metrics['by_class'][label]['correct']}/{metrics['by_class'][label]['n']}"
+        for label in protocol["class_order"]
+    )
+    source_link = Path(os.path.relpath(MAIN / "report.md", output_dir)).as_posix()
+    registry_link = Path(
+        os.path.relpath(ROOT / "data/analysis_plan.json", output_dir)
+    ).as_posix()
+    paragraphs = [
+        "# Adopted Experiment Protocol",
+        f"E5 method: `{protocol['encoder_method']}`, with "
+        f"{manifest['encoder_reference_embeddings']} reviewed reference examples. "
+        "Normalize each reference, average within class, and normalize each mean. "
+        "Model weights remain frozen.",
+        f"Adopted on {decision['date']}. Held-out result: "
+        f"{metrics['correct']}/{metrics['n']}; historical screening: {screening}. "
+        f"Class results: {class_scores}.",
+        f"Reuse {manifest['stimuli']:,} stimuli and "
+        f"{manifest['planned_classifications']:,} classifications from the "
+        f"[source release]({source_link}). Maximum E5 input: "
+        f"{manifest['maximum_encoder_tokens']}/{model_inputs.ENCODER_LIMIT} tokens; "
+        "truncation is disabled.",
+        f"Providers: {encoder['api']} for E5; {decoder['provider_name']} "
+        f"{decoder['quantization']} through {decoder['api']} for Llama. "
+        "Llama's prompt and parameters remain unchanged.",
+        f"The [analysis registry]({registry_link}) retains "
+        f"{len(registry['primary_contrasts'])} contrasts per model. "
+        "The protocol records the encoder amendment. No main inference was performed.",
+    ]
+    return "\n\n".join(paragraphs) + "\n"
+
+
 def prepare(output_dir, token_counter=None):
     require(not output_dir.exists(), "Use an unused protocol directory")
     verified_snapshot(MAIN)
@@ -106,6 +147,15 @@ def prepare(output_dir, token_counter=None):
     results = verified_snapshot(RESULTS)
     compatibility = verified_snapshot(ROOT / "runs/compatibility")
     compatibility_inputs = verified_snapshot(ROOT / "data/compatibility")
+    decision = read_json(MODEL_DECISION)
+    require(
+        decision["selected_method"] == results["selected_method"]
+        and decision["validation_inputs_manifest_sha256"]
+        == file_digest(VALIDATION / "manifest.json")
+        and decision["validation_run_manifest_sha256"]
+        == file_digest(RESULTS / "manifest.json"),
+        "Model decision does not match the validation evidence",
+    )
     require(
         results["input_manifest_sha256"] == file_digest(VALIDATION / "manifest.json")
         and results["test_complete"]
@@ -118,7 +168,7 @@ def prepare(output_dir, token_counter=None):
         == file_digest(ROOT / "data/compatibility/manifest.json"),
         "Compatibility evidence changed",
     )
-    selection = json.loads((RESULTS / "selection.json").read_text())
+    selection = read_json(RESULTS / "selection.json")
     require(
         file_digest(RESULTS / "selection.json") == results["selection_sha256"]
         and selection["selected_method"] == "example_centroids",
@@ -129,10 +179,8 @@ def prepare(output_dir, token_counter=None):
         == file_digest(MAIN / "manifest.json"),
         "Validation targets another source release",
     )
-    metrics = json.loads((RESULTS / "test_metrics.json").read_text())[
-        "example_centroids"
-    ]
-    protocol = json.loads((MAIN / "protocol.json").read_text())
+    metrics = read_json(RESULTS / "test_metrics.json")["example_centroids"]
+    protocol = read_json(MAIN / "protocol.json")
     references = reviewed_references(protocol)
     protocol.pop("prototype_tokens")
     protocol.pop("provider_compatibility_tested")
@@ -148,13 +196,13 @@ def prepare(output_dir, token_counter=None):
             model_inputs.DECODER: compatibility_inputs["models"][model_inputs.DECODER],
         },
         decision={
-            "date": "2026-11-03",
-            "basis": "User selected the short instruction and example-based classes after reviewing held-out results, retaining frozen E5 weights and fixed references.",
+            "date": decision["date"],
+            "basis": decision["basis"],
             "held_out_correct": metrics["correct"],
             "held_out_n": metrics["n"],
             "original_screening_guardrail_passed": results["guardrail_passed"],
-            "decision_after_test_results": True,
-            "limitations": "Small curated test; civilian attacks and strategic developments each scored 2/5. Adoption does not establish geographic invariance or operational accuracy.",
+            "decision_after_test_results": decision["decision_after_test_results"],
+            "limitations": "Small curated test; class-specific results remain in the validation report. Adoption does not establish geographic invariance or operational accuracy.",
         },
         analysis_amendment={
             "registry": "data/analysis_plan.json",
@@ -226,7 +274,7 @@ def prepare(output_dir, token_counter=None):
         == expected,
         "Request schedule no longer matches the inputs",
     )
-    registry = json.loads((ROOT / "data/analysis_plan.json").read_text())
+    registry = read_json(ROOT / "data/analysis_plan.json")
     require(
         registry["inputs"]["stimuli_sha256"] == file_digest(MAIN / "stimuli.csv")
         and len(registry["primary_contrasts"]) == 438,
@@ -237,6 +285,7 @@ def prepare(output_dir, token_counter=None):
     protocol["planned_classifications"] = len(schedule)
     protocol["encoder_reference_embeddings"] = len(references)
     inputs = [
+        MODEL_DECISION,
         MAIN / "manifest.json",
         MAIN / "stimuli.csv",
         MAIN / "protocol.json",
@@ -273,7 +322,8 @@ def prepare(output_dir, token_counter=None):
         write_json(stage / "protocol.json", protocol)
         write_csv(stage / "length_audit.csv", list(audit[0]), audit)
         (stage / "report.md").write_text(
-            f"# Adopted Experiment Protocol\n\nE5 uses the validation-selected short instruction and eighteen reviewed, country-neutral examples: three per class, averaged after normalization and normalized again. Its weights remain frozen. Llama retains its existing prompt and CoreWeave bf16 route.\n\nThe user selected this approach on 3 November 2026 after its 23/30 held-out result. The original screening guardrail remains failed; V and S each scored 2/5. This is a documented decision after validation, not a retroactive screening pass.\n\nAll {len(stimuli):,} stimuli and the {len(schedule):,}-classification request order are reused from the immutable [source release](../variants/main/report.md). The eighteen reference embeddings replace the original six-definition embeddings. Updated E5 inputs reach at most {manifest['maximum_encoder_tokens']} of 512 tokens; truncation is disabled.\n\nThe [analysis registry](../analysis_plan.json) retains its endpoints and 438 contrasts per model. The protocol records the encoder amendment and preserves the registry's historical binding. Main inference has not run; the CLI only prepares inputs.\n"
+            render_report(protocol, manifest, metrics, registry, output_dir),
+            encoding="utf-8",
         )
         manifest["outputs"] = {
             path.name: {"sha256": file_digest(path)} for path in stage.iterdir()

@@ -15,6 +15,7 @@ from .utils import (
     digest,
     file_digest,
     read_csv,
+    read_json,
     require,
     verified_snapshot,
     write_csv,
@@ -130,7 +131,7 @@ def decision_digest(review):
 
 
 def load_review(path):
-    review = json.loads(path.read_text(encoding="utf-8"))
+    review = read_json(path)
     require(
         review["review_mode"] == "ai_only_adversarial_user_authorized"
         and review["human_review_performed"] is False,

@@ -1,0 +1,9 @@
+{
+  "basis": "User selected the short instruction and example-based classes after reviewing held-out results, retaining frozen E5 weights and fixed references.",
+  "date": "2026-11-03",
+  "decision_after_test_results": true,
+  "format_version": 1,
+  "selected_method": "example_centroids",
+  "validation_inputs_manifest_sha256": "c01a0d579400c083d5e0ae6b4987ccd22915278e708f4c2ce574b850af6f0649",
+  "validation_run_manifest_sha256": "e87a716b69c492bd74e15a8ea839128fb9a575f1102586764418870ca769a7c9"
+}

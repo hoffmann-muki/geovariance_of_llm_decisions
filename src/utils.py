@@ -38,9 +38,14 @@ def write_csv(path, fields, rows):
 
 def write_json(path, value):
     path.write_text(
-        json.dumps(value, indent=2, sort_keys=True, ensure_ascii=False) + "\n",
+        json.dumps(value, indent=2, sort_keys=True, ensure_ascii=False, allow_nan=False)
+        + "\n",
         encoding="utf-8",
     )
+
+
+def read_json(path):
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def read_csv(path):
@@ -54,7 +59,7 @@ def require(condition, message):
 
 
 def verified_snapshot(path):
-    manifest = json.loads((path / "manifest.json").read_text())
+    manifest = read_json(path / "manifest.json")
     for name, info in manifest["outputs"].items():
         require(
             file_digest(path / name) == info["sha256"],

@@ -10,6 +10,12 @@ Use [README.md](README.md) for entry points and commands, and [PROJECT_PLAN.md](
 - Test input integrity, sampling, review decisions, and experiment invariants. Run the test suite before committing code changes; documentation-only changes need link and diff checks.
 - Fail explicitly on invalid inputs. Do not silently relax quotas, eligibility rules, or sample separation.
 
+## Professionalism
+
+- Treat every script as maintained research code: use clear names, focused functions, explicit failure handling and consistent UTF-8 file I/O. Avoid one-off shortcuts and unnecessary abstractions.
+- Generate report facts from validated artifacts. Keep fixed study parameters explicit; keep decision history in versioned data. Avoid long escaped narratives, duplicated calculations and hardcoded run outcomes in implementation code.
+- Review changes for stale assumptions, duplicated logic and failure paths. Add regression tests for material fixes and preserve completed artifacts and their historical producer hashes during refactoring.
+
 ## Data and Review
 
 - Preserve raw CSVs and original note strings. Normalize text only for comparisons. Treat existing generated snapshots as immutable; reproduce into unused directories.

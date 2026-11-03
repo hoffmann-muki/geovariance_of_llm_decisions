@@ -20,6 +20,8 @@ python3 -m unittest discover -s tests
 
 Preparation performs no inference and needs no API keys. Completed snapshots are preserved; recipes and review decisions are in [data/reviews/](data/reviews/).
 
+Archived model checks retain producer-code hashes; replay them from their producing revision (`52beeb9`).
+
 Current model settings and lengths are in [data/experiment/](data/experiment/); it reuses the main stimuli and request order.
 
 For the six-event held-out compatibility check, configure `OPENROUTER_API_KEY` and `DEEPINFRA_API_KEY` in the ignored `.env` file:

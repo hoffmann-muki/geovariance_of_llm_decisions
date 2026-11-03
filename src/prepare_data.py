@@ -18,7 +18,7 @@ from datetime import date
 from difflib import SequenceMatcher
 from pathlib import Path
 
-from .utils import digest, file_digest, write_csv, write_json
+from .utils import digest, file_digest, read_json, write_csv, write_json
 
 ROOT = Path(__file__).resolve().parents[1]
 LABELS = {
@@ -162,7 +162,7 @@ def clean(value):
 
 
 def load_config(path=None):
-    config = json.loads(path.read_text(encoding="utf-8")) if path else DEFAULT_CONFIG
+    config = read_json(path) if path else DEFAULT_CONFIG
     for key in (
         "main_per_cell",
         "pilot_per_cell",

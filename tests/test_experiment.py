@@ -11,6 +11,41 @@ from src.utils import digest, file_digest, read_csv, verified_snapshot
 
 
 class ExperimentTests(unittest.TestCase):
+    def test_report_uses_recorded_decision_and_computed_metrics(self):
+        protocol = json.loads(
+            (experiment.ROOT / "data/experiment/protocol.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        protocol["decision"]["date"] = "2030-02-04"
+        protocol["decision"]["original_screening_guardrail_passed"] = True
+        metrics = {
+            "correct": 31,
+            "n": 42,
+            "by_class": {
+                label: {"correct": 1, "n": 7} for label in protocol["class_order"]
+            },
+        }
+        manifest = {
+            "encoder_reference_embeddings": 18,
+            "stimuli": 7,
+            "planned_classifications": 14,
+            "maximum_encoder_tokens": 123,
+        }
+        report = experiment.render_report(
+            protocol,
+            manifest,
+            metrics,
+            {"primary_contrasts": [None] * 9},
+            experiment.ROOT / "data/reproduced",
+        )
+        self.assertIn("Adopted on 2030-02-04", report)
+        self.assertIn("31/42", report)
+        self.assertIn("screening: passed", report)
+        self.assertIn("123/512", report)
+        self.assertIn("9 contrasts", report)
+        self.assertNotIn("23/30", report)
+
     def test_reference_centroids_reproduce_validation_predictions(self):
         config = json.loads((experiment.VALIDATION / "manifest.json").read_text())
         rows = read_csv(experiment.VALIDATION / "inputs.csv")

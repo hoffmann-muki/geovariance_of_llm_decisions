@@ -1,13 +1,39 @@
 """Prespecified contrast eligibility must not depend on model responses."""
 
+import tempfile
 import unittest
 from collections import Counter
+from pathlib import Path
 
 from src import analysis
-from src.utils import read_csv
+from src.utils import file_digest, read_csv, read_json
 
 
 class AnalysisPlanTests(unittest.TestCase):
+    def test_derived_class_counts_preserve_the_prespecified_plan(self):
+        archived = read_json(analysis.ROOT / "data/analysis_plan.json")
+        with tempfile.TemporaryDirectory() as directory:
+            rebuilt = analysis.freeze_plan(Path(directory) / "analysis_plan.json")
+        self.assertEqual(
+            rebuilt["inputs"]["planner_sha256"], file_digest(Path(analysis.__file__))
+        )
+        self.assertEqual(
+            {
+                key: value
+                for key, value in rebuilt["inputs"].items()
+                if key != "planner_sha256"
+            },
+            {
+                key: value
+                for key, value in archived["inputs"].items()
+                if key != "planner_sha256"
+            },
+        )
+        self.assertEqual(
+            {key: value for key, value in rebuilt.items() if key != "inputs"},
+            {key: value for key, value in archived.items() if key != "inputs"},
+        )
+
     def test_frozen_eligibility_and_sparse_real_identity(self):
         contrasts = analysis.planned_contrasts(read_csv(analysis.MAIN / "stimuli.csv"))
         real = [c for c in contrasts if c["population"].startswith("real:")]

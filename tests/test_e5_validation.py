@@ -33,6 +33,15 @@ def fixture():
         "selection": "Highest development macro-F1, accuracy, then method-list order",
         "class_order": validation.CLASSES,
         "methods": validation.METHODS,
+        "batch_size": validation.BATCH_SIZE,
+        "budget_usd": validation.BUDGET,
+        "development_n": 30,
+        "test_n": 30,
+        "readiness_guardrail": {
+            "test_correct_at_least": 24,
+            "test_correct_per_class_at_least": 3,
+            "improvement_over_baseline_at_least": 3,
+        },
         "instructions": {
             "baseline": original["encoder_instruction"],
             "short": validation.SHORT_INSTRUCTION,
@@ -84,6 +93,61 @@ def fixture():
 
 
 class E5ValidationTests(unittest.TestCase):
+    def test_execution_respects_frozen_batch_budget_and_threshold_values(self):
+        rows, config, _ = fixture()
+        config["batch_size"] = 7
+        batches = validation.batch_requests(rows, config, "development")
+        self.assertEqual(len(batches), 13)
+        self.assertTrue(all(len(batch) <= 7 for batch in batches))
+        config["budget_usd"] = 1e-12
+        with (
+            tempfile.TemporaryDirectory() as directory,
+            patch.object(inference, "send") as sender,
+        ):
+            journal = Path(directory) / "attempts.jsonl"
+            with self.assertRaisesRegex(ValueError, "budget reached"):
+                validation.fetch_batch(
+                    journal, "development:0", batches[0], config, "test-key"
+                )
+            sender.assert_not_called()
+            self.assertFalse(journal.exists())
+        candidate = {
+            "correct": 24,
+            "by_class": {label: {"correct": 4} for label in validation.CLASSES},
+        }
+        baseline = {"correct": 11}
+        thresholds = config["readiness_guardrail"]
+        self.assertTrue(validation.guardrail_passed(candidate, baseline, thresholds))
+        for change in (
+            {"test_correct_at_least": 25},
+            {"test_correct_per_class_at_least": 5},
+            {"improvement_over_baseline_at_least": 14},
+        ):
+            self.assertFalse(
+                validation.guardrail_passed(
+                    candidate, baseline, {**thresholds, **change}
+                )
+            )
+
+    def test_programming_errors_are_not_reclassified_as_provider_failures(self):
+        rows, config, _ = fixture()
+        batch = validation.batch_requests(rows, config, "development")[0]
+        with (
+            tempfile.TemporaryDirectory() as directory,
+            patch.object(
+                inference,
+                "send",
+                side_effect=RuntimeError("unexpected implementation failure"),
+            ),
+        ):
+            journal = Path(directory) / "attempts.jsonl"
+            with self.assertRaisesRegex(RuntimeError, "implementation failure"):
+                validation.fetch_batch(
+                    journal, "development:0", batch, config, "test-key"
+                )
+            with self.assertRaisesRegex(ValueError, "Unfinished"):
+                inference.journal_state(journal)
+
     def test_method_selection_uses_macro_f1_then_accuracy_then_simplicity(self):
         scores = {
             method: {"macro_f1": 0.5, "accuracy": 0.5} for method in validation.METHODS

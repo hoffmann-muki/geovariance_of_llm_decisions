@@ -19,6 +19,7 @@ from .utils import (
     file_digest,
     load_secret,
     read_csv,
+    read_json,
     require,
     verified_snapshot,
     write_csv,
@@ -191,7 +192,7 @@ def heldout_records():
 
 def prepare_check(output_dir, metadata=None, token_counter=None):
     require(not output_dir.exists(), "Compatibility input directory already exists")
-    protocol = json.loads((MAIN / "protocol.json").read_text())
+    protocol = read_json(MAIN / "protocol.json")
     require(
         protocol["encoder_model"] == model_inputs.ENCODER
         and protocol["decoder_model"] == model_inputs.DECODER
@@ -399,7 +400,7 @@ def send(model, body, key):
 
 def journal_state(path):
     events = (
-        [json.loads(line) for line in path.read_text().splitlines()]
+        [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
         if path.exists()
         else []
     )
@@ -638,7 +639,7 @@ def validate_check(directory):
         "Check schedule changed",
     )
     require(
-        config["protocol"] == json.loads((MAIN / "protocol.json").read_text()),
+        config["protocol"] == read_json(MAIN / "protocol.json"),
         "Frozen protocol changed",
     )
     return config, {r["input_id"]: r for r in rows}, schedule
@@ -718,7 +719,7 @@ def summarize(output_dir, config, rows, schedule, events, complete):
         "",
         "The manifest freezes settings, selection and code hashes. The journal retains raw responses, usage, timing and failures. Providers do not expose an immutable served-weight revision; a later main run must recheck availability and routing.",
     ]
-    (output_dir / "report.md").write_text("\n".join(lines) + "\n")
+    (output_dir / "report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return passed
 
 
@@ -735,7 +736,7 @@ def run_check(input_dir, output_dir, budget=0.10):
         run_path = output_dir / "manifest.json"
         binding = file_digest(input_dir / "manifest.json")
         if run_path.exists():
-            run = json.loads(run_path.read_text())
+            run = read_json(run_path)
             require(
                 run["input_manifest_sha256"] == binding and run["budget_usd"] == budget,
                 "Run configuration changed",

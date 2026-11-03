@@ -17,6 +17,7 @@ from .utils import (
     digest,
     file_digest,
     read_csv,
+    read_json,
     require,
     verified_snapshot,
     write_csv,
@@ -457,9 +458,7 @@ def draft_cases(recipes, input_dir=ROOT / "data/accepted"):
         and set(countries) == set(prep.DEFAULT_CONFIG["country_regions"]),
         "Main country coverage changed",
     )
-    policy = json.loads((ROOT / "data/reviews/input_review.json").read_text())[
-        "family_policy"
-    ]
+    policy = read_json(ROOT / "data/reviews/input_review.json")["family_policy"]
     baselines, cases, omissions = [], [], []
     for recipe in recipes["real"]:
         validate_conditions(recipe)
@@ -679,7 +678,7 @@ def build(
     token_counter=None,
 ):
     require(not output_dir.exists(), f"Output directory already exists: {output_dir}")
-    recipes = json.loads(recipes_path.read_text())
+    recipes = read_json(recipes_path)
     baselines, cases, omissions, source_audit, ledger = draft_cases(recipes, input_dir)
     decisions = {} if draft else adjudicated_cases(recipes, cases)
     accepted = (
@@ -843,7 +842,8 @@ def build(
         )
         if draft:
             (stage / "review_cases.jsonl").write_text(
-                "\n".join(json.dumps(c, ensure_ascii=False) for c in cases) + "\n"
+                "\n".join(json.dumps(c, ensure_ascii=False) for c in cases) + "\n",
+                encoding="utf-8",
             )
         balance = []
         for key, value in sorted(
@@ -875,7 +875,7 @@ def build(
             "Synthetic notes and identity/framing/intensity/attribution edits are counterfactuals, not historical findings. Synthetic source families shared with Experiment A are listed in the manifest; keep these links when resampling. Pilot/reserve families are excluded. AI review is not human verification and contexts may share systematic errors. Provider compatibility and classification behavior have not been tested for the selected models; no main inference is authorized by this data release.",
             "",
         ]
-        (stage / "report.md").write_text("\n".join(report))
+        (stage / "report.md").write_text("\n".join(report), encoding="utf-8")
         result = {
             "format_version": 1,
             "study": "main",
