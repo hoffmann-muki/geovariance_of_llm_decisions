@@ -1,0 +1,21 @@
+{
+  "budget_usd": 0.1,
+  "complete": true,
+  "input_directory": "data/compatibility",
+  "input_manifest_sha256": "9a37efd327bc69728fccd72c1e25ecd2585baa9407a631cf5c8012245546afbc",
+  "main_experiment_started": false,
+  "outputs": {
+    "attempts.jsonl": {
+      "sha256": "b956f8b80b8417d365316c2bf7f2d44e194f9bf8ffd204f7253873a99764425e"
+    },
+    "predictions.csv": {
+      "sha256": "81ed3b62ee08556047ff662ff04b0157fc1ed60cbe478e5f058a265e652352a8"
+    },
+    "report.md": {
+      "sha256": "8ba199913841f4c363f17934aaed1842f9760ce104905d8458c88ddc513dd67f"
+    }
+  },
+  "started_at": "2026-11-03T08:31:20.822551+00:00",
+  "technical_gate_passed": true,
+  "updated_at": "2026-11-03T08:31:32.975746+00:00"
+}

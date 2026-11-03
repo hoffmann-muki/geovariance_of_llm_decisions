@@ -3,6 +3,8 @@
 import csv
 import hashlib
 import json
+import os
+import shlex
 
 
 def digest(text):
@@ -59,3 +61,28 @@ def verified_snapshot(path):
             f"Prepared output changed: {name}",
         )
     return manifest
+
+
+def load_secret(name, path):
+    """Read a named credential without expanding shell syntax or logging values."""
+    value = os.environ.get(name, "").strip()
+    if not value and path.exists():
+        matches = []
+        for line in path.read_text(encoding="utf-8").splitlines():
+            key, separator, raw = line.partition("=")
+            if separator and key.strip().removeprefix("export ").strip() == name:
+                parts = shlex.split(raw, comments=True)
+                require(len(parts) == 1, f"Invalid {name} entry in .env")
+                matches.append(parts[0])
+        require(len(matches) == 1, f"Define {name} exactly once in .env")
+        value = matches[0]
+    require(bool(value), f"Configure {name} in the environment or local .env")
+    return value
+
+
+def append_jsonl(path, record):
+    """Persist a journal event before proceeding to the next operation."""
+    with path.open("a", encoding="utf-8") as stream:
+        stream.write(json.dumps(record, ensure_ascii=False, allow_nan=False) + "\n")
+        stream.flush()
+        os.fsync(stream.fileno())
