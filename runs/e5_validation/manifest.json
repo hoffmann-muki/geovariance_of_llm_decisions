@@ -1,0 +1,32 @@
+{
+  "committed_journal_bytes": 2574305,
+  "development_complete": true,
+  "development_completed_at": "2026-11-03T08:55:12.313457+00:00",
+  "guardrail_passed": false,
+  "input_manifest_sha256": "c01a0d579400c083d5e0ae6b4987ccd22915278e708f4c2ce574b850af6f0649",
+  "main_inference_performed": false,
+  "outputs": {
+    "attempts.jsonl": {
+      "sha256": "4e0752038674618888e32d32e24b121cc18bfe6f5ad172dc00bb2b42344a5648"
+    },
+    "development_predictions.json": {
+      "sha256": "d311378a9f095858545096c3cea36d4ba34bcdd11450e8362382a1d3105f05bd"
+    },
+    "report.md": {
+      "sha256": "8d69ad27d011aa2212aa03913f31c546aafcfde3ae95fe75f65fc9b6cbe3b916"
+    },
+    "selection.json": {
+      "sha256": "0fcfca5222d8b4dc9c8910d8a92630be083fd5774246d5f63d8a7336d1dbb4a4"
+    },
+    "test_metrics.json": {
+      "sha256": "b3bfab9e375c216f51a52df2f88f64033733d86e7dc50df502ba5a77b1511011"
+    },
+    "test_predictions.json": {
+      "sha256": "a3df643487dd1324af23394f110e2b4b6225b825762b6684fde4c066e1ead003"
+    }
+  },
+  "selected_method": "example_centroids",
+  "selection_sha256": "0fcfca5222d8b4dc9c8910d8a92630be083fd5774246d5f63d8a7336d1dbb4a4",
+  "test_complete": true,
+  "test_completed_at": "2026-11-03T08:55:39.691767+00:00"
+}

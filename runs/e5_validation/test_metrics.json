@@ -1,0 +1,66 @@
+{
+  "baseline": {
+    "accuracy": 0.36666666666666664,
+    "by_class": {
+      "B": {
+        "correct": 0,
+        "n": 5
+      },
+      "E": {
+        "correct": 2,
+        "n": 5
+      },
+      "P": {
+        "correct": 4,
+        "n": 5
+      },
+      "R": {
+        "correct": 0,
+        "n": 5
+      },
+      "S": {
+        "correct": 0,
+        "n": 5
+      },
+      "V": {
+        "correct": 5,
+        "n": 5
+      }
+    },
+    "correct": 11,
+    "macro_f1": 0.2715099715099715,
+    "n": 30
+  },
+  "example_centroids": {
+    "accuracy": 0.7666666666666667,
+    "by_class": {
+      "B": {
+        "correct": 5,
+        "n": 5
+      },
+      "E": {
+        "correct": 5,
+        "n": 5
+      },
+      "P": {
+        "correct": 4,
+        "n": 5
+      },
+      "R": {
+        "correct": 5,
+        "n": 5
+      },
+      "S": {
+        "correct": 2,
+        "n": 5
+      },
+      "V": {
+        "correct": 2,
+        "n": 5
+      }
+    },
+    "correct": 23,
+    "macro_f1": 0.7560125060125059,
+    "n": 30
+  }
+}

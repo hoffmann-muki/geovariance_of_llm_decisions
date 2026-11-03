@@ -1,0 +1,29 @@
+{
+  "accepted_event_counts": {
+    "B": 10,
+    "E": 15,
+    "P": 15,
+    "R": 12,
+    "S": 20,
+    "V": 15
+  },
+  "amendment": "Before model inference, initial concordant acceptance yielded B10/P15/R12/E15/V4/S6. Supplement V/S only; same seed, family separation, lexical screen, two-context semantic acceptance and final 10/class quotas. Split after review; no model outcomes used.",
+  "stages": [
+    {
+      "blocked_family_count": 836,
+      "candidates_per_class": 15,
+      "seed": 42,
+      "skipped": [],
+      "source_note_comparisons": "Both SequenceMatcher directions >=0.90 against allocated source originals and previously chosen candidates"
+    },
+    {
+      "blocked_family_count": 836,
+      "candidates_per_class": 15,
+      "seed": 42,
+      "skipped": [],
+      "source_note_comparisons": "Both SequenceMatcher directions >=0.90 against allocated source originals and previously chosen candidates",
+      "supplement_from_sha256": "e42cee2871f743bffb5f02fb8a0c8f5ad56c4ccdd5beb29fee8a59a60a724c8f",
+      "supplement_rule": "After label-only review shortfalls, supplement V from named source actor1 (excluding unidentified actors) and S from Agreement, Change to group/activity or Non-violent transfer of territory; retain original seed, quotas and semantic review"
+    }
+  ]
+}

@@ -1,0 +1,3469 @@
+{
+  "adjudications": [
+    {
+      "decision": "accept",
+      "input_id": "PAK150914",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "41d158e53f1845f1323d5fdacad1e6d89595edd63d9fbffd33797366cc0059c3"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND178221",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "ec4fc8ef01edeabbcb3c823743479b74cef97225eef2ec2f1a6c4e677dbc60db"
+    },
+    {
+      "decision": "accept",
+      "input_id": "LBY12349",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "7366ef4efbb3cf950cc61e8fc4ef73c0c7fc7571b2ec7b12b1a8a9f0377d6d05"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA102953",
+      "label": "B",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "70b1de87bbf434c2ba8e60d8a3756d1f6ef6b6d0b03be4db48bd19cb8e8e2ad6"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "PAK151437",
+      "label": "B",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "72ac97b26d0a730d437da96e98eff495b0eacd5e8967b7088ce66e98710514f3"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA92027",
+      "label": "B",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "758b3ca43d0487cc606d2d2e0bbb91056036f292dd427a06c7fa8bc2867d6a19"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "PAK151058",
+      "label": "B",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "53832da421db51500e8cd48e7685e74b60607561ce3d6d70ea328781ae1e8412"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND193529",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "56fd907b50dcc226c550dc18ff7db564191584a864918cd7106d205dd4e39922"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX106784",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "f3e401d27e7a7f05379741a07293a3f8669207eb267bd8db1042da3a6c01d283"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK147964",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "3681eaa649110bc98fe7f6b3ddd21bcca89b548c90c6b5a63a3475fbe75b7703"
+    },
+    {
+      "decision": "accept",
+      "input_id": "BRA94519",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "3ebeef13843117813162e2a154799ecf9070b79ee19b7e4bdd803bf80ec8a7a9"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA100217",
+      "label": "B",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "b88086bdb3dd96e69b92f6f6ee78d1e4594cfb37080373708c54a9d1d2826523"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX99091",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "e8fbab70574395dbc0ef7f52902ef28124528f92aed22e0fe2df9c88196e2379"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL34858",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "4a688f62283499975dc79b765f48a71e7e73e5d848637216027ca89713c64cfe"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK155808",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "73f690ebf7567541b1dcce4247b33d934c538f9fb20e93c1f8b81369cdafd006"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND193810",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "03b8e053596f79e4e3de559d6a30212a5aa8e4ffed6a3bf605f2511b7101e534"
+    },
+    {
+      "decision": "accept",
+      "input_id": "USA87404",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "46691e2df55da6e079c4770e5a1ca927164e37736ef311f693af2dc66a97072e"
+    },
+    {
+      "decision": "accept",
+      "input_id": "BRA99632",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "374269f43fdbb36848e47e785405ddc67fe0aa0f3685c5fc17c014b686c34dd9"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK152702",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "02cdf23d5ac250d323418e8e3ce2d00b1c5687056087e24c1bba37a9e9102286"
+    },
+    {
+      "decision": "accept",
+      "input_id": "USA78531",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "2f4118bd8b16f0138da2fef29bbe7578c2a6f9a3f1608d6fa9cc24d60586bc63"
+    },
+    {
+      "decision": "accept",
+      "input_id": "USA89696",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "15efcae52f4207455bf6058a43b60d9bb3dcef0d21969769a6cff9296365ba09"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL34451",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "6af75428934dd2b6553bd9553cb7ef75ce20a13a4bce5556e6452451a3bb4747"
+    },
+    {
+      "decision": "accept",
+      "input_id": "USA78450",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "f8957e45c7457c1b13d91cca7f863cdf5a6d2d83753751b2636120965890f65d"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK153948",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "66584040a50fbe2744f6e284eb5fdce09c6178289a79090bd53ca330355baacc"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL32036",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "e533a295325e7bf42f2c3c12ab593a0e9e43d6dcdaae719ffac9a48c6a0a206b"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND178908",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "3a9c855ac96fd900807dfb2c3083cb351f5925a89b5c3a1de170c6ecc4d627c9"
+    },
+    {
+      "decision": "accept",
+      "input_id": "KOR40804",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "fd3e5bdc7663b16295d64e2c998eb5b3af018533fe6fe1d65b76d022ab3295f4"
+    },
+    {
+      "decision": "accept",
+      "input_id": "USA82780",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "3ce1eca75be5225d71f13d21a0533cd3cca750fe099fe2d4527e1ea2c5b4bff9"
+    },
+    {
+      "decision": "accept",
+      "input_id": "KOR41645",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "fd89e5453947a3340c6212513c51d1b0c5837db89309033f3b6e2b73628a3c26"
+    },
+    {
+      "decision": "accept",
+      "input_id": "USA94062",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "1d29c6644a3dc628fb2264a66218073895f46b6fc76388ff00bd4c889f71a055"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL34509",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "16566741a693369c4f17abe73265b257c8dddc534e33995e57c9cc896911b3bc"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND174781",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "3ba650f2c03eec57d56a880a0d358126c7ac797752980b2bc17b9069debf07f2"
+    },
+    {
+      "decision": "accept",
+      "input_id": "LBY11829",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "3c9f197aaddfd28d12cddf60c238dd8f4dbb8f108f23348399d8ca670866e675"
+    },
+    {
+      "decision": "accept",
+      "input_id": "BRA95936",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "5cb041c40760d9fcb84a067a166d49d18b49cb72c944c7741f3a0a485def3b31"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "IND179530",
+      "label": "R",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "f9f1cce3dd963e8d5a10dd3c4509d38153835d4b729667a62859a2921ce9d090"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND182506",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "476cffb32d753028d7af3924bd77489269eaa275359b59444d2d176c0264557d"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL29521",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "1adad8a61cfaa5fcfbda61ff05a72a120ecec65fd9ef5e26d20c1dfcfd41b2a1"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND193980",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "8b215fa2cf0dfb031736aac152f5b1e5c4abdb2449da84ad0d56b7cc3225b312"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX96888",
+      "label": "R",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "8104a93bc91a9f5da8da655f7451fbadcaec6ccfce5a06e3354c13f313540d44"
+    },
+    {
+      "decision": "accept",
+      "input_id": "BRA119786",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "a3c1bcd844c6a4006a3d56d73bb5d868c4e97f84e1ee0a88d304e0812a1268cf"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND192238",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "0dc9b264f84962813526ec3c1b82f15b87181b066e060071a23182a9b1472a20"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX106926",
+      "label": "R",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "6f342079d16a39fb0aae4a63392e9891976f8478043b06dddbfbedb100c15b15"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND182494",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "a4e76c2bdea94c2c477dd9b82f79641f8493ea742617b32fe22b818c65bd4c47"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX101072",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "2cd84b6df7092f58ae638b321d6330195c4a63c817c4dd15a0cb70e5ea0f4cd6"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX100829",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "2c71690d88066f44ea6c7a7ec8abfd274b7b8fad751ba37829936fc69b3bc40b"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK153445",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "286f7c78d198babc9945be6b22120f73d34c36cfbaafdcf02c7e77576d8831fd"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK151878",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "8bc9f68a62230608d93280c609b3bae1e9da094981e96d419fbfc3bed8d55671"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL31061",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "38f0a034765964598f7191b567ae7966a2856de6883ae3f35fa641a8c249cc42"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK151898",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "5b449c6880c7e1e96f3ebee53ba120e9fe2885c2a1b502bad889b87ae77f8a4a"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL30835",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "cb1bab099ede0be1a9c880fe260ee8641f47e1d5d92af7d1a8df710bdde6253e"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND178692",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "a94ccbb4533766b0fb630fca62d3852db013bea6a4a0aaf3230f7d8bcd623f20"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK152863",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "ed58b50360f3e4e1ade4b56b341761cf40a1c8611a514885fdf015ab6349b85b"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL31899",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "a55ffa52679e4326699eb5276d514885ebdeaf2bf605187f38ffee33356a95de"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK147928",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "93fe49659f3691b60f6f8f78b8573cdc4526b28a96ff14a424288491f2475876"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL32700",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "0b82c2594477075d278ba25e35541f46d6d2cc53d350f1b6f609651512b71012"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL32863",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "6371d2e5cd2129e628325759bbcdb9cc15639024d305da70c78e23bfc7eeaab0"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL29333",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "855fb6b2be1b7cb0596b81f6ce35c7bca529210b5dedfcf692d3fa1492a53599"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK150014",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "2db35adf7dd56ef8ff22c0aec667b4184820db9d5e7961252f46c9411ecd675b"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL29982",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "43cc70f074800e213deac9fea1652aad43c0c048b6f304d22f3f91aad7237a3f"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK150903",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "037486690b922cfe73674700752459af491c114033b9b62199106debd3b645ff"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA100056",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "c0e19e55926374819688befd1d411cc96fc7d2d5a595ba72f53c3dae3c77d67c"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK152721",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "8908bd970aa29c71a570ceed53fbc995495ff17e11ec641b77ebd75525f8e4c4"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA115008",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "dd9771767d4d6be2b7babff6916b291d53988d75050b707d8da31292a280ff8d"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA114133",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "ba73ee50f8ecf0205ba070616b0a9773a148b3c9792f81d9fc17d124a2f64f6b"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA97328",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "b43bede27caae41db3101b0881836de396e53a3594697c0b8bab258ec3010c77"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA98509",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "849b29ee13dc39fb8d0440fd0df1cb42179a199ce769f92cc63804d9ce18ddbc"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX103360",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "6657fa58f48feca4a191151328c189faed35ba19ac4a6ef47a199e5190a772ab"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK153266",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "d594f75f70e89cea14941a376f34ddf2c4adcbad444529f06b40a479bf258295"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX108332",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "6c9f05247a155e903bd7abc01b06190bbe445eb006379b895e193126f6d8d776"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX95699",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "2984aaa6915904052c6e9ced106c3d491532eabce43bb2eecd17dc5fde3a9c47"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA98775",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "2754187ca3ee8ef297484d7e1c92162731eeaf2a2864bfccb49a2718cdf036d8"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX100508",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "5483d3b980638ec11075b90ba61a3c4761cf6b140ca7b1bb7d3ae27a7eba4096"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK154762",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "5335d086f9563ae631d8482e5e33082f6dc330a570803ef18ffa86beb148c25e"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX102047",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "1372b9114aaec3c5caed6327e6e6227626d51bfd15a2699b6aed060476a0e9ab"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL31341",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "5bbdae237be5ff45c7edc168587b130880c9ebc80928c9685f690aa177c94062"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX103298",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "ce566ea96611e676462aff830f1e72573cd39fc1fc6954aef5784c98c066f16f"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "IND192339",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "8c6cb3feb407bef4531fff9d721b4a23ccdeb5f5d63ba3bd6b1a5eb5c393f07b"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX110197",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "4ca9bfb2a2546cd2529da06147936a3555adc775027a3acff6afa881d32ad464"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "PAK153286",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "eb7c00f08ecb9bcf74bcca8a451be3b0d3e5440f009ce83147d838be870d36af"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "USA98651",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "8f550f4647bc40c234ac61a503a9d6376242660f4fa8ac9ecdefa0124a9a2f0f"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "IND190153",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "10ee833587f70cf9a35bb2e5962d2bcb695b2808cf2e04d8e988e52a300a257d"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND179822",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "f40050b66b0d93f7039817327663a6cf580d88ee8ad254b4e58d2b3704a5c294"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK145942",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "368a4df787a0c7f5b3b9ea52f924ccedb5a708cc76c527e55922fbc03d5aa154"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "BRA93603",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "c08d33aaf526afa6fa4a62fc8e60a9297750ff249a6c1f1598f3eddb78901d22"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND186433",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "5d191462995fccbc0ab1e5179ce264addeefe716b75ab7c1e49c10c406fcb579"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX95399",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "7633fe694a6588688d538ebbf4bbaa05a4624a85718335d44f1d568da57620d5"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX108278",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "db0ae4ce49568faedf083b08dd5f74156ba74cf7c060935daf0082549e04cf9e"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "PAK152900",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "910affbddfd2ee44058cf89b70182ca5408402e66c7c4fece6de464e89f3dc67"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX94873",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "be633f11b9e5bb4a84f47b464526c9ec61a4184799eb71f39d7bb95d7656df07"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "IND184494",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "0aa02cf7ada1af6f221af26aff0be0ed698a20127e0117bf8b4386695b29e54a"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:baseline:B:0",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "6c06bc98f5e54a5fb7b15f950490217254aaa83df7ac9b4f8154f4d9ec5584a9"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:short_definitions:B:0",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "2cba2f5357f9eb954e2b4e3b608504b8ff150226380e1939492290c353110d5b"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:B:0",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "99bff4f730d721b26234c8615877d0307bb34159c41bf681a5aca210fc23bc00"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:B:1",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "ce1214198ff1cec9eaeaed81657773f24b08c094ee67a2a715e883fb501f59ab"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:B:2",
+      "label": "B",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "b7be8024d5092d7dd488f685628ac8f226f7d57c887892e85cb7fd70de670b93"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:baseline:P:0",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "85c3b9f779104a990911d4c998fa6efabd4d16ea01760edc428604275df39cf3"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:short_definitions:P:0",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "4267694d56e381815eef705707e30a0fa422ff236d50556044ac0c9f3ee8b2a8"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:P:0",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "3ae93b5f669a92c1a5bd6ab400a806cc3f5e473b1949b41fe1f1f7dde0b72c7e"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:P:1",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "28bdebedc58edbaa5bf96b111d2b467f2cf5c71b154cff651e54e9623c7d0f6a"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:P:2",
+      "label": "P",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "ae1c43d899b0bfe18381d9f78de5b326ca1a8d271dc3ca29ca1b855ec0170de0"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:baseline:R:0",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "359db2032be00a1f2ef32ed09409cfffdacf85dc6567f0cae0fb3433e4534fd7"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:short_definitions:R:0",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "0108741231b637c3fe92612b2f78284c7d2e6077cb4ea98bbcf1edf9b98c71ba"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:R:0",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "d66f9198d029a0bda5e97c74009c5b75cc05fd3da7f1bbf76444ac3d4f359acf"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:R:1",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "a20f2d145a6a8f29c20c4f480dc2b30443a0a25485bbb00158c4d1d75730a6ce"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:R:2",
+      "label": "R",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "9593429ad4a6edada61f7909ab5bba4251cc8a269abe86517740b2288972bcb7"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:baseline:E:0",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "ed554ba1dc89d644b68c6479c707f0e3d66e0ff05365ceee84174a42b16533c8"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:short_definitions:E:0",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "14055c91df1fe6231861227142507d019404e16d8fa9e2c18fac802ffb781841"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:E:0",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "f980dd02011aa8ba0819906e0403e6c62033dc1258722dbae1c3530c39a664b8"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:E:1",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "d0e7319452122d75697de5bae00628a7f0f87b2da501acfb474bc5970b25b58b"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:E:2",
+      "label": "E",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "4ac183c415b59c5bfaeafc8795c2462a7b9a80da47ab664cc5b1297f4fc9ea94"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:baseline:V:0",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "306c4fd2f88153f7f0ad486d291c5bea33d2ad439345c9d3cd86f458bb0652b1"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:short_definitions:V:0",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "ed95e7ae3afe4ef0d9c6d7be7c49db6958b41816883b81984a7b79bef1ef5d8f"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:V:0",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "8452c537046da2741834de2a2cd8aeeb06982423ee8dd1b2a9b04d5ff95c32a3"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:V:1",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "cfe65cef7960b26618095dc271dd5fbc3d2e6cc15daa2df2ec4b0d117f304426"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:V:2",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "0eda761b1f205d9cd30465ba1564b099d26ca6ee581bd22268e453136b96241c"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:baseline:S:0",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "46cf29e44edb7fe6439a761ad68784418ab3e232b8b2e214109333d573d8f0a7"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:short_definitions:S:0",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "75dd8f808c31f79ccb90e366b0149e216378154f69ab6d20a4609dd33c942f71"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:S:0",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "18ae1f0216425be301f01180c75d04513788687dc9d9e5e0c13b998fdf3a8bb3"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:S:1",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "743282fbd4100a71a0b104c0964c4fa67ffb3d7248da8f0afa2df5ddbae6a6ea"
+    },
+    {
+      "decision": "accept",
+      "input_id": "reference:example_centroids:S:2",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "18e65d6c321fa33fd8e955ed0e98c99a16c282c5916e3b7e54e3564e7a080c3d"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "PAK155521",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "47dc45957a08aaa0e85afc67889d9adf4cc1acecb5f51e321f3a1a58f0b6415b"
+    },
+    {
+      "decision": "accept",
+      "input_id": "BRA96805",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "c78e7c945ff111f84e4c6a94e82e2f67237946cc63680f9b7abac708286de7be"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND177470",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "aba40c5288f345c44b4c95b2ce909e647a7014eb34ba0e5643f5e319cf2a07b3"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK157917",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "ff07bb4518f500c1479062b2c0b380fba4830ec4946adacb06c057d5bb0a6142"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND194443",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "84de867550421db798448a8812f8484dd19116e430817e2a618357ff599d0823"
+    },
+    {
+      "decision": "accept",
+      "input_id": "BRA101317",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "8e0924335608bb528c806f7f24ec5d7fc6e12909b95e9ce905bf6415f1389b0c"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "USA85216",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "d899630a8146edec2d041beb88ef20f7519e5b511e5738e352a01b8323bc49c5"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX98096",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "39428f6cd9cb8f1b60bee4464d9dcd7b0cb5d2fa7d8cb9bb2b8fdfe7f945164e"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND179825",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "364c13a44e916bb676af4ff7f73cd03a87063b359235436714ba58c1d7bf65e2"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "IND171017",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "4a5b1cffa3bcf62ac0cc54a7b3c9b25ae9c36d6d218f0c236fd61d478509513e"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX102931",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "cb1c444f723d6c9ec2860c5816186588e1cef45befb7b4bdd1de34aaeb67443b"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "MEX97341",
+      "label": "V",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "2d201b8b0e428143b139d4e06bfb49be316cf93923c93557b4fe614d695840a1"
+    },
+    {
+      "decision": "accept",
+      "input_id": "BRA105039",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "71b30fbf05ecd5cef34b13071adb2b7cf88ca9d41c9d0acb64ec937e25810a26"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK148957",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "9a58a41cefc1561212868c4f859de03e169766b69513088f9b5862301e418325"
+    },
+    {
+      "decision": "accept",
+      "input_id": "BRA100707",
+      "label": "V",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "c35daa95ed07eec7921e4cf4bf08525ce8975ca88690f0bbd30972db3bed6165"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND189743",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "62499fe9cb6cb52378115132515e1bcdeb49650877c8992ff3fea5ce15b867f0"
+    },
+    {
+      "decision": "accept",
+      "input_id": "LBY12512",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "1fd3ccfada177eaa61aee209563d4c045d54bc00a3f64c77728fb9d71c55329e"
+    },
+    {
+      "decision": "accept",
+      "input_id": "LBY12290",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "aa1e7880457a56f327e6d1b85974909e091f4e6ff3cd65aa6b4c2c75bd4ccb14"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL34686",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "6b3b592320529dfbbc57403eef836573688e46fd439888f99cced04379aee3f1"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK152624",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "579eef9d3bb28d8e8595add65f1be1cee49ff25c34b83885beafb3b7438215b3"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND180797",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "6fe4a8f67a1b7a72cafea8b539e14a22aab78ca3724a0cd6ef3d8d11cf1e6a0e"
+    },
+    {
+      "decision": "accept",
+      "input_id": "COL30450",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "167f25c4bf675cf23194638bc4ab8ea9ed3516bc012954a6744de34995a0e5e7"
+    },
+    {
+      "decision": "accept",
+      "input_id": "LBY12507",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "22e3056c6df26c2f1baeba46d14fb584729a27ae096c89feab0f0b6d48ddbf8a"
+    },
+    {
+      "decision": "accept",
+      "input_id": "PAK146854",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "7d312334567972d92a17fb55cd68f53f45e5e8a55ca753eb12f180c80117eac4"
+    },
+    {
+      "decision": "accept",
+      "input_id": "LBY12629",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "796af03a437463f12df520dd569462de634fceaa300a853d76a73263b8441008"
+    },
+    {
+      "decision": "accept",
+      "input_id": "IND192670",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "8d98608f16012f2e9552eff3ad6a8442908304b220eaed008e00778154784709"
+    },
+    {
+      "decision": "accept",
+      "input_id": "LBY12671",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "ad9a5f8dff94fd28ed31c639686c7f973055548ab478e8903c1040ebfd38185b"
+    },
+    {
+      "decision": "accept",
+      "input_id": "LBY12350",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "7cac65b561d26af03ffb0b316a0781ef7aef61794c62aecf3f8ce8ab4d4df20c"
+    },
+    {
+      "decision": "withhold",
+      "input_id": "LBY11965",
+      "label": "S",
+      "reason": "At least one reviewer withheld the note or inferred a different focal class; conservatively exclude without relabeling.",
+      "text_sha256": "fd6e20865de1bee3c32413cc7b38e25def26b28089caa5c3d8720873aa92b9df"
+    },
+    {
+      "decision": "accept",
+      "input_id": "MEX108807",
+      "label": "S",
+      "reason": "Both independent contexts support the source class/reference semantics with literal evidence.",
+      "text_sha256": "fea5650a0c0657439087b8cb6bd3b5bf2d0d58cedc7f13b4428972f4b801eeb4"
+    }
+  ],
+  "review_type": "User-authorized adversarial AI review; no human verification or model diversity claimed",
+  "reviews": [
+    {
+      "assessments": [
+        {
+          "decision": "accept",
+          "evidence": "after which BLF militants claim to have opened fire",
+          "input_id": "PAK150914",
+          "predicted_label": "B",
+          "reason": "Direct gunfire by an organized militant force against a military check post establishes battle; shelling is subordinate to that ground attack.",
+          "text_sha256": "41d158e53f1845f1323d5fdacad1e6d89595edd63d9fbffd33797366cc0059c3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Pakistan army engaged in sniper fire against military forces of India",
+          "input_id": "IND178221",
+          "predicted_label": "B",
+          "reason": "Two organized military parties in direct armed interaction; return fire is not necessary.",
+          "text_sha256": "ec4fc8ef01edeabbcb3c823743479b74cef97225eef2ec2f1a6c4e677dbc60db"
+        },
+        {
+          "decision": "accept",
+          "evidence": "the Dabbashi clan militia and Al Isnad clashed",
+          "input_id": "LBY12349",
+          "predicted_label": "B",
+          "reason": "The focal event is a clash between named militias, separate from the preceding resort incident.",
+          "text_sha256": "7366ef4efbb3cf950cc61e8fc4ef73c0c7fc7571b2ec7b12b1a8a9f0377d6d05"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "The man had an involvement with drug trafficking",
+          "input_id": "BRA102953",
+          "predicted_label": "V",
+          "reason": "The coordinated shooters suggest an armed group, but the target may be an armed gang participant; neither civilian status nor an organized attacker is established clearly.",
+          "text_sha256": "70b1de87bbf434c2ba8e60d8a3756d1f6ef6b6d0b03be4db48bd19cb8e8e2ad6"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "killed a TTP militant commander",
+          "input_id": "PAK151437",
+          "predicted_label": "B",
+          "reason": "An operation killing a commander does not establish whether he was an armed counterpart or a defenseless captive; no present combat is described.",
+          "text_sha256": "72ac97b26d0a730d437da96e98eff495b0eacd5e8967b7088ce66e98710514f3"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "a drug trafficker exchanged fire with military police",
+          "input_id": "BRA92027",
+          "predicted_label": "B",
+          "reason": "Armed interaction is explicit, but the single drug trafficker is not identified as a member of an organized armed party.",
+          "text_sha256": "758b3ca43d0487cc606d2d2e0bbb91056036f292dd427a06c7fa8bc2867d6a19"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "shot dead a police constable",
+          "input_id": "PAK151058",
+          "predicted_label": "B",
+          "reason": "The constable could have been an armed counterpart or an unarmed/off-duty target; past involvement in killings does not establish present capacity.",
+          "text_sha256": "53832da421db51500e8cd48e7685e74b60607561ce3d6d70ea328781ae1e8412"
+        },
+        {
+          "decision": "accept",
+          "evidence": "clashed with the CPI (Maoist) cadres",
+          "input_id": "IND193529",
+          "predicted_label": "B",
+          "reason": "Security forces and organized insurgents clash, with a recovered rifle corroborating the combat role.",
+          "text_sha256": "56fd907b50dcc226c550dc18ff7db564191584a864918cd7106d205dd4e39922"
+        },
+        {
+          "decision": "accept",
+          "evidence": "members of Los Pinas Gang opened fire at state police officers",
+          "input_id": "MEX106784",
+          "predicted_label": "B",
+          "reason": "An organized gang directly attacks police; seized weapons and arrests accompany the encounter.",
+          "text_sha256": "f3e401d27e7a7f05379741a07293a3f8669207eb267bd8db1042da3a6c01d283"
+        },
+        {
+          "decision": "accept",
+          "evidence": "opened fire at police personnel at a check post",
+          "input_id": "PAK147964",
+          "predicted_label": "B",
+          "reason": "Organized militants directly attack a staffed security position; incidental civilian casualties do not override battle priority.",
+          "text_sha256": "3681eaa649110bc98fe7f6b3ddd21bcca89b548c90c6b5a63a3475fbe75b7703"
+        },
+        {
+          "decision": "accept",
+          "evidence": "military police exchanged fire with drug traffickers",
+          "input_id": "BRA94519",
+          "predicted_label": "B",
+          "reason": "An armed trafficking group exchanges fire with police; a rifle and tactical equipment support the combat setting.",
+          "text_sha256": "3ebeef13843117813162e2a154799ecf9070b79ee19b7e4bdd803bf80ec8a7a9"
+        },
+        {
+          "decision": "accept",
+          "evidence": "military police exchanged fire with armed men",
+          "input_id": "BRA100217",
+          "predicted_label": "B",
+          "reason": "Plural armed attackers in a reciprocal encounter with police support opposing armed parties.",
+          "text_sha256": "b88086bdb3dd96e69b92f6f6ee78d1e4594cfb37080373708c54a9d1d2826523"
+        },
+        {
+          "decision": "accept",
+          "evidence": "likely members of the CDN as bulletproof vests with the initials CDN were seized",
+          "input_id": "MEX99091",
+          "predicted_label": "B",
+          "reason": "The clash and group-identifying tactical gear support an organized armed opponent, retaining the reported uncertainty of affiliation.",
+          "text_sha256": "e8fbab70574395dbc0ef7f52902ef28124528f92aed22e0fe2df9c88196e2379"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a suspected ELN sniper opened fire on the local police station",
+          "input_id": "COL34858",
+          "predicted_label": "B",
+          "reason": "Direct sniper attack attributed with uncertainty to an organized armed group against a security position supports battle without requiring return fire.",
+          "text_sha256": "4a688f62283499975dc79b765f48a71e7e73e5d848637216027ca89713c64cfe"
+        },
+        {
+          "decision": "accept",
+          "evidence": "During the exchange of fire, two security personnel were killed",
+          "input_id": "PAK155808",
+          "predicted_label": "B",
+          "reason": "Explicit exchange between military and TTP militants establishes battle.",
+          "text_sha256": "73f690ebf7567541b1dcce4247b33d934c538f9fb20e93c1f8b81369cdafd006"
+        },
+        {
+          "decision": "accept",
+          "evidence": "staged a protest and raised slogans outside a hospital",
+          "input_id": "IND193810",
+          "predicted_label": "P",
+          "reason": "Public expressive demonstration, with no participant violence described.",
+          "text_sha256": "03b8e053596f79e4e3de559d6a30212a5aa8e4ffed6a3bf605f2511b7101e534"
+        },
+        {
+          "decision": "accept",
+          "evidence": "demonstrators gathered in Salisbury",
+          "input_id": "USA87404",
+          "predicted_label": "P",
+          "reason": "Public political demonstration; the described participants are nonviolent.",
+          "text_sha256": "46691e2df55da6e079c4770e5a1ca927164e37736ef311f693af2dc66a97072e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "workers protested in front of the Embraer's headquarters",
+          "input_id": "BRA99632",
+          "predicted_label": "P",
+          "reason": "A public workers demonstration with no destructive or violent conduct.",
+          "text_sha256": "374269f43fdbb36848e47e785405ddc67fe0aa0f3685c5fc17c014b686c34dd9"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Protesters chanted slogans",
+          "input_id": "PAK152702",
+          "predicted_label": "P",
+          "reason": "The roadblock is described as a demonstration without destructive barricades or participant violence.",
+          "text_sha256": "02cdf23d5ac250d323418e8e3ce2d00b1c5687056087e24c1bba37a9e9102286"
+        },
+        {
+          "decision": "accept",
+          "evidence": "rallied in Worcester",
+          "input_id": "USA78531",
+          "predicted_label": "P",
+          "reason": "Public rally opposing agency cuts; no violent conduct.",
+          "text_sha256": "2f4118bd8b16f0138da2fef29bbe7578c2a6f9a3f1608d6fa9cc24d60586bc63"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a small group of demonstrators",
+          "input_id": "USA89696",
+          "predicted_label": "P",
+          "reason": "A political rally; a flag alone does not make the participants violent.",
+          "text_sha256": "15efcae52f4207455bf6058a43b60d9bb3dcef0d21969769a6cff9296365ba09"
+        },
+        {
+          "decision": "accept",
+          "evidence": "marched to the intersection",
+          "input_id": "COL34451",
+          "predicted_label": "P",
+          "reason": "A public demonstration remains a protest even with unspecified demands.",
+          "text_sha256": "6af75428934dd2b6553bd9553cb7ef75ce20a13a4bce5556e6452451a3bb4747"
+        },
+        {
+          "decision": "accept",
+          "evidence": "demonstrators rallied in La Jolla Village",
+          "input_id": "USA78450",
+          "predicted_label": "P",
+          "reason": "Flag-waving and calls for peace describe a nonviolent rally.",
+          "text_sha256": "f8957e45c7457c1b13d91cca7f863cdf5a6d2d83753751b2636120965890f65d"
+        },
+        {
+          "decision": "accept",
+          "evidence": "took out a protest rally",
+          "input_id": "PAK153948",
+          "predicted_label": "P",
+          "reason": "The focal solidarity rally is nonviolent; denounced airstrikes are background.",
+          "text_sha256": "66584040a50fbe2744f6e284eb5fdce09c6178289a79090bd53ca330355baacc"
+        },
+        {
+          "decision": "accept",
+          "evidence": "demonstrators marched to commemorate International Workers' Day",
+          "input_id": "COL32036",
+          "predicted_label": "P",
+          "reason": "Public commemorative march with no violence described.",
+          "text_sha256": "e533a295325e7bf42f2c3c12ab593a0e9e43d6dcdaae719ffac9a48c6a0a206b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "went on mass casual leave across the state and staged protests",
+          "input_id": "IND178908",
+          "predicted_label": "P",
+          "reason": "The text describes public labor demonstrations with demands and no violence.",
+          "text_sha256": "3a9c855ac96fd900807dfb2c3083cb351f5925a89b5c3a1de170c6ecc4d627c9"
+        },
+        {
+          "decision": "accept",
+          "evidence": "held a press conference with a banner in front of the Ministry",
+          "input_id": "KOR40804",
+          "predicted_label": "P",
+          "reason": "An outward public collective grievance action with a banner supports peaceful demonstration.",
+          "text_sha256": "fd3e5bdc7663b16295d64e2c998eb5b3af018533fe6fe1d65b76d022ab3295f4"
+        },
+        {
+          "decision": "accept",
+          "evidence": "supporters rallied at the Capitol",
+          "input_id": "USA82780",
+          "predicted_label": "P",
+          "reason": "Public advocacy rally with no violence.",
+          "text_sha256": "3ce1eca75be5225d71f13d21a0533cd3cca750fe099fe2d4527e1ea2c5b4bff9"
+        },
+        {
+          "decision": "accept",
+          "evidence": "held a press conference and displayed banners",
+          "input_id": "KOR41645",
+          "predicted_label": "P",
+          "reason": "Collective public demand backed by banners supports nonviolent demonstration.",
+          "text_sha256": "fd89e5453947a3340c6212513c51d1b0c5837db89309033f3b6e2b73628a3c26"
+        },
+        {
+          "decision": "accept",
+          "evidence": "as part of the nationwide 'Hands Off!' protests",
+          "input_id": "USA94062",
+          "predicted_label": "P",
+          "reason": "Public political demonstration, with no participant violence.",
+          "text_sha256": "1d29c6644a3dc628fb2264a66218073895f46b6fc76388ff00bd4c889f71a055"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated low-power explosive devices and clashed",
+          "input_id": "COL34509",
+          "predicted_label": "R",
+          "reason": "Demonstrators use explosives and clash with police; riot priority applies over explosions.",
+          "text_sha256": "16566741a693369c4f17abe73265b257c8dddc534e33995e57c9cc896911b3bc"
+        },
+        {
+          "decision": "accept",
+          "evidence": "vandalized a BEST bus",
+          "input_id": "IND174781",
+          "predicted_label": "R",
+          "reason": "Participants destroy property during a demonstration.",
+          "text_sha256": "3ba650f2c03eec57d56a880a0d358126c7ac797752980b2bc17b9069debf07f2"
+        },
+        {
+          "decision": "accept",
+          "evidence": "burned tires and blocked",
+          "input_id": "LBY11829",
+          "predicted_label": "R",
+          "reason": "Destructive burning-tire roadblock explicitly meets the riot boundary.",
+          "text_sha256": "3c9f197aaddfd28d12cddf60c238dd8f4dbb8f108f23348399d8ca670866e675"
+        },
+        {
+          "decision": "accept",
+          "evidence": "burned tires and other objects on the road",
+          "input_id": "BRA95936",
+          "predicted_label": "R",
+          "reason": "Participant burning during the public demonstration meets riot criteria.",
+          "text_sha256": "5cb041c40760d9fcb84a067a166d49d18b49cb72c944c7741f3a0a485def3b31"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "Another report stated that TMCP members attacked SFI members",
+          "input_id": "IND179530",
+          "predicted_label": "R",
+          "reason": "The accounts differ between reciprocal clashes and a one-sided attack on demonstrators; participant violence by the focal demonstrators is uncertain.",
+          "text_sha256": "f9f1cce3dd963e8d5a10dd3c4509d38153835d4b729667a62859a2921ce9d090"
+        },
+        {
+          "decision": "accept",
+          "evidence": "held a demonstration and vandalised houses and vehicles",
+          "input_id": "IND182506",
+          "predicted_label": "R",
+          "reason": "Demonstrators commit explicit property destruction.",
+          "text_sha256": "476cffb32d753028d7af3924bd77489269eaa275359b59444d2d176c0264557d"
+        },
+        {
+          "decision": "accept",
+          "evidence": "participating in a demonstration threw Molotov cocktails",
+          "input_id": "COL29521",
+          "predicted_label": "R",
+          "reason": "Demonstrators initiate destructive violence; riot priority overrides the explosive tactic.",
+          "text_sha256": "1adad8a61cfaa5fcfbda61ff05a72a120ecec65fd9ef5e26d20c1dfcfd41b2a1"
+        },
+        {
+          "decision": "accept",
+          "evidence": "The demonstration destroyed the barricades",
+          "input_id": "IND193980",
+          "predicted_label": "R",
+          "reason": "Participant property destruction establishes riot independently of police water cannons.",
+          "text_sha256": "8b215fa2cf0dfb031736aac152f5b1e5c4abdb2449da84ad0d56b7cc3225b312"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "demonstrated and detained the school director for nine hours",
+          "input_id": "MEX96888",
+          "predicted_label": "R",
+          "reason": "Coercive detention suggests rioting, but the note does not specify violence, physical restraint, or destruction, leaving the protest/riot boundary uncertain.",
+          "text_sha256": "8104a93bc91a9f5da8da655f7451fbadcaec6ccfce5a06e3354c13f313540d44"
+        },
+        {
+          "decision": "accept",
+          "evidence": "The group burned objects on the road",
+          "input_id": "BRA119786",
+          "predicted_label": "R",
+          "reason": "Public demonstration includes participant burning and destruction.",
+          "text_sha256": "a3c1bcd844c6a4006a3d56d73bb5d868c4e97f84e1ee0a88d304e0812a1268cf"
+        },
+        {
+          "decision": "accept",
+          "evidence": "clashed with steel plant officials and police",
+          "input_id": "IND192238",
+          "predicted_label": "R",
+          "reason": "Demonstrators actively clash and a policeman is injured, supporting participant violence.",
+          "text_sha256": "0dc9b264f84962813526ec3c1b82f15b87181b066e060071a23182a9b1472a20"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "suspectedly beat a deputy",
+          "input_id": "MEX106926",
+          "predicted_label": "R",
+          "reason": "The beating is only suspected, while bonfires alone do not establish a destructive roadblock; riot classification is not sufficiently clear.",
+          "text_sha256": "6f342079d16a39fb0aae4a63392e9891976f8478043b06dddbfbedb100c15b15"
+        },
+        {
+          "decision": "accept",
+          "evidence": "vandalised a block development office",
+          "input_id": "IND182494",
+          "predicted_label": "R",
+          "reason": "Participant destruction during a demonstration establishes riot.",
+          "text_sha256": "a4e76c2bdea94c2c477dd9b82f79641f8493ea742617b32fe22b818c65bd4c47"
+        },
+        {
+          "decision": "accept",
+          "evidence": "damaged windows of businesses",
+          "input_id": "MEX101072",
+          "predicted_label": "R",
+          "reason": "Destructive demonstration, also including Molotov attacks, clearly meets riot criteria.",
+          "text_sha256": "2cd84b6df7092f58ae638b321d6330195c4a63c817c4dd15a0cb70e5ea0f4cd6"
+        },
+        {
+          "decision": "accept",
+          "evidence": "set fire to the doors of the Executive Branch building",
+          "input_id": "MEX100829",
+          "predicted_label": "R",
+          "reason": "Destruction and arson by demonstrators establish riot.",
+          "text_sha256": "2c71690d88066f44ea6c7a7ec8abfd274b7b8fad751ba37829936fc69b3bc40b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "by firing several shells and launching a grenade attack",
+          "input_id": "PAK153445",
+          "predicted_label": "E",
+          "reason": "Only explosive tactics are specified; there is no direct gunfire or ground clash establishing higher-priority battle.",
+          "text_sha256": "286f7c78d198babc9945be6b22120f73d34c36cfbaafdcf02c7e77576d8831fd"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated an IED targeting a military supply vehicle",
+          "input_id": "PAK151878",
+          "predicted_label": "E",
+          "reason": "IED attack without a described ground engagement; casualty uncertainty remains as reported.",
+          "text_sha256": "8bc9f68a62230608d93280c609b3bae1e9da094981e96d419fbfc3bed8d55671"
+        },
+        {
+          "decision": "accept",
+          "evidence": "after stepping on a landmine",
+          "input_id": "COL31061",
+          "predicted_label": "E",
+          "reason": "Landmine injury is the focal event; background armed-group disputes do not establish a battle here.",
+          "text_sha256": "38f0a034765964598f7191b567ae7966a2856de6883ae3f35fa641a8c249cc42"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a mortar shell fired by military forces",
+          "input_id": "PAK151898",
+          "predicted_label": "E",
+          "reason": "Mortar fire is the specified tactic; no contemporaneous ground battle is described.",
+          "text_sha256": "5b449c6880c7e1e96f3ebee53ba120e9fe2885c2a1b502bad889b87ae77f8a4a"
+        },
+        {
+          "decision": "accept",
+          "evidence": "hurled a grenade at the local police station",
+          "input_id": "COL30835",
+          "predicted_label": "E",
+          "reason": "Grenade detonation without a direct armed clash supports explosions/remote violence.",
+          "text_sha256": "cb1bab099ede0be1a9c880fe260ee8641f47e1d5d92af7d1a8df710bdde6253e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "an Improvised Explosive Device (IED) explosion",
+          "input_id": "IND178692",
+          "predicted_label": "E",
+          "reason": "An explosive attack during a patrol, without a described direct exchange.",
+          "text_sha256": "a94ccbb4533766b0fb630fca62d3852db013bea6a4a0aaf3230f7d8bcd623f20"
+        },
+        {
+          "decision": "accept",
+          "evidence": "blew up a gas pipeline",
+          "input_id": "PAK152863",
+          "predicted_label": "E",
+          "reason": "Explosives were actually used to attack infrastructure.",
+          "text_sha256": "ed58b50360f3e4e1ade4b56b341761cf40a1c8611a514885fdf015ab6349b85b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated an explosive device on a bridge",
+          "input_id": "COL31899",
+          "predicted_label": "E",
+          "reason": "Explosive infrastructure attack without a higher-priority event.",
+          "text_sha256": "a55ffa52679e4326699eb5276d514885ebdeaf2bf605187f38ffee33356a95de"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated an IED",
+          "input_id": "PAK147928",
+          "predicted_label": "E",
+          "reason": "A bomb targeting a patrol is an explosive attack; lack of casualties does not change class.",
+          "text_sha256": "93fe49659f3691b60f6f8f78b8573cdc4526b28a96ff14a424288491f2475876"
+        },
+        {
+          "decision": "accept",
+          "evidence": "hurled a grenade at the Villahermosa prison premises",
+          "input_id": "COL32700",
+          "predicted_label": "E",
+          "reason": "An explosive attack with casualties, without an accompanying higher-priority event.",
+          "text_sha256": "0b82c2594477075d278ba25e35541f46d6d2cc53d350f1b6f609651512b71012"
+        },
+        {
+          "decision": "accept",
+          "evidence": "explosives dropped from drones",
+          "input_id": "COL32863",
+          "predicted_label": "E",
+          "reason": "Remotely delivered explosives at a police station; no direct clash is described.",
+          "text_sha256": "6371d2e5cd2129e628325759bbcdb9cc15639024d305da70c78e23bfc7eeaab0"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated a remote explosive",
+          "input_id": "COL29333",
+          "predicted_label": "E",
+          "reason": "The focal remote bomb attack is separate from the earlier ombudsman killing.",
+          "text_sha256": "855fb6b2be1b7cb0596b81f6ce35c7bca529210b5dedfcf692d3fa1492a53599"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated an explosive targeting a Coast Guard camp",
+          "input_id": "PAK150014",
+          "predicted_label": "E",
+          "reason": "Explosive attack with uncertain casualties, without direct armed encounter.",
+          "text_sha256": "2db35adf7dd56ef8ff22c0aec667b4184820db9d5e7961252f46c9411ecd675b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated explosive devices at two houses",
+          "input_id": "COL29982",
+          "predicted_label": "E",
+          "reason": "Actual explosions at empty houses; suspected armed-group ownership does not establish ground battle.",
+          "text_sha256": "43cc70f074800e213deac9fea1652aad43c0c048b6f304d22f3f91aad7237a3f"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated a home-made bomb outside a house",
+          "input_id": "PAK150903",
+          "predicted_label": "E",
+          "reason": "Bomb detonation without other contemporaneous conflict tactics establishes E.",
+          "text_sha256": "037486690b922cfe73674700752459af491c114033b9b62199106debd3b645ff"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "The authorship and motivations for the attack are unknown",
+          "input_id": "BRA100056",
+          "predicted_label": "V",
+          "reason": "Neither an organized armed perpetrator nor the victim's noncombatant status is established; trafficking explanations remain under investigation.",
+          "text_sha256": "c0e19e55926374819688befd1d411cc96fc7d2d5a595ba72f53c3dae3c77d67c"
+        },
+        {
+          "decision": "accept",
+          "evidence": "BLA militants claimed to have killed an informant",
+          "input_id": "PAK152721",
+          "predicted_label": "V",
+          "reason": "Organized militants claim a targeted killing of an accused informant, not an armed combatant; retain the attribution as a claim.",
+          "text_sha256": "8908bd970aa29c71a570ceed53fbc995495ff17e11ec641b77ebd75525f8e4c4"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "two unidentified armed suspects",
+          "input_id": "BRA115008",
+          "predicted_label": "V",
+          "reason": "The victim is in a civilian setting, but two unknown shooters alone do not establish an organized armed actor.",
+          "text_sha256": "dd9771767d4d6be2b7babff6916b291d53988d75050b707d8da31292a280ff8d"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "unidentified armed suspects",
+          "input_id": "BRA114133",
+          "predicted_label": "V",
+          "reason": "Drive-by killing suggests coordination, but the organized identity of attackers and the target's role remain unspecified.",
+          "text_sha256": "ba73ee50f8ecf0205ba070616b0a9773a148b3c9792f81d9fc17d124a2f64f6b"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "two unidentified shooters",
+          "input_id": "BRA97328",
+          "predicted_label": "V",
+          "reason": "Home invasion killing lacks clear evidence that the perpetrators constitute an organized armed actor.",
+          "text_sha256": "b43bede27caae41db3101b0881836de396e53a3594697c0b8bab258ec3010c77"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "two unidentified armed men",
+          "input_id": "BRA98509",
+          "predicted_label": "V",
+          "reason": "No clear organized armed actor or protected target role is provided.",
+          "text_sha256": "849b29ee13dc39fb8d0440fd0df1cb42179a199ce769f92cc63804d9ce18ddbc"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "an unidentified individual",
+          "input_id": "MEX103360",
+          "predicted_label": "V",
+          "reason": "The target is a civilian official, but the single unknown attacker is not shown to belong to an organized armed actor.",
+          "text_sha256": "6657fa58f48feca4a191151328c189faed35ba19ac4a6ef47a199e5190a772ab"
+        },
+        {
+          "decision": "accept",
+          "evidence": "The boy had been previously kidnapped",
+          "input_id": "PAK153266",
+          "predicted_label": "V",
+          "reason": "Organized ISIS militants kill a previously abducted painter; the captive is protected rather than a battle counterpart.",
+          "text_sha256": "d594f75f70e89cea14941a376f34ddf2c4adcbad444529f06b40a479bf258295"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "a person was killed, likely mutilated",
+          "input_id": "MEX108332",
+          "predicted_label": "V",
+          "reason": "Body discovery does not identify an organized armed attacker or establish the victim's civilian/captive role.",
+          "text_sha256": "6c9f05247a155e903bd7abc01b06190bbe445eb006379b895e193126f6d8d776"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "the decapitated head was found inside a plastic bag",
+          "input_id": "MEX95699",
+          "predicted_label": "V",
+          "reason": "Mutilation alone does not establish organized perpetrator or protected victim status.",
+          "text_sha256": "2984aaa6915904052c6e9ced106c3d491532eabce43bb2eecd17dc5fde3a9c47"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "Attack motivation is unknown",
+          "input_id": "BRA98775",
+          "predicted_label": "V",
+          "reason": "The victim's body and gunshot count establish a killing, but not an organized armed perpetrator.",
+          "text_sha256": "2754187ca3ee8ef297484d7e1c92162731eeaf2a2864bfccb49a2718cdf036d8"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "armed individuals shot and killed three people",
+          "input_id": "MEX100508",
+          "predicted_label": "V",
+          "reason": "The people eating, including a child, appear noncombatants, but unspecified armed individuals do not clearly establish an organized group.",
+          "text_sha256": "5483d3b980638ec11075b90ba61a3c4761cf6b140ca7b1bb7d3ae27a7eba4096"
+        },
+        {
+          "decision": "accept",
+          "evidence": "military forces detained and forcibly disappeared a Baloch youth",
+          "input_id": "PAK154762",
+          "predicted_label": "V",
+          "reason": "Military forced disappearance and beating of relatives establish violence against protected persons.",
+          "text_sha256": "5335d086f9563ae631d8482e5e33082f6dc330a570803ef18ffa86beb148c25e"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "the body was found wrapped in plastic bags",
+          "input_id": "MEX102047",
+          "predicted_label": "V",
+          "reason": "Body discovery alone leaves attacker organization and protected target status unsupported.",
+          "text_sha256": "1372b9114aaec3c5caed6327e6e6227626d51bfd15a2699b6aed060476a0e9ab"
+        },
+        {
+          "decision": "accept",
+          "evidence": "suspected members of an armed group shot and killed two optometrists",
+          "input_id": "COL31341",
+          "predicted_label": "V",
+          "reason": "The reported suspected armed-group attackers target civilian health workers; attribution remains qualified.",
+          "text_sha256": "5bbdae237be5ff45c7edc168587b130880c9ebc80928c9685f690aa177c94062"
+        },
+        {
+          "decision": "accept",
+          "evidence": "arrested one of the leaders of La Union Tepito",
+          "input_id": "MEX103298",
+          "predicted_label": "S",
+          "reason": "Focal event is a nonviolent arrest of an organized armed-group leader; no exchange or assault is described.",
+          "text_sha256": "ce566ea96611e676462aff830f1e72573cd39fc1fc6954aef5784c98c066f16f"
+        },
+        {
+          "decision": "accept",
+          "evidence": "locals from Meghalaya",
+          "input_id": "IND192339",
+          "predicted_label": "R",
+          "reason": "Collective territorial grievance action dismantling electric poles is mob property destruction; the prefixed property-destruction tag does not override the event description.",
+          "text_sha256": "8c6cb3feb407bef4531fff9d721b4a23ccdeb5f5d63ba3bd6b1a5eb5c393f07b"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "previously used tire spikes to damage cars' tires",
+          "input_id": "MEX110197",
+          "predicted_label": "S",
+          "reason": "An armed roadblock with vehicle interception and destructive background does not clearly match the supplied nonviolent strategic definition; no alternative class is established.",
+          "text_sha256": "4ca9bfb2a2546cd2529da06147936a3555adc775027a3acff6afa881d32ad464"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "set fire to a vehicle carrying minerals",
+          "input_id": "PAK153286",
+          "predicted_label": "S",
+          "reason": "Armed-group property destruction is not clearly covered by the supplied nonviolent S definition, while no direct attack on persons or explosive tactic is described.",
+          "text_sha256": "eb7c00f08ecb9bcf74bcca8a451be3b0d3e5440f009ce83147d838be870d36af"
+        },
+        {
+          "decision": "accept",
+          "evidence": "affiliates held a sparring training",
+          "input_id": "USA98651",
+          "predicted_label": "S",
+          "reason": "The focal event is organized political-group training rather than violent conflict with an opponent.",
+          "text_sha256": "8f550f4647bc40c234ac61a503a9d6376242660f4fa8ac9ecdefa0124a9a2f0f"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "the police demolished the house",
+          "input_id": "IND190153",
+          "predicted_label": "S",
+          "reason": "Destructive policing does not unambiguously fit the supplied nonviolent S definition; an attack on people is not described either.",
+          "text_sha256": "10ee833587f70cf9a35bb2e5962d2bcb695b2808cf2e04d8e988e52a300a257d"
+        },
+        {
+          "decision": "accept",
+          "evidence": "subsequently defused the IED",
+          "input_id": "IND179822",
+          "predicted_label": "S",
+          "reason": "A seizure and safe defusal, without detonation, is a nonviolent security development.",
+          "text_sha256": "f40050b66b0d93f7039817327663a6cf580d88ee8ad254b4e58d2b3704a5c294"
+        },
+        {
+          "decision": "accept",
+          "evidence": "police personnel arrested 92 students",
+          "input_id": "PAK145942",
+          "predicted_label": "S",
+          "reason": "The focal arrests are distinct from earlier violent demonstrations explicitly coded separately.",
+          "text_sha256": "368a4df787a0c7f5b3b9ea52f924ccedb5a708cc76c527e55922fbc03d5aa154"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "gunshots were heard",
+          "input_id": "BRA93603",
+          "predicted_label": "B",
+          "reason": "No actors, targets, organized sides, or focal interaction are established; shooting sounds alone cannot determine any class.",
+          "text_sha256": "c08d33aaf526afa6fa4a62fc8e60a9297750ff249a6c1f1598f3eddb78901d22"
+        },
+        {
+          "decision": "accept",
+          "evidence": "recovered 700 kg of looted explosives",
+          "input_id": "IND186433",
+          "predicted_label": "S",
+          "reason": "Nonviolent weapons recovery is focal; the earlier looting is separate.",
+          "text_sha256": "5d191462995fccbc0ab1e5179ce264addeefe716b75ab7c1e49c10c406fcb579"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "residents were forced by an armed group to block the roads",
+          "input_id": "MEX95399",
+          "predicted_label": "P",
+          "reason": "The roadblock is coercively imposed on residents, creating uncertainty between a public protest and an armed-group strategic coercion event; material barricades and violence are not specified.",
+          "text_sha256": "7633fe694a6588688d538ebbf4bbaa05a4624a85718335d44f1d568da57620d5"
+        },
+        {
+          "decision": "accept",
+          "evidence": "27 members of the CJNG were arrested",
+          "input_id": "MEX108278",
+          "predicted_label": "S",
+          "reason": "Nonviolent arrest of organized armed-group members is the focal security development.",
+          "text_sha256": "db0ae4ce49568faedf083b08dd5f74156ba74cf7c060935daf0082549e04cf9e"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "destroyed two towers",
+          "input_id": "PAK152900",
+          "predicted_label": "S",
+          "reason": "Property destruction by militants lacks a stated explosive tactic or direct encounter and does not clearly satisfy the supplied nonviolent S definition.",
+          "text_sha256": "910affbddfd2ee44058cf89b70182ca5408402e66c7c4fece6de464e89f3dc67"
+        },
+        {
+          "decision": "accept",
+          "evidence": "state police officers deactivated an explosive",
+          "input_id": "MEX94873",
+          "predicted_label": "S",
+          "reason": "Deactivation without detonation is a nonviolent security action.",
+          "text_sha256": "be633f11b9e5bb4a84f47b464526c9ec61a4184799eb71f39d7bb95d7656df07"
+        },
+        {
+          "decision": "accept",
+          "evidence": "during a Pakistani 'swarm attack,'",
+          "input_id": "IND184494",
+          "predicted_label": "E",
+          "reason": "An ongoing remotely delivered drone attack on military installations supports E; interception does not imply a direct ground battle.",
+          "text_sha256": "0aa02cf7ada1af6f221af26aff0be0ed698a20127e0117bf8b4386695b29e54a"
+        },
+        {
+          "decision": "accept",
+          "evidence": "violent interaction between organized armed parties",
+          "input_id": "reference:baseline:B:0",
+          "predicted_label": "B",
+          "reason": "Correct full battle definition with protected-target boundary; geography neutral.",
+          "text_sha256": "6c06bc98f5e54a5fb7b15f950490217254aaa83df7ac9b4f8154f4d9ec5584a9"
+        },
+        {
+          "decision": "accept",
+          "evidence": "organized armed parties engage in direct armed conflict",
+          "input_id": "reference:short_definitions:B:0",
+          "predicted_label": "B",
+          "reason": "Correct compact battle definition; organized armed parties retained, geography neutral.",
+          "text_sha256": "2cba2f5357f9eb954e2b4e3b608504b8ff150226380e1939492290c353110d5b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Soldiers and an organized rebel unit exchanged gunfire",
+          "input_id": "reference:example_centroids:B:0",
+          "predicted_label": "B",
+          "reason": "Both parties have organized armed roles in a ground clash; geography neutral.",
+          "text_sha256": "99bff4f730d721b26234c8615877d0307bb34159c41bf681a5aca210fc23bc00"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Two rival armed militias fought with rifles",
+          "input_id": "reference:example_centroids:B:1",
+          "predicted_label": "B",
+          "reason": "Rival militias in rifle combat clearly support B; geography neutral.",
+          "text_sha256": "ce1214198ff1cec9eaeaed81657773f24b08c094ee67a2a715e883fb501f59ab"
+        },
+        {
+          "decision": "accept",
+          "evidence": "An organized armed group fired on a rival armed patrol",
+          "input_id": "reference:example_centroids:B:2",
+          "predicted_label": "B",
+          "reason": "Direct attack on an armed patrol supports B even when it withdraws without returning fire; geography neutral.",
+          "text_sha256": "b7be8024d5092d7dd488f685628ac8f226f7d57c887892e85cb7fd70de670b93"
+        },
+        {
+          "decision": "accept",
+          "evidence": "participants remain nonviolent",
+          "input_id": "reference:baseline:P:0",
+          "predicted_label": "P",
+          "reason": "Correct full protest definition preserving protection against externally inflicted violence; geography neutral.",
+          "text_sha256": "85c3b9f779104a990911d4c998fa6efabd4d16ea01760edc428604275df39cf3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "participants demonstrate peacefully",
+          "input_id": "reference:short_definitions:P:0",
+          "predicted_label": "P",
+          "reason": "Peaceful participants remain protesters despite intervention; geography neutral.",
+          "text_sha256": "4267694d56e381815eef705707e30a0fa422ff236d50556044ac0c9f3ee8b2a8"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Residents peacefully rallied",
+          "input_id": "reference:example_centroids:P:0",
+          "predicted_label": "P",
+          "reason": "Explicit peaceful public grievance rally supports P; geography neutral.",
+          "text_sha256": "3ae93b5f669a92c1a5bd6ab400a806cc3f5e473b1949b41fe1f1f7dde0b72c7e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "participants remained peaceful",
+          "input_id": "reference:example_centroids:P:1",
+          "predicted_label": "P",
+          "reason": "Participants stay nonviolent despite police force, so P retains priority; geography neutral.",
+          "text_sha256": "28bdebedc58edbaa5bf96b111d2b467f2cf5c71b154cff651e54e9623c7d0f6a"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Students staged a peaceful sit-in",
+          "input_id": "reference:example_centroids:P:2",
+          "predicted_label": "P",
+          "reason": "Peaceful sit-in remains P without destructive barricades; geography neutral.",
+          "text_sha256": "ae1c43d899b0bfe18381d9f78de5b326ca1a8d271dc3ca29ca1b855ec0170de0"
+        },
+        {
+          "decision": "accept",
+          "evidence": "participant violence or destruction",
+          "input_id": "reference:baseline:R:0",
+          "predicted_label": "R",
+          "reason": "Correct riot definition with participant-conduct boundary; geography neutral.",
+          "text_sha256": "359db2032be00a1f2ef32ed09409cfffdacf85dc6567f0cae0fb3433e4534fd7"
+        },
+        {
+          "decision": "accept",
+          "evidence": "demonstrators or mobs use violence",
+          "input_id": "reference:short_definitions:R:0",
+          "predicted_label": "R",
+          "reason": "Correct compact riot definition focusing on participant violence/destruction; geography neutral.",
+          "text_sha256": "0108741231b637c3fe92612b2f78284c7d2e6077cb4ea98bbcf1edf9b98c71ba"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Demonstrators smashed windows",
+          "input_id": "reference:example_centroids:R:0",
+          "predicted_label": "R",
+          "reason": "Demonstrator destruction and stone throwing clearly support R; geography neutral.",
+          "text_sha256": "d66f9198d029a0bda5e97c74009c5b75cc05fd3da7f1bbf76444ac3d4f359acf"
+        },
+        {
+          "decision": "accept",
+          "evidence": "A violent mob burned shops",
+          "input_id": "reference:example_centroids:R:1",
+          "predicted_label": "R",
+          "reason": "Mob arson and property destruction clearly support R; geography neutral.",
+          "text_sha256": "a20f2d145a6a8f29c20c4f480dc2b30443a0a25485bbb00158c4d1d75730a6ce"
+        },
+        {
+          "decision": "accept",
+          "evidence": "erected burning barricades",
+          "input_id": "reference:example_centroids:R:2",
+          "predicted_label": "R",
+          "reason": "Burning material barricades clearly support R; geography neutral.",
+          "text_sha256": "9593429ad4a6edada61f7909ab5bba4251cc8a269abe86517740b2288972bcb7"
+        },
+        {
+          "decision": "accept",
+          "evidence": "explosive or remotely delivered attacks outside a higher-priority event",
+          "input_id": "reference:baseline:E:0",
+          "predicted_label": "E",
+          "reason": "Correct full E definition with priority qualification; geography neutral.",
+          "text_sha256": "ed554ba1dc89d644b68c6479c707f0e3d66e0ff05365ceee84174a42b16533c8"
+        },
+        {
+          "decision": "accept",
+          "evidence": "bombs, mines, shelling, air strikes or drone strikes",
+          "input_id": "reference:short_definitions:E:0",
+          "predicted_label": "E",
+          "reason": "Correct compact summary of explosive and remote tactics, subject to the shared event priority; geography neutral.",
+          "text_sha256": "14055c91df1fe6231861227142507d019404e16d8fa9e2c18fac802ffb781841"
+        },
+        {
+          "decision": "accept",
+          "evidence": "fired a mortar shell into a residential neighborhood",
+          "input_id": "reference:example_centroids:E:0",
+          "predicted_label": "E",
+          "reason": "Mortar shelling without a higher-priority event supports E; geography neutral.",
+          "text_sha256": "f980dd02011aa8ba0819906e0403e6c62033dc1258722dbae1c3530c39a664b8"
+        },
+        {
+          "decision": "accept",
+          "evidence": "A remotely detonated roadside bomb",
+          "input_id": "reference:example_centroids:E:1",
+          "predicted_label": "E",
+          "reason": "Roadside bomb against a civilian vehicle supports E over V; geography neutral.",
+          "text_sha256": "d0e7319452122d75697de5bae00628a7f0f87b2da501acfb474bc5970b25b58b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "A military aircraft dropped a bomb",
+          "input_id": "reference:example_centroids:E:2",
+          "predicted_label": "E",
+          "reason": "Aerial bombing without a direct encounter supports E; geography neutral.",
+          "text_sha256": "4ac183c415b59c5bfaeafc8795c2462a7b9a80da47ab664cc5b1297f4fc9ea94"
+        },
+        {
+          "decision": "accept",
+          "evidence": "an organized armed actor attacks unarmed noncombatants",
+          "input_id": "reference:baseline:V:0",
+          "predicted_label": "V",
+          "reason": "Correct full V definition preserving organized attackers and protected target roles; geography neutral.",
+          "text_sha256": "306c4fd2f88153f7f0ad486d291c5bea33d2ad439345c9d3cd86f458bb0652b1"
+        },
+        {
+          "decision": "accept",
+          "evidence": "organized armed actors directly attack unarmed civilians",
+          "input_id": "reference:short_definitions:V:0",
+          "predicted_label": "V",
+          "reason": "Correct compact V definition retains organization and noncombatant/captive boundary, subject to shared priority; geography neutral.",
+          "text_sha256": "ed95e7ae3afe4ef0d9c6d7be7c49db6958b41816883b81984a7b79bef1ef5d8f"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Militia members shot unarmed farmers",
+          "input_id": "reference:example_centroids:V:0",
+          "predicted_label": "V",
+          "reason": "Organized militia attacks explicit unarmed civilians; geography neutral.",
+          "text_sha256": "8452c537046da2741834de2a2cd8aeeb06982423ee8dd1b2a9b04d5ff95c32a3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Soldiers executed defenseless prisoners",
+          "input_id": "reference:example_centroids:V:1",
+          "predicted_label": "V",
+          "reason": "Captives are defenseless rather than battle counterparts; geography neutral.",
+          "text_sha256": "cfe65cef7960b26618095dc271dd5fbc3d2e6cc15daa2df2ec4b0d117f304426"
+        },
+        {
+          "decision": "accept",
+          "evidence": "An organized gang abducted and beat an unarmed shopkeeper",
+          "input_id": "reference:example_centroids:V:2",
+          "predicted_label": "V",
+          "reason": "Organized gang attacks explicit unarmed civilian, supporting V; geography neutral.",
+          "text_sha256": "0eda761b1f205d9cd30465ba1564b099d26ca6ee581bd22268e453136b96241c"
+        },
+        {
+          "decision": "accept",
+          "evidence": "politically relevant nonviolent developments",
+          "input_id": "reference:baseline:S:0",
+          "predicted_label": "S",
+          "reason": "Correct full S definition of nonviolent political/security developments; geography neutral.",
+          "text_sha256": "46cf29e44edb7fe6439a761ad68784418ab3e232b8b2e214109333d573d8f0a7"
+        },
+        {
+          "decision": "accept",
+          "evidence": "politically relevant nonviolent agreements",
+          "input_id": "reference:short_definitions:S:0",
+          "predicted_label": "S",
+          "reason": "Correct compact S definition of nonviolent political/security developments; geography neutral.",
+          "text_sha256": "75dd8f808c31f79ccb90e366b0149e216378154f69ab6d20a4609dd33c942f71"
+        },
+        {
+          "decision": "accept",
+          "evidence": "signed a ceasefire agreement",
+          "input_id": "reference:example_centroids:S:0",
+          "predicted_label": "S",
+          "reason": "Agreement is a nonviolent political development; geography neutral.",
+          "text_sha256": "18ae1f0216425be301f01180c75d04513788687dc9d9e5e0c13b998fdf3a8bb3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "voluntarily surrendered their weapons",
+          "input_id": "reference:example_centroids:S:1",
+          "predicted_label": "S",
+          "reason": "Voluntary surrender is nonviolent rather than a battle or captive execution; geography neutral.",
+          "text_sha256": "743282fbd4100a71a0b104c0964c4fa67ffb3d7248da8f0afa2df5ddbae6a6ea"
+        },
+        {
+          "decision": "accept",
+          "evidence": "announced recruitment of new members",
+          "input_id": "reference:example_centroids:S:2",
+          "predicted_label": "S",
+          "reason": "Recruitment announcement is nonviolent organizational development; geography neutral.",
+          "text_sha256": "18e65d6c321fa33fd8e955ed0e98c99a16c282c5916e3b7e54e3564e7a080c3d"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "opened fire at a truck carrying minerals",
+          "input_id": "PAK155521",
+          "predicted_label": "V",
+          "reason": "Target is a truck rather than an explicitly protected person; unidentified attackers have only a coding attribution to separatists, leaving organized-actor status unclear.",
+          "text_sha256": "47dc45957a08aaa0e85afc67889d9adf4cc1acecb5f51e321f3a1a58f0b6415b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "took his phone",
+          "input_id": "BRA96805",
+          "predicted_label": "V",
+          "reason": "Named gang members stop and search a man before killing him over photographs; a gang symbol does not establish an armed counterpart and the target is defenseless during the search.",
+          "text_sha256": "c78e7c945ff111f84e4c6a94e82e2f67237946cc63680f9b7abac708286de7be"
+        },
+        {
+          "decision": "accept",
+          "evidence": "abducted and axed to death a villager",
+          "input_id": "IND177470",
+          "predicted_label": "V",
+          "reason": "Organized insurgents kill an abducted cattle-grazing villager accused of informing; captive protection applies.",
+          "text_sha256": "aba40c5288f345c44b4c95b2ce909e647a7014eb34ba0e5643f5e319cf2a07b3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "claimed to have been abducted by military and death squad personnel",
+          "input_id": "PAK157917",
+          "predicted_label": "V",
+          "reason": "The reported military/militia attribution and prior abduction support a claimed killing of a protected captive, retaining attribution uncertainty.",
+          "text_sha256": "ff07bb4518f500c1479062b2c0b380fba4830ec4946adacb06c057d5bb0a6142"
+        },
+        {
+          "decision": "accept",
+          "evidence": "on suspicion of being a police informer after abducting him",
+          "input_id": "IND194443",
+          "predicted_label": "V",
+          "reason": "Organized insurgents kill a previously abducted villager; an informer accusation does not establish a combat counterpart.",
+          "text_sha256": "84de867550421db798448a8812f8484dd19116e430817e2a618357ff599d0823"
+        },
+        {
+          "decision": "accept",
+          "evidence": "CV members abducted three women",
+          "input_id": "BRA101317",
+          "predicted_label": "V",
+          "reason": "Organized gang abducts women and kills one; suspected relationships with rivals do not remove captive protection.",
+          "text_sha256": "8e0924335608bb528c806f7f24ec5d7fc6e12909b95e9ce905bf6415f1389b0c"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "a man approached a Muslim woman",
+          "input_id": "USA85216",
+          "predicted_label": "V",
+          "reason": "A lone hate-crime attacker is not established as an organized armed actor.",
+          "text_sha256": "d899630a8146edec2d041beb88ef20f7519e5b511e5738e352a01b8323bc49c5"
+        },
+        {
+          "decision": "accept",
+          "evidence": "two members of the Jalisco New Generation Cartel (CJNG) shot and killed a lawyer",
+          "input_id": "MEX98096",
+          "predicted_label": "V",
+          "reason": "Explicit organized cartel members attack a civilian lawyer, without a reported armed encounter.",
+          "text_sha256": "39428f6cd9cb8f1b60bee4464d9dcd7b0cb5d2fa7d8cb9bb2b8fdfe7f945164e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "the police assaulted a man inside the Barlanga police station",
+          "input_id": "IND179825",
+          "predicted_label": "V",
+          "reason": "Security personnel assault a person inside their station; no armed-counterpart conduct or higher-priority event is reported.",
+          "text_sha256": "364c13a44e916bb676af4ff7f73cd03a87063b359235436714ba58c1d7bf65e2"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "members of the Gujjar community",
+          "input_id": "IND171017",
+          "predicted_label": "V",
+          "reason": "Community identity alone does not establish an organized armed actor; the text does not clarify mob violence versus another shooting.",
+          "text_sha256": "4a5b1cffa3bcf62ac0cc54a7b3c9b25ae9c36d6d218f0c236fd61d478509513e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "municipal police officers shot at two men who ignored their order to stop",
+          "input_id": "MEX102931",
+          "predicted_label": "V",
+          "reason": "Security personnel attack men leaving a shop; no weapons or return fire by the men are reported, and likely official abuse is explicit.",
+          "text_sha256": "cb1c444f723d6c9ec2860c5816186588e1cef45befb7b4bdd1de34aaeb67443b"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "An alternative version indicates that two foreign migrants used stones",
+          "input_id": "MEX97341",
+          "predicted_label": "V",
+          "reason": "Alternative accounts differ on organized gang versus unaffiliated migrant perpetrators, leaving the organized-actor condition uncertain.",
+          "text_sha256": "2d201b8b0e428143b139d4e06bfb49be316cf93923c93557b4fe614d695840a1"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a PCV member dragged and killed a man",
+          "input_id": "BRA105039",
+          "predicted_label": "V",
+          "reason": "Named gang member attacks a petty thief and drug user; residence in rival territory does not establish an armed combat role.",
+          "text_sha256": "71b30fbf05ecd5cef34b13071adb2b7cf88ca9d41c9d0acb64ec937e25810a26"
+        },
+        {
+          "decision": "accept",
+          "evidence": "while in custody in Muzaffargarh city",
+          "input_id": "PAK148957",
+          "predicted_label": "V",
+          "reason": "Police allegedly torture a detainee to death; the custodial victim is protected, retaining the reported allegation.",
+          "text_sha256": "9a58a41cefc1561212868c4f859de03e169766b69513088f9b5862301e418325"
+        },
+        {
+          "decision": "accept",
+          "evidence": "The suspects, who were members of the PCC and B40 gang",
+          "input_id": "BRA100707",
+          "predicted_label": "V",
+          "reason": "Named organized gang affiliation is explicit; the focal targeted drive-by killing is not described as an armed encounter.",
+          "text_sha256": "c35daa95ed07eec7921e4cf4bf08525ce8975ca88690f0bbd30972db3bed6165"
+        },
+        {
+          "decision": "accept",
+          "evidence": "surrendered in Sukma district",
+          "input_id": "IND189743",
+          "predicted_label": "S",
+          "reason": "Insurgent surrender is a nonviolent strategic development; no forced capture or battle is described.",
+          "text_sha256": "62499fe9cb6cb52378115132515e1bcdeb49650877c8992ff3fea5ce15b867f0"
+        },
+        {
+          "decision": "accept",
+          "evidence": "There were no clashes",
+          "input_id": "LBY12512",
+          "predicted_label": "S",
+          "reason": "A transfer of crossing control between armed forces is explicitly nonviolent; the previous city seizure is separate.",
+          "text_sha256": "1fd3ccfada177eaa61aee209563d4c045d54bc00a3f64c77728fb9d71c55329e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a military cargo aircraft",
+          "input_id": "LBY12290",
+          "predicted_label": "S",
+          "reason": "Military transport movement during a buildup is focal; prior clashes are separate background.",
+          "text_sha256": "aa1e7880457a56f327e6d1b85974909e091f4e6ff3cd65aa6b4c2c75bd4ccb14"
+        },
+        {
+          "decision": "accept",
+          "evidence": "reaching an agreement to extend the ceasefire",
+          "input_id": "COL34686",
+          "predicted_label": "S",
+          "reason": "Peace talks and ceasefire extension are explicit nonviolent political agreements.",
+          "text_sha256": "6b3b592320529dfbbc57403eef836573688e46fd439888f99cced04379aee3f1"
+        },
+        {
+          "decision": "accept",
+          "evidence": "announced the formation of a pro-government armed group",
+          "input_id": "PAK152624",
+          "predicted_label": "S",
+          "reason": "Organizational formation is focal; preceding executions explain the motive but are background.",
+          "text_sha256": "579eef9d3bb28d8e8595add65f1be1cee49ff25c34b83885beafb3b7438215b3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "surrendered before the police",
+          "input_id": "IND180797",
+          "predicted_label": "S",
+          "reason": "Insurgent surrender motivated by disillusionment supports voluntary nonviolent strategic change.",
+          "text_sha256": "6fe4a8f67a1b7a72cafea8b539e14a22aab78ca3724a0cd6ef3d8d11cf1e6a0e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "over 5,000 soldiers were deployed",
+          "input_id": "COL30450",
+          "predicted_label": "S",
+          "reason": "Troop deployment is focal; attacks and clashes in the region are separately coded background.",
+          "text_sha256": "167f25c4bf675cf23194638bc4ab8ea9ed3516bc012954a6744de34995a0e5e7"
+        },
+        {
+          "decision": "accept",
+          "evidence": "deployed in Tajoura",
+          "input_id": "LBY12507",
+          "predicted_label": "S",
+          "reason": "Force deployment supporting security operations, without a reported clash, supports S.",
+          "text_sha256": "22e3056c6df26c2f1baeba46d14fb584729a27ae096c89feab0f0b6d48ddbf8a"
+        },
+        {
+          "decision": "accept",
+          "evidence": "moved a large number of ground personnel",
+          "input_id": "PAK146854",
+          "predicted_label": "S",
+          "reason": "Troop movement and communications disruption are focal security changes; the earlier camp attack is separate.",
+          "text_sha256": "7d312334567972d92a17fb55cd68f53f45e5e8a55ca753eb12f180c80117eac4"
+        },
+        {
+          "decision": "accept",
+          "evidence": "deployed convoys with heavy military equipment",
+          "input_id": "LBY12629",
+          "predicted_label": "S",
+          "reason": "Force movement without an accompanying reported attack supports S.",
+          "text_sha256": "796af03a437463f12df520dd569462de634fceaa300a853d76a73263b8441008"
+        },
+        {
+          "decision": "accept",
+          "evidence": "three CRPF battalions replaced RR units",
+          "input_id": "IND192670",
+          "predicted_label": "S",
+          "reason": "Replacing security units is a nonviolent force reorganization.",
+          "text_sha256": "8d98608f16012f2e9552eff3ad6a8442908304b220eaed008e00778154784709"
+        },
+        {
+          "decision": "accept",
+          "evidence": "deployed soldiers and armed vehicles under air cover",
+          "input_id": "LBY12671",
+          "predicted_label": "S",
+          "reason": "Deployment is focal; possible future offensives and tensions do not establish an actual attack.",
+          "text_sha256": "ad9a5f8dff94fd28ed31c639686c7f973055548ab478e8903c1040ebfd38185b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "moved from Ajdabiya to Sirte",
+          "input_id": "LBY12350",
+          "predicted_label": "S",
+          "reason": "Troop and armored-vehicle movement is focal; prior clashes are explicitly separate.",
+          "text_sha256": "7cac65b561d26af03ffb0b316a0781ef7aef61794c62aecf3f8ce8ab4d4df20c"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "It is unknown whether clashes took place",
+          "input_id": "LBY11965",
+          "predicted_label": "S",
+          "reason": "Mobilization is explicit, but a contemporaneous clash at the same military site is unresolved; the note does not clearly establish nonviolent development over a higher-priority battle.",
+          "text_sha256": "fd6e20865de1bee3c32413cc7b38e25def26b28089caa5c3d8720873aa92b9df"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a new National Guard barracks operation was inaugurated",
+          "input_id": "MEX108807",
+          "predicted_label": "S",
+          "reason": "Opening and staffing a security installation is a nonviolent security development.",
+          "text_sha256": "fea5650a0c0657439087b8cb6bd3b5bf2d0d58cedc7f13b4428972f4b801eeb4"
+        }
+      ],
+      "reviewer": "e5_review_a",
+      "source_note_review": "blind to expected labels"
+    },
+    {
+      "assessments": [
+        {
+          "decision": "accept",
+          "evidence": "fired several grenade shells towards a military check post",
+          "input_id": "PAK150914",
+          "predicted_label": "B",
+          "reason": "Militants also opened fire at a military post; direct armed engagement takes priority over the grenade tactic.",
+          "text_sha256": "41d158e53f1845f1323d5fdacad1e6d89595edd63d9fbffd33797366cc0059c3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Pakistan army engaged in sniper fire against military forces of India",
+          "input_id": "IND178221",
+          "predicted_label": "B",
+          "reason": "Both armed parties are explicit; return fire is unnecessary.",
+          "text_sha256": "ec4fc8ef01edeabbcb3c823743479b74cef97225eef2ec2f1a6c4e677dbc60db"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Both militias",
+          "input_id": "LBY12349",
+          "predicted_label": "B",
+          "reason": "The focal day describes a clash with heavy weapons between militias, distinct from earlier arson.",
+          "text_sha256": "7366ef4efbb3cf950cc61e8fc4ef73c0c7fc7571b2ec7b12b1a8a9f0377d6d05"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "The man had an involvement with drug trafficking",
+          "input_id": "BRA102953",
+          "predicted_label": "V",
+          "reason": "Drug involvement does not establish an armed battle counterpart; a coordinated killing is described without victim armed capability or organization.",
+          "text_sha256": "70b1de87bbf434c2ba8e60d8a3756d1f6ef6b6d0b03be4db48bd19cb8e8e2ad6"
+        },
+        {
+          "decision": "accept",
+          "evidence": "military forces conducted an intelligence-based operation (IBO) and killed a TTP militant commander",
+          "input_id": "PAK151437",
+          "predicted_label": "B",
+          "reason": "An active operation against an explicitly militant commander supports armed parties; no capture or defenseless status is reported.",
+          "text_sha256": "72ac97b26d0a730d437da96e98eff495b0eacd5e8967b7088ce66e98710514f3"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "a drug trafficker exchanged fire with military police",
+          "input_id": "BRA92027",
+          "predicted_label": "B",
+          "reason": "Fire exchange is clear, but the lone trafficker is not established as a member of an organized armed party.",
+          "text_sha256": "758b3ca43d0487cc606d2d2e0bbb91056036f292dd427a06c7fa8bc2867d6a19"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "IMP militants shot dead a police constable",
+          "input_id": "PAK151058",
+          "predicted_label": "B",
+          "reason": "The note does not establish whether the constable was on armed duty or was a defenseless off-duty target; prior involvement does not resolve present status.",
+          "text_sha256": "53832da421db51500e8cd48e7685e74b60607561ce3d6d70ea328781ae1e8412"
+        },
+        {
+          "decision": "accept",
+          "evidence": "clashed with the CPI (Maoist) cadres",
+          "input_id": "IND193529",
+          "predicted_label": "B",
+          "reason": "Security forces and armed cadres clashed and a rifle was recovered.",
+          "text_sha256": "56fd907b50dcc226c550dc18ff7db564191584a864918cd7106d205dd4e39922"
+        },
+        {
+          "decision": "accept",
+          "evidence": "members of Los Pinas Gang opened fire at state police officers",
+          "input_id": "MEX106784",
+          "predicted_label": "B",
+          "reason": "Explicit gang attack on police officers with weapons seized establishes armed parties.",
+          "text_sha256": "f3e401d27e7a7f05379741a07293a3f8669207eb267bd8db1042da3a6c01d283"
+        },
+        {
+          "decision": "accept",
+          "evidence": "opened fire at police personnel at a check post",
+          "input_id": "PAK147964",
+          "predicted_label": "B",
+          "reason": "Militants directly attacked a police checkpoint; incidental civilian casualties do not replace the focal battle.",
+          "text_sha256": "3681eaa649110bc98fe7f6b3ddd21bcca89b548c90c6b5a63a3475fbe75b7703"
+        },
+        {
+          "decision": "accept",
+          "evidence": "military police exchanged fire with drug traffickers",
+          "input_id": "BRA94519",
+          "predicted_label": "B",
+          "reason": "The coordinated armed traffickers exchanged fire and had a rifle and tactical communications equipment.",
+          "text_sha256": "3ebeef13843117813162e2a154799ecf9070b79ee19b7e4bdd803bf80ec8a7a9"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "military police exchanged fire with armed men",
+          "input_id": "BRA100217",
+          "predicted_label": "B",
+          "reason": "Fire exchange and mutual capability are explicit, but the generic armed men are not clearly established as an organized armed party without external actor information.",
+          "text_sha256": "b88086bdb3dd96e69b92f6f6ee78d1e4594cfb37080373708c54a9d1d2826523"
+        },
+        {
+          "decision": "accept",
+          "evidence": "armed clash between armed individuals (likely members of the CDN",
+          "input_id": "MEX99091",
+          "predicted_label": "B",
+          "reason": "An armed clash with National Guard and multiple weapons and affiliation-bearing tactical vests supplies armed-party evidence without external metadata.",
+          "text_sha256": "e8fbab70574395dbc0ef7f52902ef28124528f92aed22e0fe2df9c88196e2379"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a suspected ELN sniper opened fire on the local police station",
+          "input_id": "COL34858",
+          "predicted_label": "B",
+          "reason": "An explicitly suspected armed-group sniper directly attacked a police station; certainty and return fire are not required.",
+          "text_sha256": "4a688f62283499975dc79b765f48a71e7e73e5d848637216027ca89713c64cfe"
+        },
+        {
+          "decision": "accept",
+          "evidence": "During the exchange of fire, two security personnel were killed",
+          "input_id": "PAK155808",
+          "predicted_label": "B",
+          "reason": "Explicit clash between security forces and TTP militants.",
+          "text_sha256": "73f690ebf7567541b1dcce4247b33d934c538f9fb20e93c1f8b81369cdafd006"
+        },
+        {
+          "decision": "accept",
+          "evidence": "staged a protest and raised slogans outside a hospital",
+          "input_id": "IND193810",
+          "predicted_label": "P",
+          "reason": "Public slogan protest; no participant violence is reported.",
+          "text_sha256": "03b8e053596f79e4e3de559d6a30212a5aa8e4ffed6a3bf605f2511b7101e534"
+        },
+        {
+          "decision": "accept",
+          "evidence": "demonstrators gathered in Salisbury",
+          "input_id": "USA87404",
+          "predicted_label": "P",
+          "reason": "A public demonstration with political demands and no participant violence.",
+          "text_sha256": "46691e2df55da6e079c4770e5a1ca927164e37736ef311f693af2dc66a97072e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "workers protested in front of the Embraer's headquarters",
+          "input_id": "BRA99632",
+          "predicted_label": "P",
+          "reason": "Workers publicly protested tariffs without reported violence.",
+          "text_sha256": "374269f43fdbb36848e47e785405ddc67fe0aa0f3685c5fc17c014b686c34dd9"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Protesters chanted slogans against the government",
+          "input_id": "PAK152702",
+          "predicted_label": "P",
+          "reason": "Demonstrative road occupation has no material barricade, burning or participant violence.",
+          "text_sha256": "02cdf23d5ac250d323418e8e3ce2d00b1c5687056087e24c1bba37a9e9102286"
+        },
+        {
+          "decision": "accept",
+          "evidence": "rallied in Worcester",
+          "input_id": "USA78531",
+          "predicted_label": "P",
+          "reason": "Workers publicly rallied over cuts; no violence reported.",
+          "text_sha256": "2f4118bd8b16f0138da2fef29bbe7578c2a6f9a3f1608d6fa9cc24d60586bc63"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a small group of demonstrators",
+          "input_id": "USA89696",
+          "predicted_label": "P",
+          "reason": "A rally and flag display do not establish violence or an armed encounter.",
+          "text_sha256": "15efcae52f4207455bf6058a43b60d9bb3dcef0d21969769a6cff9296365ba09"
+        },
+        {
+          "decision": "accept",
+          "evidence": "marched to the intersection",
+          "input_id": "COL34451",
+          "predicted_label": "P",
+          "reason": "Demonstrators marched publicly without reported violence.",
+          "text_sha256": "6af75428934dd2b6553bd9553cb7ef75ce20a13a4bce5556e6452451a3bb4747"
+        },
+        {
+          "decision": "accept",
+          "evidence": "demonstrators rallied in La Jolla Village",
+          "input_id": "USA78450",
+          "predicted_label": "P",
+          "reason": "Peace and solidarity rally without reported participant violence.",
+          "text_sha256": "f8957e45c7457c1b13d91cca7f863cdf5a6d2d83753751b2636120965890f65d"
+        },
+        {
+          "decision": "accept",
+          "evidence": "took out a protest rally",
+          "input_id": "PAK153948",
+          "predicted_label": "P",
+          "reason": "The focal event is a solidarity rally; airstrikes are its subject, not a local attack.",
+          "text_sha256": "66584040a50fbe2744f6e284eb5fdce09c6178289a79090bd53ca330355baacc"
+        },
+        {
+          "decision": "accept",
+          "evidence": "demonstrators marched to commemorate International Workers' Day",
+          "input_id": "COL32036",
+          "predicted_label": "P",
+          "reason": "Public commemorative march without participant violence.",
+          "text_sha256": "e533a295325e7bf42f2c3c12ab593a0e9e43d6dcdaae719ffac9a48c6a0a206b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "staged protests in Tenkasi district",
+          "input_id": "IND178908",
+          "predicted_label": "P",
+          "reason": "Public protests accompany labor action; no violence is reported.",
+          "text_sha256": "3a9c855ac96fd900807dfb2c3083cb351f5925a89b5c3a1de170c6ecc4d627c9"
+        },
+        {
+          "decision": "accept",
+          "evidence": "held a press conference with a banner in front of",
+          "input_id": "KOR40804",
+          "predicted_label": "P",
+          "reason": "An organized public banner demonstration at a labor office expresses grievance without violence.",
+          "text_sha256": "fd3e5bdc7663b16295d64e2c998eb5b3af018533fe6fe1d65b76d022ab3295f4"
+        },
+        {
+          "decision": "accept",
+          "evidence": "supporters rallied at the Capitol",
+          "input_id": "USA82780",
+          "predicted_label": "P",
+          "reason": "Public policy rally without reported violence.",
+          "text_sha256": "3ce1eca75be5225d71f13d21a0533cd3cca750fe099fe2d4527e1ea2c5b4bff9"
+        },
+        {
+          "decision": "accept",
+          "evidence": "held a press conference and displayed banners",
+          "input_id": "KOR41645",
+          "predicted_label": "P",
+          "reason": "Public collective banner action makes a policy demand without violence.",
+          "text_sha256": "fd89e5453947a3340c6212513c51d1b0c5837db89309033f3b6e2b73628a3c26"
+        },
+        {
+          "decision": "accept",
+          "evidence": "as part of the nationwide 'Hands Off!' protests",
+          "input_id": "USA94062",
+          "predicted_label": "P",
+          "reason": "The focal event is a public political demonstration with no participant violence.",
+          "text_sha256": "1d29c6644a3dc628fb2264a66218073895f46b6fc76388ff00bd4c889f71a055"
+        },
+        {
+          "decision": "accept",
+          "evidence": "hooded students",
+          "input_id": "COL34509",
+          "predicted_label": "R",
+          "reason": "Demonstrating students detonated explosives and clashed with police; riot priority applies over explosives.",
+          "text_sha256": "16566741a693369c4f17abe73265b257c8dddc534e33995e57c9cc896911b3bc"
+        },
+        {
+          "decision": "accept",
+          "evidence": "vandalized a BEST bus",
+          "input_id": "IND174781",
+          "predicted_label": "R",
+          "reason": "Participants damaged property during a demonstration.",
+          "text_sha256": "3ba650f2c03eec57d56a880a0d358126c7ac797752980b2bc17b9069debf07f2"
+        },
+        {
+          "decision": "accept",
+          "evidence": "rioters burned tires and blocked",
+          "input_id": "LBY11829",
+          "predicted_label": "R",
+          "reason": "Burning-tire roadblock establishes participant destruction.",
+          "text_sha256": "3c9f197aaddfd28d12cddf60c238dd8f4dbb8f108f23348399d8ca670866e675"
+        },
+        {
+          "decision": "accept",
+          "evidence": "The group burned tires and other objects on the road",
+          "input_id": "BRA95936",
+          "predicted_label": "R",
+          "reason": "Demonstrators burned objects during the grievance event.",
+          "text_sha256": "5cb041c40760d9fcb84a067a166d49d18b49cb72c944c7741f3a0a485def3b31"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "Another report stated that TMCP members attacked SFI members",
+          "input_id": "IND179530",
+          "predicted_label": "R",
+          "reason": "Competing accounts leave whether demonstrators fought or were attacked by outside actors unresolved; preserve uncertainty rather than assert participant violence.",
+          "text_sha256": "f9f1cce3dd963e8d5a10dd3c4509d38153835d4b729667a62859a2921ce9d090"
+        },
+        {
+          "decision": "accept",
+          "evidence": "held a demonstration and vandalised houses and vehicles",
+          "input_id": "IND182506",
+          "predicted_label": "R",
+          "reason": "Demonstrators themselves destroyed property.",
+          "text_sha256": "476cffb32d753028d7af3924bd77489269eaa275359b59444d2d176c0264557d"
+        },
+        {
+          "decision": "accept",
+          "evidence": "women participating in a demonstration threw Molotov cocktails",
+          "input_id": "COL29521",
+          "predicted_label": "R",
+          "reason": "Participant arson during a demonstration takes riot priority over explosive violence.",
+          "text_sha256": "1adad8a61cfaa5fcfbda61ff05a72a120ecec65fd9ef5e26d20c1dfcfd41b2a1"
+        },
+        {
+          "decision": "accept",
+          "evidence": "The demonstration destroyed the barricades set up by the police",
+          "input_id": "IND193980",
+          "predicted_label": "R",
+          "reason": "Demonstrators destroyed property, independently of police water-cannon use.",
+          "text_sha256": "8b215fa2cf0dfb031736aac152f5b1e5c4abdb2449da84ad0d56b7cc3225b312"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detained the school director for nine hours",
+          "input_id": "MEX96888",
+          "predicted_label": "R",
+          "reason": "Coercive confinement by demonstrators constitutes participant violence, rather than peaceful demonstration.",
+          "text_sha256": "8104a93bc91a9f5da8da655f7451fbadcaec6ccfce5a06e3354c13f313540d44"
+        },
+        {
+          "decision": "accept",
+          "evidence": "The group burned objects on the road",
+          "input_id": "BRA119786",
+          "predicted_label": "R",
+          "reason": "Participants used destructive burning during the demonstration.",
+          "text_sha256": "a3c1bcd844c6a4006a3d56d73bb5d868c4e97f84e1ee0a88d304e0812a1268cf"
+        },
+        {
+          "decision": "accept",
+          "evidence": "clashed with steel plant officials and police",
+          "input_id": "IND192238",
+          "predicted_label": "R",
+          "reason": "Demonstrating villagers physically clashed and a policeman was injured.",
+          "text_sha256": "0dc9b264f84962813526ec3c1b82f15b87181b066e060071a23182a9b1472a20"
+        },
+        {
+          "decision": "accept",
+          "evidence": "the demonstrators lit bonfires and suspectedly beat a deputy",
+          "input_id": "MEX106926",
+          "predicted_label": "R",
+          "reason": "Reported participant burning and suspected assault support a riot while preserving the assault uncertainty.",
+          "text_sha256": "6f342079d16a39fb0aae4a63392e9891976f8478043b06dddbfbedb100c15b15"
+        },
+        {
+          "decision": "accept",
+          "evidence": "held a demonstration and vandalised a block development office",
+          "input_id": "IND182494",
+          "predicted_label": "R",
+          "reason": "Participant property destruction is explicit.",
+          "text_sha256": "a4e76c2bdea94c2c477dd9b82f79641f8493ea742617b32fe22b818c65bd4c47"
+        },
+        {
+          "decision": "accept",
+          "evidence": "damaged windows of businesses",
+          "input_id": "MEX101072",
+          "predicted_label": "R",
+          "reason": "Demonstrators damaged property and threw Molotov cocktails; riot priority applies.",
+          "text_sha256": "2cd84b6df7092f58ae638b321d6330195c4a63c817c4dd15a0cb70e5ea0f4cd6"
+        },
+        {
+          "decision": "accept",
+          "evidence": "set fire to the doors of the Executive Branch building",
+          "input_id": "MEX100829",
+          "predicted_label": "R",
+          "reason": "Demonstrators damaged buildings and committed arson.",
+          "text_sha256": "2c71690d88066f44ea6c7a7ec8abfd274b7b8fad751ba37829936fc69b3bc40b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "by firing several shells and launching a grenade attack",
+          "input_id": "PAK153445",
+          "predicted_label": "E",
+          "reason": "Only explosive tactics are reported; no direct fire or reciprocal ground clash establishes higher-priority battle.",
+          "text_sha256": "286f7c78d198babc9945be6b22120f73d34c36cfbaafdcf02c7e77576d8831fd"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated an IED targeting a military supply vehicle",
+          "input_id": "PAK151878",
+          "predicted_label": "E",
+          "reason": "An IED attack without a separately described armed clash is remote violence.",
+          "text_sha256": "8bc9f68a62230608d93280c609b3bae1e9da094981e96d419fbfc3bed8d55671"
+        },
+        {
+          "decision": "accept",
+          "evidence": "after stepping on a landmine",
+          "input_id": "COL31061",
+          "predicted_label": "E",
+          "reason": "The focal event is a landmine detonation; regional dispute is background.",
+          "text_sha256": "38f0a034765964598f7191b567ae7966a2856de6883ae3f35fa641a8c249cc42"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a mortar shell fired by military forces",
+          "input_id": "PAK151898",
+          "predicted_label": "E",
+          "reason": "Focal mortar impact is remote violence; no ground engagement is reported.",
+          "text_sha256": "5b449c6880c7e1e96f3ebee53ba120e9fe2885c2a1b502bad889b87ae77f8a4a"
+        },
+        {
+          "decision": "accept",
+          "evidence": "hurled a grenade at the local police station",
+          "input_id": "COL30835",
+          "predicted_label": "E",
+          "reason": "Grenade detonation without direct armed exchange.",
+          "text_sha256": "cb1bab099ede0be1a9c880fe260ee8641f47e1d5d92af7d1a8df710bdde6253e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "an Improvised Explosive Device (IED) explosion",
+          "input_id": "IND178692",
+          "predicted_label": "E",
+          "reason": "Patrol was hit by an IED; no higher-priority direct engagement is described.",
+          "text_sha256": "a94ccbb4533766b0fb630fca62d3852db013bea6a4a0aaf3230f7d8bcd623f20"
+        },
+        {
+          "decision": "accept",
+          "evidence": "blew up a gas pipeline",
+          "input_id": "PAK152863",
+          "predicted_label": "E",
+          "reason": "Explosive infrastructure attack is explicit, regardless of casualties.",
+          "text_sha256": "ed58b50360f3e4e1ade4b56b341761cf40a1c8611a514885fdf015ab6349b85b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated an explosive device on a bridge",
+          "input_id": "COL31899",
+          "predicted_label": "E",
+          "reason": "Explosive infrastructure attack without a higher-priority event.",
+          "text_sha256": "a55ffa52679e4326699eb5276d514885ebdeaf2bf605187f38ffee33356a95de"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated an IED planted along an under-construction road",
+          "input_id": "PAK147928",
+          "predicted_label": "E",
+          "reason": "Remote IED attack on a patrol, with no direct clash reported.",
+          "text_sha256": "93fe49659f3691b60f6f8f78b8573cdc4526b28a96ff14a424288491f2475876"
+        },
+        {
+          "decision": "accept",
+          "evidence": "hurled a grenade at the Villahermosa prison premises",
+          "input_id": "COL32700",
+          "predicted_label": "E",
+          "reason": "Focal grenade detonation injured guards and civilians outside another event.",
+          "text_sha256": "0b82c2594477075d278ba25e35541f46d6d2cc53d350f1b6f609651512b71012"
+        },
+        {
+          "decision": "accept",
+          "evidence": "explosives dropped from drones",
+          "input_id": "COL32863",
+          "predicted_label": "E",
+          "reason": "Drone attack is remote violence, without a reported ground clash.",
+          "text_sha256": "6371d2e5cd2129e628325759bbcdb9cc15639024d305da70c78e23bfc7eeaab0"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated a remote explosive",
+          "input_id": "COL29333",
+          "predicted_label": "E",
+          "reason": "Focal remote explosive attack is distinct from the earlier killing.",
+          "text_sha256": "855fb6b2be1b7cb0596b81f6ce35c7bca529210b5dedfcf692d3fa1492a53599"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated an explosive targeting a Coast Guard camp",
+          "input_id": "PAK150014",
+          "predicted_label": "E",
+          "reason": "Explosive attack without a reported direct exchange.",
+          "text_sha256": "2db35adf7dd56ef8ff22c0aec667b4184820db9d5e7961252f46c9411ecd675b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated explosive devices at two houses",
+          "input_id": "COL29982",
+          "predicted_label": "E",
+          "reason": "Explosive property attack; unoccupied houses do not change the tactic class.",
+          "text_sha256": "43cc70f074800e213deac9fea1652aad43c0c048b6f304d22f3f91aad7237a3f"
+        },
+        {
+          "decision": "accept",
+          "evidence": "detonated a home-made bomb outside a house",
+          "input_id": "PAK150903",
+          "predicted_label": "E",
+          "reason": "Bomb attack is explicit; no direct armed interaction is described.",
+          "text_sha256": "037486690b922cfe73674700752459af491c114033b9b62199106debd3b645ff"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "The authorship and motivations for the attack are unknown",
+          "input_id": "BRA100056",
+          "predicted_label": "V",
+          "reason": "Victim status and organized armed-actor status are not established; suspected drug involvement cannot supply either.",
+          "text_sha256": "c0e19e55926374819688befd1d411cc96fc7d2d5a595ba72f53c3dae3c77d67c"
+        },
+        {
+          "decision": "accept",
+          "evidence": "BLA militants claimed to have killed an informant",
+          "input_id": "PAK152721",
+          "predicted_label": "V",
+          "reason": "Organized militants attacked an informant; information work alone does not establish armed capability or combatant status.",
+          "text_sha256": "8908bd970aa29c71a570ceed53fbc995495ff17e11ec641b77ebd75525f8e4c4"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "two unidentified armed suspects",
+          "input_id": "BRA115008",
+          "predicted_label": "V",
+          "reason": "The barber-shop victim is apparently noncombatant, but the note does not establish an organized armed actor rather than unidentified homicide suspects.",
+          "text_sha256": "dd9771767d4d6be2b7babff6916b291d53988d75050b707d8da31292a280ff8d"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "The authorship and motivations for the attack are unknown",
+          "input_id": "BRA114133",
+          "predicted_label": "V",
+          "reason": "A coordinated drive-by killing alone does not clearly establish organized armed-actor status under the supplied definition.",
+          "text_sha256": "ba73ee50f8ecf0205ba070616b0a9773a148b3c9792f81d9fc17d124a2f64f6b"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "The perpetrators and motivation for the attack are unknown",
+          "input_id": "BRA97328",
+          "predicted_label": "V",
+          "reason": "Two unidentified shooters establish homicide but not clearly an organized armed actor.",
+          "text_sha256": "b43bede27caae41db3101b0881836de396e53a3594697c0b8bab258ec3010c77"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "two unidentified armed men",
+          "input_id": "BRA98509",
+          "predicted_label": "V",
+          "reason": "Unidentified drive-by shooters are not explicitly established as an organized armed actor.",
+          "text_sha256": "849b29ee13dc39fb8d0440fd0df1cb42179a199ce769f92cc63804d9ce18ddbc"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "an unidentified individual shot and killed",
+          "input_id": "MEX103360",
+          "predicted_label": "V",
+          "reason": "The civilian official is clear, but the lone perpetrator has no note-supported organized armed affiliation.",
+          "text_sha256": "6657fa58f48feca4a191151328c189faed35ba19ac4a6ef47a199e5190a772ab"
+        },
+        {
+          "decision": "accept",
+          "evidence": "The boy had been previously kidnapped",
+          "input_id": "PAK153266",
+          "predicted_label": "V",
+          "reason": "ISIS militants killed an abducted painter, a protected captive rather than an armed counterpart.",
+          "text_sha256": "d594f75f70e89cea14941a376f34ddf2c4adcbad444529f06b40a479bf258295"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "human remains were found inside two plastic bags",
+          "input_id": "MEX108332",
+          "predicted_label": "V",
+          "reason": "Body discovery establishes a killing but neither organized armed perpetrator nor victim combatant status.",
+          "text_sha256": "6c9f05247a155e903bd7abc01b06190bbe445eb006379b895e193126f6d8d776"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "the decapitated head was found inside a plastic bag",
+          "input_id": "MEX95699",
+          "predicted_label": "V",
+          "reason": "Mutilation does not itself establish organized armed-actor identity or victim status.",
+          "text_sha256": "2984aaa6915904052c6e9ced106c3d491532eabce43bb2eecd17dc5fde3a9c47"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "Attack motivation is unknown",
+          "input_id": "BRA98775",
+          "predicted_label": "V",
+          "reason": "Body discovery after shooting does not establish an organized armed perpetrator.",
+          "text_sha256": "2754187ca3ee8ef297484d7e1c92162731eeaf2a2864bfccb49a2718cdf036d8"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "armed individuals shot and killed three people",
+          "input_id": "MEX100508",
+          "predicted_label": "V",
+          "reason": "Eating victims including a minor support civilian status, but the perpetrators are not established as an organized armed actor.",
+          "text_sha256": "5483d3b980638ec11075b90ba61a3c4761cf6b140ca7b1bb7d3ae27a7eba4096"
+        },
+        {
+          "decision": "accept",
+          "evidence": "military forces detained and forcibly disappeared a Baloch youth",
+          "input_id": "PAK154762",
+          "predicted_label": "V",
+          "reason": "Forced disappearance from a residence and beating relatives are attacks on defenseless people by an organized military actor.",
+          "text_sha256": "5335d086f9563ae631d8482e5e33082f6dc330a570803ef18ffa86beb148c25e"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "the body was found wrapped in plastic bags",
+          "input_id": "MEX102047",
+          "predicted_label": "V",
+          "reason": "Body discovery with violence signs does not establish organized armed perpetrators or target status.",
+          "text_sha256": "1372b9114aaec3c5caed6327e6e6227626d51bfd15a2699b6aed060476a0e9ab"
+        },
+        {
+          "decision": "accept",
+          "evidence": "suspected members of an armed group shot and killed two optometrists",
+          "input_id": "COL31341",
+          "predicted_label": "V",
+          "reason": "Explicit suspected organized armed-group attack on health workers carrying out civilian work.",
+          "text_sha256": "5bbdae237be5ff45c7edc168587b130880c9ebc80928c9685f690aa177c94062"
+        },
+        {
+          "decision": "accept",
+          "evidence": "arrested one of the leaders of La Union Tepito",
+          "input_id": "MEX103298",
+          "predicted_label": "S",
+          "reason": "Focal arrest of a faction leader is a nonviolent security development with no reported fighting.",
+          "text_sha256": "ce566ea96611e676462aff830f1e72573cd39fc1fc6954aef5784c98c066f16f"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "locals from Meghalaya",
+          "input_id": "IND192339",
+          "predicted_label": "S",
+          "reason": "Property destruction by locals may be crowd destruction, but no clear demonstration or mob is established; supplied nonviolent strategic definition also does not clearly cover it.",
+          "text_sha256": "8c6cb3feb407bef4531fff9d721b4a23ccdeb5f5d63ba3bd6b1a5eb5c393f07b"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "previously used tire spikes to damage cars' tires",
+          "input_id": "MEX110197",
+          "predicted_label": "S",
+          "reason": "Armed coercive roadblock and prior property damage do not clearly establish a nonviolent political or security development; actor role and tactic boundaries are underdescribed.",
+          "text_sha256": "4ca9bfb2a2546cd2529da06147936a3555adc775027a3acff6afa881d32ad464"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "set fire to a vehicle carrying minerals",
+          "input_id": "PAK153286",
+          "predicted_label": "S",
+          "reason": "Militant arson against property is not clearly represented by the supplied nonviolent strategic definition, and the text gives no further tactic or political context.",
+          "text_sha256": "eb7c00f08ecb9bcf74bcca8a451be3b0d3e5440f009ce83147d838be870d36af"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "held a sparring training",
+          "input_id": "USA98651",
+          "predicted_label": "S",
+          "reason": "Without external knowledge of this club, sparring could be ordinary sport; political or armed-organizational relevance is not in the note.",
+          "text_sha256": "8f550f4647bc40c234ac61a503a9d6376242660f4fa8ac9ecdefa0124a9a2f0f"
+        },
+        {
+          "decision": "accept",
+          "evidence": "the police demolished the house of a drug trafficker",
+          "input_id": "IND190153",
+          "predicted_label": "S",
+          "reason": "An explicitly official enforcement demolition on a land-legality rationale is a security action without personal violence or another higher-priority event.",
+          "text_sha256": "10ee833587f70cf9a35bb2e5962d2bcb695b2808cf2e04d8e988e52a300a257d"
+        },
+        {
+          "decision": "accept",
+          "evidence": "BDS personnel subsequently defused the IED",
+          "input_id": "IND179822",
+          "predicted_label": "S",
+          "reason": "Focal seizure and defusal are security developments, not explosive attacks.",
+          "text_sha256": "f40050b66b0d93f7039817327663a6cf580d88ee8ad254b4e58d2b3704a5c294"
+        },
+        {
+          "decision": "accept",
+          "evidence": "police personnel arrested 92 students",
+          "input_id": "PAK145942",
+          "predicted_label": "S",
+          "reason": "Focal arrests follow separately coded violent demonstrations, rather than describing violence in this event.",
+          "text_sha256": "368a4df787a0c7f5b3b9ea52f924ccedb5a708cc76c527e55922fbc03d5aa154"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "gunshots were heard",
+          "input_id": "BRA93603",
+          "predicted_label": "S",
+          "reason": "Gunshots do not establish a nonviolent development; targets, actors, and whether an attack or battle occurred are unknown.",
+          "text_sha256": "c08d33aaf526afa6fa4a62fc8e60a9297750ff249a6c1f1598f3eddb78901d22"
+        },
+        {
+          "decision": "accept",
+          "evidence": "recovered 700 kg of looted explosives",
+          "input_id": "IND186433",
+          "predicted_label": "S",
+          "reason": "Focal security recovery is nonviolent; previous looting is separately coded background.",
+          "text_sha256": "5d191462995fccbc0ab1e5179ce264addeefe716b75ab7c1e49c10c406fcb579"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "residents were forced by an armed group to block the roads",
+          "input_id": "MEX95399",
+          "predicted_label": "P",
+          "reason": "The focal public demand and road occupation suggest protest, but coercion by an armed group creates ambiguity between a demonstration and strategic coercive action.",
+          "text_sha256": "7633fe694a6588688d538ebbf4bbaa05a4624a85718335d44f1d568da57620d5"
+        },
+        {
+          "decision": "accept",
+          "evidence": "27 members of the CJNG were arrested by the authorities",
+          "input_id": "MEX108278",
+          "predicted_label": "S",
+          "reason": "Focal nonviolent mass arrest is a security development, independent of external knowledge of the acronym.",
+          "text_sha256": "db0ae4ce49568faedf083b08dd5f74156ba74cf7c060935daf0082549e04cf9e"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "destroyed two towers",
+          "input_id": "PAK152900",
+          "predicted_label": "S",
+          "reason": "Militants destroyed military surveillance infrastructure, but no means are supplied; it may be explosive violence and does not clearly fit the supplied nonviolent strategic definition.",
+          "text_sha256": "910affbddfd2ee44058cf89b70182ca5408402e66c7c4fece6de464e89f3dc67"
+        },
+        {
+          "decision": "accept",
+          "evidence": "state police officers deactivated an explosive",
+          "input_id": "MEX94873",
+          "predicted_label": "S",
+          "reason": "Defusal is a security development; the prior throwing is not the focal attack here.",
+          "text_sha256": "be633f11b9e5bb4a84f47b464526c9ec61a4184799eb71f39d7bb95d7656df07"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "during a Pakistani 'swarm attack,' directing multiple drones toward military installations",
+          "input_id": "IND184494",
+          "predicted_label": "E",
+          "reason": "The text includes an ongoing drone attack and armed air-defense interception, creating remote-violence or battle priority over a purely nonviolent strategic development.",
+          "text_sha256": "0aa02cf7ada1af6f221af26aff0be0ed698a20127e0117bf8b4386695b29e54a"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Battles: violent interaction between organized armed parties capable of harming one another",
+          "input_id": "reference:baseline:B:0",
+          "predicted_label": "B",
+          "reason": "Faithful concise representation or explicit example of direct conflict between organized armed parties; no geography or external role assumptions.",
+          "text_sha256": "6c06bc98f5e54a5fb7b15f950490217254aaa83df7ac9b4f8154f4d9ec5584a9"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Battles: organized armed parties engage in direct armed conflict with one another.",
+          "input_id": "reference:short_definitions:B:0",
+          "predicted_label": "B",
+          "reason": "Faithful concise representation or explicit example of direct conflict between organized armed parties; no geography or external role assumptions.",
+          "text_sha256": "2cba2f5357f9eb954e2b4e3b608504b8ff150226380e1939492290c353110d5b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Soldiers and an organized rebel unit exchanged gunfire during a ground clash.",
+          "input_id": "reference:example_centroids:B:0",
+          "predicted_label": "B",
+          "reason": "Faithful concise representation or explicit example of direct conflict between organized armed parties; no geography or external role assumptions.",
+          "text_sha256": "99bff4f730d721b26234c8615877d0307bb34159c41bf681a5aca210fc23bc00"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Two rival armed militias fought with rifles over control of a checkpoint.",
+          "input_id": "reference:example_centroids:B:1",
+          "predicted_label": "B",
+          "reason": "Faithful concise representation or explicit example of direct conflict between organized armed parties; no geography or external role assumptions.",
+          "text_sha256": "ce1214198ff1cec9eaeaed81657773f24b08c094ee67a2a715e883fb501f59ab"
+        },
+        {
+          "decision": "accept",
+          "evidence": "An organized armed group fired on a rival armed patrol, which withdrew from the encounter.",
+          "input_id": "reference:example_centroids:B:2",
+          "predicted_label": "B",
+          "reason": "Faithful concise representation or explicit example of direct conflict between organized armed parties; no geography or external role assumptions.",
+          "text_sha256": "b7be8024d5092d7dd488f685628ac8f226f7d57c887892e85cb7fd70de670b93"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Protests: public demonstrations whose participants remain nonviolent, including demonstrations facing intervention or violence from others.",
+          "input_id": "reference:baseline:P:0",
+          "predicted_label": "P",
+          "reason": "Faithful representation or explicit example of peaceful public demonstration, including intervention; geography-neutral.",
+          "text_sha256": "85c3b9f779104a990911d4c998fa6efabd4d16ea01760edc428604275df39cf3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Protests: participants demonstrate peacefully, including when security forces intervene against them.",
+          "input_id": "reference:short_definitions:P:0",
+          "predicted_label": "P",
+          "reason": "Faithful representation or explicit example of peaceful public demonstration, including intervention; geography-neutral.",
+          "text_sha256": "4267694d56e381815eef705707e30a0fa422ff236d50556044ac0c9f3ee8b2a8"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Residents peacefully rallied outside a government office to demand better public services.",
+          "input_id": "reference:example_centroids:P:0",
+          "predicted_label": "P",
+          "reason": "Faithful representation or explicit example of peaceful public demonstration, including intervention; geography-neutral.",
+          "text_sha256": "3ae93b5f669a92c1a5bd6ab400a806cc3f5e473b1949b41fe1f1f7dde0b72c7e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Workers held a nonviolent demonstration; police dispersed them with batons while the participants remained peaceful.",
+          "input_id": "reference:example_centroids:P:1",
+          "predicted_label": "P",
+          "reason": "Faithful representation or explicit example of peaceful public demonstration, including intervention; geography-neutral.",
+          "text_sha256": "28bdebedc58edbaa5bf96b111d2b467f2cf5c71b154cff651e54e9623c7d0f6a"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Students staged a peaceful sit-in on a road to oppose a government policy.",
+          "input_id": "reference:example_centroids:P:2",
+          "predicted_label": "P",
+          "reason": "Faithful representation or explicit example of peaceful public demonstration, including intervention; geography-neutral.",
+          "text_sha256": "ae1c43d899b0bfe18381d9f78de5b326ca1a8d271dc3ca29ca1b855ec0170de0"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Riots: demonstrations or mobs involving participant violence or destruction, including material barricades and burning-tire roadblocks",
+          "input_id": "reference:baseline:R:0",
+          "predicted_label": "R",
+          "reason": "Faithful representation or explicit example of participant violence or destruction during a demonstration or mob action; geography-neutral.",
+          "text_sha256": "359db2032be00a1f2ef32ed09409cfffdacf85dc6567f0cae0fb3433e4534fd7"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Riots: demonstrators or mobs use violence, damage property, or erect destructive barricades.",
+          "input_id": "reference:short_definitions:R:0",
+          "predicted_label": "R",
+          "reason": "Faithful representation or explicit example of participant violence or destruction during a demonstration or mob action; geography-neutral.",
+          "text_sha256": "0108741231b637c3fe92612b2f78284c7d2e6077cb4ea98bbcf1edf9b98c71ba"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Demonstrators smashed windows and threw stones at police during a protest.",
+          "input_id": "reference:example_centroids:R:0",
+          "predicted_label": "R",
+          "reason": "Faithful representation or explicit example of participant violence or destruction during a demonstration or mob action; geography-neutral.",
+          "text_sha256": "d66f9198d029a0bda5e97c74009c5b75cc05fd3da7f1bbf76444ac3d4f359acf"
+        },
+        {
+          "decision": "accept",
+          "evidence": "A violent mob burned shops and destroyed parked vehicles.",
+          "input_id": "reference:example_centroids:R:1",
+          "predicted_label": "R",
+          "reason": "Faithful representation or explicit example of participant violence or destruction during a demonstration or mob action; geography-neutral.",
+          "text_sha256": "a20f2d145a6a8f29c20c4f480dc2b30443a0a25485bbb00158c4d1d75730a6ce"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Demonstrators set tires alight and erected burning barricades across a road.",
+          "input_id": "reference:example_centroids:R:2",
+          "predicted_label": "R",
+          "reason": "Faithful representation or explicit example of participant violence or destruction during a demonstration or mob action; geography-neutral.",
+          "text_sha256": "9593429ad4a6edada61f7909ab5bba4251cc8a269abe86517740b2288972bcb7"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Explosions/Remote violence: explosive or remotely delivered attacks outside a higher-priority event, such as air/drone strikes, shelling, mines, bombs, or grenades.",
+          "input_id": "reference:baseline:E:0",
+          "predicted_label": "E",
+          "reason": "Faithful representation or explicit explosive/remote attack example with no stated higher-priority event; geography-neutral.",
+          "text_sha256": "ed554ba1dc89d644b68c6479c707f0e3d66e0ff05365ceee84174a42b16533c8"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Explosions/Remote violence: bombs, mines, shelling, air strikes or drone strikes cause explosive or remotely delivered violence.",
+          "input_id": "reference:short_definitions:E:0",
+          "predicted_label": "E",
+          "reason": "Faithful representation or explicit explosive/remote attack example with no stated higher-priority event; geography-neutral.",
+          "text_sha256": "14055c91df1fe6231861227142507d019404e16d8fa9e2c18fac802ffb781841"
+        },
+        {
+          "decision": "accept",
+          "evidence": "An armed group fired a mortar shell into a residential neighborhood.",
+          "input_id": "reference:example_centroids:E:0",
+          "predicted_label": "E",
+          "reason": "Faithful representation or explicit explosive/remote attack example with no stated higher-priority event; geography-neutral.",
+          "text_sha256": "f980dd02011aa8ba0819906e0403e6c62033dc1258722dbae1c3530c39a664b8"
+        },
+        {
+          "decision": "accept",
+          "evidence": "A remotely detonated roadside bomb struck a passenger vehicle.",
+          "input_id": "reference:example_centroids:E:1",
+          "predicted_label": "E",
+          "reason": "Faithful representation or explicit explosive/remote attack example with no stated higher-priority event; geography-neutral.",
+          "text_sha256": "d0e7319452122d75697de5bae00628a7f0f87b2da501acfb474bc5970b25b58b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "A military aircraft dropped a bomb on a warehouse.",
+          "input_id": "reference:example_centroids:E:2",
+          "predicted_label": "E",
+          "reason": "Faithful representation or explicit explosive/remote attack example with no stated higher-priority event; geography-neutral.",
+          "text_sha256": "4ac183c415b59c5bfaeafc8795c2462a7b9a80da47ab664cc5b1297f4fc9ea94"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Violence against civilians: an organized armed actor attacks unarmed noncombatants or protected captives outside a higher-priority event.",
+          "input_id": "reference:baseline:V:0",
+          "predicted_label": "V",
+          "reason": "Faithful representation or explicit organized-actor attack on unarmed civilians or protected captives; geography-neutral.",
+          "text_sha256": "306c4fd2f88153f7f0ad486d291c5bea33d2ad439345c9d3cd86f458bb0652b1"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Violence against civilians: organized armed actors directly attack unarmed civilians or defenseless captives.",
+          "input_id": "reference:short_definitions:V:0",
+          "predicted_label": "V",
+          "reason": "Faithful representation or explicit organized-actor attack on unarmed civilians or protected captives; geography-neutral.",
+          "text_sha256": "ed95e7ae3afe4ef0d9c6d7be7c49db6958b41816883b81984a7b79bef1ef5d8f"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Militia members shot unarmed farmers working in a field.",
+          "input_id": "reference:example_centroids:V:0",
+          "predicted_label": "V",
+          "reason": "Faithful representation or explicit organized-actor attack on unarmed civilians or protected captives; geography-neutral.",
+          "text_sha256": "8452c537046da2741834de2a2cd8aeeb06982423ee8dd1b2a9b04d5ff95c32a3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Soldiers executed defenseless prisoners held in their custody.",
+          "input_id": "reference:example_centroids:V:1",
+          "predicted_label": "V",
+          "reason": "Faithful representation or explicit organized-actor attack on unarmed civilians or protected captives; geography-neutral.",
+          "text_sha256": "cfe65cef7960b26618095dc271dd5fbc3d2e6cc15daa2df2ec4b0d117f304426"
+        },
+        {
+          "decision": "accept",
+          "evidence": "An organized gang abducted and beat an unarmed shopkeeper.",
+          "input_id": "reference:example_centroids:V:2",
+          "predicted_label": "V",
+          "reason": "Faithful representation or explicit organized-actor attack on unarmed civilians or protected captives; geography-neutral.",
+          "text_sha256": "0eda761b1f205d9cd30465ba1564b099d26ca6ee581bd22268e453136b96241c"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Strategic developments: politically relevant nonviolent developments, such as ceasefire agreements, voluntary surrender, recruitment, force movements, or security changes.",
+          "input_id": "reference:baseline:S:0",
+          "predicted_label": "S",
+          "reason": "Faithful representation or explicit nonviolent political or armed-organizational development; geography-neutral.",
+          "text_sha256": "46cf29e44edb7fe6439a761ad68784418ab3e232b8b2e214109333d573d8f0a7"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Strategic developments: politically relevant nonviolent agreements, surrender, recruitment, force movements or security changes occur.",
+          "input_id": "reference:short_definitions:S:0",
+          "predicted_label": "S",
+          "reason": "Faithful representation or explicit nonviolent political or armed-organizational development; geography-neutral.",
+          "text_sha256": "75dd8f808c31f79ccb90e366b0149e216378154f69ab6d20a4609dd33c942f71"
+        },
+        {
+          "decision": "accept",
+          "evidence": "An armed faction signed a ceasefire agreement with the government.",
+          "input_id": "reference:example_centroids:S:0",
+          "predicted_label": "S",
+          "reason": "Faithful representation or explicit nonviolent political or armed-organizational development; geography-neutral.",
+          "text_sha256": "18ae1f0216425be301f01180c75d04513788687dc9d9e5e0c13b998fdf3a8bb3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "Members of an armed organization voluntarily surrendered their weapons to authorities.",
+          "input_id": "reference:example_centroids:S:1",
+          "predicted_label": "S",
+          "reason": "Faithful representation or explicit nonviolent political or armed-organizational development; geography-neutral.",
+          "text_sha256": "743282fbd4100a71a0b104c0964c4fa67ffb3d7248da8f0afa2df5ddbae6a6ea"
+        },
+        {
+          "decision": "accept",
+          "evidence": "An armed organization announced recruitment of new members.",
+          "input_id": "reference:example_centroids:S:2",
+          "predicted_label": "S",
+          "reason": "Faithful representation or explicit nonviolent political or armed-organizational development; geography-neutral.",
+          "text_sha256": "18e65d6c321fa33fd8e955ed0e98c99a16c282c5916e3b7e54e3564e7a080c3d"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "opened fire at a truck carrying minerals",
+          "input_id": "PAK155521",
+          "predicted_label": "V",
+          "reason": "The note establishes a property target and burst tires, but does not establish an occupied truck or an attack on an unarmed person rather than property alone.",
+          "text_sha256": "47dc45957a08aaa0e85afc67889d9adf4cc1acecb5f51e321f3a1a58f0b6415b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "They saw pictures of the victim doing an appropriated rival gang symbol (BDM) and killed him",
+          "input_id": "BRA96805",
+          "predicted_label": "V",
+          "reason": "The perpetrators are described as members of the rival gang context; the victim was intercepted on a social visit, with no reported armed role. A symbol alone does not make him an armed counterpart.",
+          "text_sha256": "c78e7c945ff111f84e4c6a94e82e2f67237946cc63680f9b7abac708286de7be"
+        },
+        {
+          "decision": "accept",
+          "evidence": "four to five Naxal-Maoist cadres abducted and axed to death a villager",
+          "input_id": "IND177470",
+          "predicted_label": "V",
+          "reason": "Organized cadres killed an abducted cattle-grazing villager; alleged informing does not establish armed capability.",
+          "text_sha256": "aba40c5288f345c44b4c95b2ce909e647a7014eb34ba0e5643f5e319cf2a07b3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "claimed to have been abducted by military and death squad personnel",
+          "input_id": "PAK157917",
+          "predicted_label": "V",
+          "reason": "The reported military/death-squad attribution is uncertain but explicit. The tortured abductee is a protected captive, not an armed counterpart.",
+          "text_sha256": "ff07bb4518f500c1479062b2c0b380fba4830ec4946adacb06c057d5bb0a6142"
+        },
+        {
+          "decision": "accept",
+          "evidence": "on suspicion of being a police informer after abducting him",
+          "input_id": "IND194443",
+          "predicted_label": "V",
+          "reason": "Explicit Maoist cadres killed an abducted villager; protected-captive status resolves the class without external information.",
+          "text_sha256": "84de867550421db798448a8812f8484dd19116e430817e2a618357ff599d0823"
+        },
+        {
+          "decision": "accept",
+          "evidence": "CV members abducted three women",
+          "input_id": "BRA101317",
+          "predicted_label": "V",
+          "reason": "Organized gang-context abduction and killing of captives; potential romantic association with rival members does not establish armed participation.",
+          "text_sha256": "8e0924335608bb528c806f7f24ec5d7fc6e12909b95e9ce905bf6415f1389b0c"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "a man approached a Muslim woman",
+          "input_id": "USA85216",
+          "predicted_label": "V",
+          "reason": "A violent hate-crime assault is described, but the lone attacker is not established as an organized armed actor.",
+          "text_sha256": "d899630a8146edec2d041beb88ef20f7519e5b511e5738e352a01b8323bc49c5"
+        },
+        {
+          "decision": "accept",
+          "evidence": "two members of the Jalisco New Generation Cartel (CJNG) shot and killed a lawyer",
+          "input_id": "MEX98096",
+          "predicted_label": "V",
+          "reason": "Explicit cartel members attacked a lawyer leaving his house, with no armed-counterpart evidence.",
+          "text_sha256": "39428f6cd9cb8f1b60bee4464d9dcd7b0cb5d2fa7d8cb9bb2b8fdfe7f945164e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "the police assaulted a man inside the Barlanga police station",
+          "input_id": "IND179825",
+          "predicted_label": "V",
+          "reason": "Police violence against a man at their station, with no armed role or reciprocal combat, supports an attack on a defenseless noncombatant.",
+          "text_sha256": "364c13a44e916bb676af4ff7f73cd03a87063b359235436714ba58c1d7bf65e2"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "members of the Gujjar community from Labhanpura village",
+          "input_id": "IND171017",
+          "predicted_label": "V",
+          "reason": "Community membership and a land dispute do not establish an organized armed actor; the shooting could be communal mob or interpersonal violence.",
+          "text_sha256": "4a5b1cffa3bcf62ac0cc54a7b3c9b25ae9c36d6d218f0c236fd61d478509513e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "municipal police officers shot at two men who ignored their order to stop",
+          "input_id": "MEX102931",
+          "predicted_label": "V",
+          "reason": "An organized police actor fired on men leaving a store, with no reported weapons or armed attack from the targets; the note explicitly suggests abuse of authority.",
+          "text_sha256": "cb1c444f723d6c9ec2860c5816186588e1cef45befb7b4bdd1de34aaeb67443b"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "An alternative version indicates that two foreign migrants used stones to kill the victim",
+          "input_id": "MEX97341",
+          "predicted_label": "V",
+          "reason": "The alternative account does not establish an organized armed actor; the gang attribution is disputed and cannot be treated as settled.",
+          "text_sha256": "2d201b8b0e428143b139d4e06bfb49be316cf93923c93557b4fe614d695840a1"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a PCV member dragged and killed a man",
+          "input_id": "BRA105039",
+          "predicted_label": "V",
+          "reason": "Gang rivalry and territorial context establish the organized criminal context; the victim is described as a petty thief and drug user, not an armed counterpart.",
+          "text_sha256": "71b30fbf05ecd5cef34b13071adb2b7cf88ca9d41c9d0acb64ec937e25810a26"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a woman died after being 'tortured' by the police, while in custody",
+          "input_id": "PAK148957",
+          "predicted_label": "V",
+          "reason": "Police killed a protected captive through reported torture; no battle is described.",
+          "text_sha256": "9a58a41cefc1561212868c4f859de03e169766b69513088f9b5862301e418325"
+        },
+        {
+          "decision": "accept",
+          "evidence": "The suspects, who were members of the PCC and B40 gang",
+          "input_id": "BRA100707",
+          "predicted_label": "V",
+          "reason": "Explicit gang members carried out a drive-by killing of a man without reported combatant status or reciprocal violence.",
+          "text_sha256": "c35daa95ed07eec7921e4cf4bf08525ce8975ca88690f0bbd30972db3bed6165"
+        },
+        {
+          "decision": "accept",
+          "evidence": "23 Naxal-Maoist cadres",
+          "input_id": "IND189743",
+          "predicted_label": "S",
+          "reason": "The focal event is surrender of organized cadres, without fighting or coercive capture described.",
+          "text_sha256": "62499fe9cb6cb52378115132515e1bcdeb49650877c8992ff3fea5ce15b867f0"
+        },
+        {
+          "decision": "accept",
+          "evidence": "There were no clashes",
+          "input_id": "LBY12512",
+          "predicted_label": "S",
+          "reason": "Forces took over a border crossing without fighting, a nonviolent security/control change; prior seizure is separately coded.",
+          "text_sha256": "1fd3ccfada177eaa61aee209563d4c045d54bc00a3f64c77728fb9d71c55329e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a military cargo aircraft",
+          "input_id": "LBY12290",
+          "predicted_label": "S",
+          "reason": "A military transport flight amid a buildup is a force/logistics movement; unknown cargo does not establish an attack.",
+          "text_sha256": "aa1e7880457a56f327e6d1b85974909e091f4e6ff3cd65aa6b4c2c75bd4ccb14"
+        },
+        {
+          "decision": "accept",
+          "evidence": "reaching an agreement to extend the ceasefire",
+          "input_id": "COL34686",
+          "predicted_label": "S",
+          "reason": "A negotiated ceasefire extension is an explicit nonviolent political agreement.",
+          "text_sha256": "6b3b592320529dfbbc57403eef836573688e46fd439888f99cced04379aee3f1"
+        },
+        {
+          "decision": "accept",
+          "evidence": "announced the formation of a pro-government armed group",
+          "input_id": "PAK152624",
+          "predicted_label": "S",
+          "reason": "Formation of an armed group is a strategic organizational development; earlier executions are background.",
+          "text_sha256": "579eef9d3bb28d8e8595add65f1be1cee49ff25c34b83885beafb3b7438215b3"
+        },
+        {
+          "decision": "accept",
+          "evidence": "surrendered before the police",
+          "input_id": "IND180797",
+          "predicted_label": "S",
+          "reason": "Voluntary cadre surrender is the focal nonviolent organizational development.",
+          "text_sha256": "6fe4a8f67a1b7a72cafea8b539e14a22aab78ca3724a0cd6ef3d8d11cf1e6a0e"
+        },
+        {
+          "decision": "accept",
+          "evidence": "over 5,000 soldiers were deployed",
+          "input_id": "COL30450",
+          "predicted_label": "S",
+          "reason": "Troop deployment is a force movement, while the attacks and clashes are separately coded background.",
+          "text_sha256": "167f25c4bf675cf23194638bc4ab8ea9ed3516bc012954a6744de34995a0e5e7"
+        },
+        {
+          "decision": "accept",
+          "evidence": "deployed in Tajoura",
+          "input_id": "LBY12507",
+          "predicted_label": "S",
+          "reason": "Battalion deployment to support local security is a nonviolent force movement; tensions do not establish combat.",
+          "text_sha256": "22e3056c6df26c2f1baeba46d14fb584729a27ae096c89feab0f0b6d48ddbf8a"
+        },
+        {
+          "decision": "accept",
+          "evidence": "military forces moved a large number of ground personnel",
+          "input_id": "PAK146854",
+          "predicted_label": "S",
+          "reason": "The focal force movement and communication disruption are security developments; the earlier attack is separately coded.",
+          "text_sha256": "7d312334567972d92a17fb55cd68f53f45e5e8a55ca753eb12f180c80117eac4"
+        },
+        {
+          "decision": "accept",
+          "evidence": "deployed convoys with heavy military equipment",
+          "input_id": "LBY12629",
+          "predicted_label": "S",
+          "reason": "Convoy deployment is a force movement without an attack described.",
+          "text_sha256": "796af03a437463f12df520dd569462de634fceaa300a853d76a73263b8441008"
+        },
+        {
+          "decision": "accept",
+          "evidence": "three CRPF battalions replaced RR units",
+          "input_id": "IND192670",
+          "predicted_label": "S",
+          "reason": "Security-force replacement is a nonviolent deployment change.",
+          "text_sha256": "8d98608f16012f2e9552eff3ad6a8442908304b220eaed008e00778154784709"
+        },
+        {
+          "decision": "accept",
+          "evidence": "deployed soldiers and armed vehicles under air cover",
+          "input_id": "LBY12671",
+          "predicted_label": "S",
+          "reason": "Deployment under cover is a force movement, not an airstrike; reported tensions and rumors do not establish an attack.",
+          "text_sha256": "ad9a5f8dff94fd28ed31c639686c7f973055548ab478e8903c1040ebfd38185b"
+        },
+        {
+          "decision": "accept",
+          "evidence": "moved from Ajdabiya to Sirte",
+          "input_id": "LBY12350",
+          "predicted_label": "S",
+          "reason": "Explicit movement of troops and armored vehicles, with prior clashes separately coded.",
+          "text_sha256": "7cac65b561d26af03ffb0b316a0781ef7aef61794c62aecf3f8ce8ab4d4df20c"
+        },
+        {
+          "decision": "withhold",
+          "evidence": "It is unknown whether clashes took place and who retained control of the military site",
+          "input_id": "LBY11965",
+          "predicted_label": "S",
+          "reason": "Force mobilization is stated, but uncertainty over actual clashes leaves the focal event potentially a higher-priority battle; nonviolence is not established.",
+          "text_sha256": "fd6e20865de1bee3c32413cc7b38e25def26b28089caa5c3d8720873aa92b9df"
+        },
+        {
+          "decision": "accept",
+          "evidence": "a new National Guard barracks operation was inaugurated",
+          "input_id": "MEX108807",
+          "predicted_label": "S",
+          "reason": "Inauguration of a staffed barracks is a security development without reported violence.",
+          "text_sha256": "fea5650a0c0657439087b8cb6bd3b5bf2d0d58cedc7f13b4428972f4b801eeb4"
+        }
+      ],
+      "reviewer": "e5_review_b",
+      "source_note_review": "label-aware adversarial review"
+    }
+  ]
+}

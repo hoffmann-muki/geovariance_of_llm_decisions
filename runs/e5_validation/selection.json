@@ -1,0 +1,103 @@
+{
+  "rule": "Highest development macro-F1, then accuracy, then simpler method in method-list order; only this winner and baseline evaluated on test",
+  "scores": {
+    "baseline": {
+      "accuracy": 0.4,
+      "by_class": {
+        "B": {
+          "correct": 0,
+          "n": 5
+        },
+        "E": {
+          "correct": 3,
+          "n": 5
+        },
+        "P": {
+          "correct": 4,
+          "n": 5
+        },
+        "R": {
+          "correct": 0,
+          "n": 5
+        },
+        "S": {
+          "correct": 0,
+          "n": 5
+        },
+        "V": {
+          "correct": 5,
+          "n": 5
+        }
+      },
+      "correct": 12,
+      "macro_f1": 0.2936868686868687,
+      "n": 30
+    },
+    "example_centroids": {
+      "accuracy": 0.8,
+      "by_class": {
+        "B": {
+          "correct": 4,
+          "n": 5
+        },
+        "E": {
+          "correct": 5,
+          "n": 5
+        },
+        "P": {
+          "correct": 4,
+          "n": 5
+        },
+        "R": {
+          "correct": 4,
+          "n": 5
+        },
+        "S": {
+          "correct": 3,
+          "n": 5
+        },
+        "V": {
+          "correct": 4,
+          "n": 5
+        }
+      },
+      "correct": 24,
+      "macro_f1": 0.8008417508417508,
+      "n": 30
+    },
+    "short_definitions": {
+      "accuracy": 0.7666666666666667,
+      "by_class": {
+        "B": {
+          "correct": 4,
+          "n": 5
+        },
+        "E": {
+          "correct": 5,
+          "n": 5
+        },
+        "P": {
+          "correct": 3,
+          "n": 5
+        },
+        "R": {
+          "correct": 5,
+          "n": 5
+        },
+        "S": {
+          "correct": 2,
+          "n": 5
+        },
+        "V": {
+          "correct": 4,
+          "n": 5
+        }
+      },
+      "correct": 23,
+      "macro_f1": 0.7637871387871388,
+      "n": 30
+    }
+  },
+  "selected_method": "example_centroids",
+  "test_accessed": false
+}

@@ -1,0 +1,61 @@
+{
+  "encoder_reference_embeddings": 18,
+  "inputs": {
+    "data/analysis_plan.json": {
+      "sha256": "a9309d19b46345fab29da13656d0a67e6402b2132f3311dceb7a1f0de4ddd657"
+    },
+    "data/compatibility/manifest.json": {
+      "sha256": "9a37efd327bc69728fccd72c1e25ecd2585baa9407a631cf5c8012245546afbc"
+    },
+    "data/e5_validation/manifest.json": {
+      "sha256": "c01a0d579400c083d5e0ae6b4987ccd22915278e708f4c2ce574b850af6f0649"
+    },
+    "data/variants/main/manifest.json": {
+      "sha256": "38c50285b9dbac9cafd34c8047258da7e910e6306f83ca3f81db43edc589433c"
+    },
+    "data/variants/main/protocol.json": {
+      "sha256": "85e796e99f4970f3ea26bb305cad033f6d3f9aee804cb8c67057d8579d9d6577"
+    },
+    "data/variants/main/request_order.csv": {
+      "sha256": "fbb8e73c59baeace374a5362015757c5700d1bdf1563632e83d65aefea2ed77b"
+    },
+    "data/variants/main/stimuli.csv": {
+      "sha256": "4853f56f9ef03b9ec5a1fa431b6f3171209ee7567cd83104fd32058fbd3ebe48"
+    },
+    "runs/compatibility/manifest.json": {
+      "sha256": "598c2f00f85f26cc99d8f8854b83bbe3ae99e76bd1acb99b166d409c85c7b6da"
+    },
+    "runs/e5_validation/manifest.json": {
+      "sha256": "e87a716b69c492bd74e15a8ea839128fb9a575f1102586764418870ca769a7c9"
+    },
+    "src/experiment.py": {
+      "sha256": "6836bc2430d36d4c354d3d0aeadce34d16852062f90eb4f35837adf6958960df"
+    },
+    "src/inference.py": {
+      "sha256": "15fc646dc997c7c9f798d0dc98cd73fdba36030a39c13c266c96ed499fed918b"
+    },
+    "src/model_inputs.py": {
+      "sha256": "b95d70804e693a5dc9ec79841acb0c12a45cfc73b134e758d582b009b55a24a3"
+    },
+    "src/utils.py": {
+      "sha256": "ff35edce1a8c560f7cbed70ff215aea42051fcbb9395974861b365b359ad492e"
+    }
+  },
+  "main_inference_performed": false,
+  "maximum_encoder_tokens": 254,
+  "outputs": {
+    "length_audit.csv": {
+      "sha256": "178d4fb82ae270bccc6d58aad51db8e41e6f13a07fb1a9007d7bfccef5c2c0fc"
+    },
+    "protocol.json": {
+      "sha256": "d534d0fb6bb4bddea2a429d225a1d693b22ed3f5e39f9b80edc6850fbcdaad3c"
+    },
+    "report.md": {
+      "sha256": "9c94d50c501cd0cb123455e1a7b5a4ee64dada3c24235a9c458340b7df6b865b"
+    }
+  },
+  "planned_classifications": 21646,
+  "preparation_complete": true,
+  "scope": "adopted_main_protocol_preparation",
+  "stimuli": 10820
+}
