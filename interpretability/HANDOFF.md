@@ -16,7 +16,13 @@ Status as of 5 November 2026. The design is in [PLAN.md](PLAN.md), which is the 
 | Calibration analysis (Stage A gate) | **Not written** |
 | Stage B scoring and H1 analysis | Not started; blocked on the Stage A gate |
 
-**The code is not committed.** `interpretability/`, `src/interp_*.py`, `tests/test_interp_*.py` and the `AGENTS.md` scoping note exist only in the local working tree. To get them onto the GPU server, either commit and push them (`origin` is GitHub) or copy them across. Never copy or commit `interpretability/.env`.
+**The code is on the `interpretability-pilot` branch** on GitHub (`origin`). Get it onto the GPU server with:
+
+```bash
+git clone -b interpretability-pilot https://github.com/hoffmann-muki/geovariance_of_llm_decisions.git
+```
+
+`interpretability/.env` is not in the repository. Create it on the server, and never copy or commit it.
 
 ## Facts Already Verified
 
