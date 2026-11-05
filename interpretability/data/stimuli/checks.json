@@ -1,0 +1,30 @@
+{
+  "schedule": {
+    "BV:A": 960,
+    "BV:B": 9600,
+    "PR:A": 960,
+    "PR:B": 9600
+  },
+  "stimuli": {
+    "bases": 48,
+    "by_boundary_stage": {
+      "BV:A": 240,
+      "BV:B": 2400,
+      "PR:A": 240,
+      "PR:B": 2400
+    },
+    "cells_per_base": 110,
+    "checks": [
+      "unique stimulus IDs and texts",
+      "no unfilled slots or excluded terms",
+      "evidence sentence appears exactly once",
+      "only the named country appears, once, in the country slot",
+      "base text identical outside evidence and country slots",
+      "every base has every level, wording and country condition"
+    ],
+    "stimuli": 5280
+  },
+  "system_prompts": {
+    "system_prompts": 8
+  }
+}

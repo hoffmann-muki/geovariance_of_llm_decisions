@@ -1,0 +1,27 @@
+{
+  "created": "2026-11-05T16:55:32+00:00",
+  "ladders_version": "v1",
+  "outputs": {
+    "checks.json": {
+      "sha256": "77c1d16b79b8380122b892f514738d27065491d29e96a4140f028cf3eaabffaa"
+    },
+    "schedule.csv": {
+      "sha256": "123989b0b0cc71a987a214e00d936f4984f1310a78422779c4e180b564feba55"
+    },
+    "stimuli.csv": {
+      "sha256": "039a41762ec553f5aa0ac44c3fdc372dbc12e3663b6668901cee64cf13b4eec6"
+    },
+    "system_prompts.csv": {
+      "sha256": "d09e384fe58538cbf1c1d0b072124e5fc10881321a55df9593782b3272758a57"
+    }
+  },
+  "producer_sha256": "5fe4e01676056f1c0380fe57ac7cd489693cdbe43f8aa8caa83ab83c4617f11c",
+  "prompts_status": "approved",
+  "prompts_version": "v1",
+  "sources": {
+    "bases_bv.csv": "db1d8a27d10819a64945663269e2158f00e1a3a62b958777ab62657405f75965",
+    "bases_pr.csv": "426d454dde173526de4b5554d82305ec2dc2124d749cafcb9dda74e9820692e5",
+    "ladders.json": "26a183657fa28a8a9a9629ab38fc9b001749c7b181607a700339d446febd7957",
+    "prompts.json": "891e6e5b782a5922f00586c948016ecbe27b83e37f328d70101d9eb925f4c8ea"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "v1",
+  "status": "approved",
+  "approved": "2026-11-05",
+  "notes": "System prompts are rendered from these parts so that order B reverses the classes everywhere (task sentence, definitions, answer options) while each definition stays with its class. The user message is the stimulus text alone.",
+  "intro_template": "You code {domain} for a conflict-event dataset. Read the event description and decide whether the event is {first_phrase} or {second_phrase}.",
+  "task_versions": [
+    "defined",
+    "undefined"
+  ],
+  "orders": [
+    "A",
+    "B"
+  ],
+  "boundaries": {
+    "PR": {
+      "domain": "demonstration events",
+      "order_a": [
+        "Protest",
+        "Riot"
+      ],
+      "phrases": {
+        "Protest": "a Protest",
+        "Riot": "a Riot"
+      },
+      "definitions": {
+        "Protest": "Protest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.",
+        "Riot": "Riot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property."
+      },
+      "answer_template": "Answer with one word: {first} or {second}."
+    },
+    "BV": {
+      "domain": "violent events",
+      "order_a": [
+        "Battle",
+        "Violence against civilians"
+      ],
+      "phrases": {
+        "Battle": "a Battle",
+        "Violence against civilians": "Violence against civilians"
+      },
+      "definitions": {
+        "Battle": "Battle: a violent clash between organized armed groups that are capable of harming each other.",
+        "Violence against civilians": "Violence against civilians: an organized armed group deliberately attacks unarmed civilians who cannot defend themselves."
+      },
+      "answer_template": "Answer with exactly one of: {first}, {second}."
+    }
+  }
+}

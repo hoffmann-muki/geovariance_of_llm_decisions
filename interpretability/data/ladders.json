@@ -1,0 +1,152 @@
+{
+  "version": "v1",
+  "status": "approved_for_calibration",
+  "approved": "2026-11-05",
+  "notes": "Wording 2 paraphrases wording 1 with the same facts, so wording differences measure phrasing alone. {country} is filled by the country slot, or omitted in the no-country condition.",
+  "country_slot": " in {country}",
+  "countries": {
+    "Libya": "Libya",
+    "Morocco": "Morocco",
+    "Mexico": "Mexico",
+    "United States": "the United States",
+    "Brazil": "Brazil",
+    "Colombia": "Colombia",
+    "India": "India",
+    "Pakistan": "Pakistan",
+    "China": "China",
+    "South Korea": "South Korea"
+  },
+  "boundaries": {
+    "PR": {
+      "lower_class": "Protest",
+      "higher_class": "Riot",
+      "frame": "On 12 June 2025, {actors} gathered {place}{country} to protest {grievance}. {evidence} The gathering ended by evening.",
+      "levels": [
+        {
+          "level": 1,
+          "role": "anchor_lower",
+          "evidence": "Participant violence explicitly absent",
+          "wordings": [
+            "Participants remained peaceful throughout.",
+            "The demonstrators stayed nonviolent for the entire event."
+          ]
+        },
+        {
+          "level": 2,
+          "role": "ambiguous",
+          "evidence": "Minor physical contact reported and disputed",
+          "wordings": [
+            "Some reports mentioned scuffles, but organizers said the event was peaceful.",
+            "A few accounts described brief pushing and shoving, but organizers said the gathering stayed peaceful."
+          ]
+        },
+        {
+          "level": 3,
+          "role": "ambiguous",
+          "evidence": "Property damage occurred; responsible party unknown",
+          "wordings": [
+            "A nearby car was damaged; it is unclear whether participants or bystanders were responsible.",
+            "A car parked nearby was damaged, but it is not known whether demonstrators or passersby caused the damage."
+          ]
+        },
+        {
+          "level": 4,
+          "role": "ambiguous",
+          "evidence": "Violence attributed to participants but unconfirmed",
+          "wordings": [
+            "Witnesses said some participants threw stones, though this could not be confirmed.",
+            "According to unconfirmed witness accounts, several demonstrators threw stones."
+          ]
+        },
+        {
+          "level": 5,
+          "role": "anchor_higher",
+          "evidence": "Participant violence and destruction confirmed",
+          "wordings": [
+            "Participants threw stones and set a parked car on fire.",
+            "Demonstrators hurled stones and set fire to a parked car."
+          ]
+        }
+      ],
+      "crossed_factors": [
+        "actors",
+        "grievance"
+      ],
+      "balanced_factors": [
+        "place"
+      ]
+    },
+    "BV": {
+      "lower_class": "Violence against civilians",
+      "higher_class": "Battle",
+      "frame": "On 12 June 2025, members of an armed group opened fire on a group of people {place}{country} {time}. {evidence} Two people were killed.",
+      "levels": [
+        {
+          "level": 1,
+          "role": "anchor_lower",
+          "evidence": "People attacked explicitly unarmed",
+          "wordings": [
+            "The people attacked were unarmed local residents.",
+            "Those targeted were local residents who carried no weapons."
+          ]
+        },
+        {
+          "level": 2,
+          "role": "ambiguous",
+          "evidence": "Identity of the people attacked disputed",
+          "wordings": [
+            "Local officials described the people attacked as residents, while the attackers claimed they were militia members.",
+            "The attackers said those targeted belonged to a militia, but local officials said they were ordinary residents."
+          ]
+        },
+        {
+          "level": 3,
+          "role": "ambiguous",
+          "evidence": "Whether the people attacked were armed is unknown",
+          "wordings": [
+            "It is unclear whether the people attacked were armed.",
+            "It is not known whether those targeted carried weapons."
+          ]
+        },
+        {
+          "level": 4,
+          "role": "ambiguous",
+          "evidence": "People attacked reported armed but unconfirmed",
+          "wordings": [
+            "Witnesses said some of the people attacked carried rifles, though this could not be confirmed.",
+            "According to unconfirmed witness accounts, several of those targeted were carrying rifles."
+          ]
+        },
+        {
+          "level": 5,
+          "role": "anchor_higher",
+          "evidence": "People attacked confirmed armed and fought back",
+          "wordings": [
+            "The people attacked were members of a rival armed group and returned fire.",
+            "Those targeted belonged to a rival armed group and fired back."
+          ]
+        }
+      ],
+      "crossed_factors": [
+        "place",
+        "time"
+      ],
+      "balanced_factors": []
+    }
+  },
+  "excluded_terms": [
+    "police",
+    "arrest",
+    "injur",
+    "wound",
+    "soldier",
+    "army",
+    "military",
+    "ethnic",
+    "relig",
+    "tribe",
+    "tribal",
+    "party",
+    "parties"
+  ]
+}
