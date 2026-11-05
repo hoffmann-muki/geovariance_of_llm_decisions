@@ -1,0 +1,41 @@
+task_id,boundary,task_version,order,first_class,second_class,lower_class,higher_class,system_prompt,system_prompt_sha256
+PR:defined:A,PR,defined,A,Protest,Riot,Protest,Riot,"You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Protest or a Riot.
+
+Protest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.
+
+Riot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property.
+
+Answer with one word: Protest or Riot.",8e0ec5b4f3e03262ab02a63f4f9e4c6e326d223a1eacd9af0c6511e174edeb4c
+PR:defined:B,PR,defined,B,Riot,Protest,Protest,Riot,"You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Riot or a Protest.
+
+Riot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property.
+
+Protest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.
+
+Answer with one word: Riot or Protest.",4386c301eea38c71da288ca4a879d839773dd60979cecebcf978ad39de9681e3
+PR:undefined:A,PR,undefined,A,Protest,Riot,Protest,Riot,"You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Protest or a Riot.
+
+Answer with one word: Protest or Riot.",6b56223a4102d3f7a9245e9e9d9a0e569734b4ae4c162bfb9e3d6cc791c7e89b
+PR:undefined:B,PR,undefined,B,Riot,Protest,Protest,Riot,"You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Riot or a Protest.
+
+Answer with one word: Riot or Protest.",a3048f124e04d608972f9b37396285b4d8907967f463b6b9922851d18fdec72a
+BV:defined:A,BV,defined,A,Battle,Violence against civilians,Violence against civilians,Battle,"You code violent events for a conflict-event dataset. Read the event description and decide whether the event is a Battle or Violence against civilians.
+
+Battle: a violent clash between organized armed groups that are capable of harming each other.
+
+Violence against civilians: an organized armed group deliberately attacks unarmed civilians who cannot defend themselves.
+
+Answer with exactly one of: Battle, Violence against civilians.",6c7f7b773f63eebbb2f39de1297244e927f66129efd4236d3152ea9fd08fd417
+BV:defined:B,BV,defined,B,Violence against civilians,Battle,Violence against civilians,Battle,"You code violent events for a conflict-event dataset. Read the event description and decide whether the event is Violence against civilians or a Battle.
+
+Violence against civilians: an organized armed group deliberately attacks unarmed civilians who cannot defend themselves.
+
+Battle: a violent clash between organized armed groups that are capable of harming each other.
+
+Answer with exactly one of: Violence against civilians, Battle.",a31020bdcd7c7efd6abc98f638109193e49ea9d47686006f241a1e46167f3370
+BV:undefined:A,BV,undefined,A,Battle,Violence against civilians,Violence against civilians,Battle,"You code violent events for a conflict-event dataset. Read the event description and decide whether the event is a Battle or Violence against civilians.
+
+Answer with exactly one of: Battle, Violence against civilians.",129139d590518e0f4753b9bb18a52bc1a88290b3ddf06c0921026b45b10b5ae2
+BV:undefined:B,BV,undefined,B,Violence against civilians,Battle,Violence against civilians,Battle,"You code violent events for a conflict-event dataset. Read the event description and decide whether the event is Violence against civilians or a Battle.
+
+Answer with exactly one of: Violence against civilians, Battle.",e798a6051a5ad9974ebbcb0805096f9f666914c2eb97956ae24dd303cacb1192

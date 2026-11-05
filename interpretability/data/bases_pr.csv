@@ -1,0 +1,25 @@
+base_id,actors,grievance,place
+pr_01,students,rising fuel prices,outside a government office
+pr_02,students,water shortages,in a central square
+pr_03,students,power outages,near a ministry building
+pr_04,students,a proposed tax increase,outside a town hall
+pr_05,factory workers,rising fuel prices,in a central square
+pr_06,factory workers,water shortages,near a ministry building
+pr_07,factory workers,power outages,outside a town hall
+pr_08,factory workers,a proposed tax increase,outside a government office
+pr_09,residents,rising fuel prices,near a ministry building
+pr_10,residents,water shortages,outside a town hall
+pr_11,residents,power outages,outside a government office
+pr_12,residents,a proposed tax increase,in a central square
+pr_13,farmers,rising fuel prices,outside a town hall
+pr_14,farmers,water shortages,outside a government office
+pr_15,farmers,power outages,in a central square
+pr_16,farmers,a proposed tax increase,near a ministry building
+pr_17,market traders,rising fuel prices,outside a government office
+pr_18,market traders,water shortages,in a central square
+pr_19,market traders,power outages,near a ministry building
+pr_20,market traders,a proposed tax increase,outside a town hall
+pr_21,retirees,rising fuel prices,in a central square
+pr_22,retirees,water shortages,near a ministry building
+pr_23,retirees,power outages,outside a town hall
+pr_24,retirees,a proposed tax increase,outside a government office
