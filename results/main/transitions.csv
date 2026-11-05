@@ -1,0 +1,1329 @@
+model,cohort,country,condition,from_label,to_label,count
+intfloat/multilingual-e5-large-instruct,real,Brazil,action_wording,B,B,16
+intfloat/multilingual-e5-large-instruct,real,Brazil,action_wording,E,E,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,action_wording,P,P,12
+intfloat/multilingual-e5-large-instruct,real,Brazil,action_wording,P,R,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,action_wording,R,R,4
+intfloat/multilingual-e5-large-instruct,real,Brazil,action_wording,V,V,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,actor_identity,B,B,12
+intfloat/multilingual-e5-large-instruct,real,Brazil,actor_identity,P,P,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,actor_identity,R,R,2
+intfloat/multilingual-e5-large-instruct,real,Brazil,actor_identity,V,V,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,delegitimizing_framing,B,B,15
+intfloat/multilingual-e5-large-instruct,real,Brazil,delegitimizing_framing,B,E,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,delegitimizing_framing,E,E,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,delegitimizing_framing,P,P,12
+intfloat/multilingual-e5-large-instruct,real,Brazil,delegitimizing_framing,P,R,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,delegitimizing_framing,R,R,4
+intfloat/multilingual-e5-large-instruct,real,Brazil,delegitimizing_framing,V,V,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,intensity,B,B,11
+intfloat/multilingual-e5-large-instruct,real,Brazil,legitimizing_framing,B,B,15
+intfloat/multilingual-e5-large-instruct,real,Brazil,legitimizing_framing,B,E,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,legitimizing_framing,E,E,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,legitimizing_framing,P,P,13
+intfloat/multilingual-e5-large-instruct,real,Brazil,legitimizing_framing,R,R,4
+intfloat/multilingual-e5-large-instruct,real,Brazil,legitimizing_framing,V,V,1
+intfloat/multilingual-e5-large-instruct,real,Brazil,neutral_control,B,B,34
+intfloat/multilingual-e5-large-instruct,real,Brazil,neutral_control,E,E,2
+intfloat/multilingual-e5-large-instruct,real,Brazil,neutral_control,P,P,19
+intfloat/multilingual-e5-large-instruct,real,Brazil,neutral_control,R,R,12
+intfloat/multilingual-e5-large-instruct,real,Brazil,neutral_control,V,V,8
+intfloat/multilingual-e5-large-instruct,real,Brazil,source_attribution,B,B,5
+intfloat/multilingual-e5-large-instruct,real,Brazil,source_attribution,P,P,12
+intfloat/multilingual-e5-large-instruct,real,Brazil,source_attribution,R,R,2
+intfloat/multilingual-e5-large-instruct,real,China,action_wording,P,P,17
+intfloat/multilingual-e5-large-instruct,real,China,actor_identity,P,P,1
+intfloat/multilingual-e5-large-instruct,real,China,actor_identity,R,R,5
+intfloat/multilingual-e5-large-instruct,real,China,delegitimizing_framing,P,P,15
+intfloat/multilingual-e5-large-instruct,real,China,delegitimizing_framing,P,R,2
+intfloat/multilingual-e5-large-instruct,real,China,legitimizing_framing,P,P,17
+intfloat/multilingual-e5-large-instruct,real,China,neutral_control,P,P,25
+intfloat/multilingual-e5-large-instruct,real,China,neutral_control,R,R,10
+intfloat/multilingual-e5-large-instruct,real,China,source_attribution,P,P,11
+intfloat/multilingual-e5-large-instruct,real,Colombia,action_wording,B,B,20
+intfloat/multilingual-e5-large-instruct,real,Colombia,action_wording,E,B,2
+intfloat/multilingual-e5-large-instruct,real,Colombia,action_wording,P,P,14
+intfloat/multilingual-e5-large-instruct,real,Colombia,action_wording,P,R,1
+intfloat/multilingual-e5-large-instruct,real,Colombia,action_wording,R,R,7
+intfloat/multilingual-e5-large-instruct,real,Colombia,action_wording,V,V,3
+intfloat/multilingual-e5-large-instruct,real,Colombia,actor_identity,B,B,1
+intfloat/multilingual-e5-large-instruct,real,Colombia,actor_identity,P,P,4
+intfloat/multilingual-e5-large-instruct,real,Colombia,actor_identity,S,S,1
+intfloat/multilingual-e5-large-instruct,real,Colombia,delegitimizing_framing,B,B,19
+intfloat/multilingual-e5-large-instruct,real,Colombia,delegitimizing_framing,B,V,1
+intfloat/multilingual-e5-large-instruct,real,Colombia,delegitimizing_framing,E,E,2
+intfloat/multilingual-e5-large-instruct,real,Colombia,delegitimizing_framing,P,P,11
+intfloat/multilingual-e5-large-instruct,real,Colombia,delegitimizing_framing,P,R,4
+intfloat/multilingual-e5-large-instruct,real,Colombia,delegitimizing_framing,R,R,7
+intfloat/multilingual-e5-large-instruct,real,Colombia,delegitimizing_framing,V,V,3
+intfloat/multilingual-e5-large-instruct,real,Colombia,intensity,B,B,10
+intfloat/multilingual-e5-large-instruct,real,Colombia,intensity,R,R,2
+intfloat/multilingual-e5-large-instruct,real,Colombia,legitimizing_framing,B,B,20
+intfloat/multilingual-e5-large-instruct,real,Colombia,legitimizing_framing,E,E,2
+intfloat/multilingual-e5-large-instruct,real,Colombia,legitimizing_framing,P,P,15
+intfloat/multilingual-e5-large-instruct,real,Colombia,legitimizing_framing,R,R,7
+intfloat/multilingual-e5-large-instruct,real,Colombia,legitimizing_framing,V,V,3
+intfloat/multilingual-e5-large-instruct,real,Colombia,neutral_control,B,B,30
+intfloat/multilingual-e5-large-instruct,real,Colombia,neutral_control,B,V,1
+intfloat/multilingual-e5-large-instruct,real,Colombia,neutral_control,E,E,3
+intfloat/multilingual-e5-large-instruct,real,Colombia,neutral_control,P,P,17
+intfloat/multilingual-e5-large-instruct,real,Colombia,neutral_control,P,R,1
+intfloat/multilingual-e5-large-instruct,real,Colombia,neutral_control,R,R,16
+intfloat/multilingual-e5-large-instruct,real,Colombia,neutral_control,S,S,1
+intfloat/multilingual-e5-large-instruct,real,Colombia,neutral_control,V,V,6
+intfloat/multilingual-e5-large-instruct,real,Colombia,source_attribution,B,B,9
+intfloat/multilingual-e5-large-instruct,real,Colombia,source_attribution,E,E,1
+intfloat/multilingual-e5-large-instruct,real,Colombia,source_attribution,P,P,9
+intfloat/multilingual-e5-large-instruct,real,Colombia,source_attribution,P,R,1
+intfloat/multilingual-e5-large-instruct,real,Colombia,source_attribution,R,R,4
+intfloat/multilingual-e5-large-instruct,real,India,action_wording,B,B,11
+intfloat/multilingual-e5-large-instruct,real,India,action_wording,B,S,1
+intfloat/multilingual-e5-large-instruct,real,India,action_wording,E,E,1
+intfloat/multilingual-e5-large-instruct,real,India,action_wording,P,P,9
+intfloat/multilingual-e5-large-instruct,real,India,action_wording,R,R,6
+intfloat/multilingual-e5-large-instruct,real,India,action_wording,V,V,1
+intfloat/multilingual-e5-large-instruct,real,India,actor_identity,R,R,1
+intfloat/multilingual-e5-large-instruct,real,India,delegitimizing_framing,B,B,12
+intfloat/multilingual-e5-large-instruct,real,India,delegitimizing_framing,E,E,1
+intfloat/multilingual-e5-large-instruct,real,India,delegitimizing_framing,P,P,9
+intfloat/multilingual-e5-large-instruct,real,India,delegitimizing_framing,R,R,7
+intfloat/multilingual-e5-large-instruct,real,India,delegitimizing_framing,V,V,1
+intfloat/multilingual-e5-large-instruct,real,India,intensity,B,B,12
+intfloat/multilingual-e5-large-instruct,real,India,intensity,E,E,1
+intfloat/multilingual-e5-large-instruct,real,India,intensity,R,R,2
+intfloat/multilingual-e5-large-instruct,real,India,legitimizing_framing,B,B,12
+intfloat/multilingual-e5-large-instruct,real,India,legitimizing_framing,E,E,1
+intfloat/multilingual-e5-large-instruct,real,India,legitimizing_framing,P,P,9
+intfloat/multilingual-e5-large-instruct,real,India,legitimizing_framing,R,R,7
+intfloat/multilingual-e5-large-instruct,real,India,legitimizing_framing,V,V,1
+intfloat/multilingual-e5-large-instruct,real,India,neutral_control,B,B,22
+intfloat/multilingual-e5-large-instruct,real,India,neutral_control,B,V,1
+intfloat/multilingual-e5-large-instruct,real,India,neutral_control,E,E,2
+intfloat/multilingual-e5-large-instruct,real,India,neutral_control,P,P,16
+intfloat/multilingual-e5-large-instruct,real,India,neutral_control,R,P,1
+intfloat/multilingual-e5-large-instruct,real,India,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,real,India,neutral_control,R,V,1
+intfloat/multilingual-e5-large-instruct,real,India,neutral_control,V,V,14
+intfloat/multilingual-e5-large-instruct,real,India,source_attribution,B,B,8
+intfloat/multilingual-e5-large-instruct,real,India,source_attribution,P,P,8
+intfloat/multilingual-e5-large-instruct,real,India,source_attribution,R,R,3
+intfloat/multilingual-e5-large-instruct,real,India,source_attribution,V,V,2
+intfloat/multilingual-e5-large-instruct,real,Libya,action_wording,B,B,21
+intfloat/multilingual-e5-large-instruct,real,Libya,action_wording,P,P,13
+intfloat/multilingual-e5-large-instruct,real,Libya,action_wording,P,R,1
+intfloat/multilingual-e5-large-instruct,real,Libya,action_wording,R,R,12
+intfloat/multilingual-e5-large-instruct,real,Libya,action_wording,V,V,3
+intfloat/multilingual-e5-large-instruct,real,Libya,delegitimizing_framing,B,B,23
+intfloat/multilingual-e5-large-instruct,real,Libya,delegitimizing_framing,P,P,8
+intfloat/multilingual-e5-large-instruct,real,Libya,delegitimizing_framing,P,R,6
+intfloat/multilingual-e5-large-instruct,real,Libya,delegitimizing_framing,R,R,12
+intfloat/multilingual-e5-large-instruct,real,Libya,delegitimizing_framing,V,V,3
+intfloat/multilingual-e5-large-instruct,real,Libya,intensity,B,B,15
+intfloat/multilingual-e5-large-instruct,real,Libya,legitimizing_framing,B,B,23
+intfloat/multilingual-e5-large-instruct,real,Libya,legitimizing_framing,P,P,14
+intfloat/multilingual-e5-large-instruct,real,Libya,legitimizing_framing,R,P,1
+intfloat/multilingual-e5-large-instruct,real,Libya,legitimizing_framing,R,R,11
+intfloat/multilingual-e5-large-instruct,real,Libya,legitimizing_framing,V,V,3
+intfloat/multilingual-e5-large-instruct,real,Libya,neutral_control,B,B,37
+intfloat/multilingual-e5-large-instruct,real,Libya,neutral_control,P,P,15
+intfloat/multilingual-e5-large-instruct,real,Libya,neutral_control,R,R,19
+intfloat/multilingual-e5-large-instruct,real,Libya,neutral_control,V,V,4
+intfloat/multilingual-e5-large-instruct,real,Libya,source_attribution,B,B,4
+intfloat/multilingual-e5-large-instruct,real,Libya,source_attribution,P,P,11
+intfloat/multilingual-e5-large-instruct,real,Libya,source_attribution,R,R,4
+intfloat/multilingual-e5-large-instruct,real,Libya,source_attribution,V,V,1
+intfloat/multilingual-e5-large-instruct,real,Mexico,action_wording,B,B,14
+intfloat/multilingual-e5-large-instruct,real,Mexico,action_wording,P,P,18
+intfloat/multilingual-e5-large-instruct,real,Mexico,action_wording,R,R,2
+intfloat/multilingual-e5-large-instruct,real,Mexico,action_wording,V,V,4
+intfloat/multilingual-e5-large-instruct,real,Mexico,actor_identity,B,B,1
+intfloat/multilingual-e5-large-instruct,real,Mexico,actor_identity,R,R,1
+intfloat/multilingual-e5-large-instruct,real,Mexico,delegitimizing_framing,B,B,14
+intfloat/multilingual-e5-large-instruct,real,Mexico,delegitimizing_framing,P,P,18
+intfloat/multilingual-e5-large-instruct,real,Mexico,delegitimizing_framing,R,R,2
+intfloat/multilingual-e5-large-instruct,real,Mexico,delegitimizing_framing,V,V,4
+intfloat/multilingual-e5-large-instruct,real,Mexico,intensity,B,B,9
+intfloat/multilingual-e5-large-instruct,real,Mexico,intensity,P,P,1
+intfloat/multilingual-e5-large-instruct,real,Mexico,legitimizing_framing,B,B,14
+intfloat/multilingual-e5-large-instruct,real,Mexico,legitimizing_framing,P,P,18
+intfloat/multilingual-e5-large-instruct,real,Mexico,legitimizing_framing,R,R,2
+intfloat/multilingual-e5-large-instruct,real,Mexico,legitimizing_framing,V,V,4
+intfloat/multilingual-e5-large-instruct,real,Mexico,neutral_control,B,B,27
+intfloat/multilingual-e5-large-instruct,real,Mexico,neutral_control,E,E,1
+intfloat/multilingual-e5-large-instruct,real,Mexico,neutral_control,P,P,21
+intfloat/multilingual-e5-large-instruct,real,Mexico,neutral_control,P,R,1
+intfloat/multilingual-e5-large-instruct,real,Mexico,neutral_control,R,R,12
+intfloat/multilingual-e5-large-instruct,real,Mexico,neutral_control,S,S,1
+intfloat/multilingual-e5-large-instruct,real,Mexico,neutral_control,V,V,12
+intfloat/multilingual-e5-large-instruct,real,Mexico,source_attribution,B,B,4
+intfloat/multilingual-e5-large-instruct,real,Mexico,source_attribution,P,P,11
+intfloat/multilingual-e5-large-instruct,real,Mexico,source_attribution,R,R,1
+intfloat/multilingual-e5-large-instruct,real,Mexico,source_attribution,V,V,1
+intfloat/multilingual-e5-large-instruct,real,Morocco,action_wording,P,P,15
+intfloat/multilingual-e5-large-instruct,real,Morocco,action_wording,R,R,3
+intfloat/multilingual-e5-large-instruct,real,Morocco,actor_identity,P,P,1
+intfloat/multilingual-e5-large-instruct,real,Morocco,delegitimizing_framing,P,P,15
+intfloat/multilingual-e5-large-instruct,real,Morocco,delegitimizing_framing,R,R,3
+intfloat/multilingual-e5-large-instruct,real,Morocco,intensity,R,R,2
+intfloat/multilingual-e5-large-instruct,real,Morocco,legitimizing_framing,P,P,15
+intfloat/multilingual-e5-large-instruct,real,Morocco,legitimizing_framing,R,R,3
+intfloat/multilingual-e5-large-instruct,real,Morocco,neutral_control,P,P,22
+intfloat/multilingual-e5-large-instruct,real,Morocco,neutral_control,R,R,13
+intfloat/multilingual-e5-large-instruct,real,Morocco,source_attribution,P,P,8
+intfloat/multilingual-e5-large-instruct,real,Morocco,source_attribution,R,R,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,action_wording,B,B,14
+intfloat/multilingual-e5-large-instruct,real,Pakistan,action_wording,B,S,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,action_wording,E,B,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,action_wording,E,E,3
+intfloat/multilingual-e5-large-instruct,real,Pakistan,action_wording,P,P,8
+intfloat/multilingual-e5-large-instruct,real,Pakistan,action_wording,R,R,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,action_wording,V,V,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,actor_identity,P,P,3
+intfloat/multilingual-e5-large-instruct,real,Pakistan,delegitimizing_framing,B,B,14
+intfloat/multilingual-e5-large-instruct,real,Pakistan,delegitimizing_framing,B,V,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,delegitimizing_framing,E,B,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,delegitimizing_framing,E,E,3
+intfloat/multilingual-e5-large-instruct,real,Pakistan,delegitimizing_framing,P,P,8
+intfloat/multilingual-e5-large-instruct,real,Pakistan,delegitimizing_framing,R,R,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,delegitimizing_framing,V,V,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,intensity,B,B,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,legitimizing_framing,B,B,14
+intfloat/multilingual-e5-large-instruct,real,Pakistan,legitimizing_framing,B,V,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,legitimizing_framing,E,E,4
+intfloat/multilingual-e5-large-instruct,real,Pakistan,legitimizing_framing,P,P,8
+intfloat/multilingual-e5-large-instruct,real,Pakistan,legitimizing_framing,R,R,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,legitimizing_framing,V,V,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,neutral_control,B,B,31
+intfloat/multilingual-e5-large-instruct,real,Pakistan,neutral_control,E,B,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,neutral_control,E,E,3
+intfloat/multilingual-e5-large-instruct,real,Pakistan,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,real,Pakistan,neutral_control,P,R,1
+intfloat/multilingual-e5-large-instruct,real,Pakistan,neutral_control,R,R,13
+intfloat/multilingual-e5-large-instruct,real,Pakistan,neutral_control,S,S,2
+intfloat/multilingual-e5-large-instruct,real,Pakistan,neutral_control,V,V,4
+intfloat/multilingual-e5-large-instruct,real,Pakistan,source_attribution,B,B,7
+intfloat/multilingual-e5-large-instruct,real,Pakistan,source_attribution,E,E,2
+intfloat/multilingual-e5-large-instruct,real,Pakistan,source_attribution,P,P,8
+intfloat/multilingual-e5-large-instruct,real,South Korea,action_wording,P,P,3
+intfloat/multilingual-e5-large-instruct,real,South Korea,action_wording,R,R,2
+intfloat/multilingual-e5-large-instruct,real,South Korea,actor_identity,R,R,2
+intfloat/multilingual-e5-large-instruct,real,South Korea,delegitimizing_framing,P,P,4
+intfloat/multilingual-e5-large-instruct,real,South Korea,delegitimizing_framing,R,R,2
+intfloat/multilingual-e5-large-instruct,real,South Korea,intensity,P,P,1
+intfloat/multilingual-e5-large-instruct,real,South Korea,intensity,P,R,1
+intfloat/multilingual-e5-large-instruct,real,South Korea,intensity,R,R,1
+intfloat/multilingual-e5-large-instruct,real,South Korea,legitimizing_framing,P,P,4
+intfloat/multilingual-e5-large-instruct,real,South Korea,legitimizing_framing,R,R,2
+intfloat/multilingual-e5-large-instruct,real,South Korea,neutral_control,P,P,29
+intfloat/multilingual-e5-large-instruct,real,South Korea,neutral_control,R,R,6
+intfloat/multilingual-e5-large-instruct,real,South Korea,source_attribution,P,P,4
+intfloat/multilingual-e5-large-instruct,real,South Korea,source_attribution,R,R,2
+intfloat/multilingual-e5-large-instruct,real,United States,action_wording,P,P,17
+intfloat/multilingual-e5-large-instruct,real,United States,action_wording,R,R,1
+intfloat/multilingual-e5-large-instruct,real,United States,actor_identity,P,P,5
+intfloat/multilingual-e5-large-instruct,real,United States,actor_identity,R,R,1
+intfloat/multilingual-e5-large-instruct,real,United States,delegitimizing_framing,P,P,16
+intfloat/multilingual-e5-large-instruct,real,United States,delegitimizing_framing,P,R,1
+intfloat/multilingual-e5-large-instruct,real,United States,delegitimizing_framing,R,R,1
+intfloat/multilingual-e5-large-instruct,real,United States,legitimizing_framing,P,P,17
+intfloat/multilingual-e5-large-instruct,real,United States,legitimizing_framing,R,R,1
+intfloat/multilingual-e5-large-instruct,real,United States,neutral_control,P,P,24
+intfloat/multilingual-e5-large-instruct,real,United States,neutral_control,R,R,11
+intfloat/multilingual-e5-large-instruct,real,United States,source_attribution,P,P,17
+intfloat/multilingual-e5-large-instruct,real,United States,source_attribution,R,R,1
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,action_wording,B,B,29
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,action_wording,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,action_wording,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,action_wording,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,action_wording,V,V,9
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,actor_identity,B,B,30
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,actor_identity,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,actor_identity,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,actor_identity,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,actor_identity,S,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,actor_identity,S,S,19
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,actor_identity,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,delegitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,delegitimizing_framing,B,V,4
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,delegitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,delegitimizing_framing,S,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,delegitimizing_framing,S,S,19
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,delegitimizing_framing,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,legitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,legitimizing_framing,B,V,4
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,legitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,legitimizing_framing,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,neutral_control,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,neutral_control,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,neutral_control,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,source_attribution,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,source_attribution,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,source_attribution,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,source_attribution,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,China,action_wording,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,China,action_wording,B,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,China,action_wording,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,China,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,China,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,action_wording,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,China,action_wording,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,China,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,action_wording,V,V,11
+intfloat/multilingual-e5-large-instruct,synthetic,China,actor_identity,B,B,26
+intfloat/multilingual-e5-large-instruct,synthetic,China,actor_identity,B,V,3
+intfloat/multilingual-e5-large-instruct,synthetic,China,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,China,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,actor_identity,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,China,actor_identity,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,China,actor_identity,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,actor_identity,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,China,actor_identity,V,V,14
+intfloat/multilingual-e5-large-instruct,synthetic,China,delegitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,China,delegitimizing_framing,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,China,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,China,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,delegitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,China,delegitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,delegitimizing_framing,V,V,15
+intfloat/multilingual-e5-large-instruct,synthetic,China,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,China,legitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,China,legitimizing_framing,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,China,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,China,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,legitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,China,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,legitimizing_framing,V,V,15
+intfloat/multilingual-e5-large-instruct,synthetic,China,neutral_control,B,B,28
+intfloat/multilingual-e5-large-instruct,synthetic,China,neutral_control,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,China,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,China,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,China,neutral_control,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,neutral_control,V,V,15
+intfloat/multilingual-e5-large-instruct,synthetic,China,source_attribution,B,B,28
+intfloat/multilingual-e5-large-instruct,synthetic,China,source_attribution,B,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,China,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,China,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,source_attribution,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,China,source_attribution,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,China,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,China,source_attribution,V,V,14
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,action_wording,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,action_wording,B,E,2
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,action_wording,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,action_wording,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,action_wording,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,action_wording,V,V,9
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,actor_identity,B,B,30
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,actor_identity,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,actor_identity,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,actor_identity,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,actor_identity,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,actor_identity,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,delegitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,delegitimizing_framing,B,V,4
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,delegitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,delegitimizing_framing,S,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,delegitimizing_framing,S,S,19
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,delegitimizing_framing,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,legitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,legitimizing_framing,B,V,4
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,legitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,legitimizing_framing,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,neutral_control,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,neutral_control,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,neutral_control,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,source_attribution,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,source_attribution,R,P,2
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,source_attribution,R,R,16
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,source_attribution,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,source_attribution,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,India,action_wording,B,B,24
+intfloat/multilingual-e5-large-instruct,synthetic,India,action_wording,B,E,2
+intfloat/multilingual-e5-large-instruct,synthetic,India,action_wording,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,India,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,India,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,action_wording,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,India,action_wording,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,India,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,action_wording,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,India,actor_identity,B,B,26
+intfloat/multilingual-e5-large-instruct,synthetic,India,actor_identity,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,India,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,India,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,actor_identity,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,India,actor_identity,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,India,actor_identity,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,actor_identity,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,India,actor_identity,V,V,15
+intfloat/multilingual-e5-large-instruct,synthetic,India,delegitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,India,delegitimizing_framing,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,India,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,India,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,delegitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,India,delegitimizing_framing,S,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,India,delegitimizing_framing,S,S,19
+intfloat/multilingual-e5-large-instruct,synthetic,India,delegitimizing_framing,V,V,16
+intfloat/multilingual-e5-large-instruct,synthetic,India,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,India,legitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,India,legitimizing_framing,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,India,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,India,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,legitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,India,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,legitimizing_framing,V,V,16
+intfloat/multilingual-e5-large-instruct,synthetic,India,neutral_control,B,B,28
+intfloat/multilingual-e5-large-instruct,synthetic,India,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,India,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,India,neutral_control,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,neutral_control,V,V,16
+intfloat/multilingual-e5-large-instruct,synthetic,India,source_attribution,B,B,28
+intfloat/multilingual-e5-large-instruct,synthetic,India,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,India,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,source_attribution,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,India,source_attribution,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,India,source_attribution,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,India,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,India,source_attribution,V,V,15
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,B,B,29
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,B,E,2
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,B,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,V,B,2
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,action_wording,V,V,6
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,actor_identity,B,B,32
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,actor_identity,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,actor_identity,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,actor_identity,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,actor_identity,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,delegitimizing_framing,B,B,30
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,delegitimizing_framing,B,V,3
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,delegitimizing_framing,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,delegitimizing_framing,S,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,delegitimizing_framing,S,S,19
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,delegitimizing_framing,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,legitimizing_framing,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,legitimizing_framing,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,legitimizing_framing,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,legitimizing_framing,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,neutral_control,B,B,32
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,neutral_control,B,E,1
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,neutral_control,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,neutral_control,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,neutral_control,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,source_attribution,B,B,32
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,source_attribution,B,E,1
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,source_attribution,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,source_attribution,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,source_attribution,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,source_attribution,V,V,10
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,action_wording,B,B,30
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,action_wording,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,action_wording,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,action_wording,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,action_wording,V,V,9
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,actor_identity,B,B,30
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,actor_identity,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,actor_identity,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,actor_identity,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,actor_identity,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,actor_identity,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,delegitimizing_framing,B,B,28
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,delegitimizing_framing,B,V,3
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,delegitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,delegitimizing_framing,S,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,delegitimizing_framing,S,S,19
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,delegitimizing_framing,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,legitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,legitimizing_framing,B,V,4
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,legitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,legitimizing_framing,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,neutral_control,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,neutral_control,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,neutral_control,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,source_attribution,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,source_attribution,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,source_attribution,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,source_attribution,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,B,B,29
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,B,E,2
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,V,B,2
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,action_wording,V,V,6
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,actor_identity,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,actor_identity,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,actor_identity,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,actor_identity,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,actor_identity,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,actor_identity,V,V,11
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,delegitimizing_framing,B,B,30
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,delegitimizing_framing,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,delegitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,delegitimizing_framing,S,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,delegitimizing_framing,S,S,19
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,delegitimizing_framing,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,legitimizing_framing,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,legitimizing_framing,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,legitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,legitimizing_framing,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,neutral_control,B,B,32
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,neutral_control,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,neutral_control,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,neutral_control,V,V,11
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,source_attribution,B,B,32
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,source_attribution,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,source_attribution,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,source_attribution,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,source_attribution,V,V,10
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,B,B,25
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,B,E,2
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,B,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,R,P,2
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,R,R,16
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,action_wording,V,V,11
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,actor_identity,B,B,26
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,actor_identity,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,actor_identity,R,P,2
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,actor_identity,R,R,16
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,actor_identity,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,actor_identity,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,actor_identity,V,V,15
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,delegitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,delegitimizing_framing,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,delegitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,delegitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,delegitimizing_framing,V,V,16
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,legitimizing_framing,B,B,27
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,legitimizing_framing,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,legitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,legitimizing_framing,V,V,16
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,neutral_control,B,B,28
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,neutral_control,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,neutral_control,V,V,16
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,source_attribution,B,B,28
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,source_attribution,R,P,2
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,source_attribution,R,R,16
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,source_attribution,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,source_attribution,V,B,3
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,source_attribution,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,action_wording,B,B,29
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,action_wording,B,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,action_wording,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,action_wording,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,action_wording,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,action_wording,V,V,9
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,actor_identity,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,actor_identity,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,actor_identity,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,actor_identity,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,actor_identity,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,actor_identity,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,delegitimizing_framing,B,B,29
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,delegitimizing_framing,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,delegitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,delegitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,delegitimizing_framing,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,legitimizing_framing,B,B,28
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,legitimizing_framing,B,V,3
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,legitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,legitimizing_framing,V,V,13
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,neutral_control,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,neutral_control,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,neutral_control,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,neutral_control,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,source_attribution,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,source_attribution,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,source_attribution,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,source_attribution,V,V,12
+intfloat/multilingual-e5-large-instruct,synthetic,United States,action_wording,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,United States,action_wording,B,E,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,action_wording,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,United States,action_wording,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,United States,action_wording,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,action_wording,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,United States,action_wording,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,United States,action_wording,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,action_wording,V,V,7
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,B,B,31
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,B,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,S,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,actor_identity,V,V,10
+intfloat/multilingual-e5-large-instruct,synthetic,United States,delegitimizing_framing,B,B,30
+intfloat/multilingual-e5-large-instruct,synthetic,United States,delegitimizing_framing,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,United States,delegitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,United States,delegitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,United States,delegitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,United States,delegitimizing_framing,S,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,delegitimizing_framing,S,S,19
+intfloat/multilingual-e5-large-instruct,synthetic,United States,delegitimizing_framing,S,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,delegitimizing_framing,V,V,11
+intfloat/multilingual-e5-large-instruct,synthetic,United States,intensity,B,B,16
+intfloat/multilingual-e5-large-instruct,synthetic,United States,legitimizing_framing,B,B,30
+intfloat/multilingual-e5-large-instruct,synthetic,United States,legitimizing_framing,B,V,2
+intfloat/multilingual-e5-large-instruct,synthetic,United States,legitimizing_framing,E,E,17
+intfloat/multilingual-e5-large-instruct,synthetic,United States,legitimizing_framing,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,United States,legitimizing_framing,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,United States,legitimizing_framing,S,S,20
+intfloat/multilingual-e5-large-instruct,synthetic,United States,legitimizing_framing,S,V,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,legitimizing_framing,V,V,11
+intfloat/multilingual-e5-large-instruct,synthetic,United States,neutral_control,B,B,32
+intfloat/multilingual-e5-large-instruct,synthetic,United States,neutral_control,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,United States,neutral_control,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,United States,neutral_control,R,R,18
+intfloat/multilingual-e5-large-instruct,synthetic,United States,neutral_control,S,S,21
+intfloat/multilingual-e5-large-instruct,synthetic,United States,neutral_control,V,V,11
+intfloat/multilingual-e5-large-instruct,synthetic,United States,source_attribution,B,B,32
+intfloat/multilingual-e5-large-instruct,synthetic,United States,source_attribution,E,E,18
+intfloat/multilingual-e5-large-instruct,synthetic,United States,source_attribution,P,P,20
+intfloat/multilingual-e5-large-instruct,synthetic,United States,source_attribution,R,P,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,source_attribution,R,R,17
+intfloat/multilingual-e5-large-instruct,synthetic,United States,source_attribution,S,S,21
+intfloat/multilingual-e5-large-instruct,synthetic,United States,source_attribution,V,B,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,source_attribution,V,S,1
+intfloat/multilingual-e5-large-instruct,synthetic,United States,source_attribution,V,V,9
+meta-llama/llama-3.1-8b-instruct,real,Brazil,action_wording,B,B,12
+meta-llama/llama-3.1-8b-instruct,real,Brazil,action_wording,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,action_wording,P,P,15
+meta-llama/llama-3.1-8b-instruct,real,Brazil,action_wording,P,R,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,action_wording,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,action_wording,V,V,5
+meta-llama/llama-3.1-8b-instruct,real,Brazil,actor_identity,B,B,10
+meta-llama/llama-3.1-8b-instruct,real,Brazil,actor_identity,B,V,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,actor_identity,P,P,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,actor_identity,R,R,2
+meta-llama/llama-3.1-8b-instruct,real,Brazil,actor_identity,V,V,2
+meta-llama/llama-3.1-8b-instruct,real,Brazil,delegitimizing_framing,B,B,12
+meta-llama/llama-3.1-8b-instruct,real,Brazil,delegitimizing_framing,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,delegitimizing_framing,P,P,14
+meta-llama/llama-3.1-8b-instruct,real,Brazil,delegitimizing_framing,P,R,2
+meta-llama/llama-3.1-8b-instruct,real,Brazil,delegitimizing_framing,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,delegitimizing_framing,V,V,5
+meta-llama/llama-3.1-8b-instruct,real,Brazil,intensity,B,B,11
+meta-llama/llama-3.1-8b-instruct,real,Brazil,legitimizing_framing,B,B,12
+meta-llama/llama-3.1-8b-instruct,real,Brazil,legitimizing_framing,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,legitimizing_framing,P,P,16
+meta-llama/llama-3.1-8b-instruct,real,Brazil,legitimizing_framing,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,legitimizing_framing,V,E,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,legitimizing_framing,V,V,3
+meta-llama/llama-3.1-8b-instruct,real,Brazil,neutral_control,B,B,13
+meta-llama/llama-3.1-8b-instruct,real,Brazil,neutral_control,E,E,2
+meta-llama/llama-3.1-8b-instruct,real,Brazil,neutral_control,P,P,22
+meta-llama/llama-3.1-8b-instruct,real,Brazil,neutral_control,P,R,1
+meta-llama/llama-3.1-8b-instruct,real,Brazil,neutral_control,R,R,12
+meta-llama/llama-3.1-8b-instruct,real,Brazil,neutral_control,V,V,25
+meta-llama/llama-3.1-8b-instruct,real,Brazil,source_attribution,B,B,5
+meta-llama/llama-3.1-8b-instruct,real,Brazil,source_attribution,P,P,13
+meta-llama/llama-3.1-8b-instruct,real,Brazil,source_attribution,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,China,action_wording,P,P,17
+meta-llama/llama-3.1-8b-instruct,real,China,actor_identity,P,P,1
+meta-llama/llama-3.1-8b-instruct,real,China,actor_identity,R,R,5
+meta-llama/llama-3.1-8b-instruct,real,China,delegitimizing_framing,P,P,17
+meta-llama/llama-3.1-8b-instruct,real,China,legitimizing_framing,P,P,17
+meta-llama/llama-3.1-8b-instruct,real,China,neutral_control,P,P,22
+meta-llama/llama-3.1-8b-instruct,real,China,neutral_control,P,R,1
+meta-llama/llama-3.1-8b-instruct,real,China,neutral_control,R,R,12
+meta-llama/llama-3.1-8b-instruct,real,China,source_attribution,P,P,11
+meta-llama/llama-3.1-8b-instruct,real,Colombia,action_wording,B,B,10
+meta-llama/llama-3.1-8b-instruct,real,Colombia,action_wording,B,V,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,action_wording,P,P,16
+meta-llama/llama-3.1-8b-instruct,real,Colombia,action_wording,R,R,6
+meta-llama/llama-3.1-8b-instruct,real,Colombia,action_wording,V,E,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,action_wording,V,V,13
+meta-llama/llama-3.1-8b-instruct,real,Colombia,actor_identity,B,B,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,actor_identity,P,P,5
+meta-llama/llama-3.1-8b-instruct,real,Colombia,delegitimizing_framing,B,B,11
+meta-llama/llama-3.1-8b-instruct,real,Colombia,delegitimizing_framing,P,P,16
+meta-llama/llama-3.1-8b-instruct,real,Colombia,delegitimizing_framing,R,R,6
+meta-llama/llama-3.1-8b-instruct,real,Colombia,delegitimizing_framing,V,E,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,delegitimizing_framing,V,V,13
+meta-llama/llama-3.1-8b-instruct,real,Colombia,intensity,B,B,10
+meta-llama/llama-3.1-8b-instruct,real,Colombia,intensity,R,R,2
+meta-llama/llama-3.1-8b-instruct,real,Colombia,legitimizing_framing,B,B,11
+meta-llama/llama-3.1-8b-instruct,real,Colombia,legitimizing_framing,P,P,16
+meta-llama/llama-3.1-8b-instruct,real,Colombia,legitimizing_framing,R,R,6
+meta-llama/llama-3.1-8b-instruct,real,Colombia,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,legitimizing_framing,V,E,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,legitimizing_framing,V,V,12
+meta-llama/llama-3.1-8b-instruct,real,Colombia,neutral_control,B,B,16
+meta-llama/llama-3.1-8b-instruct,real,Colombia,neutral_control,E,B,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,neutral_control,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,neutral_control,P,P,21
+meta-llama/llama-3.1-8b-instruct,real,Colombia,neutral_control,R,R,14
+meta-llama/llama-3.1-8b-instruct,real,Colombia,neutral_control,V,B,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,neutral_control,V,E,1
+meta-llama/llama-3.1-8b-instruct,real,Colombia,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,real,Colombia,source_attribution,B,B,5
+meta-llama/llama-3.1-8b-instruct,real,Colombia,source_attribution,P,P,10
+meta-llama/llama-3.1-8b-instruct,real,Colombia,source_attribution,R,R,4
+meta-llama/llama-3.1-8b-instruct,real,Colombia,source_attribution,V,V,5
+meta-llama/llama-3.1-8b-instruct,real,India,action_wording,B,B,13
+meta-llama/llama-3.1-8b-instruct,real,India,action_wording,P,P,11
+meta-llama/llama-3.1-8b-instruct,real,India,action_wording,R,R,4
+meta-llama/llama-3.1-8b-instruct,real,India,action_wording,V,V,1
+meta-llama/llama-3.1-8b-instruct,real,India,actor_identity,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,India,delegitimizing_framing,B,B,13
+meta-llama/llama-3.1-8b-instruct,real,India,delegitimizing_framing,P,P,11
+meta-llama/llama-3.1-8b-instruct,real,India,delegitimizing_framing,R,R,5
+meta-llama/llama-3.1-8b-instruct,real,India,delegitimizing_framing,V,V,1
+meta-llama/llama-3.1-8b-instruct,real,India,intensity,B,B,13
+meta-llama/llama-3.1-8b-instruct,real,India,intensity,R,R,2
+meta-llama/llama-3.1-8b-instruct,real,India,legitimizing_framing,B,B,13
+meta-llama/llama-3.1-8b-instruct,real,India,legitimizing_framing,P,P,11
+meta-llama/llama-3.1-8b-instruct,real,India,legitimizing_framing,R,R,5
+meta-llama/llama-3.1-8b-instruct,real,India,legitimizing_framing,V,V,1
+meta-llama/llama-3.1-8b-instruct,real,India,neutral_control,B,B,20
+meta-llama/llama-3.1-8b-instruct,real,India,neutral_control,P,P,22
+meta-llama/llama-3.1-8b-instruct,real,India,neutral_control,P,V,1
+meta-llama/llama-3.1-8b-instruct,real,India,neutral_control,R,R,14
+meta-llama/llama-3.1-8b-instruct,real,India,neutral_control,V,V,18
+meta-llama/llama-3.1-8b-instruct,real,India,source_attribution,B,B,8
+meta-llama/llama-3.1-8b-instruct,real,India,source_attribution,P,P,8
+meta-llama/llama-3.1-8b-instruct,real,India,source_attribution,R,R,3
+meta-llama/llama-3.1-8b-instruct,real,India,source_attribution,V,V,2
+meta-llama/llama-3.1-8b-instruct,real,Libya,action_wording,B,B,14
+meta-llama/llama-3.1-8b-instruct,real,Libya,action_wording,P,P,19
+meta-llama/llama-3.1-8b-instruct,real,Libya,action_wording,R,R,7
+meta-llama/llama-3.1-8b-instruct,real,Libya,action_wording,V,V,10
+meta-llama/llama-3.1-8b-instruct,real,Libya,delegitimizing_framing,B,B,15
+meta-llama/llama-3.1-8b-instruct,real,Libya,delegitimizing_framing,P,P,19
+meta-llama/llama-3.1-8b-instruct,real,Libya,delegitimizing_framing,R,R,8
+meta-llama/llama-3.1-8b-instruct,real,Libya,delegitimizing_framing,V,V,10
+meta-llama/llama-3.1-8b-instruct,real,Libya,intensity,B,B,14
+meta-llama/llama-3.1-8b-instruct,real,Libya,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,Libya,legitimizing_framing,B,B,15
+meta-llama/llama-3.1-8b-instruct,real,Libya,legitimizing_framing,P,P,19
+meta-llama/llama-3.1-8b-instruct,real,Libya,legitimizing_framing,R,R,8
+meta-llama/llama-3.1-8b-instruct,real,Libya,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,real,Libya,legitimizing_framing,V,S,1
+meta-llama/llama-3.1-8b-instruct,real,Libya,legitimizing_framing,V,V,8
+meta-llama/llama-3.1-8b-instruct,real,Libya,neutral_control,B,B,21
+meta-llama/llama-3.1-8b-instruct,real,Libya,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,real,Libya,neutral_control,R,R,15
+meta-llama/llama-3.1-8b-instruct,real,Libya,neutral_control,V,V,19
+meta-llama/llama-3.1-8b-instruct,real,Libya,source_attribution,B,B,3
+meta-llama/llama-3.1-8b-instruct,real,Libya,source_attribution,P,P,12
+meta-llama/llama-3.1-8b-instruct,real,Libya,source_attribution,R,R,3
+meta-llama/llama-3.1-8b-instruct,real,Libya,source_attribution,V,V,2
+meta-llama/llama-3.1-8b-instruct,real,Mexico,action_wording,B,B,8
+meta-llama/llama-3.1-8b-instruct,real,Mexico,action_wording,B,V,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,action_wording,E,B,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,action_wording,P,P,18
+meta-llama/llama-3.1-8b-instruct,real,Mexico,action_wording,R,R,2
+meta-llama/llama-3.1-8b-instruct,real,Mexico,action_wording,V,V,8
+meta-llama/llama-3.1-8b-instruct,real,Mexico,actor_identity,B,B,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,actor_identity,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,delegitimizing_framing,B,B,9
+meta-llama/llama-3.1-8b-instruct,real,Mexico,delegitimizing_framing,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,delegitimizing_framing,P,P,17
+meta-llama/llama-3.1-8b-instruct,real,Mexico,delegitimizing_framing,P,R,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,delegitimizing_framing,R,R,2
+meta-llama/llama-3.1-8b-instruct,real,Mexico,delegitimizing_framing,V,V,8
+meta-llama/llama-3.1-8b-instruct,real,Mexico,intensity,B,B,8
+meta-llama/llama-3.1-8b-instruct,real,Mexico,intensity,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,legitimizing_framing,B,B,9
+meta-llama/llama-3.1-8b-instruct,real,Mexico,legitimizing_framing,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,legitimizing_framing,P,P,18
+meta-llama/llama-3.1-8b-instruct,real,Mexico,legitimizing_framing,R,R,2
+meta-llama/llama-3.1-8b-instruct,real,Mexico,legitimizing_framing,V,B,3
+meta-llama/llama-3.1-8b-instruct,real,Mexico,legitimizing_framing,V,V,5
+meta-llama/llama-3.1-8b-instruct,real,Mexico,neutral_control,B,B,18
+meta-llama/llama-3.1-8b-instruct,real,Mexico,neutral_control,E,E,2
+meta-llama/llama-3.1-8b-instruct,real,Mexico,neutral_control,P,P,22
+meta-llama/llama-3.1-8b-instruct,real,Mexico,neutral_control,R,R,13
+meta-llama/llama-3.1-8b-instruct,real,Mexico,neutral_control,V,B,1
+meta-llama/llama-3.1-8b-instruct,real,Mexico,neutral_control,V,V,19
+meta-llama/llama-3.1-8b-instruct,real,Mexico,source_attribution,B,B,3
+meta-llama/llama-3.1-8b-instruct,real,Mexico,source_attribution,P,P,12
+meta-llama/llama-3.1-8b-instruct,real,Mexico,source_attribution,V,V,2
+meta-llama/llama-3.1-8b-instruct,real,Morocco,action_wording,P,P,15
+meta-llama/llama-3.1-8b-instruct,real,Morocco,action_wording,R,R,3
+meta-llama/llama-3.1-8b-instruct,real,Morocco,actor_identity,P,P,1
+meta-llama/llama-3.1-8b-instruct,real,Morocco,delegitimizing_framing,P,P,15
+meta-llama/llama-3.1-8b-instruct,real,Morocco,delegitimizing_framing,R,R,3
+meta-llama/llama-3.1-8b-instruct,real,Morocco,intensity,R,R,2
+meta-llama/llama-3.1-8b-instruct,real,Morocco,legitimizing_framing,P,P,15
+meta-llama/llama-3.1-8b-instruct,real,Morocco,legitimizing_framing,R,R,3
+meta-llama/llama-3.1-8b-instruct,real,Morocco,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,real,Morocco,neutral_control,R,R,15
+meta-llama/llama-3.1-8b-instruct,real,Morocco,source_attribution,P,P,8
+meta-llama/llama-3.1-8b-instruct,real,Morocco,source_attribution,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,action_wording,B,B,12
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,action_wording,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,action_wording,P,P,10
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,action_wording,V,V,6
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,actor_identity,P,P,2
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,actor_identity,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,delegitimizing_framing,B,B,11
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,delegitimizing_framing,B,V,1
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,delegitimizing_framing,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,delegitimizing_framing,P,P,10
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,delegitimizing_framing,V,V,6
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,intensity,B,B,1
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,legitimizing_framing,B,B,12
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,legitimizing_framing,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,legitimizing_framing,P,P,10
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,legitimizing_framing,V,B,2
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,legitimizing_framing,V,V,4
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,neutral_control,B,B,24
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,neutral_control,E,E,1
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,neutral_control,P,P,21
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,neutral_control,R,R,14
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,neutral_control,V,V,15
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,source_attribution,B,B,6
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,source_attribution,B,V,1
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,source_attribution,P,P,8
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,source_attribution,V,V,2
+meta-llama/llama-3.1-8b-instruct,real,South Korea,action_wording,P,P,3
+meta-llama/llama-3.1-8b-instruct,real,South Korea,action_wording,P,R,1
+meta-llama/llama-3.1-8b-instruct,real,South Korea,action_wording,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,South Korea,actor_identity,R,R,2
+meta-llama/llama-3.1-8b-instruct,real,South Korea,delegitimizing_framing,P,P,5
+meta-llama/llama-3.1-8b-instruct,real,South Korea,delegitimizing_framing,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,South Korea,intensity,P,R,2
+meta-llama/llama-3.1-8b-instruct,real,South Korea,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,South Korea,legitimizing_framing,P,P,5
+meta-llama/llama-3.1-8b-instruct,real,South Korea,legitimizing_framing,R,P,1
+meta-llama/llama-3.1-8b-instruct,real,South Korea,neutral_control,P,P,23
+meta-llama/llama-3.1-8b-instruct,real,South Korea,neutral_control,P,R,1
+meta-llama/llama-3.1-8b-instruct,real,South Korea,neutral_control,R,R,11
+meta-llama/llama-3.1-8b-instruct,real,South Korea,source_attribution,P,P,5
+meta-llama/llama-3.1-8b-instruct,real,South Korea,source_attribution,R,R,1
+meta-llama/llama-3.1-8b-instruct,real,United States,action_wording,P,P,18
+meta-llama/llama-3.1-8b-instruct,real,United States,actor_identity,P,P,3
+meta-llama/llama-3.1-8b-instruct,real,United States,actor_identity,R,R,3
+meta-llama/llama-3.1-8b-instruct,real,United States,delegitimizing_framing,P,P,18
+meta-llama/llama-3.1-8b-instruct,real,United States,legitimizing_framing,P,P,18
+meta-llama/llama-3.1-8b-instruct,real,United States,neutral_control,P,P,22
+meta-llama/llama-3.1-8b-instruct,real,United States,neutral_control,R,R,13
+meta-llama/llama-3.1-8b-instruct,real,United States,source_attribution,P,P,18
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,actor_identity,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,delegitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,delegitimizing_framing,S,E,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,delegitimizing_framing,S,S,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,legitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,legitimizing_framing,V,V,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,source_attribution,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,China,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,China,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,actor_identity,R,B,1
+meta-llama/llama-3.1-8b-instruct,synthetic,China,actor_identity,R,R,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,delegitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,China,delegitimizing_framing,S,E,1
+meta-llama/llama-3.1-8b-instruct,synthetic,China,delegitimizing_framing,S,S,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,China,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,China,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,legitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,China,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,synthetic,China,legitimizing_framing,V,V,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,China,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,China,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,China,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,China,source_attribution,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,actor_identity,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,delegitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,delegitimizing_framing,S,E,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,delegitimizing_framing,S,S,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,legitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,legitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,source_attribution,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,India,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,India,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,actor_identity,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,India,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,delegitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,India,delegitimizing_framing,S,E,1
+meta-llama/llama-3.1-8b-instruct,synthetic,India,delegitimizing_framing,S,S,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,India,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,India,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,legitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,India,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,synthetic,India,legitimizing_framing,V,V,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,India,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,India,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,India,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,India,source_attribution,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,actor_identity,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,delegitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,delegitimizing_framing,S,E,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,delegitimizing_framing,S,S,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,legitimizing_framing,R,P,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,legitimizing_framing,R,R,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,legitimizing_framing,V,V,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,source_attribution,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,actor_identity,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,delegitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,delegitimizing_framing,S,E,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,delegitimizing_framing,S,S,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,legitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,legitimizing_framing,V,V,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,source_attribution,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,actor_identity,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,delegitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,delegitimizing_framing,S,E,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,delegitimizing_framing,S,S,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,legitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,legitimizing_framing,V,V,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,source_attribution,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,actor_identity,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,delegitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,delegitimizing_framing,S,E,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,delegitimizing_framing,S,S,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,legitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,legitimizing_framing,V,V,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,source_attribution,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,actor_identity,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,delegitimizing_framing,E,E,18
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,delegitimizing_framing,E,V,1
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,delegitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,legitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,legitimizing_framing,V,B,1
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,legitimizing_framing,V,V,19
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,source_attribution,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,action_wording,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,action_wording,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,action_wording,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,action_wording,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,action_wording,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,action_wording,V,V,16
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,actor_identity,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,actor_identity,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,actor_identity,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,actor_identity,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,actor_identity,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,actor_identity,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,delegitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,delegitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,delegitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,delegitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,delegitimizing_framing,S,E,1
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,delegitimizing_framing,S,S,19
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,delegitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,intensity,B,B,15
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,intensity,R,R,1
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,legitimizing_framing,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,legitimizing_framing,E,E,19
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,legitimizing_framing,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,legitimizing_framing,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,legitimizing_framing,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,legitimizing_framing,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,neutral_control,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,neutral_control,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,neutral_control,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,neutral_control,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,neutral_control,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,neutral_control,V,V,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,source_attribution,B,B,19
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,source_attribution,E,E,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,source_attribution,P,P,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,source_attribution,R,R,21
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,source_attribution,S,S,20
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,source_attribution,V,V,20

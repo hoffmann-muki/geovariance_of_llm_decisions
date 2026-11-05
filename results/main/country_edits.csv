@@ -1,0 +1,491 @@
+model,population,country,condition,prepared_n,prepared_class_counts,attempted_n,valid_edit_n,invalid_edit_n,invalid_edit_rate,valid_triples_n,valid_class_counts,flip_rate,neutral_flip_rate,mean_excess_flip
+intfloat/multilingual-e5-large-instruct,real:B,Brazil,action_wording,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Brazil,actor_identity,12,"{""B"": 12}",12,12,0,0.0,12,"{""B"": 12}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Brazil,delegitimizing_framing,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Brazil,intensity,11,"{""B"": 11}",11,11,0,0.0,11,"{""B"": 11}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Brazil,legitimizing_framing,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Brazil,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Brazil,source_attribution,5,"{""B"": 5}",5,5,0,0.0,5,"{""B"": 5}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Colombia,action_wording,11,"{""B"": 11}",11,11,0,0.0,11,"{""B"": 11}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Colombia,actor_identity,1,"{""B"": 1}",1,1,0,0.0,1,"{""B"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Colombia,delegitimizing_framing,11,"{""B"": 11}",11,11,0,0.0,11,"{""B"": 11}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Colombia,intensity,10,"{""B"": 10}",10,10,0,0.0,10,"{""B"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Colombia,legitimizing_framing,11,"{""B"": 11}",11,11,0,0.0,11,"{""B"": 11}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Colombia,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Colombia,source_attribution,5,"{""B"": 5}",5,5,0,0.0,5,"{""B"": 5}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,India,action_wording,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.07692307692307693,0.0,0.07692307692307693
+intfloat/multilingual-e5-large-instruct,real:B,India,delegitimizing_framing,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,India,intensity,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,India,legitimizing_framing,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,India,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.05,0.05,0.0
+intfloat/multilingual-e5-large-instruct,real:B,India,source_attribution,8,"{""B"": 8}",8,8,0,0.0,8,"{""B"": 8}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Libya,action_wording,14,"{""B"": 14}",14,14,0,0.0,14,"{""B"": 14}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Libya,delegitimizing_framing,15,"{""B"": 15}",15,15,0,0.0,15,"{""B"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Libya,intensity,14,"{""B"": 14}",14,14,0,0.0,14,"{""B"": 14}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Libya,legitimizing_framing,15,"{""B"": 15}",15,15,0,0.0,15,"{""B"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Libya,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Libya,source_attribution,3,"{""B"": 3}",3,3,0,0.0,3,"{""B"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Mexico,action_wording,10,"{""B"": 10}",10,10,0,0.0,10,"{""B"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Mexico,actor_identity,1,"{""B"": 1}",1,1,0,0.0,1,"{""B"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Mexico,delegitimizing_framing,10,"{""B"": 10}",10,10,0,0.0,10,"{""B"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Mexico,intensity,9,"{""B"": 9}",9,9,0,0.0,9,"{""B"": 9}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Mexico,legitimizing_framing,10,"{""B"": 10}",10,10,0,0.0,10,"{""B"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Mexico,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Mexico,source_attribution,4,"{""B"": 4}",4,4,0,0.0,4,"{""B"": 4}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Pakistan,action_wording,9,"{""B"": 9}",9,9,0,0.0,9,"{""B"": 9}",0.1111111111111111,0.0,0.1111111111111111
+intfloat/multilingual-e5-large-instruct,real:B,Pakistan,delegitimizing_framing,9,"{""B"": 9}",9,9,0,0.0,9,"{""B"": 9}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Pakistan,intensity,1,"{""B"": 1}",1,1,0,0.0,1,"{""B"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Pakistan,legitimizing_framing,9,"{""B"": 9}",9,9,0,0.0,9,"{""B"": 9}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Pakistan,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:B,Pakistan,source_attribution,4,"{""B"": 4}",4,4,0,0.0,4,"{""B"": 4}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Brazil,action_wording,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.06666666666666667,0.0,0.06666666666666667
+intfloat/multilingual-e5-large-instruct,real:P,Brazil,actor_identity,1,"{""P"": 1}",1,1,0,0.0,1,"{""P"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Brazil,delegitimizing_framing,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.06666666666666667,0.0,0.06666666666666667
+intfloat/multilingual-e5-large-instruct,real:P,Brazil,legitimizing_framing,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Brazil,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Brazil,source_attribution,13,"{""P"": 13}",13,13,0,0.0,13,"{""P"": 13}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,China,action_wording,17,"{""P"": 17}",17,17,0,0.0,17,"{""P"": 17}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,China,actor_identity,1,"{""P"": 1}",1,1,0,0.0,1,"{""P"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,China,delegitimizing_framing,17,"{""P"": 17}",17,17,0,0.0,17,"{""P"": 17}",0.11764705882352941,0.0,0.11764705882352941
+intfloat/multilingual-e5-large-instruct,real:P,China,legitimizing_framing,17,"{""P"": 17}",17,17,0,0.0,17,"{""P"": 17}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,China,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,China,source_attribution,11,"{""P"": 11}",11,11,0,0.0,11,"{""P"": 11}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Colombia,action_wording,16,"{""P"": 16}",16,16,0,0.0,16,"{""P"": 16}",0.0625,0.0625,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Colombia,actor_identity,5,"{""P"": 5}",5,5,0,0.0,5,"{""P"": 5}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Colombia,delegitimizing_framing,16,"{""P"": 16}",16,16,0,0.0,16,"{""P"": 16}",0.25,0.0625,0.1875
+intfloat/multilingual-e5-large-instruct,real:P,Colombia,legitimizing_framing,16,"{""P"": 16}",16,16,0,0.0,16,"{""P"": 16}",0.0,0.0625,-0.0625
+intfloat/multilingual-e5-large-instruct,real:P,Colombia,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.05,0.05,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Colombia,source_attribution,10,"{""P"": 10}",10,10,0,0.0,10,"{""P"": 10}",0.1,0.1,0.0
+intfloat/multilingual-e5-large-instruct,real:P,India,action_wording,11,"{""P"": 11}",11,11,0,0.0,11,"{""P"": 11}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,India,delegitimizing_framing,11,"{""P"": 11}",11,11,0,0.0,11,"{""P"": 11}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,India,legitimizing_framing,11,"{""P"": 11}",11,11,0,0.0,11,"{""P"": 11}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,India,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.05,0.05,0.0
+intfloat/multilingual-e5-large-instruct,real:P,India,source_attribution,8,"{""P"": 8}",8,8,0,0.0,8,"{""P"": 8}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Libya,action_wording,19,"{""P"": 19}",19,19,0,0.0,19,"{""P"": 19}",0.05263157894736842,0.0,0.05263157894736842
+intfloat/multilingual-e5-large-instruct,real:P,Libya,delegitimizing_framing,19,"{""P"": 19}",19,19,0,0.0,19,"{""P"": 19}",0.3157894736842105,0.0,0.3157894736842105
+intfloat/multilingual-e5-large-instruct,real:P,Libya,legitimizing_framing,19,"{""P"": 19}",19,19,0,0.0,19,"{""P"": 19}",0.05263157894736842,0.0,0.05263157894736842
+intfloat/multilingual-e5-large-instruct,real:P,Libya,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Libya,source_attribution,12,"{""P"": 12}",12,12,0,0.0,12,"{""P"": 12}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Mexico,action_wording,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Mexico,delegitimizing_framing,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Mexico,legitimizing_framing,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Mexico,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Mexico,source_attribution,12,"{""P"": 12}",12,12,0,0.0,12,"{""P"": 12}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Morocco,action_wording,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Morocco,actor_identity,1,"{""P"": 1}",1,1,0,0.0,1,"{""P"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Morocco,delegitimizing_framing,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Morocco,legitimizing_framing,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Morocco,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Morocco,source_attribution,8,"{""P"": 8}",8,8,0,0.0,8,"{""P"": 8}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Pakistan,action_wording,10,"{""P"": 10}",10,10,0,0.0,10,"{""P"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Pakistan,actor_identity,2,"{""P"": 2}",2,2,0,0.0,2,"{""P"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Pakistan,delegitimizing_framing,10,"{""P"": 10}",10,10,0,0.0,10,"{""P"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Pakistan,legitimizing_framing,10,"{""P"": 10}",10,10,0,0.0,10,"{""P"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Pakistan,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,Pakistan,source_attribution,8,"{""P"": 8}",8,8,0,0.0,8,"{""P"": 8}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,South Korea,action_wording,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,South Korea,delegitimizing_framing,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,South Korea,legitimizing_framing,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,South Korea,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,South Korea,source_attribution,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,United States,action_wording,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,United States,actor_identity,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,United States,delegitimizing_framing,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.05555555555555555,0.0,0.05555555555555555
+intfloat/multilingual-e5-large-instruct,real:P,United States,legitimizing_framing,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,United States,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:P,United States,source_attribution,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Brazil,action_wording,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Brazil,actor_identity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Brazil,delegitimizing_framing,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Brazil,legitimizing_framing,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Brazil,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Brazil,source_attribution,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,China,actor_identity,5,"{""R"": 5}",5,5,0,0.0,5,"{""R"": 5}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,China,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Colombia,action_wording,6,"{""R"": 6}",6,6,0,0.0,6,"{""R"": 6}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Colombia,delegitimizing_framing,6,"{""R"": 6}",6,6,0,0.0,6,"{""R"": 6}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Colombia,intensity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Colombia,legitimizing_framing,6,"{""R"": 6}",6,6,0,0.0,6,"{""R"": 6}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Colombia,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Colombia,source_attribution,4,"{""R"": 4}",4,4,0,0.0,4,"{""R"": 4}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,India,action_wording,4,"{""R"": 4}",4,4,0,0.0,4,"{""R"": 4}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,India,actor_identity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,India,delegitimizing_framing,5,"{""R"": 5}",5,5,0,0.0,5,"{""R"": 5}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,India,intensity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,India,legitimizing_framing,5,"{""R"": 5}",5,5,0,0.0,5,"{""R"": 5}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,India,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,India,source_attribution,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Libya,action_wording,7,"{""R"": 7}",7,7,0,0.0,7,"{""R"": 7}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Libya,delegitimizing_framing,8,"{""R"": 8}",8,8,0,0.0,8,"{""R"": 8}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Libya,intensity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Libya,legitimizing_framing,8,"{""R"": 8}",8,8,0,0.0,8,"{""R"": 8}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Libya,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Libya,source_attribution,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Mexico,action_wording,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Mexico,actor_identity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Mexico,delegitimizing_framing,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Mexico,intensity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Mexico,legitimizing_framing,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Mexico,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.06666666666666667,0.06666666666666667,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Morocco,action_wording,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Morocco,delegitimizing_framing,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Morocco,intensity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Morocco,legitimizing_framing,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Morocco,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Morocco,source_attribution,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,Pakistan,actor_identity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,1.0,-1.0
+intfloat/multilingual-e5-large-instruct,real:R,Pakistan,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.06666666666666667,0.06666666666666667,0.0
+intfloat/multilingual-e5-large-instruct,real:R,South Korea,action_wording,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,South Korea,actor_identity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,South Korea,delegitimizing_framing,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,South Korea,intensity,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.3333333333333333,0.0,0.3333333333333333
+intfloat/multilingual-e5-large-instruct,real:R,South Korea,legitimizing_framing,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,South Korea,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,South Korea,source_attribution,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,United States,actor_identity,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:R,United States,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Brazil,action_wording,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Brazil,actor_identity,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Brazil,delegitimizing_framing,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.2,0.0,0.2
+intfloat/multilingual-e5-large-instruct,real:V,Brazil,legitimizing_framing,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.2,0.0,0.2
+intfloat/multilingual-e5-large-instruct,real:V,Brazil,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Colombia,action_wording,14,"{""V"": 14}",14,14,0,0.0,14,"{""V"": 14}",0.14285714285714285,0.07142857142857142,0.07142857142857142
+intfloat/multilingual-e5-large-instruct,real:V,Colombia,delegitimizing_framing,14,"{""V"": 14}",14,14,0,0.0,14,"{""V"": 14}",0.07142857142857142,0.07142857142857142,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Colombia,legitimizing_framing,14,"{""V"": 14}",14,14,0,0.0,14,"{""V"": 14}",0.0,0.07142857142857142,-0.07142857142857142
+intfloat/multilingual-e5-large-instruct,real:V,Colombia,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.05,0.05,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Colombia,source_attribution,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,India,action_wording,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,India,delegitimizing_framing,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,India,legitimizing_framing,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,India,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.05,0.05,0.0
+intfloat/multilingual-e5-large-instruct,real:V,India,source_attribution,2,"{""V"": 2}",2,2,0,0.0,2,"{""V"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Libya,action_wording,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Libya,delegitimizing_framing,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Libya,legitimizing_framing,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Libya,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Libya,source_attribution,2,"{""V"": 2}",2,2,0,0.0,2,"{""V"": 2}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Mexico,action_wording,8,"{""V"": 8}",8,8,0,0.0,8,"{""V"": 8}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Mexico,delegitimizing_framing,8,"{""V"": 8}",8,8,0,0.0,8,"{""V"": 8}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Mexico,legitimizing_framing,8,"{""V"": 8}",8,8,0,0.0,8,"{""V"": 8}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Mexico,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Mexico,source_attribution,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Pakistan,action_wording,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.1,0.1,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Pakistan,delegitimizing_framing,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.2,0.1,0.1
+intfloat/multilingual-e5-large-instruct,real:V,Pakistan,legitimizing_framing,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.1,0.1,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Pakistan,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.05,0.05,0.0
+intfloat/multilingual-e5-large-instruct,real:V,Pakistan,source_attribution,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.0,0.2,-0.2
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Brazil,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.02586206896551724,0.0,0.02586206896551724
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Brazil,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.025,0.0,0.025
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Brazil,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.04201680672268908,0.0,0.04201680672268908
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Brazil,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Brazil,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.03361344537815126,0.0,0.03361344537815126
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Brazil,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Brazil,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008333333333333333,0.0,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,China,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.02586206896551724,0.008620689655172414,0.017241379310344827
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,China,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.041666666666666664,0.008333333333333333,0.03333333333333333
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,China,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.01680672268907563,0.008403361344537815,0.008403361344537815
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,China,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,China,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.01680672268907563,0.008403361344537815,0.008403361344537815
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,China,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008333333333333333,0.008333333333333333,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,China,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.016666666666666666,0.008333333333333333,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Colombia,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.04310344827586207,0.0,0.04310344827586207
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Colombia,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.016666666666666666,0.0,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Colombia,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.04201680672268908,0.0,0.04201680672268908
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Colombia,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Colombia,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.03361344537815126,0.0,0.03361344537815126
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Colombia,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Colombia,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.025,0.0,0.025
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,India,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.04310344827586207,0.0,0.04310344827586207
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,India,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.03333333333333333,0.0,0.03333333333333333
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,India,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.01680672268907563,0.0,0.01680672268907563
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,India,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,India,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,India,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,India,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.016666666666666666,0.0,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Libya,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.05172413793103448,0.008620689655172414,0.04310344827586207
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Libya,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008333333333333333,0.008333333333333333,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Libya,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.03361344537815126,0.008403361344537815,0.025210084033613446
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Libya,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Libya,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.01680672268907563,0.008403361344537815,0.008403361344537815
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Libya,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008333333333333333,0.008333333333333333,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Libya,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.025,0.008333333333333333,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Mexico,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.017241379310344827,0.0,0.017241379310344827
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Mexico,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.016666666666666666,0.0,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Mexico,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.03361344537815126,0.0,0.03361344537815126
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Mexico,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Mexico,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.03361344537815126,0.0,0.03361344537815126
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Mexico,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Mexico,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008333333333333333,0.0,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Morocco,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.05172413793103448,0.0,0.05172413793103448
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Morocco,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.016666666666666666,0.008333333333333333,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Morocco,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.025210084033613446,0.008403361344537815,0.01680672268907563
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Morocco,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Morocco,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.008403361344537815,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Morocco,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008333333333333333,0.008333333333333333,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Morocco,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.016666666666666666,0.008333333333333333,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Pakistan,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.05172413793103448,0.0,0.05172413793103448
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Pakistan,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.041666666666666664,0.0,0.041666666666666664
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Pakistan,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Pakistan,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Pakistan,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Pakistan,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,Pakistan,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.05,0.0,0.05
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,South Korea,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.02586206896551724,0.0,0.02586206896551724
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,South Korea,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.016666666666666666,0.008333333333333333,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,South Korea,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.01680672268907563,0.008403361344537815,0.008403361344537815
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,South Korea,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,South Korea,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.025210084033613446,0.008403361344537815,0.01680672268907563
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,South Korea,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008333333333333333,0.008333333333333333,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,South Korea,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008333333333333333,0.008333333333333333,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,United States,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.02586206896551724,0.0,0.02586206896551724
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,United States,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.03333333333333333,0.0,0.03333333333333333
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,United States,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.03361344537815126,0.0,0.03361344537815126
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,United States,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,United States,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.025210084033613446,0.0,0.025210084033613446
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,United States,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+intfloat/multilingual-e5-large-instruct,synthetic:all_eligible_classes,United States,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.025,0.0,0.025
+meta-llama/llama-3.1-8b-instruct,real:B,Brazil,action_wording,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Brazil,actor_identity,12,"{""B"": 12}",12,12,0,0.0,12,"{""B"": 12}",0.08333333333333333,0.0,0.08333333333333333
+meta-llama/llama-3.1-8b-instruct,real:B,Brazil,delegitimizing_framing,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Brazil,intensity,11,"{""B"": 11}",11,11,0,0.0,11,"{""B"": 11}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Brazil,legitimizing_framing,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.07692307692307693,0.0,0.07692307692307693
+meta-llama/llama-3.1-8b-instruct,real:B,Brazil,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Brazil,source_attribution,5,"{""B"": 5}",5,5,0,0.0,5,"{""B"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Colombia,action_wording,11,"{""B"": 11}",11,11,0,0.0,11,"{""B"": 11}",0.09090909090909091,0.0,0.09090909090909091
+meta-llama/llama-3.1-8b-instruct,real:B,Colombia,actor_identity,1,"{""B"": 1}",1,1,0,0.0,1,"{""B"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Colombia,delegitimizing_framing,11,"{""B"": 11}",11,11,0,0.0,11,"{""B"": 11}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Colombia,intensity,10,"{""B"": 10}",10,10,0,0.0,10,"{""B"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Colombia,legitimizing_framing,11,"{""B"": 11}",11,11,0,0.0,11,"{""B"": 11}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Colombia,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.05,0.05,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Colombia,source_attribution,5,"{""B"": 5}",5,5,0,0.0,5,"{""B"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,India,action_wording,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,India,delegitimizing_framing,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,India,intensity,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,India,legitimizing_framing,13,"{""B"": 13}",13,13,0,0.0,13,"{""B"": 13}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,India,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,India,source_attribution,8,"{""B"": 8}",8,8,0,0.0,8,"{""B"": 8}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Libya,action_wording,14,"{""B"": 14}",14,14,0,0.0,14,"{""B"": 14}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Libya,delegitimizing_framing,15,"{""B"": 15}",15,15,0,0.0,15,"{""B"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Libya,intensity,14,"{""B"": 14}",14,14,0,0.0,14,"{""B"": 14}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Libya,legitimizing_framing,15,"{""B"": 15}",15,15,0,0.0,15,"{""B"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Libya,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Libya,source_attribution,3,"{""B"": 3}",3,3,0,0.0,3,"{""B"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Mexico,action_wording,10,"{""B"": 10}",10,10,0,0.0,10,"{""B"": 10}",0.1,0.0,0.1
+meta-llama/llama-3.1-8b-instruct,real:B,Mexico,actor_identity,1,"{""B"": 1}",1,1,0,0.0,1,"{""B"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Mexico,delegitimizing_framing,10,"{""B"": 10}",10,10,0,0.0,10,"{""B"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Mexico,intensity,9,"{""B"": 9}",9,9,0,0.0,9,"{""B"": 9}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Mexico,legitimizing_framing,10,"{""B"": 10}",10,10,0,0.0,10,"{""B"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Mexico,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Mexico,source_attribution,4,"{""B"": 4}",4,4,0,0.0,4,"{""B"": 4}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Pakistan,action_wording,9,"{""B"": 9}",9,9,0,0.0,9,"{""B"": 9}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Pakistan,delegitimizing_framing,9,"{""B"": 9}",9,9,0,0.0,9,"{""B"": 9}",0.1111111111111111,0.0,0.1111111111111111
+meta-llama/llama-3.1-8b-instruct,real:B,Pakistan,intensity,1,"{""B"": 1}",1,1,0,0.0,1,"{""B"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Pakistan,legitimizing_framing,9,"{""B"": 9}",9,9,0,0.0,9,"{""B"": 9}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Pakistan,neutral_control,20,"{""B"": 20}",20,20,0,0.0,20,"{""B"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:B,Pakistan,source_attribution,4,"{""B"": 4}",4,4,0,0.0,4,"{""B"": 4}",0.25,0.0,0.25
+meta-llama/llama-3.1-8b-instruct,real:P,Brazil,action_wording,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Brazil,actor_identity,1,"{""P"": 1}",1,1,0,0.0,1,"{""P"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Brazil,delegitimizing_framing,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.06666666666666667,0.0,0.06666666666666667
+meta-llama/llama-3.1-8b-instruct,real:P,Brazil,legitimizing_framing,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Brazil,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Brazil,source_attribution,13,"{""P"": 13}",13,13,0,0.0,13,"{""P"": 13}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,China,action_wording,17,"{""P"": 17}",17,17,0,0.0,17,"{""P"": 17}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,China,actor_identity,1,"{""P"": 1}",1,1,0,0.0,1,"{""P"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,China,delegitimizing_framing,17,"{""P"": 17}",17,17,0,0.0,17,"{""P"": 17}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,China,legitimizing_framing,17,"{""P"": 17}",17,17,0,0.0,17,"{""P"": 17}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,China,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,China,source_attribution,11,"{""P"": 11}",11,11,0,0.0,11,"{""P"": 11}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Colombia,action_wording,16,"{""P"": 16}",16,16,0,0.0,16,"{""P"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Colombia,actor_identity,5,"{""P"": 5}",5,5,0,0.0,5,"{""P"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Colombia,delegitimizing_framing,16,"{""P"": 16}",16,16,0,0.0,16,"{""P"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Colombia,legitimizing_framing,16,"{""P"": 16}",16,16,0,0.0,16,"{""P"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Colombia,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Colombia,source_attribution,10,"{""P"": 10}",10,10,0,0.0,10,"{""P"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,India,action_wording,11,"{""P"": 11}",11,11,0,0.0,11,"{""P"": 11}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,India,delegitimizing_framing,11,"{""P"": 11}",11,11,0,0.0,11,"{""P"": 11}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,India,legitimizing_framing,11,"{""P"": 11}",11,11,0,0.0,11,"{""P"": 11}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,India,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,India,source_attribution,8,"{""P"": 8}",8,8,0,0.0,8,"{""P"": 8}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Libya,action_wording,19,"{""P"": 19}",19,19,0,0.0,19,"{""P"": 19}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Libya,delegitimizing_framing,19,"{""P"": 19}",19,19,0,0.0,19,"{""P"": 19}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Libya,legitimizing_framing,19,"{""P"": 19}",19,19,0,0.0,19,"{""P"": 19}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Libya,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Libya,source_attribution,12,"{""P"": 12}",12,12,0,0.0,12,"{""P"": 12}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Mexico,action_wording,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Mexico,delegitimizing_framing,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.05555555555555555,0.0,0.05555555555555555
+meta-llama/llama-3.1-8b-instruct,real:P,Mexico,legitimizing_framing,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Mexico,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Mexico,source_attribution,12,"{""P"": 12}",12,12,0,0.0,12,"{""P"": 12}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Morocco,action_wording,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Morocco,actor_identity,1,"{""P"": 1}",1,1,0,0.0,1,"{""P"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Morocco,delegitimizing_framing,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Morocco,legitimizing_framing,15,"{""P"": 15}",15,15,0,0.0,15,"{""P"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Morocco,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Morocco,source_attribution,8,"{""P"": 8}",8,8,0,0.0,8,"{""P"": 8}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Pakistan,action_wording,10,"{""P"": 10}",10,10,0,0.0,10,"{""P"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Pakistan,actor_identity,2,"{""P"": 2}",2,2,0,0.0,2,"{""P"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Pakistan,delegitimizing_framing,10,"{""P"": 10}",10,10,0,0.0,10,"{""P"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Pakistan,legitimizing_framing,10,"{""P"": 10}",10,10,0,0.0,10,"{""P"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Pakistan,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,Pakistan,source_attribution,8,"{""P"": 8}",8,8,0,0.0,8,"{""P"": 8}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,South Korea,action_wording,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,South Korea,delegitimizing_framing,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,South Korea,legitimizing_framing,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,South Korea,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,South Korea,source_attribution,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,United States,action_wording,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,United States,actor_identity,3,"{""P"": 3}",3,3,0,0.0,3,"{""P"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,United States,delegitimizing_framing,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,United States,legitimizing_framing,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,United States,neutral_control,20,"{""P"": 20}",20,20,0,0.0,20,"{""P"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:P,United States,source_attribution,18,"{""P"": 18}",18,18,0,0.0,18,"{""P"": 18}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Brazil,action_wording,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.5,0.5,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Brazil,actor_identity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Brazil,delegitimizing_framing,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.5,0.5,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Brazil,legitimizing_framing,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.5,-0.5
+meta-llama/llama-3.1-8b-instruct,real:R,Brazil,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.06666666666666667,0.06666666666666667,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Brazil,source_attribution,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,China,actor_identity,5,"{""R"": 5}",5,5,0,0.0,5,"{""R"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,China,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.06666666666666667,0.06666666666666667,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Colombia,action_wording,6,"{""R"": 6}",6,6,0,0.0,6,"{""R"": 6}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Colombia,delegitimizing_framing,6,"{""R"": 6}",6,6,0,0.0,6,"{""R"": 6}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Colombia,intensity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Colombia,legitimizing_framing,6,"{""R"": 6}",6,6,0,0.0,6,"{""R"": 6}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Colombia,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Colombia,source_attribution,4,"{""R"": 4}",4,4,0,0.0,4,"{""R"": 4}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,India,action_wording,4,"{""R"": 4}",4,4,0,0.0,4,"{""R"": 4}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,India,actor_identity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,India,delegitimizing_framing,5,"{""R"": 5}",5,5,0,0.0,5,"{""R"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,India,intensity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,India,legitimizing_framing,5,"{""R"": 5}",5,5,0,0.0,5,"{""R"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,India,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,India,source_attribution,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Libya,action_wording,7,"{""R"": 7}",7,7,0,0.0,7,"{""R"": 7}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Libya,delegitimizing_framing,8,"{""R"": 8}",8,8,0,0.0,8,"{""R"": 8}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Libya,intensity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Libya,legitimizing_framing,8,"{""R"": 8}",8,8,0,0.0,8,"{""R"": 8}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Libya,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Libya,source_attribution,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Mexico,action_wording,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Mexico,actor_identity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Mexico,delegitimizing_framing,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Mexico,intensity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Mexico,legitimizing_framing,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Mexico,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Morocco,action_wording,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Morocco,delegitimizing_framing,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Morocco,intensity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Morocco,legitimizing_framing,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Morocco,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Morocco,source_attribution,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Pakistan,actor_identity,1,"{""R"": 1}",1,1,0,0.0,1,"{""R"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,Pakistan,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,South Korea,action_wording,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.5,0.0,0.5
+meta-llama/llama-3.1-8b-instruct,real:R,South Korea,actor_identity,2,"{""R"": 2}",2,2,0,0.0,2,"{""R"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,South Korea,delegitimizing_framing,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,South Korea,intensity,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.6666666666666666,0.0,0.6666666666666666
+meta-llama/llama-3.1-8b-instruct,real:R,South Korea,legitimizing_framing,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.3333333333333333,0.0,0.3333333333333333
+meta-llama/llama-3.1-8b-instruct,real:R,South Korea,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.06666666666666667,0.06666666666666667,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,South Korea,source_attribution,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,United States,actor_identity,3,"{""R"": 3}",3,3,0,0.0,3,"{""R"": 3}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:R,United States,neutral_control,15,"{""R"": 15}",15,15,0,0.0,15,"{""R"": 15}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Brazil,action_wording,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Brazil,actor_identity,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Brazil,delegitimizing_framing,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Brazil,legitimizing_framing,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.2,0.0,0.2
+meta-llama/llama-3.1-8b-instruct,real:V,Brazil,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Colombia,action_wording,14,"{""V"": 14}",14,14,0,0.0,14,"{""V"": 14}",0.07142857142857142,0.07142857142857142,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Colombia,delegitimizing_framing,14,"{""V"": 14}",14,14,0,0.0,14,"{""V"": 14}",0.07142857142857142,0.07142857142857142,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Colombia,legitimizing_framing,14,"{""V"": 14}",14,14,0,0.0,14,"{""V"": 14}",0.14285714285714285,0.07142857142857142,0.07142857142857142
+meta-llama/llama-3.1-8b-instruct,real:V,Colombia,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.1,0.1,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Colombia,source_attribution,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,India,action_wording,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,India,delegitimizing_framing,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,India,legitimizing_framing,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,India,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.05,0.05,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,India,source_attribution,2,"{""V"": 2}",2,2,0,0.0,2,"{""V"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Libya,action_wording,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Libya,delegitimizing_framing,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Libya,legitimizing_framing,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.2,0.0,0.2
+meta-llama/llama-3.1-8b-instruct,real:V,Libya,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Libya,source_attribution,2,"{""V"": 2}",2,2,0,0.0,2,"{""V"": 2}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Mexico,action_wording,8,"{""V"": 8}",8,8,0,0.0,8,"{""V"": 8}",0.125,0.0,0.125
+meta-llama/llama-3.1-8b-instruct,real:V,Mexico,delegitimizing_framing,8,"{""V"": 8}",8,8,0,0.0,8,"{""V"": 8}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Mexico,legitimizing_framing,8,"{""V"": 8}",8,8,0,0.0,8,"{""V"": 8}",0.375,0.0,0.375
+meta-llama/llama-3.1-8b-instruct,real:V,Mexico,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.05,0.05,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Mexico,source_attribution,1,"{""V"": 1}",1,1,0,0.0,1,"{""V"": 1}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Pakistan,action_wording,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Pakistan,delegitimizing_framing,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Pakistan,legitimizing_framing,10,"{""V"": 10}",10,10,0,0.0,10,"{""V"": 10}",0.2,0.0,0.2
+meta-llama/llama-3.1-8b-instruct,real:V,Pakistan,neutral_control,20,"{""V"": 20}",20,20,0,0.0,20,"{""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,real:V,Pakistan,source_attribution,5,"{""V"": 5}",5,5,0,0.0,5,"{""V"": 5}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Brazil,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Brazil,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Brazil,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Brazil,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Brazil,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Brazil,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Brazil,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,China,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,China,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008333333333333333,0.0,0.008333333333333333
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,China,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,China,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,China,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,China,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,China,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Colombia,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Colombia,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Colombia,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Colombia,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Colombia,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Colombia,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Colombia,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,India,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,India,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,India,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,India,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,India,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,India,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,India,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Libya,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Libya,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Libya,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Libya,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Libya,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.01680672268907563,0.0,0.01680672268907563
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Libya,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Libya,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Mexico,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Mexico,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Mexico,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Mexico,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Mexico,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Mexico,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Mexico,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Morocco,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Morocco,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Morocco,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Morocco,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Morocco,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Morocco,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Morocco,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Pakistan,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Pakistan,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Pakistan,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Pakistan,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Pakistan,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Pakistan,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,Pakistan,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,South Korea,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,South Korea,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,South Korea,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,South Korea,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,South Korea,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,South Korea,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,South Korea,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,United States,action_wording,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",116,116,0,0.0,116,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,United States,actor_identity,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,United States,delegitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.008403361344537815,0.0,0.008403361344537815
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,United States,intensity,16,"{""B"": 16}",16,16,0,0.0,16,"{""B"": 16}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,United States,legitimizing_framing,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",119,119,0,0.0,119,"{""B"": 20, ""E"": 19, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,United States,neutral_control,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0
+meta-llama/llama-3.1-8b-instruct,synthetic:all_eligible_classes,United States,source_attribution,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",120,120,0,0.0,120,"{""B"": 20, ""E"": 20, ""P"": 20, ""R"": 20, ""S"": 20, ""V"": 20}",0.0,0.0,0.0

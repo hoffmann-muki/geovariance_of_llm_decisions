@@ -1,0 +1,44 @@
+{
+  "bootstrap_replicates": 10000,
+  "inputs": {
+    "evaluation_code_sha256": "b5435993b6a17ee22f9d4deb947ab2cc8a70e70840905aea9eaa21684c80e4a4",
+    "registry_sha256": "a9309d19b46345fab29da13656d0a67e6402b2132f3311dceb7a1f0de4ddd657",
+    "run_manifest_sha256": "09c5a670518d81b063ee6c5a16bd6699c037145d315bd34c4d785ef009232c6e",
+    "stimuli_sha256": "4853f56f9ef03b9ec5a1fa431b6f3171209ee7567cd83104fd32058fbd3ebe48"
+  },
+  "outputs": {
+    "baseline_accuracy.csv": {
+      "sha256": "bcc1d0044fa8551a237fd3ba917042da6277c228d83814885ea5c3fecefd1682"
+    },
+    "contrasts.csv": {
+      "sha256": "3037ac9f91c6ba79a43530f4a9fec2188c5f289fd9f587eefd475e19b27c533b"
+    },
+    "country_edits.csv": {
+      "sha256": "7baaa79fbfaa4ad387446fe0d156d33260b2391ca6b0e419639c8529a3fcb7fe"
+    },
+    "country_edits.png": {
+      "sha256": "30a71862b41a81fd724652f8c653da399dfa84957ead1b215f5b3d6faa5780e9"
+    },
+    "country_swaps.csv": {
+      "sha256": "847bbfe5055bbec97a2a1f568bde5beafeabb70b4aa91eadb9ab1939bffbcb51"
+    },
+    "repeats.csv": {
+      "sha256": "0ced52a36685f7d532eee176211c03f475d63fa1b7fb8427181aa4e5eb1a9f83"
+    },
+    "report.md": {
+      "sha256": "cb8d66d9291067e85185a93b3e4ffdb282837338b74f0a53cf0da4d2c7a94f39"
+    },
+    "summary.json": {
+      "sha256": "3b2313d85c16f976605db4400ce768f228b68789149bdeacc56fc6869b38e20f"
+    },
+    "transitions.csv": {
+      "sha256": "1a61d29b8dd62630ddf7710a62b8a06abe04c7b7a72f91a0a32298faebf4bb2c"
+    }
+  },
+  "packages": {
+    "matplotlib": "3.10.6",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "seed": 42
+}

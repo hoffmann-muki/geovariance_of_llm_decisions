@@ -1,6 +1,6 @@
 # Geographic Invariance in LLM Decision-Making
 
-[Study design](PROJECT_PLAN.md) · [Main stimuli](data/variants/main/report.md) · [Adopted protocol](data/experiment/report.md) · [Input review](data/accepted/report.md)
+[Study design](PROJECT_PLAN.md) · [Main stimuli](data/variants/main/report.md) · [Adopted protocol](data/experiment/report.md) · [Results](results/main/report.md)
 
 Source data is in [conflict_data/](conflict_data/); reviewed source inputs are in [data/accepted/](data/accepted/).
 
@@ -24,18 +24,11 @@ Archived model checks retain producer-code hashes; replay them from their produc
 
 Current model settings and lengths are in [data/experiment/](data/experiment/); it reuses the main stimuli and request order.
 
-For the six-event held-out compatibility check, configure `OPENROUTER_API_KEY` and `DEEPINFRA_API_KEY` in the ignored `.env` file:
+Configure `OPENROUTER_API_KEY` and `DEEPINFRA_API_KEY` in the ignored `.env` file. Execute the frozen schedule, then analyze the completed run:
 
 ```bash
-python3 -m src.inference prepare-check --output-dir data/compatibility_new
-python3 -m src.inference check --input-dir data/compatibility_new --output-dir runs/compatibility_new
+python3 -m src.run_experiment --output-dir runs/main --budget 3 --workers 8
+python3 -m src.evaluate --run-dir runs/main --output-dir results/main
 ```
 
-The runner's CLI cannot execute the main experiment.
-
-[E5 classifier validation](runs/e5_validation/report.md) uses [separate reviewed inputs](data/e5_validation/inputs.csv). To repeat its fixed development/test procedure:
-
-```bash
-python3 -m src.e5_validation development --output-dir runs/e5_validation_new
-python3 -m src.e5_validation test --output-dir runs/e5_validation_new
-```
+The runner resumes unfinished work and verifies completed runs without resending requests. Raw responses and accounting are retained in its SQLite journal. [Provider checks](runs/compatibility/report.md) and [E5 validation](runs/e5_validation/report.md) preserve the earlier evidence.

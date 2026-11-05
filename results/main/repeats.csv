@@ -1,0 +1,7 @@
+model,stimulus_id,both_valid,unchanged
+intfloat/multilingual-e5-large-instruct,synthetic:main_syn_059:original:Morocco,True,True
+intfloat/multilingual-e5-large-instruct,real:IND173061:original,True,True
+intfloat/multilingual-e5-large-instruct,real:MOR15361:original,True,True
+meta-llama/llama-3.1-8b-instruct,synthetic:main_syn_059:original:Morocco,True,True
+meta-llama/llama-3.1-8b-instruct,real:IND173061:original,True,True
+meta-llama/llama-3.1-8b-instruct,real:MOR15361:original,True,True

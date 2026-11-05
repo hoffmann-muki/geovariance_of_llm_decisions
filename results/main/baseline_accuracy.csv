@@ -1,0 +1,185 @@
+model,cohort,country,label,prepared_n,attempted_n,valid_n,correct,accuracy
+intfloat/multilingual-e5-large-instruct,real,Brazil,B,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,real,Brazil,P,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,real,Brazil,R,15,15,15,10,0.6666666666666666
+intfloat/multilingual-e5-large-instruct,real,Brazil,V,20,20,20,7,0.35
+intfloat/multilingual-e5-large-instruct,real,China,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,real,China,R,15,15,15,10,0.6666666666666666
+intfloat/multilingual-e5-large-instruct,real,Colombia,B,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,real,Colombia,P,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,real,Colombia,R,15,15,15,15,1.0
+intfloat/multilingual-e5-large-instruct,real,Colombia,V,20,20,20,5,0.25
+intfloat/multilingual-e5-large-instruct,real,India,B,20,20,20,19,0.95
+intfloat/multilingual-e5-large-instruct,real,India,P,20,20,20,16,0.8
+intfloat/multilingual-e5-large-instruct,real,India,R,15,15,15,15,1.0
+intfloat/multilingual-e5-large-instruct,real,India,V,20,20,20,14,0.7
+intfloat/multilingual-e5-large-instruct,real,Libya,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,real,Libya,P,20,20,20,15,0.75
+intfloat/multilingual-e5-large-instruct,real,Libya,R,15,15,15,14,0.9333333333333333
+intfloat/multilingual-e5-large-instruct,real,Libya,V,20,20,20,4,0.2
+intfloat/multilingual-e5-large-instruct,real,Mexico,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,real,Mexico,P,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,real,Mexico,R,15,15,15,11,0.7333333333333333
+intfloat/multilingual-e5-large-instruct,real,Mexico,V,20,20,20,12,0.6
+intfloat/multilingual-e5-large-instruct,real,Morocco,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,real,Morocco,R,15,15,15,13,0.8666666666666667
+intfloat/multilingual-e5-large-instruct,real,Pakistan,B,20,20,20,17,0.85
+intfloat/multilingual-e5-large-instruct,real,Pakistan,P,20,20,20,17,0.85
+intfloat/multilingual-e5-large-instruct,real,Pakistan,R,15,15,15,11,0.7333333333333333
+intfloat/multilingual-e5-large-instruct,real,Pakistan,V,20,20,20,4,0.2
+intfloat/multilingual-e5-large-instruct,real,South Korea,P,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,real,South Korea,R,15,15,15,4,0.26666666666666666
+intfloat/multilingual-e5-large-instruct,real,United States,P,20,20,20,19,0.95
+intfloat/multilingual-e5-large-instruct,real,United States,R,15,15,15,10,0.6666666666666666
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,R,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Brazil,V,20,20,20,13,0.65
+intfloat/multilingual-e5-large-instruct,synthetic,China,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,China,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,China,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,China,R,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,China,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,China,V,20,20,20,15,0.75
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,R,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Colombia,V,20,20,20,13,0.65
+intfloat/multilingual-e5-large-instruct,synthetic,India,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,India,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,India,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,India,R,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,India,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,India,V,20,20,20,16,0.8
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,R,20,20,20,17,0.85
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Libya,V,20,20,20,12,0.6
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,R,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Mexico,V,20,20,20,13,0.65
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,R,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Morocco,V,20,20,20,12,0.6
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,R,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,Pakistan,V,20,20,20,16,0.8
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,R,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,South Korea,V,20,20,20,13,0.65
+intfloat/multilingual-e5-large-instruct,synthetic,United States,B,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,United States,E,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,United States,P,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,United States,R,20,20,20,18,0.9
+intfloat/multilingual-e5-large-instruct,synthetic,United States,S,20,20,20,20,1.0
+intfloat/multilingual-e5-large-instruct,synthetic,United States,V,20,20,20,11,0.55
+meta-llama/llama-3.1-8b-instruct,real,Brazil,B,20,20,20,13,0.65
+meta-llama/llama-3.1-8b-instruct,real,Brazil,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,Brazil,R,15,15,15,12,0.8
+meta-llama/llama-3.1-8b-instruct,real,Brazil,V,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,real,China,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,China,R,15,15,15,12,0.8
+meta-llama/llama-3.1-8b-instruct,real,Colombia,B,20,20,20,16,0.8
+meta-llama/llama-3.1-8b-instruct,real,Colombia,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,Colombia,R,15,15,15,14,0.9333333333333333
+meta-llama/llama-3.1-8b-instruct,real,Colombia,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,India,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,real,India,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,India,R,15,15,15,14,0.9333333333333333
+meta-llama/llama-3.1-8b-instruct,real,India,V,20,20,20,17,0.85
+meta-llama/llama-3.1-8b-instruct,real,Libya,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,real,Libya,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,Libya,R,15,15,15,15,1.0
+meta-llama/llama-3.1-8b-instruct,real,Libya,V,20,20,20,18,0.9
+meta-llama/llama-3.1-8b-instruct,real,Mexico,B,20,20,20,17,0.85
+meta-llama/llama-3.1-8b-instruct,real,Mexico,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,Mexico,R,15,15,15,13,0.8666666666666667
+meta-llama/llama-3.1-8b-instruct,real,Mexico,V,20,20,20,18,0.9
+meta-llama/llama-3.1-8b-instruct,real,Morocco,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,Morocco,R,15,15,15,15,1.0
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,B,20,20,20,18,0.9
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,R,15,15,15,14,0.9333333333333333
+meta-llama/llama-3.1-8b-instruct,real,Pakistan,V,20,20,20,14,0.7
+meta-llama/llama-3.1-8b-instruct,real,South Korea,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,South Korea,R,15,15,15,11,0.7333333333333333
+meta-llama/llama-3.1-8b-instruct,real,United States,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,real,United States,R,15,15,15,13,0.8666666666666667
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Brazil,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,China,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,China,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,China,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,China,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,China,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,China,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Colombia,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,India,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,India,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,India,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,India,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,India,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,India,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Libya,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Mexico,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Morocco,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,Pakistan,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,South Korea,V,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,B,20,20,20,19,0.95
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,E,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,P,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,R,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,S,20,20,20,20,1.0
+meta-llama/llama-3.1-8b-instruct,synthetic,United States,V,20,20,20,20,1.0

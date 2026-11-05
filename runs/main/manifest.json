@@ -1,0 +1,76 @@
+{
+  "accounting": {
+    "conservative_reserve": 4.43e-06,
+    "provider_reported": 0.97190962,
+    "rejected_request": 0.0,
+    "token_price_estimate": 0.01064078
+  },
+  "budget_usd": 3.0,
+  "complete": true,
+  "completed_classifications": 21646,
+  "cost_usd": 0.982554829999961,
+  "inputs": {
+    "analysis_plan_sha256": "a9309d19b46345fab29da13656d0a67e6402b2132f3311dceb7a1f0de4ddd657",
+    "experiment_manifest_sha256": "e5e494ba235217b2b2feed49308fdf1ccbd07e4a4818e956ed0e857c10baf678",
+    "producer_sha256": {
+      "src/experiment.py": "8d3870d47c1fab68eaaa77c2e87958dba5b4817ccaa0882d8fee671f1235fd47",
+      "src/inference.py": "aaedc68cf1bacf051fcc625780e689ec2f49b50d8b05dd994ec55f7918be0d90",
+      "src/model_inputs.py": "b95d70804e693a5dc9ec79841acb0c12a45cfc73b134e758d582b009b55a24a3",
+      "src/run_experiment.py": "b22a648d6fa640e5f3694c727bd96bc1fdf451fb7b5c8187166a3f6804880300",
+      "src/utils.py": "679d2a00b280e13aa64fb74c83ee809c7747f54f4f4812ec292ed6c984a6d4c8"
+    },
+    "protocol_sha256": "d534d0fb6bb4bddea2a429d225a1d693b22ed3f5e39f9b80edc6850fbcdaad3c",
+    "schedule_sha256": "fbb8e73c59baeace374a5362015757c5700d1bdf1563632e83d65aefea2ed77b"
+  },
+  "main_inference_performed": true,
+  "outputs": {
+    "predictions.csv": {
+      "sha256": "4bad7e238c9486de42fcfb857fedc3759500ef6b9432342451e8347e6404b621"
+    },
+    "report.md": {
+      "sha256": "5253ab45051424b1aaf39007b3cf92182f358d95368219e769d537807a8c09b7"
+    },
+    "requests.sqlite3": {
+      "sha256": "b350cf7897f90e2bab489ee5d97ff102a0ae7a6b9237c7593f0f2aaa003f2ac7"
+    }
+  },
+  "policy": {
+    "first_attempt_order": "Frozen request_order.csv; asynchronous completion",
+    "invalid_output": "Record missing without retrying for a preferred answer",
+    "response_caching": false,
+    "retry": "HTTP 429/5xx only, at most three attempts; delays 2 and 4 seconds",
+    "unknown_delivery": "Record missing and never automatically resend"
+  },
+  "preflight_at": "2026-11-05T02:55:38.257754+00:00",
+  "provider_metadata": {
+    "intfloat/multilingual-e5-large-instruct": {
+      "api": "deepinfra",
+      "dimension": 1024,
+      "endpoint": "https://api.deepinfra.com/v1/openai/embeddings",
+      "input_price_usd": 1e-08,
+      "model": "intfloat/multilingual-e5-large-instruct",
+      "output_price_usd": 0,
+      "quantization": null,
+      "served_weight_revision": null
+    },
+    "meta-llama/llama-3.1-8b-instruct": {
+      "api": "openrouter",
+      "canonical_slug": "meta-llama/llama-3.1-8b-instruct",
+      "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "input_price_usd": 2.2e-07,
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "output_price_usd": 2.2e-07,
+      "provider": "coreweave/bf16",
+      "provider_name": "CoreWeave",
+      "quantization": "bf16",
+      "served_weight_revision": null
+    }
+  },
+  "started_at": "2026-11-05T02:55:33.161592+00:00",
+  "status_counts": {
+    "valid": 21646
+  },
+  "stop_reason": null,
+  "updated_at": "2026-11-05T03:47:06.537447+00:00",
+  "workers": 8
+}

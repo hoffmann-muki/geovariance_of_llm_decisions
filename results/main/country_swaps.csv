@@ -1,0 +1,91 @@
+model,country_a,country_b,prepared_pairs,valid_pairs,disagreements,disagreement_rate
+intfloat/multilingual-e5-large-instruct,Brazil,China,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,Brazil,Colombia,120,120,0,0.0
+intfloat/multilingual-e5-large-instruct,Brazil,India,120,120,3,0.025
+intfloat/multilingual-e5-large-instruct,Brazil,Libya,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,Brazil,Mexico,120,120,0,0.0
+intfloat/multilingual-e5-large-instruct,Brazil,Morocco,120,120,1,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,Brazil,Pakistan,120,120,3,0.025
+intfloat/multilingual-e5-large-instruct,Brazil,South Korea,120,120,0,0.0
+intfloat/multilingual-e5-large-instruct,Brazil,United States,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,China,Colombia,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,China,India,120,120,1,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,China,Libya,120,120,4,0.03333333333333333
+intfloat/multilingual-e5-large-instruct,China,Mexico,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,China,Morocco,120,120,3,0.025
+intfloat/multilingual-e5-large-instruct,China,Pakistan,120,120,1,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,China,South Korea,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,China,United States,120,120,4,0.03333333333333333
+intfloat/multilingual-e5-large-instruct,Colombia,India,120,120,3,0.025
+intfloat/multilingual-e5-large-instruct,Colombia,Libya,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,Colombia,Mexico,120,120,0,0.0
+intfloat/multilingual-e5-large-instruct,Colombia,Morocco,120,120,1,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,Colombia,Pakistan,120,120,3,0.025
+intfloat/multilingual-e5-large-instruct,Colombia,South Korea,120,120,0,0.0
+intfloat/multilingual-e5-large-instruct,Colombia,United States,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,India,Libya,120,120,5,0.041666666666666664
+intfloat/multilingual-e5-large-instruct,India,Mexico,120,120,3,0.025
+intfloat/multilingual-e5-large-instruct,India,Morocco,120,120,4,0.03333333333333333
+intfloat/multilingual-e5-large-instruct,India,Pakistan,120,120,0,0.0
+intfloat/multilingual-e5-large-instruct,India,South Korea,120,120,3,0.025
+intfloat/multilingual-e5-large-instruct,India,United States,120,120,5,0.041666666666666664
+intfloat/multilingual-e5-large-instruct,Libya,Mexico,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,Libya,Morocco,120,120,1,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,Libya,Pakistan,120,120,5,0.041666666666666664
+intfloat/multilingual-e5-large-instruct,Libya,South Korea,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,Libya,United States,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,Mexico,Morocco,120,120,1,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,Mexico,Pakistan,120,120,3,0.025
+intfloat/multilingual-e5-large-instruct,Mexico,South Korea,120,120,0,0.0
+intfloat/multilingual-e5-large-instruct,Mexico,United States,120,120,2,0.016666666666666666
+intfloat/multilingual-e5-large-instruct,Morocco,Pakistan,120,120,4,0.03333333333333333
+intfloat/multilingual-e5-large-instruct,Morocco,South Korea,120,120,1,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,Morocco,United States,120,120,1,0.008333333333333333
+intfloat/multilingual-e5-large-instruct,Pakistan,South Korea,120,120,3,0.025
+intfloat/multilingual-e5-large-instruct,Pakistan,United States,120,120,5,0.041666666666666664
+intfloat/multilingual-e5-large-instruct,South Korea,United States,120,120,2,0.016666666666666666
+meta-llama/llama-3.1-8b-instruct,Brazil,China,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Brazil,Colombia,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Brazil,India,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Brazil,Libya,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Brazil,Mexico,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Brazil,Morocco,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Brazil,Pakistan,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Brazil,South Korea,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Brazil,United States,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,China,Colombia,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,China,India,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,China,Libya,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,China,Mexico,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,China,Morocco,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,China,Pakistan,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,China,South Korea,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,China,United States,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Colombia,India,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Colombia,Libya,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Colombia,Mexico,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Colombia,Morocco,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Colombia,Pakistan,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Colombia,South Korea,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Colombia,United States,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,India,Libya,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,India,Mexico,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,India,Morocco,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,India,Pakistan,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,India,South Korea,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,India,United States,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Libya,Mexico,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Libya,Morocco,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Libya,Pakistan,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Libya,South Korea,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Libya,United States,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Mexico,Morocco,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Mexico,Pakistan,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Mexico,South Korea,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Mexico,United States,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Morocco,Pakistan,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Morocco,South Korea,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Morocco,United States,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Pakistan,South Korea,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,Pakistan,United States,120,120,0,0.0
+meta-llama/llama-3.1-8b-instruct,South Korea,United States,120,120,0,0.0

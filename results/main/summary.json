@@ -1,0 +1,52 @@
+{
+  "intfloat/multilingual-e5-large-instruct": {
+    "available_tests": 284,
+    "baseline": {
+      "real": {
+        "correct": 450,
+        "prepared_n": 590,
+        "valid_n": 590
+      },
+      "synthetic": {
+        "correct": 1093,
+        "prepared_n": 1200,
+        "valid_n": 1200
+      }
+    },
+    "country_only_disagreement_range": [
+      0.0,
+      0.041666666666666664
+    ],
+    "holm_detections": 0,
+    "planned_primary_contrasts": 438,
+    "repeats": {
+      "both_valid": 3,
+      "unchanged": 3
+    }
+  },
+  "meta-llama/llama-3.1-8b-instruct": {
+    "available_tests": 70,
+    "baseline": {
+      "real": {
+        "correct": 541,
+        "prepared_n": 590,
+        "valid_n": 590
+      },
+      "synthetic": {
+        "correct": 1190,
+        "prepared_n": 1200,
+        "valid_n": 1200
+      }
+    },
+    "country_only_disagreement_range": [
+      0.0,
+      0.0
+    ],
+    "holm_detections": 0,
+    "planned_primary_contrasts": 438,
+    "repeats": {
+      "both_valid": 3,
+      "unchanged": 3
+    }
+  }
+}
