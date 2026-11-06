@@ -1,0 +1,161 @@
+task_id,boundary,version,paraphrase,order,lower,higher,system_prompt
+PR:defined:p0:A,PR,defined,0,A,Protest,Riot,"You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Protest or a Riot.
+
+Protest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.
+
+Riot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property.
+
+Answer with one word: Protest or Riot."
+PR:defined:p0:B,PR,defined,0,B,Protest,Riot,"You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Riot or a Protest.
+
+Riot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property.
+
+Protest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.
+
+Answer with one word: Riot or Protest."
+PR:defined:p1:A,PR,defined,1,A,Protest,Riot,"You are an analyst labeling demonstration events for a dataset on political unrest. Classify the event described below as a Protest or a Riot.
+
+Protest: a demonstration whose participants do not use violence, even if others use force against them.
+
+Riot: a demonstration whose participants use violence or cause destruction, for example by attacking people or damaging property.
+
+Respond with a single word: Protest or Riot."
+PR:defined:p1:B,PR,defined,1,B,Protest,Riot,"You are an analyst labeling demonstration events for a dataset on political unrest. Classify the event described below as a Riot or a Protest.
+
+Riot: a demonstration whose participants use violence or cause destruction, for example by attacking people or damaging property.
+
+Protest: a demonstration whose participants do not use violence, even if others use force against them.
+
+Respond with a single word: Riot or Protest."
+PR:defined:p2:A,PR,defined,2,A,Protest,Riot,"Your job is to categorize reports of public demonstrations for a research database. Decide which category the reported event belongs to: a Protest or a Riot.
+
+Protest: participants stay nonviolent, including events where others act violently toward them.
+
+Riot: participants commit violent or destructive acts, such as hurting people or breaking property.
+
+Reply with only the category name: Protest or Riot."
+PR:defined:p2:B,PR,defined,2,B,Protest,Riot,"Your job is to categorize reports of public demonstrations for a research database. Decide which category the reported event belongs to: a Riot or a Protest.
+
+Riot: participants commit violent or destructive acts, such as hurting people or breaking property.
+
+Protest: participants stay nonviolent, including events where others act violently toward them.
+
+Reply with only the category name: Riot or Protest."
+PR:defined:p3:A,PR,defined,3,A,Protest,Riot,"Below is a short report of a demonstration. Assign it to one of two event types used in conflict monitoring: a Protest or a Riot.
+
+Protest: a public gathering in which the participants act without violence, including gatherings that are met with violence by others.
+
+Riot: a gathering in which the participants act violently or destructively, such as assaulting people or wrecking property.
+
+Give your answer as one word: Protest or Riot."
+PR:defined:p3:B,PR,defined,3,B,Protest,Riot,"Below is a short report of a demonstration. Assign it to one of two event types used in conflict monitoring: a Riot or a Protest.
+
+Riot: a gathering in which the participants act violently or destructively, such as assaulting people or wrecking property.
+
+Protest: a public gathering in which the participants act without violence, including gatherings that are met with violence by others.
+
+Give your answer as one word: Riot or Protest."
+PR:undefined:p0:A,PR,undefined,0,A,Protest,Riot,"You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Protest or a Riot.
+
+Answer with one word: Protest or Riot."
+PR:undefined:p0:B,PR,undefined,0,B,Protest,Riot,"You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Riot or a Protest.
+
+Answer with one word: Riot or Protest."
+PR:undefined:p1:A,PR,undefined,1,A,Protest,Riot,"You are an analyst labeling demonstration events for a dataset on political unrest. Classify the event described below as a Protest or a Riot.
+
+Respond with a single word: Protest or Riot."
+PR:undefined:p1:B,PR,undefined,1,B,Protest,Riot,"You are an analyst labeling demonstration events for a dataset on political unrest. Classify the event described below as a Riot or a Protest.
+
+Respond with a single word: Riot or Protest."
+PR:undefined:p2:A,PR,undefined,2,A,Protest,Riot,"Your job is to categorize reports of public demonstrations for a research database. Decide which category the reported event belongs to: a Protest or a Riot.
+
+Reply with only the category name: Protest or Riot."
+PR:undefined:p2:B,PR,undefined,2,B,Protest,Riot,"Your job is to categorize reports of public demonstrations for a research database. Decide which category the reported event belongs to: a Riot or a Protest.
+
+Reply with only the category name: Riot or Protest."
+PR:undefined:p3:A,PR,undefined,3,A,Protest,Riot,"Below is a short report of a demonstration. Assign it to one of two event types used in conflict monitoring: a Protest or a Riot.
+
+Give your answer as one word: Protest or Riot."
+PR:undefined:p3:B,PR,undefined,3,B,Protest,Riot,"Below is a short report of a demonstration. Assign it to one of two event types used in conflict monitoring: a Riot or a Protest.
+
+Give your answer as one word: Riot or Protest."
+BV:defined:p0:A,BV,defined,0,A,Violence against civilians,Battle,"You code violent events for a conflict-event dataset. Read the event description and decide whether the event is a Battle or Violence against civilians.
+
+Battle: a violent clash between organized armed groups that are capable of harming each other.
+
+Violence against civilians: an organized armed group deliberately attacks unarmed civilians who cannot defend themselves.
+
+Answer with exactly one of: Battle, Violence against civilians."
+BV:defined:p0:B,BV,defined,0,B,Violence against civilians,Battle,"You code violent events for a conflict-event dataset. Read the event description and decide whether the event is Violence against civilians or a Battle.
+
+Violence against civilians: an organized armed group deliberately attacks unarmed civilians who cannot defend themselves.
+
+Battle: a violent clash between organized armed groups that are capable of harming each other.
+
+Answer with exactly one of: Violence against civilians, Battle."
+BV:defined:p1:A,BV,defined,1,A,Violence against civilians,Battle,"You are an analyst labeling violent events for a dataset on armed conflict. Classify the event described below as a Battle or Violence against civilians.
+
+Battle: organized armed groups fight each other, and each side is able to inflict harm on the other.
+
+Violence against civilians: an organized armed group intentionally targets unarmed civilians who have no means of defending themselves.
+
+Respond with exactly one label: Battle or Violence against civilians."
+BV:defined:p1:B,BV,defined,1,B,Violence against civilians,Battle,"You are an analyst labeling violent events for a dataset on armed conflict. Classify the event described below as Violence against civilians or a Battle.
+
+Violence against civilians: an organized armed group intentionally targets unarmed civilians who have no means of defending themselves.
+
+Battle: organized armed groups fight each other, and each side is able to inflict harm on the other.
+
+Respond with exactly one label: Violence against civilians or Battle."
+BV:defined:p2:A,BV,defined,2,A,Violence against civilians,Battle,"Your job is to categorize reports of violent incidents for a research database. Decide which category the reported event belongs to: a Battle or Violence against civilians.
+
+Battle: an armed confrontation between organized groups that can both use force against each other.
+
+Violence against civilians: organized armed actors deliberately use force against civilians who are unarmed and defenseless.
+
+Reply with only the category name: Battle or Violence against civilians."
+BV:defined:p2:B,BV,defined,2,B,Violence against civilians,Battle,"Your job is to categorize reports of violent incidents for a research database. Decide which category the reported event belongs to: Violence against civilians or a Battle.
+
+Violence against civilians: organized armed actors deliberately use force against civilians who are unarmed and defenseless.
+
+Battle: an armed confrontation between organized groups that can both use force against each other.
+
+Reply with only the category name: Violence against civilians or Battle."
+BV:defined:p3:A,BV,defined,3,A,Violence against civilians,Battle,"Below is a short report of a violent incident. Assign it to one of two event types used in conflict monitoring: a Battle or Violence against civilians.
+
+Battle: a fight between organized armed sides, each capable of hurting the other.
+
+Violence against civilians: an organized armed group purposely harms unarmed civilians who are unable to protect themselves.
+
+Give your answer as exactly one of: Battle, Violence against civilians."
+BV:defined:p3:B,BV,defined,3,B,Violence against civilians,Battle,"Below is a short report of a violent incident. Assign it to one of two event types used in conflict monitoring: Violence against civilians or a Battle.
+
+Violence against civilians: an organized armed group purposely harms unarmed civilians who are unable to protect themselves.
+
+Battle: a fight between organized armed sides, each capable of hurting the other.
+
+Give your answer as exactly one of: Violence against civilians, Battle."
+BV:undefined:p0:A,BV,undefined,0,A,Violence against civilians,Battle,"You code violent events for a conflict-event dataset. Read the event description and decide whether the event is a Battle or Violence against civilians.
+
+Answer with exactly one of: Battle, Violence against civilians."
+BV:undefined:p0:B,BV,undefined,0,B,Violence against civilians,Battle,"You code violent events for a conflict-event dataset. Read the event description and decide whether the event is Violence against civilians or a Battle.
+
+Answer with exactly one of: Violence against civilians, Battle."
+BV:undefined:p1:A,BV,undefined,1,A,Violence against civilians,Battle,"You are an analyst labeling violent events for a dataset on armed conflict. Classify the event described below as a Battle or Violence against civilians.
+
+Respond with exactly one label: Battle or Violence against civilians."
+BV:undefined:p1:B,BV,undefined,1,B,Violence against civilians,Battle,"You are an analyst labeling violent events for a dataset on armed conflict. Classify the event described below as Violence against civilians or a Battle.
+
+Respond with exactly one label: Violence against civilians or Battle."
+BV:undefined:p2:A,BV,undefined,2,A,Violence against civilians,Battle,"Your job is to categorize reports of violent incidents for a research database. Decide which category the reported event belongs to: a Battle or Violence against civilians.
+
+Reply with only the category name: Battle or Violence against civilians."
+BV:undefined:p2:B,BV,undefined,2,B,Violence against civilians,Battle,"Your job is to categorize reports of violent incidents for a research database. Decide which category the reported event belongs to: Violence against civilians or a Battle.
+
+Reply with only the category name: Violence against civilians or Battle."
+BV:undefined:p3:A,BV,undefined,3,A,Violence against civilians,Battle,"Below is a short report of a violent incident. Assign it to one of two event types used in conflict monitoring: a Battle or Violence against civilians.
+
+Give your answer as exactly one of: Battle, Violence against civilians."
+BV:undefined:p3:B,BV,undefined,3,B,Violence against civilians,Battle,"Below is a short report of a violent incident. Assign it to one of two event types used in conflict monitoring: Violence against civilians or a Battle.
+
+Give your answer as exactly one of: Violence against civilians, Battle."

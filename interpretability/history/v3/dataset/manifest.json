@@ -1,0 +1,73 @@
+{
+  "counts": {
+    "cells": 12080,
+    "country_conditions": 40,
+    "descriptions": {
+      "BV": 234,
+      "PR": 68
+    },
+    "flips": {
+      "BV": 1219,
+      "PR": 335
+    }
+  },
+  "created": "2026-11-06T21:20:37+00:00",
+  "files": {
+    "cells.csv": "3afbf640856fb052094699565c2dcfbf94db129598ace2b09b4508b176798958",
+    "descriptions.csv": "f4315a5ded0d4dc2feca09c87d2f2b29ee6dc8ce15db4236533bf330f05320c2",
+    "flips.jsonl": "745d0fe9b04e1a0676d91f8f76074a6a3df1e8c0c182678fb50204f838b419b6",
+    "matrix_BV_labels.csv": "b0028a6095e17cc6986daa1ca72266c4483408b1d7af470a3d27aacf5af1d7ff",
+    "matrix_BV_s.csv": "e2f6ecc9f8d5b3ea23f763e13a3963b7bcd2b0c74fa3c9147b69ec02208977c5",
+    "matrix_PR_labels.csv": "bc0f334419ebb93c0020cef91eebcd2a31daca1a0d0c3b6616dbf4acf409bc6c",
+    "matrix_PR_s.csv": "f3cd5a2ac5ef08249121e936ef6101b221d8faf00010f7ec20b044847483fb3b",
+    "pairs.csv": "327b3aa798a2827f6e11c7f1d3d92b848b83905ffc2aa0b294b175d53cbff25d",
+    "system_prompts.csv": "ff22d68929213f96fe78d01701f03c97958eba07f10f6615d2b9a85a8e9daadb"
+  },
+  "iteration": "final",
+  "producer_sha256": {
+    "dataset.py": "e2a58a6633d9c9c682795dbb7a3a74c4dce8765cc0676e206ac79a15577a573f",
+    "pipeline.py": "df59e78f4354480200d3304fbd7a44ddd798fb53ec9e587790c62f71af5dace7"
+  },
+  "runs": {
+    "BV": {
+      "digests": {
+        "bases/BV_confirm.csv": "136b65b28d1eee96f6bb426d46d3aadac1a638f19e725b076bd5a28f1f95d991",
+        "bases/BV_explore.csv": "3622634a07e9418dd58aa0982cf33b7611967771d16552956fa5679caf5d0e12",
+        "bases/BV_test.csv": "f58fccb043cb3c5943367d986496cb41059b261c6cb1546f043c51db6cc27830",
+        "bases/PR_confirm.csv": "431629415b7e8baa30d83977bbef659852db0c42e294bbc978476a37ff14febe",
+        "bases/PR_explore.csv": "823bdddcb6bb780c3b3dc1b79f6755846650aac13acd18eb9808ec1cbe79f176",
+        "bases/PR_test.csv": "19cacc835cf9d2ecdff9f10072ba119747a8c5704a30328433eca602ff1b74b5",
+        "countries.json": "0251cc5ddd4fe758fc2602c36fc74fd40acd05fd7fd87cfa4805d19fdf83f4db",
+        "descriptions.json": "48a2fbe82a026704aca33c20cedb67ddfc3b20069d2663901bcc9ed0faa7604c",
+        "splits.json": "c892aa3ef22f95bd4ba50980c256b233e8deae32f69f9dd719400d3deda88f14",
+        "task_prompts.json": "62ac88bd07d59f0a8125b4ca0df65d6b2b4963f4246bc27bffb3b183be0e156a"
+      },
+      "scorer": {
+        "dtype": "bfloat16",
+        "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+        "model_key": "llama3.2-3b",
+        "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95"
+      }
+    },
+    "PR": {
+      "digests": {
+        "bases/BV_confirm.csv": "136b65b28d1eee96f6bb426d46d3aadac1a638f19e725b076bd5a28f1f95d991",
+        "bases/BV_explore.csv": "3622634a07e9418dd58aa0982cf33b7611967771d16552956fa5679caf5d0e12",
+        "bases/BV_test.csv": "f58fccb043cb3c5943367d986496cb41059b261c6cb1546f043c51db6cc27830",
+        "bases/PR_confirm.csv": "431629415b7e8baa30d83977bbef659852db0c42e294bbc978476a37ff14febe",
+        "bases/PR_explore.csv": "823bdddcb6bb780c3b3dc1b79f6755846650aac13acd18eb9808ec1cbe79f176",
+        "bases/PR_test.csv": "19cacc835cf9d2ecdff9f10072ba119747a8c5704a30328433eca602ff1b74b5",
+        "countries.json": "0251cc5ddd4fe758fc2602c36fc74fd40acd05fd7fd87cfa4805d19fdf83f4db",
+        "descriptions.json": "48a2fbe82a026704aca33c20cedb67ddfc3b20069d2663901bcc9ed0faa7604c",
+        "splits.json": "c892aa3ef22f95bd4ba50980c256b233e8deae32f69f9dd719400d3deda88f14",
+        "task_prompts.json": "62ac88bd07d59f0a8125b4ca0df65d6b2b4963f4246bc27bffb3b183be0e156a"
+      },
+      "scorer": {
+        "dtype": "bfloat16",
+        "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+        "model_key": "llama3.2-3b",
+        "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95"
+      }
+    }
+  }
+}

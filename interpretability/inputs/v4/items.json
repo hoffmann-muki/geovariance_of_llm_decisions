@@ -1,0 +1,1281 @@
+{
+  "rule": "every concrete ACLED-lexicon act with >= 20 attestations; anchors from attested acts",
+  "w2_rules": {
+    "PR": {
+      "subject": [
+        "Some participants",
+        "A few demonstrators"
+      ],
+      "anchor_subject": [
+        "Participants",
+        "The demonstrators"
+      ]
+    },
+    "BV": {
+      "subject": [
+        "The other group",
+        "Members of the other group"
+      ],
+      "one_member": [
+        "One member of the other group",
+        "A member of the other group"
+      ]
+    },
+    "verbs": {
+      "threw": "hurled",
+      "burned": "set fire to",
+      "set off": "lit",
+      "blocked": "obstructed",
+      "built": "put up",
+      "locked": "shut",
+      "vandalised": "defaced",
+      "smashed": "shattered",
+      "tore down": "pulled down",
+      "spray-painted": "painted",
+      "pried open": "levered open",
+      "pushed over": "knocked over",
+      "occupied": "took over",
+      "stormed": "rushed into",
+      "scuffled with": "jostled with",
+      "beat": "hit",
+      "carried": "had",
+      "fired back at": "returned fire at",
+      "fled": "ran away",
+      "chanted slogans and held": "chanted slogans and carried",
+      "exchanged fire": "traded gunfire",
+      "was": "belonged to"
+    }
+  },
+  "stand_ins": {
+    "self_defense_group": "'self-defense' shares its stem with the definitions' 'defend'; written as a village night patrol ('committee' shares its stem with 'commit')",
+    "break_gate": "'forced open' shares its stem with the definitions' 'force'; written as 'pried open'"
+  },
+  "evidence": {
+    "PR": {
+      "anchor_lo": {
+        "role": "anchor_lower",
+        "wordings": [
+          "Participants chanted slogans and held placards the whole time.",
+          "The demonstrators chanted slogans and carried placards the whole time."
+        ],
+        "acled_acts": [
+          "chant_placards"
+        ],
+        "dimensions": [
+          "none/none"
+        ],
+        "n_higher": [
+          203
+        ],
+        "n_lower": [
+          10311
+        ],
+        "share_higher": [
+          0.0193
+        ]
+      },
+      "anchor_hi": {
+        "role": "anchor_higher",
+        "wordings": [
+          "Participants threw stones and burned parked cars.",
+          "The demonstrators hurled stones and burned parked cars."
+        ],
+        "acled_acts": [
+          "throw_stones",
+          "burn_vehicle"
+        ],
+        "dimensions": [
+          "projectile/unspecified",
+          "fire/property"
+        ],
+        "n_higher": [
+          371,
+          95
+        ],
+        "n_lower": [
+          26,
+          4
+        ],
+        "share_higher": [
+          0.9345,
+          0.9596
+        ]
+      },
+      "throw_stones": {
+        "role": "item",
+        "wordings": [
+          "Some participants threw stones at a nearby building.",
+          "A few demonstrators hurled stones at a nearby building."
+        ],
+        "acled_acts": [
+          "throw_stones"
+        ],
+        "dimensions": [
+          "projectile/unspecified"
+        ],
+        "n_higher": [
+          371
+        ],
+        "n_lower": [
+          26
+        ],
+        "share_higher": [
+          0.9345
+        ]
+      },
+      "throw_eggs": {
+        "role": "item",
+        "wordings": [
+          "Some participants threw eggs at a nearby building.",
+          "A few demonstrators hurled eggs at a nearby building."
+        ],
+        "acled_acts": [
+          "throw_eggs"
+        ],
+        "dimensions": [
+          "projectile/unspecified"
+        ],
+        "n_higher": [
+          8
+        ],
+        "n_lower": [
+          19
+        ],
+        "share_higher": [
+          0.2963
+        ]
+      },
+      "throw_bottles": {
+        "role": "item",
+        "wordings": [
+          "Some participants threw plastic bottles at a nearby building.",
+          "A few demonstrators hurled plastic bottles at a nearby building."
+        ],
+        "acled_acts": [
+          "throw_bottles"
+        ],
+        "dimensions": [
+          "projectile/unspecified"
+        ],
+        "n_higher": [
+          36
+        ],
+        "n_lower": [
+          84
+        ],
+        "share_higher": [
+          0.3
+        ]
+      },
+      "throw_water": {
+        "role": "item",
+        "wordings": [
+          "Some participants threw water at a group of officials.",
+          "A few demonstrators hurled water at a group of officials."
+        ],
+        "acled_acts": [
+          "throw_water"
+        ],
+        "dimensions": [
+          "projectile/unspecified"
+        ],
+        "n_higher": [
+          19
+        ],
+        "n_lower": [
+          12
+        ],
+        "share_higher": [
+          0.6129
+        ]
+      },
+      "throw_paint_ink": {
+        "role": "item",
+        "wordings": [
+          "Some participants threw paint at a nearby building.",
+          "A few demonstrators hurled paint at a nearby building."
+        ],
+        "acled_acts": [
+          "throw_paint_ink"
+        ],
+        "dimensions": [
+          "projectile/unspecified"
+        ],
+        "n_higher": [
+          6
+        ],
+        "n_lower": [
+          14
+        ],
+        "share_higher": [
+          0.3
+        ]
+      },
+      "throw_fireworks": {
+        "role": "item",
+        "wordings": [
+          "Some participants threw firecrackers at a nearby building.",
+          "A few demonstrators hurled firecrackers at a nearby building."
+        ],
+        "acled_acts": [
+          "throw_fireworks"
+        ],
+        "dimensions": [
+          "projectile/unspecified"
+        ],
+        "n_higher": [
+          32
+        ],
+        "n_lower": [
+          0
+        ],
+        "share_higher": [
+          1.0
+        ]
+      },
+      "throw_objects": {
+        "role": "item",
+        "wordings": [
+          "Some participants threw objects at a nearby building.",
+          "A few demonstrators hurled objects at a nearby building."
+        ],
+        "acled_acts": [
+          "throw_objects"
+        ],
+        "dimensions": [
+          "projectile/unspecified"
+        ],
+        "n_higher": [
+          68
+        ],
+        "n_lower": [
+          10
+        ],
+        "share_higher": [
+          0.8718
+        ]
+      },
+      "throw_petrol_bomb": {
+        "role": "item",
+        "wordings": [
+          "Some participants threw a petrol bomb at a nearby building.",
+          "A few demonstrators hurled a petrol bomb at a nearby building."
+        ],
+        "acled_acts": [
+          "throw_petrol_bomb"
+        ],
+        "dimensions": [
+          "projectile/unspecified"
+        ],
+        "n_higher": [
+          44
+        ],
+        "n_lower": [
+          0
+        ],
+        "share_higher": [
+          1.0
+        ]
+      },
+      "burn_tires": {
+        "role": "item",
+        "wordings": [
+          "Some participants burned tires in the road.",
+          "A few demonstrators set fire to tires in the road."
+        ],
+        "acled_acts": [
+          "burn_tires"
+        ],
+        "dimensions": [
+          "fire/property"
+        ],
+        "n_higher": [
+          523
+        ],
+        "n_lower": [
+          5
+        ],
+        "share_higher": [
+          0.9905
+        ]
+      },
+      "burn_effigy": {
+        "role": "item",
+        "wordings": [
+          "Some participants burned an effigy in the street.",
+          "A few demonstrators set fire to an effigy in the street."
+        ],
+        "acled_acts": [
+          "burn_effigy"
+        ],
+        "dimensions": [
+          "fire/symbolic"
+        ],
+        "n_higher": [
+          13
+        ],
+        "n_lower": [
+          952
+        ],
+        "share_higher": [
+          0.0135
+        ]
+      },
+      "burn_flag": {
+        "role": "item",
+        "wordings": [
+          "Some participants burned a flag in the street.",
+          "A few demonstrators set fire to a flag in the street."
+        ],
+        "acled_acts": [
+          "burn_flag"
+        ],
+        "dimensions": [
+          "fire/symbolic"
+        ],
+        "n_higher": [
+          5
+        ],
+        "n_lower": [
+          45
+        ],
+        "share_higher": [
+          0.1
+        ]
+      },
+      "burn_documents": {
+        "role": "item",
+        "wordings": [
+          "Some participants burned copies of a new regulation.",
+          "A few demonstrators set fire to copies of a new regulation."
+        ],
+        "acled_acts": [
+          "burn_documents"
+        ],
+        "dimensions": [
+          "fire/symbolic"
+        ],
+        "n_higher": [
+          7
+        ],
+        "n_lower": [
+          124
+        ],
+        "share_higher": [
+          0.0534
+        ]
+      },
+      "burn_vehicle": {
+        "role": "item",
+        "wordings": [
+          "Some participants burned a parked car.",
+          "A few demonstrators set fire to a parked car."
+        ],
+        "acled_acts": [
+          "burn_vehicle"
+        ],
+        "dimensions": [
+          "fire/property"
+        ],
+        "n_higher": [
+          95
+        ],
+        "n_lower": [
+          4
+        ],
+        "share_higher": [
+          0.9596
+        ]
+      },
+      "block_road": {
+        "role": "item",
+        "wordings": [
+          "Some participants blocked the main road.",
+          "A few demonstrators obstructed the main road."
+        ],
+        "acled_acts": [
+          "block_road"
+        ],
+        "dimensions": [
+          "obstruction/none"
+        ],
+        "n_higher": [
+          430
+        ],
+        "n_lower": [
+          3109
+        ],
+        "share_higher": [
+          0.1215
+        ]
+      },
+      "barricade": {
+        "role": "item",
+        "wordings": [
+          "Some participants built barricades across the road.",
+          "A few demonstrators put up barricades across the road."
+        ],
+        "acled_acts": [
+          "barricade"
+        ],
+        "dimensions": [
+          "obstruction/none"
+        ],
+        "n_higher": [
+          173
+        ],
+        "n_lower": [
+          153
+        ],
+        "share_higher": [
+          0.5307
+        ]
+      },
+      "block_entrance": {
+        "role": "item",
+        "wordings": [
+          "Some participants blocked the entrance of a nearby building.",
+          "A few demonstrators obstructed the entrance of a nearby building."
+        ],
+        "acled_acts": [
+          "block_entrance"
+        ],
+        "dimensions": [
+          "obstruction/none"
+        ],
+        "n_higher": [
+          19
+        ],
+        "n_lower": [
+          190
+        ],
+        "share_higher": [
+          0.0909
+        ]
+      },
+      "lock_in": {
+        "role": "item",
+        "wordings": [
+          "Some participants locked officials inside a nearby building.",
+          "A few demonstrators shut officials inside a nearby building."
+        ],
+        "acled_acts": [
+          "lock_in"
+        ],
+        "dimensions": [
+          "obstruction/person"
+        ],
+        "n_higher": [
+          14
+        ],
+        "n_lower": [
+          235
+        ],
+        "share_higher": [
+          0.0562
+        ]
+      },
+      "vandalise": {
+        "role": "item",
+        "wordings": [
+          "Some participants vandalised a nearby building.",
+          "A few demonstrators defaced a nearby building."
+        ],
+        "acled_acts": [
+          "vandalise"
+        ],
+        "dimensions": [
+          "property/property"
+        ],
+        "n_higher": [
+          511
+        ],
+        "n_lower": [
+          238
+        ],
+        "share_higher": [
+          0.6822
+        ]
+      },
+      "break_windows": {
+        "role": "item",
+        "wordings": [
+          "Some participants smashed the windows of a nearby building.",
+          "A few demonstrators shattered the windows of a nearby building."
+        ],
+        "acled_acts": [
+          "break_windows"
+        ],
+        "dimensions": [
+          "property/property"
+        ],
+        "n_higher": [
+          79
+        ],
+        "n_lower": [
+          8
+        ],
+        "share_higher": [
+          0.908
+        ]
+      },
+      "tear_down": {
+        "role": "item",
+        "wordings": [
+          "Some participants tore down a sign on a nearby building.",
+          "A few demonstrators pulled down a sign on a nearby building."
+        ],
+        "acled_acts": [
+          "tear_down"
+        ],
+        "dimensions": [
+          "property/symbolic"
+        ],
+        "n_higher": [
+          13
+        ],
+        "n_lower": [
+          12
+        ],
+        "share_higher": [
+          0.52
+        ]
+      },
+      "deface_paint": {
+        "role": "item",
+        "wordings": [
+          "Some participants spray-painted slogans on a nearby building.",
+          "A few demonstrators painted slogans on a nearby building."
+        ],
+        "acled_acts": [
+          "deface_paint"
+        ],
+        "dimensions": [
+          "property/symbolic"
+        ],
+        "n_higher": [
+          33
+        ],
+        "n_lower": [
+          60
+        ],
+        "share_higher": [
+          0.3548
+        ]
+      },
+      "break_gate": {
+        "role": "item",
+        "wordings": [
+          "Some participants pried open the gate of a nearby building.",
+          "A few demonstrators levered open the gate of a nearby building."
+        ],
+        "acled_acts": [
+          "break_gate"
+        ],
+        "dimensions": [
+          "property/property"
+        ],
+        "n_higher": [
+          20
+        ],
+        "n_lower": [
+          5
+        ],
+        "share_higher": [
+          0.8
+        ],
+        "stand_in": "'forced open' shares its stem with the definitions' 'force'; written as 'pried open'"
+      },
+      "push_barrier": {
+        "role": "item",
+        "wordings": [
+          "Some participants pushed over a metal barrier.",
+          "A few demonstrators knocked over a metal barrier."
+        ],
+        "acled_acts": [
+          "push_barrier"
+        ],
+        "dimensions": [
+          "property/property"
+        ],
+        "n_higher": [
+          8
+        ],
+        "n_lower": [
+          13
+        ],
+        "share_higher": [
+          0.381
+        ]
+      },
+      "set_off_fireworks": {
+        "role": "item",
+        "wordings": [
+          "Some participants set off fireworks in the street.",
+          "A few demonstrators lit fireworks in the street."
+        ],
+        "acled_acts": [
+          "set_off_fireworks"
+        ],
+        "dimensions": [
+          "fire/none"
+        ],
+        "n_higher": [
+          12
+        ],
+        "n_lower": [
+          8
+        ],
+        "share_higher": [
+          0.6
+        ]
+      },
+      "block_rail": {
+        "role": "item",
+        "wordings": [
+          "Some participants blocked the railway tracks.",
+          "A few demonstrators obstructed the railway tracks."
+        ],
+        "acled_acts": [
+          "block_rail"
+        ],
+        "dimensions": [
+          "obstruction/none"
+        ],
+        "n_higher": [
+          6
+        ],
+        "n_lower": [
+          52
+        ],
+        "share_higher": [
+          0.1034
+        ]
+      },
+      "occupy": {
+        "role": "item",
+        "wordings": [
+          "Some participants occupied a nearby building.",
+          "A few demonstrators took over a nearby building."
+        ],
+        "acled_acts": [
+          "occupy"
+        ],
+        "dimensions": [
+          "entry/property"
+        ],
+        "n_higher": [
+          24
+        ],
+        "n_lower": [
+          480
+        ],
+        "share_higher": [
+          0.0476
+        ]
+      },
+      "storm": {
+        "role": "item",
+        "wordings": [
+          "Some participants stormed a nearby building.",
+          "A few demonstrators rushed into a nearby building."
+        ],
+        "acled_acts": [
+          "storm"
+        ],
+        "dimensions": [
+          "entry/property"
+        ],
+        "n_higher": [
+          15
+        ],
+        "n_lower": [
+          26
+        ],
+        "share_higher": [
+          0.3659
+        ]
+      },
+      "scuffle": {
+        "role": "item",
+        "wordings": [
+          "Some participants scuffled with security staff.",
+          "A few demonstrators jostled with security staff."
+        ],
+        "acled_acts": [
+          "scuffle"
+        ],
+        "dimensions": [
+          "person/person"
+        ],
+        "n_higher": [
+          53
+        ],
+        "n_lower": [
+          266
+        ],
+        "share_higher": [
+          0.1661
+        ]
+      },
+      "assault": {
+        "role": "item",
+        "wordings": [
+          "Some participants beat a man who was filming the crowd.",
+          "A few demonstrators hit a man who was filming the crowd."
+        ],
+        "acled_acts": [
+          "assault"
+        ],
+        "dimensions": [
+          "person/person"
+        ],
+        "n_higher": [
+          113
+        ],
+        "n_lower": [
+          214
+        ],
+        "share_higher": [
+          0.3456
+        ]
+      }
+    },
+    "BV": {
+      "anchor_lo": {
+        "role": "anchor_lower",
+        "wordings": [
+          "The other group were farmers who carried no weapons.",
+          "Members of the other group were farmers who carried no weapons."
+        ],
+        "acled_acts": [
+          "farmers",
+          "unarmed"
+        ],
+        "dimensions": [
+          "none/none/individuals",
+          "none/none/unspecified"
+        ],
+        "n_higher": [
+          29,
+          8
+        ],
+        "n_lower": [
+          230,
+          23
+        ],
+        "share_higher": [
+          0.112,
+          0.2581
+        ]
+      },
+      "anchor_hi": {
+        "role": "anchor_higher",
+        "wordings": [
+          "The two groups exchanged fire for an hour.",
+          "The two groups traded gunfire for an hour."
+        ],
+        "acled_acts": [
+          "exchanged_fire"
+        ],
+        "dimensions": [
+          "firearm/used_at/unspecified"
+        ],
+        "n_higher": [
+          3729
+        ],
+        "n_lower": [
+          30
+        ],
+        "share_higher": [
+          0.992
+        ]
+      },
+      "returned_fire": {
+        "role": "item",
+        "wordings": [
+          "One member of the other group fired back at the armed group.",
+          "A member of the other group returned fire at the armed group."
+        ],
+        "acled_acts": [
+          "returned_fire"
+        ],
+        "dimensions": [
+          "firearm/used_at/unspecified"
+        ],
+        "n_higher": [
+          432
+        ],
+        "n_lower": [
+          113
+        ],
+        "share_higher": [
+          0.7927
+        ]
+      },
+      "self_defense_group": {
+        "role": "item",
+        "wordings": [
+          "The other group was a village night patrol.",
+          "Members of the other group belonged to a village night patrol."
+        ],
+        "acled_acts": [
+          "self_defense_group"
+        ],
+        "dimensions": [
+          "unspecified/unspecified/standing"
+        ],
+        "n_higher": [
+          12
+        ],
+        "n_lower": [
+          18
+        ],
+        "share_higher": [
+          0.4
+        ],
+        "stand_in": "'self-defense' shares its stem with the definitions' 'defend'; written as a village night patrol ('committee' shares its stem with 'commit')"
+      },
+      "security_guard": {
+        "role": "item",
+        "wordings": [
+          "The other group included a night watchman.",
+          "Members of the other group included a night watchman."
+        ],
+        "acled_acts": [
+          "security_guard"
+        ],
+        "dimensions": [
+          "unspecified/unspecified/standing"
+        ],
+        "n_higher": [
+          39
+        ],
+        "n_lower": [
+          87
+        ],
+        "share_higher": [
+          0.3095
+        ]
+      },
+      "militia": {
+        "role": "item",
+        "wordings": [
+          "The other group was a local militia.",
+          "Members of the other group belonged to a local militia."
+        ],
+        "acled_acts": [
+          "militia"
+        ],
+        "dimensions": [
+          "unspecified/unspecified/standing"
+        ],
+        "n_higher": [
+          693
+        ],
+        "n_lower": [
+          432
+        ],
+        "share_higher": [
+          0.616
+        ]
+      },
+      "villagers": {
+        "role": "item",
+        "wordings": [
+          "The other group were villagers from a nearby settlement.",
+          "Members of the other group were villagers from a nearby settlement."
+        ],
+        "acled_acts": [
+          "villagers"
+        ],
+        "dimensions": [
+          "none/none/individuals"
+        ],
+        "n_higher": [
+          4
+        ],
+        "n_lower": [
+          22
+        ],
+        "share_higher": [
+          0.1538
+        ]
+      },
+      "farmers": {
+        "role": "item",
+        "wordings": [
+          "The other group were farmers working in nearby fields.",
+          "Members of the other group were farmers working in nearby fields."
+        ],
+        "acled_acts": [
+          "farmers"
+        ],
+        "dimensions": [
+          "none/none/individuals"
+        ],
+        "n_higher": [
+          29
+        ],
+        "n_lower": [
+          230
+        ],
+        "share_higher": [
+          0.112
+        ]
+      },
+      "drivers": {
+        "role": "item",
+        "wordings": [
+          "The other group were truck drivers waiting by the road.",
+          "Members of the other group were truck drivers waiting by the road."
+        ],
+        "acled_acts": [
+          "drivers"
+        ],
+        "dimensions": [
+          "none/none/individuals"
+        ],
+        "n_higher": [
+          96
+        ],
+        "n_lower": [
+          457
+        ],
+        "share_higher": [
+          0.1736
+        ]
+      },
+      "unarmed": {
+        "role": "item",
+        "wordings": [
+          "The other group carried no weapons.",
+          "Members of the other group had no weapons."
+        ],
+        "acled_acts": [
+          "unarmed"
+        ],
+        "dimensions": [
+          "none/none/unspecified"
+        ],
+        "n_higher": [
+          8
+        ],
+        "n_lower": [
+          23
+        ],
+        "share_higher": [
+          0.2581
+        ]
+      },
+      "armed_residents": {
+        "role": "item",
+        "wordings": [
+          "The other group were local residents who carried guns.",
+          "Members of the other group were local residents who carried guns."
+        ],
+        "acled_acts": [
+          "armed_residents"
+        ],
+        "dimensions": [
+          "firearm/unspecified/individuals"
+        ],
+        "n_higher": [
+          21
+        ],
+        "n_lower": [
+          5
+        ],
+        "share_higher": [
+          0.8077
+        ]
+      },
+      "stones": {
+        "role": "item",
+        "wordings": [
+          "The other group threw stones at the armed group.",
+          "Members of the other group hurled stones at the armed group."
+        ],
+        "acled_acts": [
+          "stones"
+        ],
+        "dimensions": [
+          "improvised/used_at/unspecified"
+        ],
+        "n_higher": [
+          48
+        ],
+        "n_lower": [
+          37
+        ],
+        "share_higher": [
+          0.5647
+        ]
+      },
+      "sticks_machetes": {
+        "role": "item",
+        "wordings": [
+          "The other group carried sticks and machetes.",
+          "Members of the other group had sticks and machetes."
+        ],
+        "acled_acts": [
+          "sticks_machetes"
+        ],
+        "dimensions": [
+          "improvised/unspecified/unspecified"
+        ],
+        "n_higher": [
+          54
+        ],
+        "n_lower": [
+          174
+        ],
+        "share_higher": [
+          0.2368
+        ]
+      },
+      "pistol": {
+        "role": "item",
+        "wordings": [
+          "One member of the other group carried a pistol.",
+          "A member of the other group had a pistol."
+        ],
+        "acled_acts": [
+          "pistol"
+        ],
+        "dimensions": [
+          "firearm/unspecified/unspecified"
+        ],
+        "n_higher": [
+          581
+        ],
+        "n_lower": [
+          94
+        ],
+        "share_higher": [
+          0.8607
+        ]
+      },
+      "rifle": {
+        "role": "item",
+        "wordings": [
+          "One member of the other group carried a rifle.",
+          "A member of the other group had a rifle."
+        ],
+        "acled_acts": [
+          "rifle"
+        ],
+        "dimensions": [
+          "firearm/unspecified/unspecified"
+        ],
+        "n_higher": [
+          497
+        ],
+        "n_lower": [
+          153
+        ],
+        "share_higher": [
+          0.7646
+        ]
+      },
+      "shotgun": {
+        "role": "item",
+        "wordings": [
+          "One member of the other group carried a shotgun.",
+          "A member of the other group had a shotgun."
+        ],
+        "acled_acts": [
+          "shotgun"
+        ],
+        "dimensions": [
+          "firearm/unspecified/unspecified"
+        ],
+        "n_higher": [
+          41
+        ],
+        "n_lower": [
+          11
+        ],
+        "share_higher": [
+          0.7885
+        ]
+      },
+      "miners": {
+        "role": "item",
+        "wordings": [
+          "The other group were miners leaving a nearby mine.",
+          "Members of the other group were miners leaving a nearby mine."
+        ],
+        "acled_acts": [
+          "miners"
+        ],
+        "dimensions": [
+          "none/none/individuals"
+        ],
+        "n_higher": [
+          3
+        ],
+        "n_lower": [
+          26
+        ],
+        "share_higher": [
+          0.1034
+        ]
+      },
+      "traders": {
+        "role": "item",
+        "wordings": [
+          "The other group were traders from a nearby market.",
+          "Members of the other group were traders from a nearby market."
+        ],
+        "acled_acts": [
+          "traders"
+        ],
+        "dimensions": [
+          "none/none/individuals"
+        ],
+        "n_higher": [
+          33
+        ],
+        "n_lower": [
+          161
+        ],
+        "share_higher": [
+          0.1701
+        ]
+      },
+      "students": {
+        "role": "item",
+        "wordings": [
+          "The other group were students walking home.",
+          "Members of the other group were students walking home."
+        ],
+        "acled_acts": [
+          "students"
+        ],
+        "dimensions": [
+          "none/none/individuals"
+        ],
+        "n_higher": [
+          13
+        ],
+        "n_lower": [
+          77
+        ],
+        "share_higher": [
+          0.1444
+        ]
+      },
+      "fishermen": {
+        "role": "item",
+        "wordings": [
+          "The other group were fishermen returning from the river.",
+          "Members of the other group were fishermen returning from the river."
+        ],
+        "acled_acts": [
+          "fishermen"
+        ],
+        "dimensions": [
+          "none/none/individuals"
+        ],
+        "n_higher": [
+          2
+        ],
+        "n_lower": [
+          21
+        ],
+        "share_higher": [
+          0.087
+        ]
+      },
+      "bodyguards": {
+        "role": "item",
+        "wordings": [
+          "The other group were bodyguards escorting a local businessman.",
+          "Members of the other group were bodyguards escorting a local businessman."
+        ],
+        "acled_acts": [
+          "bodyguards"
+        ],
+        "dimensions": [
+          "firearm/unspecified/standing"
+        ],
+        "n_higher": [
+          47
+        ],
+        "n_lower": [
+          46
+        ],
+        "share_higher": [
+          0.5054
+        ]
+      },
+      "grenade": {
+        "role": "item",
+        "wordings": [
+          "One member of the other group threw a grenade at the armed group.",
+          "A member of the other group hurled a grenade at the armed group."
+        ],
+        "acled_acts": [
+          "grenade"
+        ],
+        "dimensions": [
+          "explosive/used_at/unspecified"
+        ],
+        "n_higher": [
+          293
+        ],
+        "n_lower": [
+          27
+        ],
+        "share_higher": [
+          0.9156
+        ]
+      },
+      "fled": {
+        "role": "item",
+        "wordings": [
+          "The other group fled when the shooting started.",
+          "Members of the other group ran away when the shooting started."
+        ],
+        "acled_acts": [
+          "fled"
+        ],
+        "dimensions": [
+          "unspecified/none/unspecified"
+        ],
+        "n_higher": [
+          1130
+        ],
+        "n_lower": [
+          2145
+        ],
+        "share_higher": [
+          0.345
+        ]
+      },
+      "former_members": {
+        "role": "item",
+        "wordings": [
+          "The other group were former members of a rival militia.",
+          "Members of the other group were former members of a rival militia."
+        ],
+        "acled_acts": [
+          "former_members"
+        ],
+        "dimensions": [
+          "unspecified/none/unspecified"
+        ],
+        "n_higher": [
+          5
+        ],
+        "n_lower": [
+          29
+        ],
+        "share_higher": [
+          0.1471
+        ]
+      }
+    }
+  }
+}

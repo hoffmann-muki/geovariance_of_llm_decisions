@@ -33,9 +33,10 @@ PRODUCER = Path(__file__).resolve()
 
 # Each entry fixes how the chat template is rendered and where the answer starts.
 MODELS = {
-    "qwen3.5-4b": {
-        "hf_id": "Qwen/Qwen3.5-4B",
-        "loader": "AutoModelForImageTextToText",
+    "qwen3-4b": {
+        "hf_id": "Qwen/Qwen3-4B",
+        "loader": "AutoModelForCausalLM",
+        "dtype": "float32",
         "gated": False,
         "template_kwargs": {"enable_thinking": False},
         "assistant_suffix": "<|im_start|>assistant\n<think>\n\n</think>\n\n",
@@ -44,6 +45,7 @@ MODELS = {
     "llama3.2-3b": {
         "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
         "loader": "AutoModelForCausalLM",
+        "dtype": "bfloat16",
         "gated": True,
         "template_kwargs": {"date_string": "26 Jul 2024"},
         "assistant_suffix": "<|start_header_id|>assistant<|end_header_id|>\n\n",
@@ -155,10 +157,12 @@ def load_model(spec, revision, device):
     model, info = loader.from_pretrained(
         spec["hf_id"],
         revision=resolved,
-        dtype=torch.bfloat16,
+        dtype=getattr(torch, spec["dtype"]),
         output_loading_info=True,
     )
-    require(not info["missing_keys"], f"Weights missing: {info['missing_keys'][:5]}")
+    require(
+        not info["missing_keys"], f"Weights missing: {sorted(info['missing_keys'])[:5]}"
+    )
     require(not info.get("mismatched_keys"), "Checkpoint weights have wrong shapes")
     model.to(device).eval()
     return tokenizer, model, resolved
@@ -259,7 +263,7 @@ def score(
         "stage": stage,
         "snapshot_manifest_sha256": file_digest(snapshot_dir / "manifest.json"),
         "spec": spec,
-        "dtype": "bfloat16",
+        "dtype": spec["dtype"],
         "batch_size": 1,
         "torch": torch.__version__,
         "transformers": transformers.__version__,

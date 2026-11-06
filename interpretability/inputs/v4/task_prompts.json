@@ -1,0 +1,102 @@
+{
+  "version": "v4",
+  "notes": "Single-token answers. Options are listed as 'A. <class>' / 'B. <class>'; order A puts order_a[0] at A. Intros do not name the classes. Definitions are the v3 paraphrases unchanged. No paraphrase mentions location or gives a rule for uncertain cases.",
+  "versions": [
+    "defined",
+    "undefined"
+  ],
+  "orders": [
+    "A",
+    "B"
+  ],
+  "layouts": [
+    "options_last",
+    "options_first"
+  ],
+  "boundaries": {
+    "PR": {
+      "order_a": [
+        "Protest",
+        "Riot"
+      ],
+      "lower": "Protest",
+      "higher": "Riot",
+      "paraphrases": [
+        {
+          "intro": "You code demonstration events for a conflict-event dataset. Read the event description and decide which of the two event types below it is.",
+          "definitions": {
+            "Protest": "Protest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.",
+            "Riot": "Riot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property."
+          },
+          "answer": "Answer with one letter: A or B."
+        },
+        {
+          "intro": "You are an analyst labeling demonstration events for a dataset on political unrest. Classify the event described below as one of the two event types listed.",
+          "definitions": {
+            "Protest": "Protest: a demonstration whose participants do not use violence, even if others use force against them.",
+            "Riot": "Riot: a demonstration whose participants use violence or cause destruction, for example by attacking people or damaging property."
+          },
+          "answer": "Respond with a single letter, A or B."
+        },
+        {
+          "intro": "Your job is to categorize reports of public demonstrations for a research database. Decide which of the two categories below the reported event belongs to.",
+          "definitions": {
+            "Protest": "Protest: participants stay nonviolent, including events where others act violently toward them.",
+            "Riot": "Riot: participants commit violent or destructive acts, such as hurting people or breaking property."
+          },
+          "answer": "Reply with only the letter of the category: A or B."
+        },
+        {
+          "intro": "Below is a short report of a demonstration. Assign it to one of the two event types used in conflict monitoring that are listed below.",
+          "definitions": {
+            "Protest": "Protest: a public gathering in which the participants act without violence, including gatherings that are met with violence by others.",
+            "Riot": "Riot: a gathering in which the participants act violently or destructively, such as assaulting people or wrecking property."
+          },
+          "answer": "Give your answer as one letter: A or B."
+        }
+      ]
+    },
+    "BV": {
+      "order_a": [
+        "Battle",
+        "Violence against civilians"
+      ],
+      "lower": "Violence against civilians",
+      "higher": "Battle",
+      "paraphrases": [
+        {
+          "intro": "You code violent events for a conflict-event dataset. Read the event description and decide which of the two event types below it is.",
+          "definitions": {
+            "Battle": "Battle: a violent clash between organized armed groups that are capable of harming each other.",
+            "Violence against civilians": "Violence against civilians: an organized armed group deliberately attacks unarmed civilians who cannot defend themselves."
+          },
+          "answer": "Answer with one letter: A or B."
+        },
+        {
+          "intro": "You are an analyst labeling violent events for a dataset on armed conflict. Classify the event described below as one of the two event types listed.",
+          "definitions": {
+            "Battle": "Battle: organized armed groups fight each other, and each side is able to inflict harm on the other.",
+            "Violence against civilians": "Violence against civilians: an organized armed group intentionally targets unarmed civilians who have no means of defending themselves."
+          },
+          "answer": "Respond with a single letter, A or B."
+        },
+        {
+          "intro": "Your job is to categorize reports of violent incidents for a research database. Decide which of the two categories below the reported event belongs to.",
+          "definitions": {
+            "Battle": "Battle: an armed confrontation between organized groups that can both use force against each other.",
+            "Violence against civilians": "Violence against civilians: organized armed actors deliberately use force against civilians who are unarmed and defenseless."
+          },
+          "answer": "Reply with only the letter of the category: A or B."
+        },
+        {
+          "intro": "Below is a short report of a violent incident. Assign it to one of the two event types used in conflict monitoring that are listed below.",
+          "definitions": {
+            "Battle": "Battle: a fight between organized armed sides, each capable of hurting the other.",
+            "Violence against civilians": "Violence against civilians: an organized armed group purposely harms unarmed civilians who are unable to protect themselves."
+          },
+          "answer": "Give your answer as one letter: A or B."
+        }
+      ]
+    }
+  }
+}

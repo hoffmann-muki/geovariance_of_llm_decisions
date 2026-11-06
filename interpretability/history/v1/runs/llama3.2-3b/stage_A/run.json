@@ -1,0 +1,25 @@
+{
+  "batch_size": 1,
+  "device": "NVIDIA RTX A4000",
+  "dtype": "bfloat16",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "model_key": "llama3.2-3b",
+  "resolved_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "snapshot_manifest_sha256": "10bb0734dbaee737360278fd01c729d8bfce3fe987df2fb1ca273ee8e667d533",
+  "spec": {
+    "assistant_suffix": "<|start_header_id|>assistant<|end_header_id|>\n\n",
+    "dtype": "bfloat16",
+    "gated": true,
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "loader": "AutoModelForCausalLM",
+    "required_fragments": [
+      "Today Date: 26 Jul 2024\n"
+    ],
+    "template_kwargs": {
+      "date_string": "26 Jul 2024"
+    }
+  },
+  "stage": "A",
+  "torch": "2.14.1+cu126",
+  "transformers": "5.22.1"
+}

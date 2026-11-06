@@ -1,0 +1,406 @@
+{
+  "version": "final (= it05)",
+  "notes": "it04 keeps every it03 evidence sentence and frame f1, adds 12 borderline acts per boundary modelled on the it03 items that produced flips (minor projectiles, symbolic or small fires, small property acts for PR; single shots and non-lethal resistance for BV), and adds a second frame f2 per boundary. Borderline evidence states facts as certain. Wording 2 paraphrases wording 1. it05 removes BV frame f2, which failed V2 in it04 (BV-undefined p2 Battle anchor 4-6/8).",
+  "excluded_terms": [
+    "protest",
+    "riot",
+    "battle",
+    "civilian",
+    "violen",
+    "attack",
+    "clash",
+    "destr",
+    "damag",
+    "harm",
+    "defend",
+    "deliberat",
+    "unarmed",
+    "peaceful",
+    "police",
+    "arrest",
+    "injur",
+    "wound",
+    "soldier",
+    "army",
+    "military",
+    "ethnic",
+    "relig",
+    "tribe",
+    "tribal",
+    "party",
+    "parties",
+    "killed",
+    "dead"
+  ],
+  "boundaries": {
+    "PR": {
+      "lower_class": "Protest",
+      "higher_class": "Riot",
+      "frames": {
+        "f1": "On 12 June 2025, {actors} gathered {place}{country} to demonstrate against {grievance}. {evidence}",
+        "f2": "On 12 June 2025, a crowd of {actors} assembled {place}{country} to call attention to {grievance}. {evidence}"
+      },
+      "evidence": {
+        "anchor_lo": {
+          "role": "anchor_lower",
+          "wordings": [
+            "Participants stayed calm throughout the event.",
+            "The demonstrators remained calm for the whole gathering."
+          ]
+        },
+        "anchor_hi": {
+          "role": "anchor_higher",
+          "wordings": [
+            "Participants threw stones and set a parked car on fire.",
+            "Demonstrators hurled stones and set fire to a parked car."
+          ]
+        },
+        "barrier": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants pushed against a metal barrier until it fell over.",
+            "A few demonstrators shoved a metal barrier until it toppled."
+          ]
+        },
+        "graffiti": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants spray-painted slogans on the walls of a nearby building.",
+            "A few demonstrators painted slogans on the walls of a nearby building with spray paint."
+          ]
+        },
+        "eggs": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants threw eggs at a nearby building.",
+            "A few demonstrators hurled eggs at a nearby building."
+          ]
+        },
+        "tires": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants blocked the road with burning tires.",
+            "A few demonstrators set tires alight to block the road."
+          ]
+        },
+        "bottles": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants threw plastic water bottles toward a nearby building.",
+            "A few demonstrators tossed plastic water bottles at a nearby building."
+          ]
+        },
+        "door": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants kicked the front door of a nearby building until a glass panel cracked.",
+            "A few demonstrators kicked the front door of a nearby building until one of its glass panels cracked."
+          ]
+        },
+        "bins": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants knocked over rubbish bins along the street.",
+            "A few demonstrators tipped over trash bins on the street."
+          ]
+        },
+        "flag": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants burned a flag in front of a nearby building.",
+            "A few demonstrators set a flag on fire in front of a nearby building."
+          ]
+        },
+        "entrance": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants blocked the entrance of a nearby building and did not let staff leave.",
+            "A few demonstrators stood in the doorway of a nearby building and kept staff from leaving."
+          ]
+        },
+        "journalist": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants pushed a journalist who was filming the crowd.",
+            "A few demonstrators shoved a reporter who was filming the gathering."
+          ]
+        },
+        "fireworks": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants set off fireworks next to a nearby building.",
+            "A few demonstrators lit fireworks beside a nearby building."
+          ]
+        },
+        "window": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants broke a window of a nearby building.",
+            "A few demonstrators smashed one of the windows of a nearby building."
+          ]
+        },
+        "tomatoes": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants threw tomatoes at a nearby building.",
+            "A few demonstrators hurled tomatoes at a nearby building."
+          ]
+        },
+        "paint": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants threw paint at the entrance of a nearby building.",
+            "A few demonstrators splashed paint on the entrance of a nearby building."
+          ]
+        },
+        "shoes": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants threw shoes at a nearby building.",
+            "A few demonstrators hurled their shoes at a nearby building."
+          ]
+        },
+        "smoke": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants set off smoke bombs in front of a nearby building.",
+            "A few demonstrators lit smoke flares outside a nearby building."
+          ]
+        },
+        "effigy": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants burned an effigy in front of a nearby building.",
+            "A few demonstrators set fire to an effigy outside a nearby building."
+          ]
+        },
+        "sign": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants tore down a sign on a nearby building.",
+            "A few demonstrators pulled a sign off a nearby building."
+          ]
+        },
+        "planters": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants overturned flower planters along the street.",
+            "A few demonstrators knocked over flower planters on the street."
+          ]
+        },
+        "firecrackers": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants threw firecrackers toward a nearby building.",
+            "A few demonstrators tossed firecrackers at a nearby building."
+          ]
+        },
+        "guards": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants pushed past security guards at the entrance of a nearby building.",
+            "A few demonstrators shoved their way past security guards at the entrance of a nearby building."
+          ]
+        },
+        "bin_fire": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants set a rubbish bin on fire.",
+            "A few demonstrators lit a trash bin on fire."
+          ]
+        },
+        "car_dent": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants kicked a parked car, leaving dents in it.",
+            "A few demonstrators kicked a parked car and dented it."
+          ]
+        },
+        "rocks_ground": {
+          "role": "borderline",
+          "wordings": [
+            "Some participants threw small rocks onto the road in front of a nearby building.",
+            "A few demonstrators tossed small rocks onto the road outside a nearby building."
+          ]
+        }
+      }
+    },
+    "BV": {
+      "lower_class": "Violence against civilians",
+      "higher_class": "Battle",
+      "frames": {
+        "f1": "On 12 June 2025, members of an armed group and members of another group were involved in a shooting {place}{country} {time}. {evidence}"
+      },
+      "evidence": {
+        "anchor_lo": {
+          "role": "anchor_lower",
+          "wordings": [
+            "The other group were farmers who carried no weapons.",
+            "Members of the other group were farmers and had no weapons."
+          ]
+        },
+        "anchor_hi": {
+          "role": "anchor_higher",
+          "wordings": [
+            "The other group was a rival armed group, and the two sides exchanged fire for an hour.",
+            "The other group was a rival armed group, and the two groups traded gunfire for an hour."
+          ]
+        },
+        "selfdef": {
+          "role": "borderline",
+          "wordings": [
+            "The other group belonged to a village self-defense committee and carried rifles.",
+            "Members of the other group were part of a local self-defense committee and were armed with rifles."
+          ]
+        },
+        "fired_fled": {
+          "role": "borderline",
+          "wordings": [
+            "One member of the other group fired back with a hunting rifle before the group fled.",
+            "A member of the other group returned fire once with a hunting rifle, and then the group ran away."
+          ]
+        },
+        "air": {
+          "role": "borderline",
+          "wordings": [
+            "One member of the other group fired a hunting rifle into the air.",
+            "A member of the other group shot a hunting rifle into the air."
+          ]
+        },
+        "guards": {
+          "role": "borderline",
+          "wordings": [
+            "The other group was guarding the area, and some of its members carried rifles.",
+            "The other group was keeping watch over the area, and a few of its members had rifles."
+          ]
+        },
+        "hunters": {
+          "role": "borderline",
+          "wordings": [
+            "The other group were hunters carrying shotguns.",
+            "Members of the other group were hunters who had shotguns with them."
+          ]
+        },
+        "patrol": {
+          "role": "borderline",
+          "wordings": [
+            "The other group was a neighborhood patrol armed with machetes and sticks.",
+            "The other group was a local patrol whose members carried machetes and sticks."
+          ]
+        },
+        "stones": {
+          "role": "borderline",
+          "wordings": [
+            "Members of the other group threw stones at the armed group.",
+            "People in the other group hurled stones at the armed group."
+          ]
+        },
+        "carried_nofire": {
+          "role": "borderline",
+          "wordings": [
+            "Some members of the other group carried rifles, but none of them fired.",
+            "A few people in the other group had rifles but did not use them."
+          ]
+        },
+        "former": {
+          "role": "borderline",
+          "wordings": [
+            "The other group included former fighters of a rival armed group who no longer carried weapons.",
+            "Some members of the other group had once fought for a rival armed group but no longer had weapons."
+          ]
+        },
+        "pistol": {
+          "role": "borderline",
+          "wordings": [
+            "One member of the other group carried a pistol and fired it once.",
+            "A member of the other group had a pistol and fired a single shot."
+          ]
+        },
+        "sticks": {
+          "role": "borderline",
+          "wordings": [
+            "Members of the other group fought back with sticks and machetes.",
+            "People in the other group hit back with sticks and machetes."
+          ]
+        },
+        "rifle_shots": {
+          "role": "borderline",
+          "wordings": [
+            "One member of the other group carried a rifle and fired several shots.",
+            "A member of the other group had a rifle and fired a few shots."
+          ]
+        },
+        "shotgun_once": {
+          "role": "borderline",
+          "wordings": [
+            "One member of the other group fired a shotgun once before the group scattered.",
+            "A member of the other group shot a shotgun one time, and then the group scattered."
+          ]
+        },
+        "petrol_bomb": {
+          "role": "borderline",
+          "wordings": [
+            "Members of the other group threw a petrol bomb at the armed group.",
+            "People in the other group hurled a petrol bomb at the armed group."
+          ]
+        },
+        "watchman": {
+          "role": "borderline",
+          "wordings": [
+            "The other group included a night watchman who carried a pistol.",
+            "One person in the other group was a night watchman with a pistol."
+          ]
+        },
+        "vigilantes": {
+          "role": "borderline",
+          "wordings": [
+            "The other group was a vigilante group formed by local residents, some of whom carried shotguns.",
+            "The other group was a vigilante group of local residents, a few of whom had shotguns."
+          ]
+        },
+        "kept_rifles": {
+          "role": "borderline",
+          "wordings": [
+            "The other group included men who had recently left a rival armed group and still had their rifles.",
+            "Some members of the other group had recently quit a rival armed group and kept their rifles."
+          ]
+        },
+        "warning_shot": {
+          "role": "borderline",
+          "wordings": [
+            "One member of the other group fired a warning shot into the ground.",
+            "A member of the other group shot once into the ground as a warning."
+          ]
+        },
+        "hunters_back": {
+          "role": "borderline",
+          "wordings": [
+            "The other group were hunters, and one of them fired back at the armed group.",
+            "Members of the other group were hunters, and one hunter returned fire at the armed group."
+          ]
+        },
+        "drivers_pistol": {
+          "role": "borderline",
+          "wordings": [
+            "The other group were truck drivers, one of whom carried a pistol.",
+            "Members of the other group were truck drivers, and one of them had a pistol."
+          ]
+        },
+        "militia_unarmed": {
+          "role": "borderline",
+          "wordings": [
+            "Members of the other group had joined a local militia a month earlier but carried no weapons that day.",
+            "Some members of the other group had joined a local militia a month before but had no weapons with them that day."
+          ]
+        },
+        "slingshots": {
+          "role": "borderline",
+          "wordings": [
+            "Members of the other group fired slingshots at the armed group.",
+            "People in the other group used slingshots against the armed group."
+          ]
+        }
+      }
+    }
+  }
+}

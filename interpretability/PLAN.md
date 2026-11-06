@@ -1,194 +1,195 @@
-# Geographic Priors Under Ambiguity: Pilot
+# Geographic Flips in LLM Event Coding: Dataset Construction (v4)
 
-This exploration is self-contained. It does not inherit the earlier behavioral study's endpoints, analysis registry or review process.
+Version 4, 6 November 2026. **Status: design frozen up to the pilot; the pilot is partly scored; no country has been scored.** This document defines the task, the materials, the scoring and one pre-specified filtering procedure, so that the dataset can be rebuilt from `inputs/v4/` with `geoflip/`. Version 3 (an exploratory, stage-wise curation) and the review that replaced it are in `history/v3/` and `history/ITERATIONS.md`; § 10 summarises why.
 
-## Question and Hypothesis
+## 1. Goal and Claims
 
-When the evidence in an event description is ambiguous, do LLMs use the country name to decide how to code the event?
+The project builds event descriptions whose class, as coded by `meta-llama/Llama-3.2-3B-Instruct`, changes when only the name of the country where the event happened changes. A **flip** is a change in the model's **actual answer** on a concrete prompt, not in a score averaged over prompts.
 
-**H1.** For events with matched, ambiguous evidence, a model's preference between two confusable classes differs across countries.
+Unlike v3, every description of a fixed, fully crossed population is scored and one rule decides inclusion, so the study supports two kinds of claim:
+- **Existence:** flip descriptions exist beyond what invented placebo names produce.
+- **Prevalence within the constructed population:** how often flips occur, by act, frame, task version and country. This is not a prevalence estimate for real event coding.
 
-The pilot tests H1 only, at two class boundaries:
-- **Protest ↔ Riot (PR):** did the demonstrators use violence?
-- **Battle ↔ Violence against civilians (BV):** were the people attacked able to fight back?
+A flip shows that the decision depends on the country name, not that the dependence is wrong.
 
-It uses two models, `Qwen/Qwen3.5-4B` and `meta-llama/Llama-3.2-3B-Instruct`, and two task versions per boundary. Support for H1 means the country name influences the decision. It does not mean the influence is an error: a model applying base rates and a model applying stereotypes would both show it. Telling those apart, testing a direction, and mechanistic analysis all wait for this result.
+## 2. Task
 
-## Terms
+Two pairs of confusable classes (**boundaries**), adapted from ACLED event coding:
 
-- **Stimulus:** one event description, identified by boundary, base, evidence level, wording and country condition.
-- **Task version:** *defined* (the prompt gives class definitions) or *undefined* (the prompt names the classes only).
-- **Prompt order:** the order in which the two classes appear in the system prompt, called order A and order B.
-- **Prompt:** one stimulus combined with one task version and one prompt order. Each prompt gets one forward pass.
+| Boundary | Lower class | Higher class | Distinguishing question |
+| --- | --- | --- | --- |
+| **PR** | Protest | Riot | Did the demonstrators themselves use violence? |
+| **BV** | Violence against civilians | Battle | Could the targeted group fight back? |
 
-## Task Description
+The higher class needs a specific fact (violence by demonstrators; an armed opposing side). Scores are signed so that positive favours the higher class.
 
-Each prompt asks for a binary choice between the two classes at one boundary. A binary task gives a clean score and stops probability from drifting to unrelated classes. The user message is always the event description alone.
+## 3. Materials
 
-### PR, defined (order A)
+### 3.1 Frames
 
-> You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Protest or a Riot.
->
-> Protest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.
->
-> Riot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property.
->
-> Answer with one word: Protest or Riot.
+No frame contains a date (v3's "On 12 June 2025" fell after the model's stated "today" and is a national day in Russia, the Philippines and Nigeria). The BV frames name the first group as an armed group, because both class definitions require one, and describe the other group neutrally without saying who acted against whom.
 
-### PR, undefined (order A)
-
-> You code demonstration events for a conflict-event dataset. Read the event description and decide whether the event is a Protest or a Riot.
->
-> Answer with one word: Protest or Riot.
-
-### BV, defined (order A)
-
-> You code violent events for a conflict-event dataset. Read the event description and decide whether the event is a Battle or Violence against civilians.
->
-> Battle: a violent clash between organized armed groups that are capable of harming each other.
->
-> Violence against civilians: an organized armed group deliberately attacks unarmed civilians who cannot defend themselves.
->
-> Answer with exactly one of: Battle, Violence against civilians.
-
-### BV, undefined (order A)
-
-> You code violent events for a conflict-event dataset. Read the event description and decide whether the event is a Battle or Violence against civilians.
->
-> Answer with exactly one of: Battle, Violence against civilians.
-
-**Order B** reverses the two classes everywhere they appear in the system prompt: in the task sentence, in the definitions (defined version only), and in the answer options. In order B, Riot comes before Protest, and Violence against civilians comes before Battle.
-
-**Design choices and reasons:**
-- **Two task versions.** The defined version uses ACLED-style definitions, which make the anchors' correct answers explicit. The undefined version leaves the model to rely on its own idea of each class, which is where an unstated prior is most likely to act. Comparing the two shows whether definitions limit any country effect.
-- **No tie-breaking rule**, such as "code Riot only if violence is confirmed." Such a rule would settle the ambiguous cases and remove the room a prior needs to act.
-- **The prompt says nothing about country**, neither "ignore location" nor "consider context." The pilot measures default behavior, not compliance with an instruction.
-- **Answers are scored by log-probability, not generated text.** The answer position is the first position after each model's assistant header: `<|im_start|>assistant\n<think>\n\n</think>\n\n` for Qwen3.5 and `<|start_header_id|>assistant<|end_header_id|>\n\n` for Llama 3.2. Both models split the answers into several tokens (`Pro`+`test`, `R`+`iot`, `Battle`, `Viol`+`ence`+` against`+` civilians`). A first-token logit would therefore compare `Pro` with `R`, and `R` begins many words. An answer's score is instead the teacher-forced sum of the log-probabilities of all its tokens: feed the prompt plus the answer, and read each answer token from the logit row before it. Answer tokens come from tokenizing the rendered prompt with the answer appended, and the prompt's own tokens must stay unchanged.
-- **Qwen3.5 thinking is disabled** (`enable_thinking=False` in the chat template). The template then inserts an empty reasoning block, and the answer follows it.
-- **Llama 3.2's template inserts the current date**, so pass a fixed date (`26 Jul 2024`) to keep prompts identical across runs.
-- **Each checkpoint loads with its own architecture class.** Qwen3.5 is saved as a vision-language model, and loading stops if any weights are missing.
-- **Verification** (`tests/test_interp_score.py`):
-  - Logic tests confirm the scorer reads the right rows.
-  - Tokenizer tests confirm each model's answer position and answer tokens on snapshot prompts.
-  - Model tests confirm that the first answer token's log-probability matches the model's own first generation step, that greedy output begins with exactly one answer and matches the teacher-forced scores, and that the answers hold at least 90% of the probability on anchor prompts.
-  - Scoring starts only after all three tiers pass.
-- **Scoring:** one forward pass per prompt, batch size 1, no padding, no sampling.
-
-## Dataset Construction
-
-### Shared Rules
-
-- Each boundary has one fixed frame. Within a base, only the evidence sentence and the country phrase vary.
-- **Country conditions:** the slot reads " in {country}" for Libya, Morocco, Mexico, the United States, Brazil, Colombia, India, Pakistan, China and South Korea. The no-country version omits the phrase. Country appears once, in the same position, in every stimulus.
-- **Evidence ladder:** five levels per boundary. Levels 1 and 5 are unambiguous anchors. Each level step adds evidence about who acted or how certain the report is, not just a more severe act, so the definitions cannot settle the middle levels.
-- Each level has two wordings, recorded in a versioned phrase list. Wording differences give a reference scale for judging how large a country effect is.
-- **Excluded from the frames:** named people, named cities or groups, ethnic or religious identities, political parties, and state forces. Each frame uses one fixed date.
-
-### PR Frame and Ladder
-
-> On 12 June 2025, {actors} gathered {place}{country} to protest {grievance}. {evidence} The gathering ended by evening.
-
-**Bases.** 24 bases cross six actor groups (students, factory workers, residents, farmers, market traders, retirees) with four grievances that suit every actor group (rising fuel prices, water shortages, power outages, a proposed tax increase). Places rotate so each actor group appears at all four (outside a government office, in a central square, near a ministry building, outside a town hall), six bases per place.
-
-The frame also excludes police action, arrests, injuries and deaths, since each could decide the label on its own.
-
-| Level | Evidence that participants used violence | Example wording |
-| --- | --- | --- |
-| 1 | Explicitly absent (Protest anchor) | Participants remained peaceful throughout. |
-| 2 | Minor and disputed | Some reports mentioned scuffles, but organizers said the event was peaceful. |
-| 3 | Damage occurred, actor unknown | A nearby car was damaged; it is unclear whether participants or bystanders were responsible. |
-| 4 | Attributed to participants, unconfirmed | Witnesses said some participants threw stones, though this could not be confirmed. |
-| 5 | Confirmed (Riot anchor) | Participants threw stones and set a parked car on fire. |
-
-### BV Frame and Ladder
-
-> On 12 June 2025, members of an armed group opened fire on a group of people {place}{country} {time}. {evidence} Two people were killed.
-
-**Bases.** 24 bases cross six places (in a village, on a farm, on a rural road, in a riverside settlement, in a hillside settlement, near a market on the edge of a town) with four times (in the early morning, in the afternoon, in the evening, at night).
-
-The attackers are always "members of an armed group", so their identity never varies. The casualty count is fixed, so it cannot track the evidence level.
-
-| Level | Evidence that the people attacked could fight back | Example wording |
-| --- | --- | --- |
-| 1 | Explicitly unarmed (Violence against civilians anchor) | The people attacked were unarmed local residents. |
-| 2 | Identity disputed | Local officials described the people attacked as residents, while the attackers claimed they were militia members. |
-| 3 | Unknown | It is unclear whether the people attacked were armed. |
-| 4 | Armed, unconfirmed | Witnesses said some of the people attacked carried rifles, though this could not be confirmed. |
-| 5 | Confirmed (Battle anchor) | The people attacked were members of a rival armed group and returned fire. |
-
-### Size per Model and Boundary
-
-Each stimulus is scored under both task versions and both prompt orders, so it yields four prompts.
-
-| Stage | Stimuli | Prompts |
-| --- | --- | --- |
-| A: calibration (no-country) | 24 bases × 5 levels × 2 wordings = 240 | 960 |
-| B: countries | 240 × 10 countries = 2,400 | 9,600 |
-
-Across both boundaries, that is 21,120 prompts per model and 42,240 for the pilot.
-
-### Construction Checks
-
-These run automatically before any scoring:
-- Within a base, any two stimuli differ only in the evidence sentence or the country phrase.
-- Every base has every level, wording and country condition.
-- Every evidence phrase comes from the frozen phrase list.
-- Stimulus IDs record boundary, base, level, wording and country.
-
-You review the bases, phrase lists and prompts before Stage A.
-
-## Procedure
-
-**Stage A: calibrate the ladders without countries.** Score the no-country prompts for both models. A ladder is calibrated separately for each model × boundary × task version combination, using the score defined under Analysis. It passes when:
-- At least 90% of anchor stimuli receive the intended label at level 1 and at level 5.
-- The score rises with level (Spearman ρ > 0) in at least 80% of base × wording ladders.
-- For at least half of the bases, some middle level (2–4) has a probability between 0.2 and 0.8 for the higher-evidence class, renormalized over the two answers. This confirms the ladder contains real ambiguity.
-- The median combined probability of the two complete answers is at least 0.9.
-
-If a ladder fails, revise its phrase list using Stage A results only, record each revision, and repeat Stage A. Because no country data has been scored, calibration cannot be tuned toward a country result.
-
-When the ladders pass, freeze the phrase lists and record their hashes. H1 is tested only for combinations whose ladder passed.
-
-**Stage B: test H1.** Score the country prompts with the frozen ladders.
-
-## Analysis of H1
-
-- **Score:** d = log P(higher-evidence answer) − log P(lower-evidence answer), using the complete-answer log-probabilities. That is Riot − Protest for PR and Battle − Violence against civilians for BV, so d rises with evidence level at both boundaries.
-- **Averaging over prompt orders.** Each stimulus is scored twice under the same task version: once with order A and once with order B. A model may favor whichever class is listed first or last, regardless of content. Averaging the two scores, d = (d_A + d_B) / 2, cancels that position preference and leaves one score per stimulus and task version. Report the order effect, d_A − d_B, descriptively. A large order effect means position bias is strong relative to the content signal.
-- **Country shift:** for each base and country, the mean of d over levels 2–4 and both wordings, minus that base's mean across the ten countries.
-- **Test:** a Friedman test of country shifts across the ten countries, blocked by base (24 blocks), for each model × boundary × task version: eight tests. Holm adjustment across the eight, α = 0.05. H1 is supported for a combination if its adjusted p < 0.05.
-- **Effect sizes:**
-  - Kendall's W.
-  - Per-country shifts with 95% intervals from 10,000 bootstrap resamples of bases (seed 42).
-  - Shifts in evidence-level units, by dividing by the no-country ladder slope.
-  - The reference scale: the median absolute difference in d between the two wordings of the same level.
-- **Descriptive:**
-  - Label changes at level 3 across countries.
-  - Mean real-country score compared with the no-country condition.
-  - Defined versus undefined task versions: the difference in Kendall's W and in per-country shifts.
-- **Determinism check:** rescoring 20 prompts per model changes answer log-probabilities by at most 0.01.
-
-Models and boundaries are analyzed separately, because their scores are not on a common scale.
-
-## Models and Compute
-
-| Model | Notes |
+| Id | Frame |
 | --- | --- |
-| `Qwen/Qwen3.5-4B` | Apache-2.0, not gated. Vision-language architecture, used text-only; needs a recent transformers release. Thinking disabled. |
-| `meta-llama/Llama-3.2-3B-Instruct` | Gated: `HF_TOKEN` must belong to an account that accepted the Llama 3.2 license. |
+| PR f1 | `A group of {actors} rallied {place}{country} to oppose {grievance}. {evidence}` |
+| PR f2 | `A crowd of {actors} assembled {place}{country} to call attention to {grievance}. {evidence}` |
+| BV f1 | `Members of an armed group and members of another group were involved in a shooting {place}{country} {time}. {evidence}` |
+| BV f2 | `A shooting {time} {place}{country} involved members of an armed group and members of another group. {evidence}` |
 
-Both models run in bf16, with the resolved Hugging Face revision, transformers version and GPU recorded. Both fit on one 16–24 GB GPU. Prepare stimuli and run analyses locally. Use a Runpod on-demand pod only for scoring, copy outputs back as soon as each stage ends, and terminate the pod between stages, since stopped pods still bill for disk.
+### 3.2 Items: Where the Acts Come From
 
-## Layout
+Items are not chosen by looking at model scores. They come from how human coders code real events:
 
-| Path | Contents |
+1. **Source.** 137,947 ACLED events in `conflict_data/` (5 regional exports, 12 Oct 2024 – 10 Oct 2025) with free-text notes and sub-event types.
+2. **Comparison groups.** PR: Violent demonstration (higher) vs Peaceful protest and Protest with intervention (lower); Mob violence is excluded because it is not a demonstration. BV: Armed clash (higher) vs Attack (lower).
+3. **Act lexicon.** A fixed, versioned set of regular expressions (`geoflip/acled.py`, lexicon v1), each tagged with dimension levels derived from the class definitions: PR act type (projectile, fire, obstruction, property, entry, person) × target; BV the other side's means × use × organisation.
+4. **Measurement.** For each act, the number of notes on each side that mention it, and **P(higher | act)**, the share coded as the higher class. Written to `inputs/v4/acled_acts.csv`; notes are never copied.
+5. **Inclusion rule (fixed before any scoring).** Every concrete act (not a generic pattern such as "damage") mentioned in **at least 20 notes** becomes one item. An act that forms an anchor by itself is the anchor, not an item.
+
+This gives **29 PR items and 22 BV items**, spanning the full range of human coding, for example:
+
+| Act | Notes (higher / lower) | P(higher \| act) | Item W1 |
+| --- | --- | --- | --- |
+| burn_effigy | 13 / 952 | 0.01 | Some participants burned an effigy in the street. |
+| throw_eggs | 8 / 19 | 0.30 | Some participants threw eggs at a nearby building. |
+| barricade | 173 / 153 | 0.53 | Some participants built barricades across the road. |
+| burn_tires | 523 / 5 | 0.99 | Some participants burned tires in the road. |
+| fishermen | 2 / 21 | 0.09 | The other group were fishermen returning from the river. |
+| stones | 48 / 37 | 0.56 | The other group threw stones at the armed group. |
+| pistol | 581 / 94 | 0.86 | One member of the other group carried a pistol. |
+| grenade | 293 / 27 | 0.92 | One member of the other group threw a grenade at the armed group. |
+
+Acts excluded by the 20-note rule include shoes (8), tomatoes (5), vigilantes (6), hunters (5) and warning shots (6). The full list with counts is in `inputs/v4/items.json`.
+
+**Anchors** are attested acts at the extremes. PR lower: "Participants chanted slogans and held placards the whole time." (P = 0.02). PR higher: "Participants threw stones and burned parked cars." BV lower: "The other group were farmers who carried no weapons." BV higher: "The two groups exchanged fire for an hour." (P = 0.99).
+
+### 3.3 Rules for Evidence Sentences (Checked by V0)
+
+`geoflip/study.py: static_findings` enforces every rule; the tests inject one violation of each.
+1. One sentence of 5–16 words.
+2. Stated as certain: none of a fixed list of hedges and modals (unclear, reportedly, allegedly, possibly, may, might, could, …).
+3. **No word sharing a 5-letter stem with any content word of a class name or definition paraphrase.** The list is built automatically from `task_prompts.json`, after removing fixed role terms (group, members, participants, demonstrators, armed group). This caught "against" (class name), "gathered" (definition "gathering") and "committee" (definition "commit"); the frames and items were reworded.
+4. No capitalised word except the first (a check for named entities); no state-force, ethnic, religious or party words.
+5. No outcome or casualty words (killed, injured, arrested, …).
+6. The country phrase appears once, directly after `{place}`, and is the only difference between conditions.
+
+Two items use a stand-in where the ACLED term would break rule 3: a self-defence group is written as "a village night patrol", and "forced open" as "pried open".
+
+### 3.4 Wordings
+
+W1 is the canonical sentence. W2 applies fixed transformations (`items.W2_RULES`): the subject swap ("Some participants" → "A few demonstrators"; "The other group" → "Members of the other group"; "One member" → "A member") and at most one verb substitution from a fixed table (threw → hurled, burned → set fire to, carried → had, …). Wording is a factor of the population, analysed as such.
+
+### 3.5 Bases
+
+Fill-in values (PR: actors, grievance, place; BV: place, time) come from fixed lists in `geoflip/materials.py`, none of which appears in any v1–v3 base (checked against `history/`). The pilot (8 bases) and main (12 bases) splits use disjoint value lists, and each value appears once per split through a fixed permutation. BV times are generic and are shared across splits. Example: `pr4_main_01` = airport staff, late scholarship payments, near a train depot.
+
+### 3.6 Names
+
+- **37 real countries**, as in v1–v3: the 10 countries of the main behavioral study plus 27 for regional coverage. This is a convenience frame; token count and the "the" form are recorded as covariates.
+- **20 placebo names** (Step 6, not yet generated): invented by `geoflip/placebo.py` from a fixed syllable inventory and seed, rejected if they are a real place (any ACLED country, admin area or location, or a world country) or an existing vocabulary token, and matched to the real names' character lengths by quantile. No token-count matching is needed.
+- **No country.**
+
+## 4. Task Prompts
+
+Answers are **single tokens**: the options are listed as `A. <class>` and `B. <class>`, and the prompt asks for one letter. **Order** decides which class is A, so the letter is counterbalanced with order. 4 paraphrases (intro, definitions, answer instruction) × 2 orders × 2 versions (*defined*: with class definitions; *undefined*: without) per boundary. The intros do not name the classes. The definitions are the v3 paraphrases unchanged. Two layouts are candidates (§ 6.1): `options_last` (instruction, then options) and `options_first`.
+
+Example, PR, defined, p0, order A, `options_last`:
+
+```
+You code demonstration events for a conflict-event dataset. Read the event description and decide which of the two event types below it is.
+
+Protest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.
+
+Riot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property.
+
+Answer with one letter: A or B.
+
+A. Protest
+B. Riot
+```
+
+The system prompt is followed by the description as the user turn. The Llama chat template always writes `Cutting Knowledge Date: December 2023 / Today Date: …`; it is fixed at `26 Jul 2024`, so the only date in any prompt is this constant header (tested).
+
+## 5. Scoring
+
+- Model revision `0cb88a4f764b7a12671c53f0838cd831a0843b95`, bf16 (subject to the fp32 audit, § 6.1), one prompt per forward pass, no batching.
+- `scoring.score_first_token` reads log P("A") and log P("B") at the first answer position, after checking that each letter is exactly one token there; it also records P(A) + P(B) (the **mass**) and the top-5 tokens.
+- For one description and one concrete prompt k: **d_k** = log P(letter of the higher class) − log P(letter of the lower class). The model's answer is the higher class if d_k > 0.
+- Scores are cached in `<work>/cache/llama3.2-3b_bfloat16_0cb88a4f76_first_token.jsonl`, keyed by the system prompt and description.
+
+## 6. Procedure
+
+### 6.1 Pilot (pilot bases only, then discarded)
+
+All items and anchors × 2 frames × 8 pilot bases × 2 wordings, no country, all 32 system prompts, both layouts (56,320 prompts). Rules fixed in `study.py` before scoring:
+- **Gates per concrete prompt** (boundary × version × paraphrase × order): anchor accuracy ≥ 0.9 at both ends in each frame; 5th percentile of mass ≥ 0.9.
+- **First token:** at least 99% of pilot prompts have A or B as the most likely token.
+- **Layout choice:** among layouts passing every gate, the one with the smallest mean |d(order A) − d(order B)|.
+- **fp32 audit:** 200 random pilot prompts re-scored in fp32; bf16 is used for the main run if max |Δd| ≤ 0.05.
+- **Throughput** fixes the number of main bases.
+- If a frame or layout fails, it is revised, logged in `history/ITERATIONS.md`, and the pilot is rerun. The main population is untouched until then.
+
+### 6.2 Pre-Registration (Step 6)
+
+`inputs/v4/prereg.json` will hold the population definition, every threshold, the filtering rule and the analysis list, with sha256 hashes of all inputs, written before the main run; the pipeline will refuse to run if a hash differs.
+
+### 6.3 Main Population, Scored Once
+
+Items and anchors × 2 frames × 2 wordings × 12 main bases × 58 names (37 real, 20 placebo, none) × 2 versions × 8 prompts of the chosen layout: about 1.38M prompts for PR and 1.07M for BV. At the measured pilot rate (about 31 prompts/s on one RTX A4000) that is about 12 h and 10 h, in parallel on two GPUs.
+
+### 6.4 One Filtering Rule
+
+Applied within each version:
+- An answer on prompt k is **confident** if |d_k| ≥ m, with **m = 0.5**.
+- A pair of real countries **flips** on prompt k if both answers are confident and opposite.
+- A description is a **flip description** if some real-country pair flips in the same direction on **at least K = 4 of the 8** prompts. The full curve over K = 1…8 is reported.
+- **Null:** the same rule on placebo pairs and on real–placebo pairs. The excess of real-pair flips over placebo-pair flips is the main result.
+- **Replication:** split-half correlation of country effects across base halves. No split is used to select items.
+
+### 6.5 Release
+
+`dataset/defined/` and `dataset/undefined/`, each with descriptions, cells (per-prompt d, mass, top-5 tokens), flip descriptions with their qualifying pairs and prompts, the population summary, the null comparison and a manifest. A second adversarial review checks the report against the data before release.
+
+## 7. Status
+
+| Step | State |
 | --- | --- |
-| `interpretability/data/` | `ladders.json` (frames, phrase lists, country names), `bases_pr.csv`, `bases_bv.csv`, `prompts.json` (system-prompt parts) |
-| `interpretability/data/stimuli/` | Immutable snapshot from `python3 -m src.interp_stimuli --output-dir interpretability/data/stimuli`: stimuli, rendered system prompts, prompt schedule, construction checks |
-| `interpretability/runs/` | Logits and run manifests per model and stage |
-| `interpretability/results/` | Calibration and H1 reports |
-| `src/interp_*.py`, `tests/test_interp_*.py` | Code and tests |
+| 1. Archive v3 | Done: `history/v3/` |
+| 2. Items from definitions and ACLED | Done: `inputs/v4/acled_acts.csv`, `inputs/v4/items.json` |
+| 3. Frames, V0 rules, wordings, bases | Done: `inputs/v4/descriptions.json`, `inputs/v4/bases/`; V0 has no findings |
+| 4. A/B task prompts, first-token scorer | Done: `inputs/v4/task_prompts.json`, `scoring.score_first_token`, `study.Scorer`; 11 tests pass |
+| 5. Pilot | **Partly scored** when GPU access ended (see HANDOFF.md); no gate result yet |
+| 6. Placebos, pre-registration, main run | Not started (`geoflip/placebo.py` written, not run) |
+| 7. Filter and null | Not started |
+| 8. Release, report, second review | Not started |
 
-## Limits
+## 8. Reproduction
 
-Two small models, two class boundaries and constructed English descriptions with a single country mention. Ladder levels are designed, not drawn from real reports. A null result does not establish invariance on natural text, and a positive result does not establish harm or show how often such ambiguity arises in practice.
+```bash
+cd interpretability
+export PY=python HF_HOME=/path/to/hf_cache GEOFLIP_WORK=/path/to/work   # HF_TOKEN in env or .env
+$PY -m geoflip.acled --out inputs/v4/acled_acts.csv
+$PY -m geoflip.items --acts inputs/v4/acled_acts.csv --out inputs/v4/items.json
+$PY -m geoflip.materials --items inputs/v4/items.json --out inputs/v4
+$PY -m geoflip.study check
+CUDA_VISIBLE_DEVICES=0 $PY -m geoflip.study pilot
+$PY -m geoflip.study fp32_audit --layout <chosen layout>
+$PY -m unittest discover -s tests -t .
+```
+
+## 9. Known Limitations
+
+- **The ACLED lexicon measures mentions, not who acted.** A note mentioning "threw stones" may describe police or bystanders; agent restriction is applied only to person-contact acts. Pattern precision has not been audited.
+- **The ACLED notes cover five regions** (East Asia, North Africa, North America, South America, South Asia), so P(higher | act) reflects coding there.
+- One fact per sentence: combinations of acts are not crossed.
+- The 37-country set is a convenience frame.
+- bf16 scores move in steps of about 0.06 nats unless the fp32 audit forces fp32.
+
+## 10. Why v3 Was Replaced
+
+An adversarial review of v3 (confirmed against the score cache) found:
+- **Order bias.** Class order shifted single prompts by about 10 nats in BV, so under 7 of 8 BV prompts almost no released row changed its actual answer across countries. The v3 flips existed only in an order- and paraphrase-averaged score.
+- **The robust-label rule.** Its 3-of-4 paraphrase vote failed as a robustness check, because one paraphrase was systematically offset (1,250 of 1,252 BV Battle labels had the pattern `++-+`).
+- **Surface form.** Two invented names differed about as much as real countries in PR.
+- **Selection on outcome.** Items, countries and caps were chosen after looking at results across five iterations.
+- **Dates and versions.** The frame date was a confound, and versions were mixed across boundaries.

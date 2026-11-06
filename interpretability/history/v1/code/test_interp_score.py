@@ -175,8 +175,8 @@ class RealTokenizerTests(unittest.TestCase):
                     self.assertTrue(text.endswith(spec["assistant_suffix"]))
 
     def test_qwen_template_has_an_empty_reasoning_block(self):
-        tokenizer = self.tokenizers["qwen3.5-4b"]
-        spec = interp_score.MODELS["qwen3.5-4b"]
+        tokenizer = self.tokenizers["qwen3-4b"]
+        spec = interp_score.MODELS["qwen3-4b"]
         text, _ = interp_score.render_prompt(tokenizer, spec, "System.", "User.")
         self.assertEqual(text.count("<think>"), 1)
         self.assertTrue(text.endswith("<think>\n\n</think>\n\n"))

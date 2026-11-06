@@ -1,0 +1,65 @@
+boundary,act,dimensions,n_higher,n_lower,share_higher,notes_higher,notes_lower,pattern,lexicon_version
+PR,throw_stones,projectile/unspecified,371,26,0.9345,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?(?:stones?|rocks?|bricks?)\b",1
+PR,throw_eggs,projectile/unspecified,8,19,0.2963,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?eggs?\b",1
+PR,throw_tomatoes,projectile/unspecified,2,3,0.4,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?tomato(?:es)?\b",1
+PR,throw_shoes,projectile/unspecified,2,6,0.25,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?(?:shoes?|slippers?|sandals?)\b",1
+PR,throw_bottles,projectile/unspecified,36,84,0.3,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?bottles?\b",1
+PR,throw_water,projectile/unspecified,19,12,0.6129,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?water\b",1
+PR,throw_paint_ink,projectile/unspecified,6,14,0.3,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?(?:paint|ink)\b",1
+PR,throw_fireworks,projectile/unspecified,32,0,1.0,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?(?:fireworks?|firecrackers?|crackers?)\b",1
+PR,throw_objects,projectile/unspecified,68,10,0.8718,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?objects?\b",1
+PR,throw_petrol_bomb,projectile/unspecified,44,0,1.0,3003,83522,"\b(?:threw|throw|throwing|hurled|hurling|pelted|pelting|tossed|lobbed)\W+(?:\w+\W+){0,4}?(?:petrol bombs?|molotov\w*)\b",1
+PR,burn_tires,fire/property,523,5,0.9905,3003,83522,"\b(?:burn(?:ed|t|ing)?|set (?:on )?fire(?: to)?|set ablaze|set alight|torch(?:ed|ing))\W+(?:\w+\W+){0,4}?(?:tires|tyres)\b",1
+PR,burn_effigy,fire/symbolic,13,952,0.0135,3003,83522,"\b(?:burn(?:ed|t|ing)?|set (?:on )?fire(?: to)?|set ablaze|set alight|torch(?:ed|ing))\W+(?:\w+\W+){0,4}?effig(?:y|ies)\b",1
+PR,burn_flag,fire/symbolic,5,45,0.1,3003,83522,"\b(?:burn(?:ed|t|ing)?|set (?:on )?fire(?: to)?|set ablaze|set alight|torch(?:ed|ing))\W+(?:\w+\W+){0,4}?flags?\b",1
+PR,burn_documents,fire/symbolic,7,124,0.0534,3003,83522,"\b(?:burn(?:ed|t|ing)?|set (?:on )?fire(?: to)?|set ablaze|set alight|torch(?:ed|ing))\W+(?:\w+\W+){0,4}?(?:copies|documents?|posters?|banners?|books?)\b",1
+PR,burn_vehicle,fire/property,95,4,0.9596,3003,83522,"\b(?:burn(?:ed|t|ing)?|set (?:on )?fire(?: to)?|set ablaze|set alight|torch(?:ed|ing))\W+(?:\w+\W+){0,4}?(?:vehicles?|cars?|bus(?:es)?|trucks?|motorcycles?)\b",1
+PR,burn_garbage,fire/property,13,1,0.9286,3003,83522,"\b(?:burn(?:ed|t|ing)?|set (?:on )?fire(?: to)?|set ablaze|set alight|torch(?:ed|ing))\W+(?:\w+\W+){0,4}?(?:garbage|trash|rubbish|waste|bins?)\b",1
+PR,set_fire_generic,fire/property,1003,1284,0.4386,3003,83522,\b(?:burn(?:ed|t|ing)?|set (?:on )?fire(?: to)?|set ablaze|set alight|torch(?:ed|ing))\b,1
+PR,block_road,obstruction/none,430,3109,0.1215,3003,83522,"\bblock(?:ed|ing|ade[sd]?)\W+(?:\w+\W+){0,3}?(?:roads?|highways?|streets?|traffic)\b",1
+PR,barricade,obstruction/none,173,153,0.5307,3003,83522,\bbarricad\w*,1
+PR,block_entrance,obstruction/none,19,190,0.0909,3003,83522,"\bblock(?:ed|ing)\W+(?:\w+\W+){0,3}?(?:entrances?|gates?|doors?)\b",1
+PR,lock_in,obstruction/person,14,235,0.0562,3003,83522,\b(?:locked|gheraoed|gherao|confined)\b,1
+PR,vandalise,property/property,511,238,0.6822,3003,83522,\bvandali[sz]\w*,1
+PR,break_windows,property/property,79,8,0.908,3003,83522,"\b(?:broke|smashed|shattered|breaking|smashing)\W+(?:\w+\W+){0,3}?(?:windows?|glass|windshields?)\b",1
+PR,damage,property/property,154,170,0.4753,3003,83522,\bdamag(?:ed|ing)\b,1
+PR,tear_down,property/symbolic,13,12,0.52,3003,83522,\b(?:tore|torn|pulled|ripped)\s+(?:down|off)\b,1
+PR,deface_paint,property/symbolic,33,60,0.3548,3003,83522,\b(?:graffiti|spray[- ]?paint\w*|painted slogans|blackened|smeared)\b,1
+PR,break_gate,property/property,20,5,0.8,3003,83522,"\b(?:broke|smashed|forced|breaking)\W+(?:\w+\W+){0,3}?(?:gates?|doors?|barriers?|locks?)\b",1
+PR,push_barrier,property/property,8,13,0.381,3003,83522,"\b(?:pushed|toppled|knocked down|pulled down|removed)\W+(?:\w+\W+){0,3}?(?:barriers?|barricades?|fences?)\b",1
+PR,set_off_fireworks,fire/none,12,8,0.6,3003,83522,"\b(?:set off|lit|launched|burst)\W+(?:\w+\W+){0,2}?(?:fireworks?|firecrackers?|crackers?|flares?|smoke bombs?)\b",1
+PR,burn_photos,fire/symbolic,2,14,0.125,3003,83522,"\b(?:burn(?:ed|t|ing)?|set (?:on )?fire(?: to)?|set ablaze|set alight|torch(?:ed|ing))\W+(?:\w+\W+){0,4}?(?:photos?|photographs?|pictures?|portraits?|images?)\b",1
+PR,block_rail,obstruction/none,6,52,0.1034,3003,83522,"\bblock(?:ed|ing)\W+(?:\w+\W+){0,3}?(?:rail\w*|train\w*|tracks?)\b",1
+PR,occupy,entry/property,24,480,0.0476,3003,83522,\boccup(?:ied|y|ying)\b,1
+PR,storm,entry/property,15,26,0.3659,3003,83522,\b(?:storm(?:ed|ing)|forced (?:their )?way|barged)\b,1
+PR,scuffle,person/person,53,266,0.1661,3003,83522,\b(?:scuffl\w*|jostl\w*|push(?:ed|ing)?\s+and\s+shov\w*|manhandl\w*)\b,1
+PR,assault,person/person,113,214,0.3456,3003,83522,"\b(?:protesters|demonstrators|rioters|participants|students|workers|residents|supporters|members|villagers|activists)\W+(?:\w+\W+){0,3}?(?:assault\w*|beat|thrash\w*|slapp\w*|attack\w*)\b",1
+PR,chant_placards,none/none,203,10311,0.0193,3003,83522,\b(?:chant\w*|placards?|banners?|slogans?)\b,1
+BV,exchanged_fire,firearm/used_at/unspecified,3729,30,0.992,11613,18151,\b(?:exchanged (?:fire|gunfire|shots)|exchange of fire|gunfight|shootout|fired at each other)\b,1
+BV,returned_fire,firearm/used_at/unspecified,432,113,0.7927,11613,18151,\b(?:returned fire|fired back|retaliat\w*)\b,1
+BV,self_defense_group,unspecified/unspecified/standing,12,18,0.4,11613,18151,\b(?:self[- ]defen[cs]e (?:group|force|committee)s?|village defen[cs]e|community guards?|ronda\w*|autodefensa\w*)\b,1
+BV,vigilante,unspecified/unspecified/informal,0,6,0.0,11613,18151,\bvigilante\w*\b,1
+BV,security_guard,unspecified/unspecified/standing,39,87,0.3095,11613,18151,\b(?:security guards?|watchm[ae]n|night guards?|private guards?)\b,1
+BV,militia,unspecified/unspecified/standing,693,432,0.616,11613,18151,\bmilitia\w*\b,1
+BV,villagers,none/none/individuals,4,22,0.1538,11613,18151,\bvillagers\b,1
+BV,farmers,none/none/individuals,29,230,0.112,11613,18151,\b(?:farmers?|herders?|shepherds?)\b,1
+BV,hunters,firearm/unspecified/informal,3,2,0.6,11613,18151,\bhunters?\b,1
+BV,drivers,none/none/individuals,96,457,0.1736,11613,18151,\b(?:drivers?|truckers?)\b,1
+BV,unarmed,none/none/unspecified,8,23,0.2581,11613,18151,\bunarmed\b,1
+BV,armed_residents,firearm/unspecified/individuals,21,5,0.8077,11613,18151,\barmed (?:civilians|residents|villagers|locals)\b,1
+BV,stones,improvised/used_at/unspecified,48,37,0.5647,11613,18151,\b(?:stones?|rocks?)\b,1
+BV,sticks_machetes,improvised/unspecified/unspecified,54,174,0.2368,11613,18151,\b(?:sticks?|machetes?|knives|knife|clubs?|batons?|rods?)\b,1
+BV,pistol,firearm/unspecified/unspecified,581,94,0.8607,11613,18151,\b(?:pistols?|handguns?|revolvers?)\b,1
+BV,rifle,firearm/unspecified/unspecified,497,153,0.7646,11613,18151,\b(?:rifles?|ak-47s?|assault rifles?)\b,1
+BV,shotgun,firearm/unspecified/unspecified,41,11,0.7885,11613,18151,\bshotguns?\b,1
+BV,warning_shot,firearm/warning/unspecified,2,4,0.3333,11613,18151,\b(?:warning shots?|fired (?:in|into) the air|aerial (?:fire|firing|shots))\b,1
+BV,miners,none/none/individuals,3,26,0.1034,11613,18151,\bminers?\b,1
+BV,traders,none/none/individuals,33,161,0.1701,11613,18151,\b(?:traders?|vendors?|merchants?|shopkeepers?)\b,1
+BV,students,none/none/individuals,13,77,0.1444,11613,18151,\bstudents?\b,1
+BV,fishermen,none/none/individuals,2,21,0.087,11613,18151,\bfisherm[ae]n\b,1
+BV,worshippers,none/none/individuals,1,7,0.125,11613,18151,\b(?:worshipp?ers?|pilgrims?)\b,1
+BV,bodyguards,firearm/unspecified/standing,47,46,0.5054,11613,18151,\b(?:bodyguards?|escorts?|gunmen guarding)\b,1
+BV,bows_spears,improvised/unspecified/unspecified,2,5,0.2857,11613,18151,\b(?:bows?|arrows?|spears?|axes)\b,1
+BV,grenade,explosive/used_at/unspecified,293,27,0.9156,11613,18151,\bgrenades?\b,1
+BV,fled,unspecified/none/unspecified,1130,2145,0.345,11613,18151,\b(?:fled|escaped|ran away)\b,1
+BV,former_members,unspecified/none/unspecified,5,29,0.1471,11613,18151,\b(?:former|ex-)\s*(?:members?|fighters?|combatants?|militants?|rebels?)\b,1

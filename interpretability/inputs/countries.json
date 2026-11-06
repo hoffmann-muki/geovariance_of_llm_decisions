@@ -1,0 +1,20 @@
+{
+  "version": "v1",
+  "notes": "Screen set spans regions and income levels. Fictional names are controls: if they flip a description, the effect comes from surface form rather than knowledge about the country.",
+  "slot": " in {country}",
+  "real": {
+    "Libya": "Libya", "Morocco": "Morocco", "Egypt": "Egypt", "Nigeria": "Nigeria", "Kenya": "Kenya",
+    "Ethiopia": "Ethiopia", "South Africa": "South Africa", "Sudan": "Sudan", "Mexico": "Mexico",
+    "United States": "the United States", "Canada": "Canada", "Brazil": "Brazil", "Colombia": "Colombia",
+    "Venezuela": "Venezuela", "Argentina": "Argentina", "India": "India", "Pakistan": "Pakistan",
+    "Bangladesh": "Bangladesh", "Afghanistan": "Afghanistan", "Iran": "Iran", "Iraq": "Iraq",
+    "Syria": "Syria", "Yemen": "Yemen", "China": "China", "South Korea": "South Korea", "Japan": "Japan",
+    "Indonesia": "Indonesia", "Philippines": "the Philippines", "Myanmar": "Myanmar", "Russia": "Russia",
+    "Ukraine": "Ukraine", "France": "France", "Germany": "Germany", "United Kingdom": "the United Kingdom",
+    "Sweden": "Sweden", "Norway": "Norway", "Australia": "Australia"
+  },
+  "fictional": {
+    "Veloria": "Veloria",
+    "Tarvania": "Tarvania"
+  }
+}

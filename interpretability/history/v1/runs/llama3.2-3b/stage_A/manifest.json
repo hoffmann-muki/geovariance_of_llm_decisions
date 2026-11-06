@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "main": 1920,
+    "repeat": 20
+  },
+  "created": "2026-11-05T21:40:15+00:00",
+  "outputs": {
+    "run.json": {
+      "sha256": "24c4e126d45f8bb0d22a0a3bd31fefa37a60132fa80f1ec603c6dcab805ded17"
+    },
+    "scores.jsonl": {
+      "sha256": "207158d9d46f89e3d2763399172b71be6fa3987d8be25809a0b6cc9ace9146ea"
+    }
+  },
+  "producer_sha256": "71c02ba332dfa48012decc87ba417e224b76a54476fa070e2b1592955ba67513"
+}
