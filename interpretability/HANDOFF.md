@@ -10,33 +10,25 @@ Status as of 6 November 2026, written when GPU access ended. [PLAN.md](PLAN.md) 
 | 2. Items | Done: ACLED act table `inputs/v4/acled_acts.csv` (lexicon v1), items `inputs/v4/items.json`: 29 PR, 22 BV, plus anchors |
 | 3. Frames, V0 rules, bases | Done: `inputs/v4/descriptions.json`, `inputs/v4/bases/{PR,BV}_{pilot,main}.csv`; `python -m geoflip.study check` reports no findings |
 | 4. Task prompts and scorer | Done: `inputs/v4/task_prompts.json` (A/B answers, 2 candidate layouts), `scoring.score_first_token`, `study.Scorer`. Tests: `tests/test_study.py` (11 pass with `GEOFLIP_TOKENIZER_TESTS=1`) |
-| **5. Pilot** | **In progress, interrupted.** Scored at about 31 prompts/s. Layout `options_last` was being scored on GPU 0 (PR done, BV partly); layout `options_first` on GPU 1 into a separate work directory. No gate has been evaluated |
+| **5. Pilot** | **Scored; no layout passed** (`/fs/clip-scratch/pramu/geoflip_work/v4/pilot.json`). Mean order effect fell from about 10 nats (v3, BV) to 3.0 (`options_last`) and 3.4 (`options_first`), and A or B was the top token on 100% of prompts. Anchor gates failed on 6 of 32 prompts (`options_first`) and 10 of 32 (`options_last`), almost all BV (mostly undefined, mostly frame f2), plus one PR prompt. Next: revise the BV frames or prompts, log the change, rerun the pilot |
 | 6. Placebos, pre-registration, main run | Not started. `geoflip/placebo.py` is written but has not been run |
 | 7–8. Filter, null, release, second review | Not started |
 
-## How to Resume the Pilot
+## Pilot Result and What Failed
 
-Scores are cached line by line (flushed every 2,000 prompts), so a rerun only scores what is missing.
+The pilot finished; the parallel GPU-1 run was not needed (its cache in `geoflip_work/v4_par/` can be ignored). Failing prompts under `options_first`, with anchor accuracy where it is below 0.9:
+- BV defined p0 B: Battle anchor f1 0.62, f2 0.38.
+- BV undefined p0 A: VAC anchor f2 0.81.
+- BV undefined p1 A: VAC anchor f1 0.62, f2 0.00.
+- BV undefined p1 B: Battle anchor f2 0.44.
+- BV undefined p2 A: Battle anchor f2 0.00.
+- PR undefined p3 B: Riot anchor f1 0.56.
 
-```bash
-cd interpretability
-PY=/fs/clip-projects/rlab/pramu/miniconda3/envs/interp-pilot/bin/python
-export HF_HOME=/fs/clip-scratch/rlab_models
-# 1. Merge the second layout's cache (from the parallel run) into the main cache.
-cat /fs/clip-scratch/pramu/geoflip_work/v4_par/cache/*_first_token.jsonl \
-  >> /fs/clip-scratch/pramu/geoflip_work/v4/cache/llama3.2-3b_bfloat16_0cb88a4f76_first_token.jsonl
-# 2. Finish and summarise the pilot (writes geoflip_work/v4/pilot.json and pilot_rows.jsonl).
-CUDA_VISIBLE_DEVICES=0 $PY -m geoflip.study pilot
-# 3. fp32 audit on the chosen layout.
-CUDA_VISIBLE_DEVICES=0 $PY -m geoflip.study fp32_audit --layout <chosen_layout from pilot.json>
-```
-
-Duplicate cache lines are harmless (the cache is keyed). The helper used for the parallel run is `/fs/clip-scratch/pramu/interp_v4/pilot_layout2.py`.
+Under `options_last`, 10 prompts fail in the same pattern. The failures depend on the order: on some prompts the model gives the same letter whatever the anchor says, so letter or position bias remains for BV, especially without definitions and in the new frame f2.
 
 ## Next Steps, in Order
 
-1. **Finish Step 5.** Read `pilot.json`:
-   - If `chosen_layout` is null, a gate failed; the `gates` list says which prompt and frame. Revise the frame or layout, log the change in `history/ITERATIONS.md`, and rerun the pilot.
+1. **Finish Step 5.** `chosen_layout` is null (see above). Revise the failing parts (BV frame f2, the BV undefined prompts, or the layout), log the change in `history/ITERATIONS.md`, and rerun `python -m geoflip.study pilot`.
    - Record the fp32 audit result (bf16 is kept if max |Δd| ≤ 0.05).
    - Fix the number of main bases from the measured throughput.
 2. **Step 6.**

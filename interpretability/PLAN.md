@@ -158,7 +158,7 @@ Applied within each version:
 | 2. Items from definitions and ACLED | Done: `inputs/v4/acled_acts.csv`, `inputs/v4/items.json` |
 | 3. Frames, V0 rules, wordings, bases | Done: `inputs/v4/descriptions.json`, `inputs/v4/bases/`; V0 has no findings |
 | 4. A/B task prompts, first-token scorer | Done: `inputs/v4/task_prompts.json`, `scoring.score_first_token`, `study.Scorer`; 11 tests pass |
-| 5. Pilot | **Partly scored** when GPU access ended (see HANDOFF.md); no gate result yet |
+| 5. Pilot | Scored; **no layout passed** the anchor gates (failures mostly BV, see HANDOFF.md); revision pending |
 | 6. Placebos, pre-registration, main run | Not started (`geoflip/placebo.py` written, not run) |
 | 7. Filter and null | Not started |
 | 8. Release, report, second review | Not started |
