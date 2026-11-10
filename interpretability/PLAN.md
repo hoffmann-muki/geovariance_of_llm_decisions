@@ -1,6 +1,6 @@
 # Geographic Flips in LLM Event Coding: Dataset Construction (v4)
 
-Version 4, 6 November 2026. **Status: design frozen up to the pilot; the pilot is partly scored; no country has been scored.** This document defines the task, the materials, the scoring and one pre-specified filtering procedure, so that the dataset can be rebuilt from `inputs/v4/` with `geoflip/`. Version 3 (an exploratory, stage-wise curation) and the review that replaced it are in `history/v3/` and `history/ITERATIONS.md`; § 10 summarises why.
+Version 4, 6 November 2026. The proposed evidence-based extension of the inputs (v4.1: lexicon audit, frames from notes, human labels, an intensity axis) is in [CONSTRUCTION.md](CONSTRUCTION.md). **Status: design frozen up to the pilot; the pilot is partly scored; no country has been scored.** This document defines the task, the materials, the scoring and one pre-specified filtering procedure, so that the dataset can be rebuilt from `inputs/v4/` with `geoflip/`. Version 3 (an exploratory, stage-wise curation) and the review that replaced it are in `history/v3/` and `history/ITERATIONS.md`; § 10 summarises why.
 
 ## 1. Goal and Claims
 

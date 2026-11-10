@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "inputs/v4/descriptions.json": "2ab69b5201b24e26904b18a7ef7b9f08370cc9a6a5253dddfa9db14a90ca3b61",
+    "inputs/v4/task_prompts.json": "5f02b3d9e35df3b2191aba69c6170575f3e377a43b4645ebc361270a2b602b11",
+    "inputs/v4/names.json": "914b1cb8b22ddc18f531b087f69666582cfde1cfd9f1c28a77822f40a0512e4b",
+    "inputs/v4/items.json": "7b1b3715a26a2b391ab0231b942fc6e7f16c1d0c9daa6188125b40c0ac7a7273",
+    "inputs/v4/acled_acts.csv": "012a2eee26e862db2fad55c8377ea6aedcb0c6e04550ccdca6ade48c4ac28a1e",
+    "country_effect/part1_behavioral/inputs/placebos.json": "8e739ed8a7d19198fac2e46b1376407e95ffeba07309bbc2c4e09e318429846d",
+    "geoflip/materials.py": "02f1d66ef3d928a3abedacf202d3db01cfd2550f1937a0f5cae4f47a562ffb27",
+    "geoflip/scoring.py": "a01594dbdfff2df7db1be07f9a9957cbbcf52303f0baf87b6723e08c52692ace",
+    "geoflip/study.py": "62c959ef5bfbfe0454ae1aed6024c5216f517278df543c42ae3df28644173eac",
+    "country_effect/part1_behavioral/build.py": "19b37439330172bd24a5f4b089a1e6ee59f61f2797fd233659dbde6d727d5df5"
+  },
+  "outputs": {
+    "country_effect/part1_behavioral/inputs/contexts.csv": "b45882f4ac3a3d8e8abd72d9ba21426326fcccb37c58dee674a957799538f11e",
+    "country_effect/part1_behavioral/inputs/names.json": "56229f09d7593aee23f0010c7197632e535c15e7904c9a482af4c2bfbaaf61e9",
+    "country_effect/part1_behavioral/inputs/prompts.json": "131c703e44a821d74321a669d6d510a2850d6f5570d3f6f0c9a835583e75f890",
+    "country_effect/part1_behavioral/dataset/descriptions.csv": "7baa68387120785cfbb04b62d04dc1d17f4ce5f03d52ceef4710432f472392c3"
+  }
+}

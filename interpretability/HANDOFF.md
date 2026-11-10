@@ -26,6 +26,10 @@ The pilot finished; the parallel GPU-1 run was not needed (its cache in `geoflip
 
 Under `options_last`, 10 prompts fail in the same pattern. The failures depend on the order: on some prompts the model gives the same letter whatever the anchor says, so letter or position bias remains for BV, especially without definitions and in the new frame f2.
 
+## Update, 7 November 2026
+
+An evidence-based construction plan (v4.1) is proposed in [CONSTRUCTION.md](CONSTRUCTION.md). Its steps 2–5 (lexicon precision audit, frames from ACLED notes, human labels, country sampling rule) come before the revised pilot below. An exploratory order-only flip sweep on pilot bases is running; see CONSTRUCTION.md § 7.
+
 ## Next Steps, in Order
 
 1. **Finish Step 5.** `chosen_layout` is null (see above). Revise the failing parts (BV frame f2, the BV undefined prompts, or the layout), log the change in `history/ITERATIONS.md`, and rerun `python -m geoflip.study pilot`.

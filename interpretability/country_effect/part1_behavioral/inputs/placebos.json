@@ -1,0 +1,125 @@
+{
+  "seed": 20261106,
+  "method": "geoflip/placebo.py: syllable names, not a real place, not a single vocabulary token, length-matched by quantile",
+  "placebos": {
+    "Gaor": {
+      "chars": 4,
+      "tokens": 2
+    },
+    "Reine": {
+      "chars": 5,
+      "tokens": 2
+    },
+    "Diror": {
+      "chars": 5,
+      "tokens": 2
+    },
+    "Nilia": {
+      "chars": 5,
+      "tokens": 2
+    },
+    "Nesar": {
+      "chars": 5,
+      "tokens": 2
+    },
+    "Trara": {
+      "chars": 5,
+      "tokens": 2
+    },
+    "Taroar": {
+      "chars": 6,
+      "tokens": 3
+    },
+    "Zasien": {
+      "chars": 6,
+      "tokens": 3
+    },
+    "Kodean": {
+      "chars": 6,
+      "tokens": 3
+    },
+    "Sarand": {
+      "chars": 6,
+      "tokens": 2
+    },
+    "Grarand": {
+      "chars": 7,
+      "tokens": 3
+    },
+    "Karasen": {
+      "chars": 7,
+      "tokens": 3
+    },
+    "Bifavuia": {
+      "chars": 8,
+      "tokens": 5
+    },
+    "Sunderia": {
+      "chars": 8,
+      "tokens": 2
+    },
+    "Virstelia": {
+      "chars": 9,
+      "tokens": 3
+    },
+    "Drinmuren": {
+      "chars": 9,
+      "tokens": 4
+    },
+    "Tistrulova": {
+      "chars": 10,
+      "tokens": 4
+    },
+    "Geborstoran": {
+      "chars": 11,
+      "tokens": 4
+    },
+    "Runtormuesh": {
+      "chars": 11,
+      "tokens": 5
+    },
+    "Krunstamiren": {
+      "chars": 12,
+      "tokens": 5
+    }
+  },
+  "real_tokens": {
+    "Libya": 1,
+    "Morocco": 1,
+    "Egypt": 1,
+    "Nigeria": 1,
+    "Kenya": 1,
+    "Ethiopia": 1,
+    "South Africa": 2,
+    "Sudan": 1,
+    "Mexico": 1,
+    "the United States": 3,
+    "Canada": 1,
+    "Brazil": 1,
+    "Colombia": 1,
+    "Venezuela": 1,
+    "Argentina": 1,
+    "India": 1,
+    "Pakistan": 1,
+    "Bangladesh": 1,
+    "Afghanistan": 1,
+    "Iran": 1,
+    "Iraq": 1,
+    "Syria": 1,
+    "Yemen": 1,
+    "China": 1,
+    "South Korea": 2,
+    "Japan": 1,
+    "Indonesia": 1,
+    "the Philippines": 2,
+    "Myanmar": 1,
+    "Russia": 1,
+    "Ukraine": 1,
+    "France": 1,
+    "Germany": 1,
+    "the United Kingdom": 3,
+    "Sweden": 1,
+    "Norway": 1,
+    "Australia": 1
+  }
+}

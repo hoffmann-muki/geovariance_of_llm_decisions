@@ -1,0 +1,2300 @@
+{
+ "complete_descriptions": 3520,
+ "margin": 0.5,
+ "PR": {
+  "validity": {
+   "n_prompts": 230144,
+   "top1_letter_share": 1.0,
+   "mass_p05": 0.9999010931609879,
+   "order_effect_mean": -1.064596512943331,
+   "order_effect_abs_mean": 1.069544502387979,
+   "order_dependent_share": 0.4102822580645161,
+   "order_dependent_share_m0": 0.28377016129032256,
+   "anchor_lower_none_strict_acc": 1.0,
+   "anchor_lower_none_avg_acc": 1.0,
+   "anchor_lower_real_strict_acc": 1.0,
+   "anchor_lower_real_avg_acc": 1.0,
+   "anchor_lower_fictional_strict_acc": 1.0,
+   "anchor_lower_fictional_avg_acc": 1.0,
+   "anchor_higher_none_strict_acc": 1.0,
+   "anchor_higher_none_avg_acc": 1.0,
+   "anchor_higher_real_strict_acc": 1.0,
+   "anchor_higher_real_avg_acc": 1.0,
+   "anchor_higher_fictional_strict_acc": 1.0,
+   "anchor_higher_fictional_avg_acc": 1.0
+  },
+  "none_baseline": {
+   "strict_differs_from_none": 2.4159841511439684e-05,
+   "avg_differs_from_none": 0.0008265776506119854
+  },
+  "strict": {
+   "flips": {
+    "n_descriptions": 1984,
+    "flip_real": 0.0,
+    "flip_real_ci": [
+     0.0,
+     0.0
+    ],
+    "flip_placebo": 0.0,
+    "flip_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "flip_real_size_matched": 0.0,
+    "flip_real_size_matched_ci": [
+     0.0,
+     0.0
+    ],
+    "size_matched_minus_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "pair_real": 0.0,
+    "pair_real_ci": [
+     0.0,
+     0.0
+    ],
+    "pair_placebo": 0.0,
+    "pair_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "pair_ratio": null,
+    "pair_diff_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "by_factor": {
+    "frame": {
+     "f1": 0.0,
+     "f2": 0.0
+    },
+    "wording": {
+     "W1": 0.0,
+     "W2": 0.0
+    },
+    "place": {
+     "in a shopping street": 0.0,
+     "near a port authority office": 0.0,
+     "near a train depot": 0.0,
+     "outside a university gate": 0.0
+    },
+    "actors": {
+     "airport staff": 0.0,
+     "cooks": 0.0,
+     "garment workers": 0.0,
+     "sanitation workers": 0.0
+    },
+    "grievance": {
+     "a new parking fee": 0.0,
+     "a plan to close a library": 0.0,
+     "housing evictions": 0.0,
+     "late scholarship payments": 0.0
+    },
+    "item": {
+     "burn_effigy": {
+      "acled_p_higher": 0.0135,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "anchor_lo": {
+      "acled_p_higher": 0.0193,
+      "flip": 0.0,
+      "role": "anchor_lower"
+     },
+     "occupy": {
+      "acled_p_higher": 0.0476,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "burn_documents": {
+      "acled_p_higher": 0.0534,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "lock_in": {
+      "acled_p_higher": 0.0562,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "block_entrance": {
+      "acled_p_higher": 0.0909,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "burn_flag": {
+      "acled_p_higher": 0.1,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "block_rail": {
+      "acled_p_higher": 0.1034,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "block_road": {
+      "acled_p_higher": 0.1215,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "scuffle": {
+      "acled_p_higher": 0.1661,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_eggs": {
+      "acled_p_higher": 0.2963,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_bottles": {
+      "acled_p_higher": 0.3,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_paint_ink": {
+      "acled_p_higher": 0.3,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "assault": {
+      "acled_p_higher": 0.3456,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "deface_paint": {
+      "acled_p_higher": 0.3548,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "storm": {
+      "acled_p_higher": 0.3659,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "push_barrier": {
+      "acled_p_higher": 0.381,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "tear_down": {
+      "acled_p_higher": 0.52,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "barricade": {
+      "acled_p_higher": 0.5307,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "set_off_fireworks": {
+      "acled_p_higher": 0.6,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_water": {
+      "acled_p_higher": 0.6129,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "vandalise": {
+      "acled_p_higher": 0.6822,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "break_gate": {
+      "acled_p_higher": 0.8,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_objects": {
+      "acled_p_higher": 0.8718,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "break_windows": {
+      "acled_p_higher": 0.908,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_stones": {
+      "acled_p_higher": 0.9345,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "anchor_hi": {
+      "acled_p_higher": 0.9596,
+      "flip": 0.0,
+      "role": "anchor_higher"
+     },
+     "burn_vehicle": {
+      "acled_p_higher": 0.9596,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "burn_tires": {
+      "acled_p_higher": 0.9905,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_fireworks": {
+      "acled_p_higher": 1.0,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_petrol_bomb": {
+      "acled_p_higher": 1.0,
+      "flip": 0.0,
+      "role": "item"
+     }
+    }
+   }
+  },
+  "avg": {
+   "flips": {
+    "n_descriptions": 1984,
+    "flip_real": 0.008568548387096774,
+    "flip_real_ci": [
+     0.0045362903225806455,
+     0.012613407258064447
+    ],
+    "flip_placebo": 0.0005040322580645161,
+    "flip_placebo_ci": [
+     0.0,
+     0.0015120967741935483
+    ],
+    "flip_real_size_matched": 0.004484879032258064,
+    "flip_real_size_matched_ci": [
+     0.002433366935483871,
+     0.006844833669354839
+    ],
+    "size_matched_minus_placebo_ci": [
+     0.001680342741935484,
+     0.006534349798387096
+    ],
+    "pair_real": 8.249176595950788e-05,
+    "pair_real_ci": [
+     3.708345442216409e-05,
+     0.0001354681294197423
+    ],
+    "pair_placebo": 5.305602716468591e-06,
+    "pair_placebo_ci": [
+     0.0,
+     1.591680814940577e-05
+    ],
+    "pair_ratio": 15.548048048048043,
+    "pair_diff_ci": [
+     2.872414275480914e-05,
+     0.00013319771384287513
+    ]
+   },
+   "by_factor": {
+    "frame": {
+     "f1": 0.01310483870967742,
+     "f2": 0.004032258064516129
+    },
+    "wording": {
+     "W1": 0.010080645161290322,
+     "W2": 0.007056451612903226
+    },
+    "place": {
+     "in a shopping street": 0.008064516129032258,
+     "near a port authority office": 0.006048387096774193,
+     "near a train depot": 0.008064516129032258,
+     "outside a university gate": 0.012096774193548387
+    },
+    "actors": {
+     "airport staff": 0.010080645161290322,
+     "cooks": 0.008064516129032258,
+     "garment workers": 0.010080645161290322,
+     "sanitation workers": 0.006048387096774193
+    },
+    "grievance": {
+     "a new parking fee": 0.008064516129032258,
+     "a plan to close a library": 0.0020161290322580645,
+     "housing evictions": 0.016129032258064516,
+     "late scholarship payments": 0.008064516129032258
+    },
+    "item": {
+     "burn_effigy": {
+      "acled_p_higher": 0.0135,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "anchor_lo": {
+      "acled_p_higher": 0.0193,
+      "flip": 0.0,
+      "role": "anchor_lower"
+     },
+     "occupy": {
+      "acled_p_higher": 0.0476,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "burn_documents": {
+      "acled_p_higher": 0.0534,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "lock_in": {
+      "acled_p_higher": 0.0562,
+      "flip": 0.015625,
+      "role": "item"
+     },
+     "block_entrance": {
+      "acled_p_higher": 0.0909,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "burn_flag": {
+      "acled_p_higher": 0.1,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "block_rail": {
+      "acled_p_higher": 0.1034,
+      "flip": 0.015625,
+      "role": "item"
+     },
+     "block_road": {
+      "acled_p_higher": 0.1215,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "scuffle": {
+      "acled_p_higher": 0.1661,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_eggs": {
+      "acled_p_higher": 0.2963,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_bottles": {
+      "acled_p_higher": 0.3,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_paint_ink": {
+      "acled_p_higher": 0.3,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "assault": {
+      "acled_p_higher": 0.3456,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "deface_paint": {
+      "acled_p_higher": 0.3548,
+      "flip": 0.078125,
+      "role": "item"
+     },
+     "storm": {
+      "acled_p_higher": 0.3659,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "push_barrier": {
+      "acled_p_higher": 0.381,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "tear_down": {
+      "acled_p_higher": 0.52,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "barricade": {
+      "acled_p_higher": 0.5307,
+      "flip": 0.03125,
+      "role": "item"
+     },
+     "set_off_fireworks": {
+      "acled_p_higher": 0.6,
+      "flip": 0.078125,
+      "role": "item"
+     },
+     "throw_water": {
+      "acled_p_higher": 0.6129,
+      "flip": 0.046875,
+      "role": "item"
+     },
+     "vandalise": {
+      "acled_p_higher": 0.6822,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "break_gate": {
+      "acled_p_higher": 0.8,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_objects": {
+      "acled_p_higher": 0.8718,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "break_windows": {
+      "acled_p_higher": 0.908,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_stones": {
+      "acled_p_higher": 0.9345,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "anchor_hi": {
+      "acled_p_higher": 0.9596,
+      "flip": 0.0,
+      "role": "anchor_higher"
+     },
+     "burn_vehicle": {
+      "acled_p_higher": 0.9596,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "burn_tires": {
+      "acled_p_higher": 0.9905,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_fireworks": {
+      "acled_p_higher": 1.0,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "throw_petrol_bomb": {
+      "acled_p_higher": 1.0,
+      "flip": 0.0,
+      "role": "item"
+     }
+    }
+   }
+  },
+  "strict_m0": {
+   "flips": {
+    "n_descriptions": 1984,
+    "flip_real": 0.008568548387096774,
+    "flip_real_ci": [
+     0.0045362903225806455,
+     0.01310483870967742
+    ],
+    "flip_placebo": 0.0020161290322580645,
+    "flip_placebo_ci": [
+     0.0005040322580645161,
+     0.004032258064516129
+    ],
+    "flip_real_size_matched": 0.00620766129032258,
+    "flip_real_size_matched_ci": [
+     0.003439289314516129,
+     0.009281023185483867
+    ],
+    "size_matched_minus_placebo_ci": [
+     0.001508845766129032,
+     0.007097202620967741
+    ],
+    "pair_real": 0.00047527366075753177,
+    "pair_real_ci": [
+     0.0001815954058897607,
+     0.0008271880751719461
+    ],
+    "pair_placebo": 4.775042444821732e-05,
+    "pair_placebo_ci": [
+     2.6528013582342955e-06,
+     0.0001114176570458404
+    ],
+    "pair_ratio": 9.953286619953287,
+    "pair_diff_ci": [
+     0.00016345319215650285,
+     0.0007435712585463217
+    ]
+   }
+  },
+  "avg_m0": {
+   "flips": {
+    "n_descriptions": 1984,
+    "flip_real": 0.10836693548387097,
+    "flip_real_ci": [
+     0.09474546370967742,
+     0.1219758064516129
+    ],
+    "flip_placebo": 0.06804435483870967,
+    "flip_placebo_ci": [
+     0.05695564516129032,
+     0.07913306451612903
+    ],
+    "flip_real_size_matched": 0.09368346774193548,
+    "flip_real_size_matched_ci": [
+     0.08206532258064515,
+     0.10570720766129031
+    ],
+    "size_matched_minus_placebo_ci": [
+     0.01642570564516127,
+     0.03533553427419353
+    ],
+    "pair_real": 0.026250544899738448,
+    "pair_real_ci": [
+     0.022496526264167392,
+     0.030323235281652622
+    ],
+    "pair_placebo": 0.019941107809847196,
+    "pair_placebo_ci": [
+     0.016412749363327678,
+     0.023705565577249576
+    ],
+    "pair_ratio": 1.3164035393648272,
+    "pair_diff_ci": [
+     0.0032325270808796916,
+     0.009613020809434223
+    ]
+   }
+  },
+  "country": {
+   "effects": {
+    "Afghanistan": {
+     "mean": -0.12173009062037171,
+     "ci": [
+      -0.1365858136551715,
+      -0.10837875011938763
+     ]
+    },
+    "Argentina": {
+     "mean": -0.1514994966281146,
+     "ci": [
+      -0.16264392463707208,
+      -0.14133340316256002
+     ]
+    },
+    "Australia": {
+     "mean": 0.09503528159408324,
+     "ci": [
+      0.08245010787442232,
+      0.10700821153644785
+     ]
+    },
+    "Bangladesh": {
+     "mean": -0.27230972668115444,
+     "ci": [
+      -0.28848774507711133,
+      -0.25595135992753915
+     ]
+    },
+    "Brazil": {
+     "mean": 0.03215725931846664,
+     "ci": [
+      0.021400740683222903,
+      0.04314618670173872
+     ]
+    },
+    "Canada": {
+     "mean": -0.07438256036322421,
+     "ci": [
+      -0.08670134496957273,
+      -0.061719223790427546
+     ]
+    },
+    "China": {
+     "mean": 0.037512599639180536,
+     "ci": [
+      0.024425836867251114,
+      0.05003973079979375
+     ]
+    },
+    "Colombia": {
+     "mean": -0.22877394194913367,
+     "ci": [
+      -0.24042756214077363,
+      -0.21666220578628936
+     ]
+    },
+    "Egypt": {
+     "mean": -0.14926285151377075,
+     "ci": [
+      -0.16017109482694675,
+      -0.1379769397911455
+     ]
+    },
+    "Ethiopia": {
+     "mean": -0.09592993722790334,
+     "ci": [
+      -0.10759198491673504,
+      -0.08407703028317078
+     ]
+    },
+    "France": {
+     "mean": -0.23239667257308497,
+     "ci": [
+      -0.2435878808528736,
+      -0.22065717124317402
+     ]
+    },
+    "Germany": {
+     "mean": -0.056268900491784186,
+     "ci": [
+      -0.06764041751452912,
+      -0.04438610261296161
+     ]
+    },
+    "India": {
+     "mean": -0.2032888110040366,
+     "ci": [
+      -0.21973526441507923,
+      -0.18542338784932255
+     ]
+    },
+    "Indonesia": {
+     "mean": 0.006231098966894106,
+     "ci": [
+      -0.0053696747107346825,
+      0.018158393036450768
+     ]
+    },
+    "Iran": {
+     "mean": -0.04634576647552838,
+     "ci": [
+      -0.059811539418669714,
+      -0.03290369798115327
+     ]
+    },
+    "Iraq": {
+     "mean": 0.06006804337494921,
+     "ci": [
+      0.0488414337642252,
+      0.07145925055117879
+     ]
+    },
+    "Japan": {
+     "mean": 0.02992061490066372,
+     "ci": [
+      0.01665231936708541,
+      0.042202188286515126
+     ]
+    },
+    "Kenya": {
+     "mean": 0.050806451499754844,
+     "ci": [
+      0.037478380313196946,
+      0.06361950331552424
+     ]
+    },
+    "Libya": {
+     "mean": 0.004214970456810688,
+     "ci": [
+      -0.009523607051292094,
+      0.01866175619044765
+     ]
+    },
+    "Mexico": {
+     "mean": -0.15581527136129888,
+     "ci": [
+      -0.16762301680054326,
+      -0.14498566688773873
+     ]
+    },
+    "Morocco": {
+     "mean": -0.036107612291073024,
+     "ci": [
+      -0.046550726286992784,
+      -0.025990108978189225
+     ]
+    },
+    "Myanmar": {
+     "mean": -0.1606350780961655,
+     "ci": [
+      -0.17443111089295,
+      -0.1459424983976593
+     ]
+    },
+    "Nigeria": {
+     "mean": 0.006073588330732874,
+     "ci": [
+      -0.007203171224627329,
+      0.01957972512496549
+     ]
+    },
+    "Norway": {
+     "mean": -0.20980973043362874,
+     "ci": [
+      -0.22261289755012553,
+      -0.1980686943827774
+     ]
+    },
+    "Pakistan": {
+     "mean": -0.23794102839332282,
+     "ci": [
+      -0.2530041537992203,
+      -0.22323958826893878
+     ]
+    },
+    "Philippines": {
+     "mean": 0.06702998862874271,
+     "ci": [
+      0.05340233505549133,
+      0.08087728852477744
+     ]
+    },
+    "Russia": {
+     "mean": -0.120879536298439,
+     "ci": [
+      -0.1311461596273881,
+      -0.11049938714830207
+     ]
+    },
+    "South Africa": {
+     "mean": -0.046849795941313964,
+     "ci": [
+      -0.056407348803096946,
+      -0.03652697869969104
+     ]
+    },
+    "South Korea": {
+     "mean": -0.038533264512453744,
+     "ci": [
+      -0.05061696466920025,
+      -0.027163991266024923
+     ]
+    },
+    "Sudan": {
+     "mean": 0.012846523624587982,
+     "ci": [
+      0.0021997465137166263,
+      0.02303364371928214
+     ]
+    },
+    "Sweden": {
+     "mean": -0.2816343226524897,
+     "ci": [
+      -0.29385336584770116,
+      -0.2692053183372933
+     ]
+    },
+    "Syria": {
+     "mean": -0.18882938477527564,
+     "ci": [
+      -0.20195690633246233,
+      -0.1756371678550698
+     ]
+    },
+    "Ukraine": {
+     "mean": -0.33449470933037145,
+     "ci": [
+      -0.344377243976626,
+      -0.3237145619287469
+     ]
+    },
+    "United Kingdom": {
+     "mean": -0.13600050109446246,
+     "ci": [
+      -0.14858603040433288,
+      -0.12391152459496313
+     ]
+    },
+    "United States": {
+     "mean": -0.05519783208713759,
+     "ci": [
+      -0.06740395729088342,
+      -0.04230689172757133
+     ]
+    },
+    "Venezuela": {
+     "mean": -0.18193044462771776,
+     "ci": [
+      -0.19351247276461778,
+      -0.17105027734659412
+     ]
+    },
+    "Yemen": {
+     "mean": -0.11823336828387093,
+     "ci": [
+      -0.1307100175172023,
+      -0.10632714119524772
+     ]
+    },
+    "Bifavuia": {
+     "mean": -0.04814138135695765,
+     "ci": [
+      -0.056862280488235314,
+      -0.03953739288195269
+     ]
+    },
+    "Diror": {
+     "mean": 0.14874621987111075,
+     "ci": [
+      0.1436635269204508,
+      0.15415401066274934
+     ]
+    },
+    "Drinmuren": {
+     "mean": 0.05783139913417137,
+     "ci": [
+      0.05180466975345889,
+      0.06348030145076237
+     ]
+    },
+    "Gaor": {
+     "mean": 0.11173135058729027,
+     "ci": [
+      0.10656309095078051,
+      0.11689614536940726
+     ]
+    },
+    "Geborstoran": {
+     "mean": 0.06460433372016637,
+     "ci": [
+      0.059663950162637376,
+      0.06975987527222574
+     ]
+    },
+    "Grarand": {
+     "mean": 0.02544732768062118,
+     "ci": [
+      0.020411494351048227,
+      0.030356009747993844
+     ]
+    },
+    "Karasen": {
+     "mean": -0.06622353708807041,
+     "ci": [
+      -0.07104527528738887,
+      -0.061277209352676346
+     ]
+    },
+    "Kodean": {
+     "mean": 0.09368069596571817,
+     "ci": [
+      0.08860130995818681,
+      0.09890687996923081
+     ]
+    },
+    "Krunstamiren": {
+     "mean": -0.11262600587909269,
+     "ci": [
+      -0.1194935265211662,
+      -0.10550170727118001
+     ]
+    },
+    "Nesar": {
+     "mean": 0.05219254159682792,
+     "ci": [
+      0.046324857019356645,
+      0.05801891722944581
+     ]
+    },
+    "Nilia": {
+     "mean": -0.005928677257890147,
+     "ci": [
+      -0.012951659043455825,
+      0.0016390937615687411
+     ]
+    },
+    "Reine": {
+     "mean": 0.04387600814069851,
+     "ci": [
+      0.037523429166264485,
+      0.050026776856223795
+     ]
+    },
+    "Runtormuesh": {
+     "mean": -0.11605972759260931,
+     "ci": [
+      -0.12396252081986715,
+      -0.1084869165174213
+     ]
+    },
+    "Sarand": {
+     "mean": -0.019191028612120468,
+     "ci": [
+      -0.023781189240799666,
+      -0.014466867270651251
+     ]
+    },
+    "Sunderia": {
+     "mean": -0.1397177420036728,
+     "ci": [
+      -0.1486321033799221,
+      -0.1306545706279804
+     ]
+    },
+    "Taroar": {
+     "mean": 0.0635962698358391,
+     "ci": [
+      0.05816189639023465,
+      0.06915035110877128
+     ]
+    },
+    "Tistrulova": {
+     "mean": -0.1685105850242914,
+     "ci": [
+      -0.17468340561117876,
+      -0.16232303798363357
+     ]
+    },
+    "Trara": {
+     "mean": 0.011428930389518652,
+     "ci": [
+      0.006692483030633515,
+      0.016510362150954673
+     ]
+    },
+    "Virstelia": {
+     "mean": 0.05572076667763846,
+     "ci": [
+      0.051237871778922146,
+      0.06007024962800874
+     ]
+    },
+    "Zasien": {
+     "mean": -0.052457158784895895,
+     "ci": [
+      -0.05653107925195697,
+      -0.04837122936155008
+     ]
+    }
+   },
+   "split_half_r_real": 0.9803478729683576,
+   "split_half_r_placebo": 0.9791157510968208,
+   "beta_sd_real": 0.11225459812059975,
+   "variance_share_real": 0.27317797425930657,
+   "within_sd_real": 0.21185157039687244,
+   "beta_sd_placebo": 0.08808187815235322,
+   "variance_share_placebo": 0.27817918537388514,
+   "within_sd_placebo": 0.16277438141329093,
+   "token_r_real": 0.12777236936597178,
+   "token_r_placebo": -0.4365044998328402,
+   "halves": {
+    "names": [
+     "Afghanistan",
+     "Argentina",
+     "Australia",
+     "Bangladesh",
+     "Brazil",
+     "Canada",
+     "China",
+     "Colombia",
+     "Egypt",
+     "Ethiopia",
+     "France",
+     "Germany",
+     "India",
+     "Indonesia",
+     "Iran",
+     "Iraq",
+     "Japan",
+     "Kenya",
+     "Libya",
+     "Mexico",
+     "Morocco",
+     "Myanmar",
+     "Nigeria",
+     "Norway",
+     "Pakistan",
+     "Philippines",
+     "Russia",
+     "South Africa",
+     "South Korea",
+     "Sudan",
+     "Sweden",
+     "Syria",
+     "Ukraine",
+     "United Kingdom",
+     "United States",
+     "Venezuela",
+     "Yemen"
+    ],
+    "half0": [
+     -0.09045803997082573,
+     -0.14810673148966177,
+     0.08311806672900947,
+     -0.26775138412506533,
+     0.04903288917856411,
+     -0.07508505428458347,
+     0.05728641586374156,
+     -0.22528666733493083,
+     -0.14445249306702518,
+     -0.07829826092040088,
+     -0.20607043655652976,
+     -0.03621156903385868,
+     -0.18452306113528102,
+     0.008080267335110816,
+     -0.030793219369456004,
+     0.06887915517249836,
+     0.0327148446651286,
+     0.06995022875366232,
+     0.0029769415470863054,
+     -0.16373172678105383,
+     -0.0324943307810422,
+     -0.16568485137281894,
+     0.012364542246727294,
+     -0.19088647011900914,
+     -0.22616872605348123,
+     0.08771736323239743,
+     -0.11578565821709902,
+     -0.049505413429949616,
+     -0.02890309748991626,
+     0.012616557932615612,
+     -0.26705833952007163,
+     -0.16669291780684126,
+     -0.3254630820151383,
+     -0.13953817712615443,
+     -0.07080078001445055,
+     -0.1673859641508,
+     -0.12939453277770438
+    ],
+    "half1": [
+     -0.1530021412699177,
+     -0.154892261766567,
+     0.10695249645915693,
+     -0.2768680692372428,
+     0.015281629458369136,
+     -0.07368006644186488,
+     0.017738783414619482,
+     -0.232261216563336,
+     -0.15407320996051604,
+     -0.11356161353540567,
+     -0.2587229085896397,
+     -0.07632623194970964,
+     -0.22205456087279163,
+     0.004381930598677368,
+     -0.061898313581600715,
+     0.051256931577399946,
+     0.027126385136198757,
+     0.0316626742458472,
+     0.005452999366535088,
+     -0.14789881594154358,
+     -0.03972089380110393,
+     -0.15558530481951174,
+     -0.0002173655852615212,
+     -0.2287329907482478,
+     -0.24971333073316385,
+     0.04634261402508791,
+     -0.12597341437977885,
+     -0.04419417845267845,
+     -0.048163431534991266,
+     0.013076489316560367,
+     -0.2962103057849075,
+     -0.21096585174370955,
+     -0.3435263366456045,
+     -0.13246282506277027,
+     -0.03959488415982472,
+     -0.19647492510463513,
+     -0.10707220379003739
+    ]
+   },
+   "kinds": {
+    "Afghanistan": "real",
+    "Argentina": "real",
+    "Australia": "real",
+    "Bangladesh": "real",
+    "Brazil": "real",
+    "Canada": "real",
+    "China": "real",
+    "Colombia": "real",
+    "Egypt": "real",
+    "Ethiopia": "real",
+    "France": "real",
+    "Germany": "real",
+    "India": "real",
+    "Indonesia": "real",
+    "Iran": "real",
+    "Iraq": "real",
+    "Japan": "real",
+    "Kenya": "real",
+    "Libya": "real",
+    "Mexico": "real",
+    "Morocco": "real",
+    "Myanmar": "real",
+    "Nigeria": "real",
+    "Norway": "real",
+    "Pakistan": "real",
+    "Philippines": "real",
+    "Russia": "real",
+    "South Africa": "real",
+    "South Korea": "real",
+    "Sudan": "real",
+    "Sweden": "real",
+    "Syria": "real",
+    "Ukraine": "real",
+    "United Kingdom": "real",
+    "United States": "real",
+    "Venezuela": "real",
+    "Yemen": "real",
+    "Bifavuia": "fictional",
+    "Diror": "fictional",
+    "Drinmuren": "fictional",
+    "Gaor": "fictional",
+    "Geborstoran": "fictional",
+    "Grarand": "fictional",
+    "Karasen": "fictional",
+    "Kodean": "fictional",
+    "Krunstamiren": "fictional",
+    "Nesar": "fictional",
+    "Nilia": "fictional",
+    "Reine": "fictional",
+    "Runtormuesh": "fictional",
+    "Sarand": "fictional",
+    "Sunderia": "fictional",
+    "Taroar": "fictional",
+    "Tistrulova": "fictional",
+    "Trara": "fictional",
+    "Virstelia": "fictional",
+    "Zasien": "fictional"
+   }
+  },
+  "posthoc": {
+   "avg_flip_leave_one_out": {
+    "Afghanistan": 0.008568548387096774,
+    "Argentina": 0.008568548387096774,
+    "Australia": 0.008064516129032258,
+    "Bangladesh": 0.008568548387096774,
+    "Brazil": 0.008568548387096774,
+    "Canada": 0.008568548387096774,
+    "China": 0.008568548387096774,
+    "Colombia": 0.008568548387096774,
+    "Egypt": 0.008568548387096774,
+    "Ethiopia": 0.008568548387096774,
+    "France": 0.008568548387096774,
+    "Germany": 0.008568548387096774,
+    "India": 0.008064516129032258,
+    "Indonesia": 0.008568548387096774,
+    "Iran": 0.008568548387096774,
+    "Iraq": 0.008568548387096774,
+    "Japan": 0.008568548387096774,
+    "Kenya": 0.008064516129032258,
+    "Libya": 0.008568548387096774,
+    "Mexico": 0.008568548387096774,
+    "Morocco": 0.008568548387096774,
+    "Myanmar": 0.008568548387096774,
+    "Nigeria": 0.008568548387096774,
+    "Norway": 0.008568548387096774,
+    "Pakistan": 0.008568548387096774,
+    "Philippines": 0.007056451612903226,
+    "Russia": 0.008064516129032258,
+    "South Africa": 0.008568548387096774,
+    "South Korea": 0.008064516129032258,
+    "Sudan": 0.008568548387096774,
+    "Sweden": 0.008064516129032258,
+    "Syria": 0.008568548387096774,
+    "Ukraine": 0.007560483870967742,
+    "United Kingdom": 0.008568548387096774,
+    "United States": 0.00655241935483871,
+    "Venezuela": 0.008568548387096774,
+    "Yemen": 0.008064516129032258
+   },
+   "effect_sd_single_token_real": 0.11585703896945349,
+   "n_single_token_real": 32,
+   "letter_pref_mean": 1.064596512943331,
+   "letter_pref_share_favours_A": 0.9813508064516129
+  }
+ },
+ "BV": {
+  "validity": {
+   "n_prompts": 178176,
+   "top1_letter_share": 1.0,
+   "mass_p05": 0.9993630186225515,
+   "order_effect_mean": -1.189995425783008,
+   "order_effect_abs_mean": 1.2004654106820416,
+   "order_dependent_share": 0.822265625,
+   "order_dependent_share_m0": 0.7411548132183908,
+   "anchor_lower_none_strict_acc": 1.0,
+   "anchor_lower_none_avg_acc": 1.0,
+   "anchor_lower_real_strict_acc": 0.9809966216216216,
+   "anchor_lower_real_avg_acc": 1.0,
+   "anchor_lower_fictional_strict_acc": 0.99921875,
+   "anchor_lower_fictional_avg_acc": 1.0,
+   "anchor_higher_none_strict_acc": 1.0,
+   "anchor_higher_none_avg_acc": 1.0,
+   "anchor_higher_real_strict_acc": 1.0,
+   "anchor_higher_real_avg_acc": 1.0,
+   "anchor_higher_fictional_strict_acc": 0.99921875,
+   "anchor_higher_fictional_avg_acc": 1.0
+  },
+  "none_baseline": {
+   "strict_differs_from_none": 0.0,
+   "avg_differs_from_none": 0.00019418983998757184
+  },
+  "strict": {
+   "flips": {
+    "n_descriptions": 1536,
+    "flip_real": 0.0,
+    "flip_real_ci": [
+     0.0,
+     0.0
+    ],
+    "flip_placebo": 0.0,
+    "flip_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "flip_real_size_matched": 0.0,
+    "flip_real_size_matched_ci": [
+     0.0,
+     0.0
+    ],
+    "size_matched_minus_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "pair_real": 0.0,
+    "pair_real_ci": [
+     0.0,
+     0.0
+    ],
+    "pair_placebo": 0.0,
+    "pair_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "pair_ratio": null,
+    "pair_diff_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "by_factor": {
+    "frame": {
+     "f1": 0.0,
+     "f2": 0.0
+    },
+    "wording": {
+     "W1": 0.0,
+     "W2": 0.0
+    },
+    "place": {
+     "in a valley settlement": 0.0,
+     "near a logging camp": 0.0,
+     "near a sugarcane plantation": 0.0,
+     "on a coastal road": 0.0
+    },
+    "time": {
+     "at dawn": 0.0,
+     "in the afternoon": 0.0,
+     "in the evening": 0.0,
+     "shortly after midnight": 0.0
+    },
+    "item": {
+     "fishermen": {
+      "acled_p_higher": 0.087,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "miners": {
+      "acled_p_higher": 0.1034,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "farmers": {
+      "acled_p_higher": 0.112,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "anchor_lo": {
+      "acled_p_higher": 0.112,
+      "flip": 0.0,
+      "role": "anchor_lower"
+     },
+     "students": {
+      "acled_p_higher": 0.1444,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "former_members": {
+      "acled_p_higher": 0.1471,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "villagers": {
+      "acled_p_higher": 0.1538,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "traders": {
+      "acled_p_higher": 0.1701,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "drivers": {
+      "acled_p_higher": 0.1736,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "sticks_machetes": {
+      "acled_p_higher": 0.2368,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "unarmed": {
+      "acled_p_higher": 0.2581,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "security_guard": {
+      "acled_p_higher": 0.3095,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "fled": {
+      "acled_p_higher": 0.345,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "self_defense_group": {
+      "acled_p_higher": 0.4,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "bodyguards": {
+      "acled_p_higher": 0.5054,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "stones": {
+      "acled_p_higher": 0.5647,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "militia": {
+      "acled_p_higher": 0.616,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "rifle": {
+      "acled_p_higher": 0.7646,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "shotgun": {
+      "acled_p_higher": 0.7885,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "returned_fire": {
+      "acled_p_higher": 0.7927,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "armed_residents": {
+      "acled_p_higher": 0.8077,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "pistol": {
+      "acled_p_higher": 0.8607,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "grenade": {
+      "acled_p_higher": 0.9156,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "anchor_hi": {
+      "acled_p_higher": 0.992,
+      "flip": 0.0,
+      "role": "anchor_higher"
+     }
+    }
+   }
+  },
+  "avg": {
+   "flips": {
+    "n_descriptions": 1536,
+    "flip_real": 0.08138020833333333,
+    "flip_real_ci": [
+     0.06770833333333333,
+     0.09635416666666667
+    ],
+    "flip_placebo": 0.0,
+    "flip_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "flip_real_size_matched": 0.03861848958333333,
+    "flip_real_size_matched_ci": [
+     0.03225634765625,
+     0.045158951822916654
+    ],
+    "size_matched_minus_placebo_ci": [
+     0.031941048177083334,
+     0.04536429036458332
+    ],
+    "pair_real": 0.000877830955955956,
+    "pair_real_ci": [
+     0.0006744781891266267,
+     0.0010694776808058055
+    ],
+    "pair_placebo": 0.0,
+    "pair_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "pair_ratio": null,
+    "pair_diff_ci": [
+     0.0006822740709459458,
+     0.0010821368243243243
+    ]
+   },
+   "by_factor": {
+    "frame": {
+     "f1": 0.08072916666666667,
+     "f2": 0.08203125
+    },
+    "wording": {
+     "W1": 0.057291666666666664,
+     "W2": 0.10546875
+    },
+    "place": {
+     "in a valley settlement": 0.11458333333333333,
+     "near a logging camp": 0.10416666666666667,
+     "near a sugarcane plantation": 0.0078125,
+     "on a coastal road": 0.09895833333333333
+    },
+    "time": {
+     "at dawn": 0.08854166666666667,
+     "in the afternoon": 0.0625,
+     "in the evening": 0.0859375,
+     "shortly after midnight": 0.08854166666666667
+    },
+    "item": {
+     "fishermen": {
+      "acled_p_higher": 0.087,
+      "flip": 0.03125,
+      "role": "item"
+     },
+     "miners": {
+      "acled_p_higher": 0.1034,
+      "flip": 0.359375,
+      "role": "item"
+     },
+     "farmers": {
+      "acled_p_higher": 0.112,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "anchor_lo": {
+      "acled_p_higher": 0.112,
+      "flip": 0.0,
+      "role": "anchor_lower"
+     },
+     "students": {
+      "acled_p_higher": 0.1444,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "former_members": {
+      "acled_p_higher": 0.1471,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "villagers": {
+      "acled_p_higher": 0.1538,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "traders": {
+      "acled_p_higher": 0.1701,
+      "flip": 0.109375,
+      "role": "item"
+     },
+     "drivers": {
+      "acled_p_higher": 0.1736,
+      "flip": 0.296875,
+      "role": "item"
+     },
+     "sticks_machetes": {
+      "acled_p_higher": 0.2368,
+      "flip": 0.03125,
+      "role": "item"
+     },
+     "unarmed": {
+      "acled_p_higher": 0.2581,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "security_guard": {
+      "acled_p_higher": 0.3095,
+      "flip": 0.671875,
+      "role": "item"
+     },
+     "fled": {
+      "acled_p_higher": 0.345,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "self_defense_group": {
+      "acled_p_higher": 0.4,
+      "flip": 0.03125,
+      "role": "item"
+     },
+     "bodyguards": {
+      "acled_p_higher": 0.5054,
+      "flip": 0.046875,
+      "role": "item"
+     },
+     "stones": {
+      "acled_p_higher": 0.5647,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "militia": {
+      "acled_p_higher": 0.616,
+      "flip": 0.046875,
+      "role": "item"
+     },
+     "rifle": {
+      "acled_p_higher": 0.7646,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "shotgun": {
+      "acled_p_higher": 0.7885,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "returned_fire": {
+      "acled_p_higher": 0.7927,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "armed_residents": {
+      "acled_p_higher": 0.8077,
+      "flip": 0.296875,
+      "role": "item"
+     },
+     "pistol": {
+      "acled_p_higher": 0.8607,
+      "flip": 0.0,
+      "role": "item"
+     },
+     "grenade": {
+      "acled_p_higher": 0.9156,
+      "flip": 0.03125,
+      "role": "item"
+     },
+     "anchor_hi": {
+      "acled_p_higher": 0.992,
+      "flip": 0.0,
+      "role": "anchor_higher"
+     }
+    }
+   }
+  },
+  "strict_m0": {
+   "flips": {
+    "n_descriptions": 1536,
+    "flip_real": 0.0032552083333333335,
+    "flip_real_ci": [
+     0.0006510416666666666,
+     0.006510416666666667
+    ],
+    "flip_placebo": 0.0,
+    "flip_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "flip_real_size_matched": 0.00119921875,
+    "flip_real_size_matched_ci": [
+     0.00030729166666666665,
+     0.0023697916666666663
+    ],
+    "size_matched_minus_placebo_ci": [
+     0.00018489583333333333,
+     0.0023997721354166663
+    ],
+    "pair_real": 1.46631006006006e-05,
+    "pair_real_ci": [
+     1.95508008008008e-06,
+     3.521587994244231e-05
+    ],
+    "pair_placebo": 0.0,
+    "pair_placebo_ci": [
+     0.0,
+     0.0
+    ],
+    "pair_ratio": null,
+    "pair_diff_ci": [
+     9.7754004004004e-07,
+     3.7146521521521525e-05
+    ]
+   }
+  },
+  "avg_m0": {
+   "flips": {
+    "n_descriptions": 1536,
+    "flip_real": 0.4622395833333333,
+    "flip_real_ci": [
+     0.4375,
+     0.4863444010416666
+    ],
+    "flip_placebo": 0.19596354166666666,
+    "flip_placebo_ci": [
+     0.17643229166666666,
+     0.21549479166666666
+    ],
+    "flip_real_size_matched": 0.4053671875,
+    "flip_real_size_matched_ci": [
+     0.3826412109375,
+     0.4273668294270833
+    ],
+    "size_matched_minus_placebo_ci": [
+     0.19050081380208336,
+     0.22959514973958328
+    ],
+    "pair_real": 0.11681798986486487,
+    "pair_real_ci": [
+     0.10850628460491742,
+     0.12481324097535035
+    ],
+    "pair_placebo": 0.05089089912280701,
+    "pair_placebo_ci": [
+     0.044958795915570185,
+     0.05694447299890349
+    ],
+    "pair_ratio": 2.295459342995029,
+    "pair_diff_ci": [
+     0.05914556363518124,
+     0.07267571590916573
+    ]
+   }
+  },
+  "country": {
+   "effects": {
+    "Afghanistan": {
+     "mean": -0.29554036444206605,
+     "ci": [
+      -0.3068483991463701,
+      -0.2826316834282204
+     ]
+    },
+    "Argentina": {
+     "mean": -0.07882486995076003,
+     "ci": [
+      -0.0893486038058205,
+      -0.06812515362043448
+     ]
+    },
+    "Australia": {
+     "mean": 0.22382812337010213,
+     "ci": [
+      0.2117776993235429,
+      0.23579472620871325
+     ]
+    },
+    "Bangladesh": {
+     "mean": -0.4349446618729947,
+     "ci": [
+      -0.44469548560609024,
+      -0.4252839167811168
+     ]
+    },
+    "Brazil": {
+     "mean": -0.09896647422264475,
+     "ci": [
+      -0.10902750943341961,
+      -0.08869212186244936
+     ]
+    },
+    "Canada": {
+     "mean": 0.23904622341922277,
+     "ci": [
+      0.2285756944354255,
+      0.24944559689874654
+     ]
+    },
+    "China": {
+     "mean": -0.1874674496247053,
+     "ci": [
+      -0.19713455445463848,
+      -0.1779983547785698
+     ]
+    },
+    "Colombia": {
+     "mean": -0.27120768112213983,
+     "ci": [
+      -0.2826544194505868,
+      -0.259588164946381
+     ]
+    },
+    "Egypt": {
+     "mean": -0.17355143347265312,
+     "ci": [
+      -0.18373397989094947,
+      -0.16365381949798177
+     ]
+    },
+    "Ethiopia": {
+     "mean": -0.2725097652731847,
+     "ci": [
+      -0.28413111313085593,
+      -0.26079661014737293
+     ]
+    },
+    "France": {
+     "mean": 0.11994628853521287,
+     "ci": [
+      0.10965967782028098,
+      0.12985910932832012
+     ]
+    },
+    "Germany": {
+     "mean": 0.09895019544611235,
+     "ci": [
+      0.0876382953336567,
+      0.11001724215956624
+     ]
+    },
+    "India": {
+     "mean": -0.24683430874934706,
+     "ci": [
+      -0.2578710418109842,
+      -0.23643869875733778
+     ]
+    },
+    "Indonesia": {
+     "mean": -0.34571126470317876,
+     "ci": [
+      -0.3560474679664142,
+      -0.336059115206475
+     ]
+    },
+    "Iran": {
+     "mean": -0.28797200545254026,
+     "ci": [
+      -0.30155721050642403,
+      -0.27506952894414083
+     ]
+    },
+    "Iraq": {
+     "mean": -0.06971028708346694,
+     "ci": [
+      -0.08418126519010985,
+      -0.054912669325992
+     ]
+    },
+    "Japan": {
+     "mean": 0.08479003788325674,
+     "ci": [
+      0.07519459770998434,
+      0.09453384219392537
+     ]
+    },
+    "Kenya": {
+     "mean": -0.24626464922975325,
+     "ci": [
+      -0.25502034790359285,
+      -0.23796320564464357
+     ]
+    },
+    "Libya": {
+     "mean": -0.014615886096218382,
+     "ci": [
+      -0.030723216101698654,
+      0.002870125306247729
+     ]
+    },
+    "Mexico": {
+     "mean": -0.06039225374301319,
+     "ci": [
+      -0.07007039477409781,
+      -0.0501534028410966
+     ]
+    },
+    "Morocco": {
+     "mean": -0.18006184959809465,
+     "ci": [
+      -0.18974583824920113,
+      -0.17022949134701
+     ]
+    },
+    "Myanmar": {
+     "mean": -0.25904134325806655,
+     "ci": [
+      -0.2725081401625054,
+      -0.24686025317790014
+     ]
+    },
+    "Nigeria": {
+     "mean": -0.3903889999397734,
+     "ci": [
+      -0.4032218951285267,
+      -0.3771771262929714
+     ]
+    },
+    "Norway": {
+     "mean": 0.22390950431542933,
+     "ci": [
+      0.21353907117579943,
+      0.23509755487498768
+     ]
+    },
+    "Pakistan": {
+     "mean": -0.32565104211755624,
+     "ci": [
+      -0.3374709572443817,
+      -0.3131597925461581
+     ]
+    },
+    "Philippines": {
+     "mean": -0.23190104200705264,
+     "ci": [
+      -0.24448669557445393,
+      -0.21964508027169977
+     ]
+    },
+    "Russia": {
+     "mean": 0.03156738279619731,
+     "ci": [
+      0.02179957062832699,
+      0.04197311486429933
+     ]
+    },
+    "South Africa": {
+     "mean": 0.03640950359753485,
+     "ci": [
+      0.025671028141594547,
+      0.04701237729376912
+     ]
+    },
+    "South Korea": {
+     "mean": 0.05374348888036214,
+     "ci": [
+      0.043894348260149534,
+      0.06346186270954991
+     ]
+    },
+    "Sudan": {
+     "mean": -0.38119303291277146,
+     "ci": [
+      -0.39267476314571653,
+      -0.36959228637070485
+     ]
+    },
+    "Sweden": {
+     "mean": 0.034781900030679935,
+     "ci": [
+      0.022865702073319102,
+      0.047068531452356024
+     ]
+    },
+    "Syria": {
+     "mean": -0.0634440111408594,
+     "ci": [
+      -0.07935297868302493,
+      -0.04775375527162245
+     ]
+    },
+    "Ukraine": {
+     "mean": 0.1406168607749123,
+     "ci": [
+      0.12888239375304902,
+      0.15154459539027934
+     ]
+    },
+    "United Kingdom": {
+     "mean": 0.4145833322679285,
+     "ci": [
+      0.39808186658197925,
+      0.4300839225025248
+     ]
+    },
+    "United States": {
+     "mean": 0.5919514957679061,
+     "ci": [
+      0.5793332400846787,
+      0.6053192121167333
+     ]
+    },
+    "Venezuela": {
+     "mean": -0.04114583203640147,
+     "ci": [
+      -0.05328430059436792,
+      -0.02878362022086227
+     ]
+    },
+    "Yemen": {
+     "mean": -0.17448730520303948,
+     "ci": [
+      -0.18875010364870046,
+      -0.1600024939900527
+     ]
+    },
+    "Bifavuia": {
+     "mean": -0.17314453282320605,
+     "ci": [
+      -0.17999786455475725,
+      -0.16664403513485657
+     ]
+    },
+    "Diror": {
+     "mean": -0.08049316458531545,
+     "ci": [
+      -0.08494344126272496,
+      -0.07619715498164359
+     ]
+    },
+    "Drinmuren": {
+     "mean": 0.039135741400703715,
+     "ci": [
+      0.03426655977140333,
+      0.04442926997825774
+     ]
+    },
+    "Gaor": {
+     "mean": -0.018115235541510327,
+     "ci": [
+      -0.022621816841207003,
+      -0.01359802513993363
+     ]
+    },
+    "Geborstoran": {
+     "mean": 0.09394531383838967,
+     "ci": [
+      0.08866404496700077,
+      0.09951614538433186
+     ]
+    },
+    "Grarand": {
+     "mean": 0.029736328900412445,
+     "ci": [
+      0.02554112939726944,
+      0.033896178711756014
+     ]
+    },
+    "Karasen": {
+     "mean": 0.027620441866967365,
+     "ci": [
+      0.022449443430848436,
+      0.03252970262358208
+     ]
+    },
+    "Kodean": {
+     "mean": -0.033007812343271326,
+     "ci": [
+      -0.03689285361986057,
+      -0.029174804905414072
+     ]
+    },
+    "Krunstamiren": {
+     "mean": 0.042919921955255326,
+     "ci": [
+      0.037580668191120124,
+      0.04831949771044027
+     ]
+    },
+    "Nesar": {
+     "mean": -0.09680989537601666,
+     "ci": [
+      -0.10320459997900457,
+      -0.08999964453219397
+     ]
+    },
+    "Nilia": {
+     "mean": 0.04654134010407537,
+     "ci": [
+      0.04193644199552135,
+      0.051265717933775934
+     ]
+    },
+    "Reine": {
+     "mean": -0.00017089817489098977,
+     "ci": [
+      -0.007190093266033558,
+      0.006807606446828532
+     ]
+    },
+    "Runtormuesh": {
+     "mean": 0.09121907567127134,
+     "ci": [
+      0.08518646220330302,
+      0.09738199963057846
+     ]
+    },
+    "Sarand": {
+     "mean": -0.02438150975190941,
+     "ci": [
+      -0.029093932710999675,
+      -0.019622445121413534
+     ]
+    },
+    "Sunderia": {
+     "mean": 0.02859700502013614,
+     "ci": [
+      0.022499186917438956,
+      0.03438751206962981
+     ]
+    },
+    "Taroar": {
+     "mean": -0.04069824128263615,
+     "ci": [
+      -0.04495483195944311,
+      -0.0364025871418096
+     ]
+    },
+    "Tistrulova": {
+     "mean": 0.07937825562025105,
+     "ci": [
+      0.074908293774704,
+      0.08379119788016985
+     ]
+    },
+    "Trara": {
+     "mean": -0.014046224076196268,
+     "ci": [
+      -0.018256732661344487,
+      -0.00997258542595006
+     ]
+    },
+    "Virstelia": {
+     "mean": 0.0023518886576236273,
+     "ci": [
+      -0.0014345300774993095,
+      0.005938771709145764
+     ]
+    },
+    "Zasien": {
+     "mean": -0.0005777990801334459,
+     "ci": [
+      -0.004213814569314992,
+      0.003094585141620124
+     ]
+    }
+   },
+   "split_half_r_real": 0.9997978749390543,
+   "split_half_r_placebo": 0.9955207219348924,
+   "beta_sd_real": 0.23280659213076896,
+   "variance_share_real": 0.6499985244914059,
+   "within_sd_real": 0.2848324572562287,
+   "beta_sd_placebo": 0.06535502479720269,
+   "variance_share_placebo": 0.2814460705839568,
+   "within_sd_placebo": 0.12007240006401494,
+   "token_r_real": 0.5542460009483359,
+   "token_r_placebo": 0.21493376635583972,
+   "halves": {
+    "names": [
+     "Afghanistan",
+     "Argentina",
+     "Australia",
+     "Bangladesh",
+     "Brazil",
+     "Canada",
+     "China",
+     "Colombia",
+     "Egypt",
+     "Ethiopia",
+     "France",
+     "Germany",
+     "India",
+     "Indonesia",
+     "Iran",
+     "Iraq",
+     "Japan",
+     "Kenya",
+     "Libya",
+     "Mexico",
+     "Morocco",
+     "Myanmar",
+     "Nigeria",
+     "Norway",
+     "Pakistan",
+     "Philippines",
+     "Russia",
+     "South Africa",
+     "South Korea",
+     "Sudan",
+     "Sweden",
+     "Syria",
+     "Ukraine",
+     "United Kingdom",
+     "United States",
+     "Venezuela",
+     "Yemen"
+    ],
+    "half0": [
+     -0.28834635384452384,
+     -0.0746419261798716,
+     0.23020833202641935,
+     -0.4358072931592691,
+     -0.09392903707312135,
+     0.24908854171429354,
+     -0.18450521006210083,
+     -0.2700358070491045,
+     -0.1667643235602555,
+     -0.2683268198719514,
+     0.12327473791110599,
+     0.1036621078637532,
+     -0.24431966020168452,
+     -0.3416503920833449,
+     -0.2814290353528125,
+     -0.062272136902902314,
+     0.0877115851210875,
+     -0.2416341151432486,
+     -0.007666015307707594,
+     -0.056656900927646366,
+     -0.17620442940857783,
+     -0.25782877948498334,
+     -0.3877929706235292,
+     0.23020833228289705,
+     -0.31853841299171143,
+     -0.2277994780687247,
+     0.03652343789414479,
+     0.04270833303353364,
+     0.055729166440232895,
+     -0.37875976426224384,
+     0.042057289832549416,
+     -0.06145833322098043,
+     0.1481770839139245,
+     0.4195800774565513,
+     0.5921874989765458,
+     -0.033707681052146665,
+     -0.16993815224929368
+    ],
+    "half1": [
+     -0.30273437503960826,
+     -0.0830078137216484,
+     0.21744791471378475,
+     -0.43408203058672007,
+     -0.10400391137216813,
+     0.22900390512415172,
+     -0.19042968918730976,
+     -0.2723795551951752,
+     -0.18033854338505084,
+     -0.2766927106744181,
+     0.11661783915931957,
+     0.09423828302847133,
+     -0.24934895729700957,
+     -0.34977213732301254,
+     -0.2945149755522681,
+     -0.0771484372640316,
+     0.08186849064542599,
+     -0.2508951833162579,
+     -0.021565756884729084,
+     -0.06412760655838004,
+     -0.1839192697876115,
+     -0.26025390703114976,
+     -0.39298502925601747,
+     0.2176106763479614,
+     -0.33276367124340117,
+     -0.23600260594538056,
+     0.026611327698249924,
+     0.030110674161536077,
+     0.051757811320491426,
+     -0.38362630156329874,
+     0.02750651022881047,
+     -0.06542968906073837,
+     0.13305663763590006,
+     0.4095865870793058,
+     0.5917154925592668,
+     -0.048583983020656286,
+     -0.17903645815678523
+    ]
+   },
+   "kinds": {
+    "Afghanistan": "real",
+    "Argentina": "real",
+    "Australia": "real",
+    "Bangladesh": "real",
+    "Brazil": "real",
+    "Canada": "real",
+    "China": "real",
+    "Colombia": "real",
+    "Egypt": "real",
+    "Ethiopia": "real",
+    "France": "real",
+    "Germany": "real",
+    "India": "real",
+    "Indonesia": "real",
+    "Iran": "real",
+    "Iraq": "real",
+    "Japan": "real",
+    "Kenya": "real",
+    "Libya": "real",
+    "Mexico": "real",
+    "Morocco": "real",
+    "Myanmar": "real",
+    "Nigeria": "real",
+    "Norway": "real",
+    "Pakistan": "real",
+    "Philippines": "real",
+    "Russia": "real",
+    "South Africa": "real",
+    "South Korea": "real",
+    "Sudan": "real",
+    "Sweden": "real",
+    "Syria": "real",
+    "Ukraine": "real",
+    "United Kingdom": "real",
+    "United States": "real",
+    "Venezuela": "real",
+    "Yemen": "real",
+    "Bifavuia": "fictional",
+    "Diror": "fictional",
+    "Drinmuren": "fictional",
+    "Gaor": "fictional",
+    "Geborstoran": "fictional",
+    "Grarand": "fictional",
+    "Karasen": "fictional",
+    "Kodean": "fictional",
+    "Krunstamiren": "fictional",
+    "Nesar": "fictional",
+    "Nilia": "fictional",
+    "Reine": "fictional",
+    "Runtormuesh": "fictional",
+    "Sarand": "fictional",
+    "Sunderia": "fictional",
+    "Taroar": "fictional",
+    "Tistrulova": "fictional",
+    "Trara": "fictional",
+    "Virstelia": "fictional",
+    "Zasien": "fictional"
+   }
+  },
+  "posthoc": {
+   "avg_flip_leave_one_out": {
+    "Afghanistan": 0.08072916666666667,
+    "Argentina": 0.08138020833333333,
+    "Australia": 0.08138020833333333,
+    "Bangladesh": 0.07942708333333333,
+    "Brazil": 0.08138020833333333,
+    "Canada": 0.08138020833333333,
+    "China": 0.08138020833333333,
+    "Colombia": 0.07682291666666667,
+    "Egypt": 0.08138020833333333,
+    "Ethiopia": 0.08072916666666667,
+    "France": 0.08138020833333333,
+    "Germany": 0.08138020833333333,
+    "India": 0.08138020833333333,
+    "Indonesia": 0.080078125,
+    "Iran": 0.07877604166666667,
+    "Iraq": 0.08138020833333333,
+    "Japan": 0.08138020833333333,
+    "Kenya": 0.08138020833333333,
+    "Libya": 0.08138020833333333,
+    "Mexico": 0.08138020833333333,
+    "Morocco": 0.08138020833333333,
+    "Myanmar": 0.08138020833333333,
+    "Nigeria": 0.07486979166666667,
+    "Norway": 0.08138020833333333,
+    "Pakistan": 0.078125,
+    "Philippines": 0.08138020833333333,
+    "Russia": 0.08138020833333333,
+    "South Africa": 0.08138020833333333,
+    "South Korea": 0.08138020833333333,
+    "Sudan": 0.080078125,
+    "Sweden": 0.08138020833333333,
+    "Syria": 0.08138020833333333,
+    "Ukraine": 0.08138020833333333,
+    "United Kingdom": 0.08072916666666667,
+    "United States": 0.017578125,
+    "Venezuela": 0.08138020833333333,
+    "Yemen": 0.08138020833333333
+   },
+   "effect_sd_single_token_real": 0.19345174731831907,
+   "n_single_token_real": 32,
+   "letter_pref_mean": -1.189995425783008,
+   "letter_pref_share_favours_A": 0.016186242816091954
+  }
+ }
+}

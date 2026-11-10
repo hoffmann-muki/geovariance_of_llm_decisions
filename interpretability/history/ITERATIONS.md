@@ -117,3 +117,14 @@ Inputs are in `data/geo/it04/`. Each iteration from it04 on has its own input di
   - Its within-row country spread is about the same as Llama's (median SD 0.62 against 0.59), but its country ordering is mostly different (r = +0.13 across 37 countries).
   - Qwen's VAC-leaning countries are Sweden, Yemen, Australia and the UK; its Battle-leaning ones are Russia, the US, Iran and China. Only Russia and the US share a direction with Llama.
   - **Conclusion:** the BV country axis is largely specific to Llama. Qwen has country effects of similar size but organizes them differently, and on these descriptions it is far from its own boundary.
+
+## v4.1 proposal (2026-11-07)
+
+**Not an iteration of the inputs yet; no inputs changed.** An evidence-based construction plan is written in [../CONSTRUCTION.md](../CONSTRUCTION.md). It maps each likely objection to the evidence that answers it, and adds:
+- a precision audit of the ACLED lexicon,
+- frames derived from the structure of ACLED notes,
+- human labels for the items and severity ratings for intensity,
+- a country sampling rule,
+- an intensity axis that is irrelevant to the class by definition, crossed with the class-evidence ladder.
+
+Exploratory work so far (pilot bases only) is an order-only flip sweep and an ACLED fatality scan (CONSTRUCTION.md § 7).

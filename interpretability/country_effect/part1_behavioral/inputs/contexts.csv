@@ -1,0 +1,33 @@
+boundary,context_id,actors,grievance,place,time,half
+PR,PR_c00,airport staff,late scholarship payments,near a train depot,,0
+PR,PR_c01,airport staff,a new parking fee,in a shopping street,,1
+PR,PR_c02,airport staff,a plan to close a library,outside a university gate,,0
+PR,PR_c03,airport staff,housing evictions,near a port authority office,,1
+PR,PR_c10,garment workers,late scholarship payments,in a shopping street,,1
+PR,PR_c11,garment workers,a new parking fee,outside a university gate,,0
+PR,PR_c12,garment workers,a plan to close a library,near a port authority office,,1
+PR,PR_c13,garment workers,housing evictions,near a train depot,,0
+PR,PR_c20,sanitation workers,late scholarship payments,outside a university gate,,0
+PR,PR_c21,sanitation workers,a new parking fee,near a port authority office,,1
+PR,PR_c22,sanitation workers,a plan to close a library,near a train depot,,0
+PR,PR_c23,sanitation workers,housing evictions,in a shopping street,,1
+PR,PR_c30,cooks,late scholarship payments,near a port authority office,,1
+PR,PR_c31,cooks,a new parking fee,near a train depot,,0
+PR,PR_c32,cooks,a plan to close a library,in a shopping street,,1
+PR,PR_c33,cooks,housing evictions,outside a university gate,,0
+BV,BV_c00,,,on a coastal road,at dawn,0
+BV,BV_c01,,,on a coastal road,in the afternoon,1
+BV,BV_c02,,,on a coastal road,in the evening,0
+BV,BV_c03,,,on a coastal road,shortly after midnight,1
+BV,BV_c10,,,near a sugarcane plantation,at dawn,1
+BV,BV_c11,,,near a sugarcane plantation,in the afternoon,0
+BV,BV_c12,,,near a sugarcane plantation,in the evening,1
+BV,BV_c13,,,near a sugarcane plantation,shortly after midnight,0
+BV,BV_c20,,,in a valley settlement,at dawn,0
+BV,BV_c21,,,in a valley settlement,in the afternoon,1
+BV,BV_c22,,,in a valley settlement,in the evening,0
+BV,BV_c23,,,in a valley settlement,shortly after midnight,1
+BV,BV_c30,,,near a logging camp,at dawn,1
+BV,BV_c31,,,near a logging camp,in the afternoon,0
+BV,BV_c32,,,near a logging camp,in the evening,1
+BV,BV_c33,,,near a logging camp,shortly after midnight,0

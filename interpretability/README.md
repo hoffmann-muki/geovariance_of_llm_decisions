@@ -4,6 +4,7 @@ This folder is the main repository for the interpretability project. It builds a
 
 - **[PLAN.md](PLAN.md):** the full method (task, materials, scoring, verification stages, results, limitations). Start here.
 - **[HANDOFF.md](HANDOFF.md):** current status and next steps.
+- **[CONSTRUCTION.md](CONSTRUCTION.md):** proposed evidence-based construction of the inputs (v4.1), with the evidence ledger and the intensity axis.
 
 ## Layout
 

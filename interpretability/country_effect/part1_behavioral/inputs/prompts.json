@@ -1,0 +1,54 @@
+{
+  "PR:A": {
+    "task_id": "PR:defined:p0:A",
+    "boundary": "PR",
+    "version": "defined",
+    "paraphrase": 0,
+    "order": "A",
+    "layout": "options_first",
+    "system_prompt": "You code demonstration events for a conflict-event dataset. Read the event description and decide which of the two event types below it is.\n\nProtest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.\n\nRiot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property.\n\nA. Protest\nB. Riot\n\nAnswer with one letter: A or B.",
+    "lower": "Protest",
+    "higher": "Riot",
+    "letter_lower": "A",
+    "letter_higher": "B"
+  },
+  "PR:B": {
+    "task_id": "PR:defined:p0:B",
+    "boundary": "PR",
+    "version": "defined",
+    "paraphrase": 0,
+    "order": "B",
+    "layout": "options_first",
+    "system_prompt": "You code demonstration events for a conflict-event dataset. Read the event description and decide which of the two event types below it is.\n\nRiot: a demonstration in which participants engage in violence or destruction, such as attacking people or damaging property.\n\nProtest: a public demonstration in which participants remain nonviolent, including demonstrations that face intervention or violence from others.\n\nA. Riot\nB. Protest\n\nAnswer with one letter: A or B.",
+    "lower": "Protest",
+    "higher": "Riot",
+    "letter_lower": "B",
+    "letter_higher": "A"
+  },
+  "BV:A": {
+    "task_id": "BV:defined:p3:A",
+    "boundary": "BV",
+    "version": "defined",
+    "paraphrase": 3,
+    "order": "A",
+    "layout": "options_first",
+    "system_prompt": "Below is a short report of a violent incident. Assign it to one of the two event types used in conflict monitoring that are listed below.\n\nBattle: a fight between organized armed sides, each capable of hurting the other.\n\nViolence against civilians: an organized armed group purposely harms unarmed civilians who are unable to protect themselves.\n\nA. Battle\nB. Violence against civilians\n\nGive your answer as one letter: A or B.",
+    "lower": "Violence against civilians",
+    "higher": "Battle",
+    "letter_lower": "B",
+    "letter_higher": "A"
+  },
+  "BV:B": {
+    "task_id": "BV:defined:p3:B",
+    "boundary": "BV",
+    "version": "defined",
+    "paraphrase": 3,
+    "order": "B",
+    "layout": "options_first",
+    "system_prompt": "Below is a short report of a violent incident. Assign it to one of the two event types used in conflict monitoring that are listed below.\n\nViolence against civilians: an organized armed group purposely harms unarmed civilians who are unable to protect themselves.\n\nBattle: a fight between organized armed sides, each capable of hurting the other.\n\nA. Violence against civilians\nB. Battle\n\nGive your answer as one letter: A or B.",
+    "lower": "Violence against civilians",
+    "higher": "Battle",
+    "letter_lower": "A",
+    "letter_higher": "B"
+  }
+}
