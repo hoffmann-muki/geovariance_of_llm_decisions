@@ -17,7 +17,7 @@ import numpy as np
 import pandas as pd
 
 from geoflip import study as S
-from geoflip.pipeline import country_conditions, country_phrase
+from geoflip.render import country_conditions, country_phrase
 
 from .score import WORK, load
 

@@ -113,7 +113,7 @@ A description \emph{flips} if at least one real country assigns the higher class
 
 % TAKEAWAY: One model, one prompt per boundary, selected on anchors only.
 \paragraph{Model and prompts.}
-We evaluate Llama-3.2-3B-Instruct (revision \texttt{0cb88a4f76}, bf16) with its standard chat template and a fixed date header. Each boundary uses one task prompt with class definitions, chosen from four paraphrases by a criterion fixed before any country condition was scored: correct labels for every anchor, in both orders and both frames, on a separate set of pilot contexts, with $P(\text{A})+P(\text{B})\geq0.9$. The selected prompts meet it with anchor accuracy 1.0.
+We evaluate Llama-3.2-3B-Instruct (revision \texttt{0cb88a4f76}, bf16) with its standard chat template and a fixed date header. Each boundary uses one task prompt with class definitions, chosen from four paraphrases by a criterion fixed before any country condition was scored: anchor accuracy of at least 0.9 at both ends of the scale, in both orders, both frames, and both with and without class definitions, on a separate set of pilot contexts, with $P(\text{A})+P(\text{B})\geq0.9$. We use the lowest-numbered paraphrase that meets it; the selected prompts label every anchor correctly.
 
 % TAKEAWAY: The run is complete, deterministic and released.
 \paragraph{Compute and data.}

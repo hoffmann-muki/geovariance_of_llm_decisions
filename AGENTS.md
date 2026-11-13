@@ -2,7 +2,7 @@
 
 Use [README.md](README.md) for entry points and commands, and [PROJECT_PLAN.md](PROJECT_PLAN.md) for the research design.
 
-The interpretability exploration (`interpretability/`, `src/interp_*`, `tests/test_interp_*`) follows only [interpretability/PLAN.md](interpretability/PLAN.md). PROJECT_PLAN.md's review process, analysis registry and endpoints do not apply to it. The implementation and data-handling rules below still apply.
+The interpretability exploration (`interpretability/`, `src/interp_*`, `tests/test_interp_*`) follows only [interpretability/README.md](interpretability/README.md) and the documents it links. PROJECT_PLAN.md's review process, analysis registry and endpoints do not apply to it. The implementation and data-handling rules below still apply.
 
 ## Implementation
 

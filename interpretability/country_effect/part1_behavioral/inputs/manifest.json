@@ -6,10 +6,11 @@
     "inputs/v4/items.json": "7b1b3715a26a2b391ab0231b942fc6e7f16c1d0c9daa6188125b40c0ac7a7273",
     "inputs/v4/acled_acts.csv": "012a2eee26e862db2fad55c8377ea6aedcb0c6e04550ccdca6ade48c4ac28a1e",
     "country_effect/part1_behavioral/inputs/placebos.json": "8e739ed8a7d19198fac2e46b1376407e95ffeba07309bbc2c4e09e318429846d",
-    "geoflip/materials.py": "02f1d66ef3d928a3abedacf202d3db01cfd2550f1937a0f5cae4f47a562ffb27",
-    "geoflip/scoring.py": "a01594dbdfff2df7db1be07f9a9957cbbcf52303f0baf87b6723e08c52692ace",
-    "geoflip/study.py": "62c959ef5bfbfe0454ae1aed6024c5216f517278df543c42ae3df28644173eac",
-    "country_effect/part1_behavioral/build.py": "19b37439330172bd24a5f4b089a1e6ee59f61f2797fd233659dbde6d727d5df5"
+    "geoflip/materials.py": "c50609afdc1dab019f0e5d8266f8df85bd96e0bc919c0a0c12435041c897d339",
+    "geoflip/render.py": "39f70abf04d19e5fb1ca243ae05330fdad9a073a700327819b714610bd27a562",
+    "geoflip/scoring.py": "6681f82c308e80a28e6c2b1a1052023f7606fd0fdc132205c1d0e738d9d503f3",
+    "geoflip/study.py": "6e177e7966b8e80b26150f2b706562555f884a9e2bd20300de0a8ef83082914d",
+    "country_effect/part1_behavioral/build.py": "2d5f46565098a814010884a1a139c856de9505eeb02019ecdd5752306974646b"
   },
   "outputs": {
     "country_effect/part1_behavioral/inputs/contexts.csv": "b45882f4ac3a3d8e8abd72d9ba21426326fcccb37c58dee674a957799538f11e",

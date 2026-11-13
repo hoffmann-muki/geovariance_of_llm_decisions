@@ -22,7 +22,7 @@ from pathlib import Path
 
 from geoflip import study as S
 from geoflip.materials import BV_VALUES, PR_VALUES
-from geoflip.pipeline import country_conditions, country_phrase, render
+from geoflip.render import country_conditions, country_phrase, render
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent  # interpretability/
@@ -190,6 +190,7 @@ def main():
             V4 / "acled_acts.csv",
             HERE / "inputs" / "placebos.json",
             ROOT / "geoflip" / "materials.py",
+            ROOT / "geoflip" / "render.py",
             ROOT / "geoflip" / "scoring.py",
             ROOT / "geoflip" / "study.py",
             Path(__file__),

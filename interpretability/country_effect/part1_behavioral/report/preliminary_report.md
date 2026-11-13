@@ -121,7 +121,7 @@ The two labels answer different questions. The strict label asks whether the cou
 
 ### 4.3 Prompt Selection
 
-Each boundary uses one task prompt from a set of four candidate paraphrases. The selection criterion, fixed before any country condition was scored, was that the prompt label every anchor correctly in both orders and both frames on a separate set of pilot contexts, with P(A) + P(B) ≥ 0.9 throughout. The chosen prompts (PR p0, BV p3) meet it with anchor accuracy 1.0. The criterion uses anchors only, never country conditions.
+Each boundary uses one task prompt from a set of four candidate paraphrases. The selection criterion, fixed before any country condition was scored, was anchor accuracy of at least 0.9 at both ends of the scale, in both orders, both frames, and both with and without class definitions, on a separate set of pilot contexts, with P(A) + P(B) ≥ 0.9 throughout. We use the lowest-numbered paraphrase that meets it: PR p0 and BV p3, both with anchor accuracy 1.0 (gates in `inputs/prompt_selection.json`). The criterion uses anchors only, never country conditions.
 
 ### 4.4 Analysis Plan
 

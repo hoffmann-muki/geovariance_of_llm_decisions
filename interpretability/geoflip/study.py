@@ -1,10 +1,9 @@
-"""The v4 study: one pre-specified pipeline over a fully crossed population.
+"""Shared study code: V0 checks on the materials, task prompts, the scorer, and the pilot.
 
-  check   V0 static rules on the inputs (PLAN.md § 3.2), and the task prompts
-  pilot   layout choice, anchors, first-token validity, fp32 audit, throughput (pilot bases)
-  score   every cell of the main population, scored once (needs a frozen prereg)
-  filter  the single flip rule and its placebo null (PLAN.md § 6)
-  export  dataset/<version>/
+  check       V0 static rules on the inputs and task prompts (MATERIALS.md § 3.3)
+  pilot       anchor gates per prompt on the pilot contexts, used for prompt
+              selection (MATERIALS.md § 4.1)
+  fp32_audit  re-score a sample of pilot prompts in fp32
 
 Answers are single tokens: the options are listed as "A. <class>" and
 "B. <class>", and a prompt's score is read from the first answer position.
@@ -15,7 +14,7 @@ import re
 from itertools import product
 from pathlib import Path
 
-from .pipeline import country_conditions, country_phrase, frame_fields, render
+from .render import country_conditions, country_phrase, frame_fields, render
 from .utils import read_csv, read_json, require
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -25,7 +24,7 @@ VERSIONS = ("defined", "undefined")
 ORDERS = ("A", "B")  # A: order_a[0] is option A; B: reversed
 LETTERS = ("A", "B")
 
-# ---------------------------------------------------------------- V0 rules (PLAN.md § 3.2)
+# ---------------------------------------------------------------- V0 rules (MATERIALS.md § 3.3)
 
 MIN_WORDS, MAX_WORDS = 5, 16
 HEDGES = {
@@ -481,7 +480,7 @@ def scored(scorer, stims, tasks):
     return rows
 
 
-# ---------------------------------------------------------------- pilot (PLAN.md § 5)
+# ---------------------------------------------------------------- pilot (MATERIALS.md § 4.1)
 
 ANCHOR_ACCURACY = 0.9  # per concrete prompt and frame, both ends
 MASS_P05 = 0.9  # 5th percentile of P(A) + P(B) per concrete prompt

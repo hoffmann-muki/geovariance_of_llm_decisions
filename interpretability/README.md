@@ -1,30 +1,61 @@
-# Geographic Flips in LLM Event Coding
+# Investigating the Influence of Geography on LLM Decision-Making in Ambiguous Contexts
 
-This folder is the main repository for the interpretability project. It builds a dataset of event descriptions whose class, as coded by Llama 3.2 3B, changes when only the country named in the description changes. Version 4 (in progress) scores a fully crossed population of descriptions built from ACLED-attested acts, with single-token A/B answers and one pre-specified filtering rule against a placebo-name null. The earlier exploratory v3 dataset is in `history/v3/`.
+Code, data and reports for the project by Hoffmann Muki and Pritika Ramu.
 
-- **[PLAN.md](PLAN.md):** the full method (task, materials, scoring, verification stages, results, limitations). Start here.
-- **[HANDOFF.md](HANDOFF.md):** current status and next steps.
-- **[CONSTRUCTION.md](CONSTRUCTION.md):** proposed evidence-based construction of the inputs (v4.1), with the evidence ledger and the intensity axis.
+**Question.** When a conflict-event description is held fixed and only the name of the country where it happened changes, does a language model's event label change? The task uses two ACLED distinctions: Protest vs Riot (PR), and Battle vs Violence against civilians (BV).
+
+**Design.**
+- **Evidence:** every description is built from acts attested in at least 20 ACLED event notes.
+- **Systematic variation:** descriptions vary in evidence, frame, wording, actors, grievances, places and times.
+- **Manipulation:** each description is rendered with 37 real countries, 20 invented placebo names and no country.
+- **Scoring:** Llama-3.2-3B-Instruct labels every rendering in both option orders.
+
+**Main result.** For BV, the country shifts the model's judgement in a stable, geographically ordered way that placebo names do not reproduce, and it changes the label in 8.1% of descriptions. For PR, country effects are at placebo level.
+
+## Where to Start
+
+| You want | Go to |
+| --- | --- |
+| The report | [country_effect/main.tex](country_effect/main.tex) (midterm report) or [country_effect/part1_behavioral/report/preliminary_report.md](country_effect/part1_behavioral/report/preliminary_report.md) (longer version) |
+| How the study was designed and analysed | [country_effect/part1_behavioral/DESIGN.md](country_effect/part1_behavioral/DESIGN.md) |
+| How the materials (ACLED items, frames, names, prompts) were built | [MATERIALS.md](MATERIALS.md) |
+| The dataset | [country_effect/part1_behavioral/dataset/](country_effect/part1_behavioral/dataset/) |
+| Every number in the report | [country_effect/part1_behavioral/report/results.json](country_effect/part1_behavioral/report/results.json) |
+| Planned extensions of the dataset construction | [CONSTRUCTION.md](CONSTRUCTION.md) |
 
 ## Layout
 
-| Path | Contents |
-| --- | --- |
-| `geoflip/` | The code. v4: `acled.py` (ACLED act counts), `items.py` (item sentences), `materials.py` (frames and bases), `placebo.py` (placebo names), `study.py` (V0 rules, A/B prompts, first-token scorer, pilot); `scoring.py` (prompt rendering, `score_first_token`). v3: `pipeline.py`, `dataset.py` |
-| `inputs/v4/` | v4 inputs: ACLED act table, items, descriptions, task prompts, names, bases. `inputs/` itself holds the v3 inputs used by `pipeline.py` |
-| `scripts/run_loop.sh` | Runs the stages for one boundary on one GPU |
-| `tests/` | Unit tests (`GEOFLIP_TOKENIZER_TESTS=1` adds checks against the real tokenizers) |
-| `history/` | Frozen record of the earlier iterations and of version 1 ([history/README.md](history/README.md)) |
-| `.env` | `HF_TOKEN` for the gated Llama weights. Not in git; never copy or commit it |
+```
+interpretability/
+├── README.md               this file
+├── MATERIALS.md            how inputs/v4/ was built: task, ACLED items, sentence rules, frames, names, prompts, prompt selection
+├── CONSTRUCTION.md         planned evidence steps for the next dataset version (lexicon audit, frames from notes, human labels)
+├── requirements.txt
+├── geoflip/                shared library
+│   ├── acled.py            ACLED act lexicon and P(higher | act) counts
+│   ├── items.py            evidence sentences (W1, W2) from the ACLED acts
+│   ├── materials.py        frames, context value lists, pilot contexts
+│   ├── placebo.py          placebo country names
+│   ├── render.py           renders a description with a country phrase
+│   ├── scoring.py          chat-template rendering and first-token A/B log-probabilities
+│   ├── study.py            V0 rules, task-prompt rendering, cached scorer, prompt-selection pilot
+│   └── utils.py
+├── inputs/v4/              materials: ACLED act table, items, frames, names, task prompts, pilot contexts
+└── country_effect/         the study (see country_effect/README.md)
+    ├── main.tex            midterm report
+    ├── part1_behavioral/   build, score, analyse; inputs, dataset, results, figures, DESIGN.md
+    └── part2_attribution/  planned
+```
 
-## Quick Start (v4)
+## Reproducing
 
 ```bash
 cd interpretability
-export PY=/fs/clip-projects/rlab/pramu/miniconda3/envs/interp-pilot/bin/python HF_HOME=/fs/clip-scratch/rlab_models
-$PY -m unittest discover -s tests -t .        # tests
-$PY -m geoflip.study check                    # V0 rules on inputs/v4
-CUDA_VISIBLE_DEVICES=0 $PY -m geoflip.study pilot   # pilot (resumes from the score cache)
+pip install -r requirements.txt
+export HF_TOKEN=...                                  # gated model; or put it in interpretability/.env
+python -m country_effect.part1_behavioral.build      # dataset/descriptions.csv
+python -m country_effect.part1_behavioral.score      # 408,320 prompts, about 4.3 h on one RTX A4000
+python -m country_effect.part1_behavioral.analyse    # tables, results.json, figures
 ```
 
-See [HANDOFF.md](HANDOFF.md) for how to resume the interrupted pilot. The v3 pipeline (`scripts/run_loop.sh`, `geoflip.pipeline`, `geoflip.dataset`) still runs on the v3 inputs in `inputs/`. New experiments go in new input directories and work directories, so existing results and their hashes stay valid.
+Rebuilding the materials themselves from the raw ACLED exports (`../conflict_data/`, not redistributed) is described in [MATERIALS.md § 6](MATERIALS.md#6-rebuilding-the-materials).

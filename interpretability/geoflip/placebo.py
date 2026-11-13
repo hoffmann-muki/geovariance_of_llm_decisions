@@ -1,14 +1,15 @@
 """Placebo country names: invented, pronounceable, and matched in length to the real names.
 
 A placebo goes through the same pipeline as a real country. How often placebo
-pairs "flip" estimates how many flips arise from surface form alone (PLAN.md
-§ 6). Names are built from a fixed syllable inventory with a fixed seed. Any
+pairs "flip" estimates how many flips arise from surface form alone
+(MATERIALS.md § 3.6). Names are built from a fixed syllable inventory with a fixed seed. Any
 candidate is rejected if it is a real place name (any ACLED country, admin
 area or location, or a name in WORLD_COUNTRIES), or a single token in the
 model's vocabulary (a sign that it is an existing word or name). The kept names
 match the character-length distribution of the real names by quantile.
 
-  python -m geoflip.placebo --out inputs/v4/placebos.json
+  python -m geoflip.placebo --countries inputs/v4/names.json \
+      --out country_effect/part1_behavioral/inputs/placebos.json
 """
 
 import argparse
@@ -116,7 +117,7 @@ def main(argv=None):
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument(
-        "--countries", type=Path, default=ROOT / "inputs" / "countries.json"
+        "--countries", type=Path, default=ROOT / "inputs" / "v4" / "names.json"
     )
     parser.add_argument("--out", type=Path, required=True)
     args = parser.parse_args(argv)

@@ -54,7 +54,7 @@ GENERIC = {"set_fire_generic", "damage"}
 MIN_ATTESTATIONS = 20  # an act becomes an item if n_higher + n_lower >= this
 
 # act id -> (dimension levels, regex). Dimensions follow the class definitions
-# (PLAN.md § 3): PR act type x target; BV means x use x organisation.
+# (MATERIALS.md § 3.2): PR act type x target; BV means x use x organisation.
 ACT_LEXICON = {
     "PR": {
         # projectiles

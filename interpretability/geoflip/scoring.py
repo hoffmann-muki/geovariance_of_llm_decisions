@@ -1,10 +1,9 @@
-"""Score a classification prompt by teacher-forced answer log-probability.
+"""Score a two-option prompt by the log-probabilities of its answer letters.
 
-Each answer ("Protest", "Violence against civilians", ...) can span several
-tokens, so a prompt's score for an answer is the sum of the log-probabilities
-of that answer's tokens, starting at the first position after the model's
-assistant header. One prompt per forward pass per answer; no batching or
-padding (batched bf16 scoring moved log-probabilities by up to 0.6 nats).
+The prompt is rendered with the model's chat template (verified token by
+token), and log P("A") and log P("B") are read at the first answer position.
+One prompt per forward pass; no batching or padding (batched bf16 scoring
+moved log-probabilities by up to 0.6 nats).
 """
 
 import math
@@ -92,35 +91,6 @@ def answer_token_ids(tokenizer, prompt_text, prompt_ids, answer):
     return tail
 
 
-def resolve_answers(tokenizer, prompt_text, prompt_ids, classes):
-    answers = {
-        name: answer_token_ids(tokenizer, prompt_text, prompt_ids, name)
-        for name in classes
-    }
-    first, second = (answers[name] for name in classes)
-    require(
-        first[: len(second)] != second and second[: len(first)] != first,
-        "One answer's tokens are a prefix of the other's",
-    )
-    return answers
-
-
-def scoring_positions(prompt_length, answer_length):
-    """Logit rows that predict each answer token (row i predicts token i + 1)."""
-    return [prompt_length - 1 + offset for offset in range(answer_length)]
-
-
-def answer_logprobs(log_probs, prompt_length, answer_ids):
-    """Per-token answer log-probabilities from a [position, vocab] table."""
-    rows = scoring_positions(prompt_length, len(answer_ids))
-    return [float(log_probs[row][token]) for row, token in zip(rows, answer_ids)]
-
-
-def model_input(prompt_ids, answer_ids):
-    """The last answer token is predicted, never consumed."""
-    return list(prompt_ids) + list(answer_ids[:-1])
-
-
 # ---------------------------------------------------------------- model
 
 
@@ -149,40 +119,6 @@ def load_model(spec, device):
     require(not info.get("mismatched_keys"), "Checkpoint weights have wrong shapes")
     model.to(device).eval()
     return tokenizer, model, resolved
-
-
-def score_prompt(model, tokenizer, spec, system_prompt, user_text, classes, device):
-    """Answer log-probabilities for one prompt (one forward pass per answer)."""
-    import torch
-
-    prompt_text, prompt_ids = render_prompt(tokenizer, spec, system_prompt, user_text)
-    answers = resolve_answers(tokenizer, prompt_text, prompt_ids, classes)
-    result, top = {}, None
-    for name, answer_ids in answers.items():
-        ids = model_input(prompt_ids, answer_ids)
-        with torch.inference_mode():
-            logits = model(input_ids=torch.tensor([ids], device=device)).logits[0]
-        log_probs = torch.log_softmax(logits.float(), dim=-1)
-        token_logprobs = answer_logprobs(log_probs, len(prompt_ids), answer_ids)
-        result[name] = {
-            "token_ids": answer_ids,
-            "tokens": [tokenizer.decode([token]) for token in answer_ids],
-            "token_logprobs": token_logprobs,
-            "logprob": sum(token_logprobs),
-        }
-        if top is None:
-            first_row = scoring_positions(len(prompt_ids), 1)[0]
-            values, indices = torch.topk(log_probs[first_row], TOP_TOKENS)
-            top = [
-                [tokenizer.decode([int(index)]), float(value.exp())]
-                for value, index in zip(values, indices)
-            ]
-    return {
-        "answers": result,
-        "answer_mass": sum(math.exp(entry["logprob"]) for entry in result.values()),
-        "first_position_top": top,
-        "prompt_tokens": len(prompt_ids),
-    }
 
 
 def score_first_token(

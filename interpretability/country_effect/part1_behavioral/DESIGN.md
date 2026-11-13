@@ -8,7 +8,7 @@ When a conflict-event description is held fixed and only the name of the country
 
 ## 2. Task
 
-Two boundaries adapted from ACLED event coding (`../../PLAN.md` § 2):
+Two boundaries adapted from ACLED event coding (`../../MATERIALS.md` § 2):
 
 | Boundary | Lower class | Higher class | Deciding question |
 | --- | --- | --- | --- |
@@ -19,7 +19,7 @@ Two boundaries adapted from ACLED event coding (`../../PLAN.md` § 2):
 
 ### 3.1 Factors
 
-Every factor level comes from the v4 materials (`../../inputs/v4/`, built by `geoflip/`). The evidence for each item is ACLED attestation (`../../PLAN.md` § 3.2).
+Every factor level comes from the v4 materials (`../../inputs/v4/`, built by `geoflip/`). The evidence for each item is ACLED attestation (`../../MATERIALS.md` § 3.2).
 
 | Factor | What it varies | PR levels | BV levels | Source |
 | --- | --- | --- | --- | --- |
@@ -60,7 +60,7 @@ These are inherited from v4 and checked by `build.py`, which refuses to write th
 ### 4.1 Prompts
 
 - **Prompt:** the *defined* version, with both class definitions. One paraphrase per boundary: PR p0 and BV p3. Layout `options_first`.
-- **Why these prompts:** these were the defined prompts of each boundary that passed every v4 pilot anchor gate in both orders (anchor accuracy 1.0 in both frames; 5th percentile of P(A) + P(B) ≥ 0.999). The choice used anchors only, never country effects.
+- **Why these prompts:** the selection pilot (`../../MATERIALS.md` § 4.1; gates in `inputs/prompt_selection.json`) makes a paraphrase eligible if its prompts pass every anchor gate in both versions and both orders. The eligible paraphrases were PR 0–2 and BV 3; the lowest-numbered eligible paraphrase is used. Both selected prompts have anchor accuracy 1.0 in both orders and frames. The choice used anchors only, never country effects.
 - **Order perturbation:** order A lists the classes as in `order_a` (PR: Protest, Riot; BV: Battle, Violence against civilians), and order B swaps them. The definitions follow the option order. The exact system prompts are in `inputs/prompts.json`.
 
 ### 4.2 Scoring
@@ -84,7 +84,7 @@ Before the full run, one description was printed with every number (`score.py --
 | **Averaged label** A_ic | Higher if s_ic > m; lower if s_ic < −m; otherwise **near boundary** |
 | **Order effect** b_ic | (d_icA − d_icB) / 2 |
 
-The margin is **m = 0.5** nats (as in `../../PLAN.md` § 6.4). Every label count is also reported at m = 0.
+The margin is **m = 0.5** nats. Every label count is also reported at m = 0.
 
 ### 5.2 Primary Outcomes
 
@@ -138,3 +138,4 @@ Uncertainty: 95% intervals by bootstrap over descriptions (2,000 resamples, seed
   - **An order-averaged ladder figure.** The strict ladder is mostly order-dependent for BV.
 
   Figures were renumbered to follow the report.
+- 2026-11-13: release clean-up. The partial-run outputs (`report/results_partial.json`, `report/figures_partial/`), which were code tests, are not part of the release. `geoflip.pipeline` was reduced to the four rendering helpers the study uses (`geoflip/render.py`). The pilot gates behind the prompt choice were copied into `inputs/prompt_selection.json`. Re-running `build.py` and `analyse.py` reproduces every released file (§ 5.4) unchanged.

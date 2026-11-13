@@ -1,0 +1,329 @@
+{
+ "description": "Anchor gates from the prompt-selection pilot (layout options_first; 8 pilot contexts disjoint from the study contexts; no country). A paraphrase is eligible if all four of its prompts (defined and undefined versions x orders A and B) pass: anchor accuracy >= 0.9 at both ends in each frame and 5th percentile of P(A)+P(B) >= 0.9. Selected: the lowest-numbered eligible paraphrase per boundary. The study uses only the defined version.",
+ "rule": {
+  "anchor_accuracy_min": 0.9,
+  "mass_p05_min": 0.9,
+  "versions": [
+   "defined",
+   "undefined"
+  ],
+  "orders": [
+   "A",
+   "B"
+  ],
+  "tie_break": "lowest paraphrase index"
+ },
+ "scorer": {
+  "dtype": "bfloat16",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "model_key": "llama3.2-3b",
+  "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95"
+ },
+ "selected": {
+  "PR": 0,
+  "BV": 3
+ },
+ "eligible": {
+  "PR": [
+   0,
+   1,
+   2
+  ],
+  "BV": [
+   3
+  ]
+ },
+ "gates": [
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.999946651963903,
+   "pass": true,
+   "prompt": "BV:defined:0:A"
+  },
+  {
+   "f1_anchor_higher": 0.625,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 0.375,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9999813992182405,
+   "pass": false,
+   "prompt": "BV:defined:0:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9996979138997729,
+   "pass": true,
+   "prompt": "BV:defined:1:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.999795668716983,
+   "pass": true,
+   "prompt": "BV:defined:1:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9999075604622184,
+   "pass": true,
+   "prompt": "BV:defined:2:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.999953807649757,
+   "pass": true,
+   "prompt": "BV:defined:2:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9992748534582327,
+   "pass": true,
+   "prompt": "BV:defined:3:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9993899333632698,
+   "pass": true,
+   "prompt": "BV:defined:3:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 0.8125,
+   "mass_p05": 0.9999237901133349,
+   "pass": false,
+   "prompt": "BV:undefined:0:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9999489795527554,
+   "pass": true,
+   "prompt": "BV:undefined:0:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 0.625,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 0.0,
+   "mass_p05": 0.999778436165907,
+   "pass": false,
+   "prompt": "BV:undefined:1:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 0.4375,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9998275605112108,
+   "pass": false,
+   "prompt": "BV:undefined:1:B"
+  },
+  {
+   "f1_anchor_higher": 0.9375,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 0.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9999739218786649,
+   "pass": false,
+   "prompt": "BV:undefined:2:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9999618374880315,
+   "pass": true,
+   "prompt": "BV:undefined:2:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.999487231782859,
+   "pass": true,
+   "prompt": "BV:undefined:3:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.999642912566501,
+   "pass": true,
+   "prompt": "BV:undefined:3:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9998155188202511,
+   "pass": true,
+   "prompt": "PR:defined:0:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9999089674012562,
+   "pass": true,
+   "prompt": "PR:defined:0:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9989306685961131,
+   "pass": true,
+   "prompt": "PR:defined:1:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.999906913012462,
+   "pass": true,
+   "prompt": "PR:defined:1:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9975458742533996,
+   "pass": true,
+   "prompt": "PR:defined:2:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9997213682259146,
+   "pass": true,
+   "prompt": "PR:defined:2:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.999710290284315,
+   "pass": true,
+   "prompt": "PR:defined:3:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9997753888789871,
+   "pass": true,
+   "prompt": "PR:defined:3:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9998437286601329,
+   "pass": true,
+   "prompt": "PR:undefined:0:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9998840552381352,
+   "pass": true,
+   "prompt": "PR:undefined:0:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9995152661158503,
+   "pass": true,
+   "prompt": "PR:undefined:1:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9998691146335508,
+   "pass": true,
+   "prompt": "PR:undefined:1:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9998685939490917,
+   "pass": true,
+   "prompt": "PR:undefined:2:A"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.9999444481094785,
+   "pass": true,
+   "prompt": "PR:undefined:2:B"
+  },
+  {
+   "f1_anchor_higher": 1.0,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.999840071503388,
+   "pass": true,
+   "prompt": "PR:undefined:3:A"
+  },
+  {
+   "f1_anchor_higher": 0.5625,
+   "f1_anchor_lower": 1.0,
+   "f2_anchor_higher": 1.0,
+   "f2_anchor_lower": 1.0,
+   "mass_p05": 0.999812322769736,
+   "pass": false,
+   "prompt": "PR:undefined:3:B"
+  }
+ ],
+ "top1_is_letter": 1.0,
+ "n_prompts": 28160,
+ "source": "geoflip.study pilot -> pilot.json (scored 6 Nov 2026)"
+}

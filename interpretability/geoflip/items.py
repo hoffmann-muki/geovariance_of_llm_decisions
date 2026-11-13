@@ -1,4 +1,4 @@
-"""The v4 evidence items: one sentence per ACLED-attested act (PLAN.md § 3).
+"""The v4 evidence items: one sentence per ACLED-attested act (MATERIALS.md § 3.2).
 
 Inclusion rule (fixed before any model scoring): every act in the ACLED lexicon
 (geoflip/acled.py) that names a concrete act (not in acled.GENERIC) and is

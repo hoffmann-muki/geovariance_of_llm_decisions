@@ -17,7 +17,7 @@ import random
 from pathlib import Path
 
 from geoflip import study as S
-from geoflip.pipeline import country_conditions, country_phrase
+from geoflip.render import country_conditions, country_phrase
 
 HERE = Path(__file__).resolve().parent
 WORK = Path(os.environ.get("CE_WORK", "/fs/clip-scratch/pramu/country_effect/work"))

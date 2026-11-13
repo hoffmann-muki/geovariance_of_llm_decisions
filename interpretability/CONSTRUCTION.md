@@ -1,6 +1,6 @@
 # Evidence-Based Dataset Construction (v4.1)
 
-Plan written 7 November 2026. **Status: proposed; nothing in this document has been run except the exploratory work in § 7.** It extends [PLAN.md](PLAN.md) (v4) and does not replace it. The measurement design of v4 stays the same: A/B single-token answers, counterbalanced order, one prompt per forward pass, V0 rules, placebo names, a flip rule against a placebo null, and no selection on outcomes. What v4.1 changes is the **inputs**: every item, frame, label and intensity level must trace back to a named source of evidence, so that each design choice can be defended against a specific objection.
+Plan written 7 November 2026. **Status: proposed; nothing in this document has been run except the exploratory work in § 7.** It extends the current materials ([MATERIALS.md](MATERIALS.md)) and the Part 1 study ([country_effect/part1_behavioral/DESIGN.md](country_effect/part1_behavioral/DESIGN.md)); the measurement design stays the same: A/B single-token answers, counterbalanced order, one prompt per forward pass, V0 rules, placebo names, a flip rule against a placebo null, and no selection on outcomes. What v4.1 changes is the **inputs**: every item, frame, label and intensity level must trace back to a named source of evidence, so that each design choice can be defended against a specific objection.
 
 ## 1. Claim the Dataset Must Support
 
@@ -10,13 +10,13 @@ The second sentence separates two kinds of flip:
 - **Override:** a flip on an item human coders agree on. The country overrides clear evidence.
 - **Settling:** a flip on an item human coders split on. The country settles uncertain evidence.
 
-A flip still shows only that the answer depends on the country name, not that the dependence is wrong (PLAN.md § 1).
+A flip still shows only that the answer depends on the country name, not that the dependence is wrong (MATERIALS.md § 1).
 
 ## 2. Evidence Ledger: Objections and the Evidence That Answers Them
 
 | # | Objection | v4 evidence | Gap | Closed by |
 | --- | --- | --- | --- | --- |
-| O1 | "The evidence sentences are invented" | ACLED attestation, ≥ 20 notes per act | The lexicon counts mentions, not who acted (PLAN.md § 9). Its precision has not been audited | Step 2 |
+| O1 | "The evidence sentences are invented" | ACLED attestation, ≥ 20 notes per act | The lexicon counts mentions, not who acted (MATERIALS.md § 7). Its precision has not been audited | Step 2 |
 | O2 | "The frames don't look like real event reports" | None | The frames were written by hand. BV f2 resembles no ACLED note and holds most of the pilot's anchor failures | Step 3 |
 | O3 | "The item labels are the authors' opinion" | P(higher \| act) over ACLED notes | That is a distribution over notes, not a judgement of the sentence as written. No human validation | Step 4 |
 | O4 | "The model isn't doing the task" | Anchor gates | The gates failed on 6 of 32 (`options_first`) and 10 of 32 (`options_last`) prompts | Step 6 |
@@ -65,7 +65,7 @@ Intensity is carried by the **means**, never by casualty or outcome words (V0 ru
 
 ## 4. Steps, in Order
 
-Each step finishes before the next one starts. Every change to the inputs is logged in `history/ITERATIONS.md`.
+Each step finishes before the next one starts. Every change to the inputs is logged in a change log, with its reason.
 
 | Step | What | Deliverable | Gate or rule (fixed now) |
 | --- | --- | --- | --- |
@@ -76,11 +76,11 @@ Each step finishes before the next one starts. Every change to the inputs is log
 | 4b | **Human ratings for intensity.** The same annotators rate the severity of each intensity sentence | Severity ordering per boundary | The ordinal levels are kept only if the human ordering agrees with § 3.2 |
 | 4c | **Check across sources.** Does P(higher \| act) predict the human share choosing the higher class? | Correlation, reported | Reported whatever it shows |
 | 5 | **Country sampling rule.** Stratify by ACLED region × event volume, and keep the 10 countries of the behavioural study | `inputs/v4.1/names.json` with its rule | Token count and the "the" form stay covariates |
-| 6 | **Pilot, fixed by diagnosis.** Inspect failing prompts one example at a time (anchor, A vs B, both orders, top tokens). Attribute each failure to the frame, letter bias or the undefined version; revise; rerun. Then generate placebos | Pilot report | PLAN.md § 6.1 gates unchanged |
+| 6 | **Pilot, fixed by diagnosis.** Inspect failing prompts one example at a time (anchor, A vs B, both orders, top tokens). Attribute each failure to the frame, letter bias or the undefined version; revise; rerun. Then generate placebos | Pilot report | MATERIALS.md § 4.1 gates unchanged |
 | 7 | **Pre-registration.** Extend `prereg.json` with the precision cut-off, the clear/ambiguous split, the intensity levels and the primary contrast | `inputs/v4.1/prereg.json` with input hashes | Pipeline refuses to run on a hash mismatch |
-| 8 | **Main population and filter** | Scores; PLAN.md § 6.4 filter | Rule unchanged |
+| 8 | **Main population and filter** | Scores; the Part 1 flip rule and placebo null (DESIGN.md § 5) | Rule unchanged |
 | 9 | **Bridge to natural notes (secondary).** About 200 real borderline ACLED notes: date removed, admin and location names replaced by a generic phrase plus "in {country}", scored with the same prompts | Correlation between template flips and natural-note flips per item | Exploratory; reported whatever it shows |
-| 10 | **Release and second adversarial review** | `dataset/` | PLAN.md § 6.5 |
+| 10 | **Release and second adversarial review** | `dataset/` | As in Part 1 |
 
 **Primary contrast (Step 7):** the flip rate on clear items versus ambiguous items, each compared with the placebo null. **Secondary:** the country × intensity interaction, and the effect of intensity on items where the definition says it should have none.
 
@@ -93,15 +93,15 @@ Each step finishes before the next one starts. Every change to the inputs is log
 ## 6. Known Departures from Real ACLED Notes
 
 These are logged as limitations, not fixed:
-- **No dates.** Real notes always carry a date. Dates are removed because of the v3 date confound (PLAN.md § 10).
+- **No dates.** Real notes always carry a date. Dates are removed because a fixed date can carry country-specific associations (an earlier iteration's date was a national day in several countries).
 - **"In {country}".** Real notes locate events by admin areas (for example "Yunyang county (Yunyang, Chongqing)"), not by country name. The country slot is itself a departure.
-- **Coverage.** The ACLED notes cover five regions only (PLAN.md § 9).
+- **Coverage.** The ACLED notes cover five regions only (MATERIALS.md § 7).
 
 ## 7. Exploratory Work So Far (7 November 2026)
 
-Scripts and outputs are in `/fs/clip-scratch/pramu/interp_orderflip/`, with a resume log in `progress.md` there.
+These scans were run with exploratory scripts that are not part of this release; their results are recorded here for planning.
 
-### 7.1 Order-Only Flips (Running)
+### 7.1 Order-Only Flips (Superseded by Part 1)
 
 The setting where option order is the only perturbation of the prompt:
 - **Layout and prompts:** `options_first`, one paraphrase per boundary: PR p0, and BV p3, the only BV paraphrase that passed every pilot anchor gate.

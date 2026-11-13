@@ -5,8 +5,9 @@ because both class definitions require one, and describe the other group
 neutrally, without saying who acted against whom.
 
 Bases are built deterministically from fixed value lists, none of which
-appears in any earlier base (v1–v3; checked against history/). The pilot and
-the main split use disjoint value lists. Each value appears once per split:
+appears in any base of the earlier, exploratory iterations (checked against
+history/ when it is present). The pilot and the main split use disjoint value
+lists. Each value appears once per split:
 base i takes value i of the first field and values (i * k) mod n of the
 others, for k coprime with n. BV times are generic and are reused across splits.
 
