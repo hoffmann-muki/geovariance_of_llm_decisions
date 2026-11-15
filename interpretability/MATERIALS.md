@@ -34,7 +34,7 @@ Frames contain no date, so the only date in a prompt is the chat template's fixe
 
 Items are derived from how human coders code real events, never from model scores.
 
-1. **Source.** 137,947 ACLED events (Raleigh et al., 2010) in `../conflict_data/`: five regional exports (East Asia, North Africa, North America, South America, South Asia), 12 October 2024 to 10 October 2025, with free-text notes and sub-event types. The raw exports are not redistributed (ACLED terms of use).
+1. **Source.** 137,947 ACLED events (Raleigh et al., 2010) in `../conflict_data/`: five regional exports (East Asia, North Africa, North America, South America, South Asia), 12 October 2024 to 10 October 2025, with free-text notes and sub-event types.
 2. **Comparison groups.** PR: Violent demonstration (higher) against Peaceful protest and Protest with intervention (lower). Mob violence is excluded because it is not a demonstration. BV: Armed clash (higher) against Attack (lower).
 3. **Act lexicon.** A fixed, versioned set of regular expressions (`geoflip/acled.py`, lexicon v1). Each pattern is tagged with dimension levels derived from the class definitions: for PR, act type (projectile, fire, obstruction, property, entry, person) × target; for BV, the other side's means × use × organisation.
 4. **Measurement.** For each act, the number of notes on each side that mention it, and **P(higher | act)**, the share coded as the higher class. These are written to `inputs/v4/acled_acts.csv`. Only counts are kept; notes are never copied.

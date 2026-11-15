@@ -47,7 +47,7 @@ The study and its report. Shared code is in `../geoflip/`, and the materials it 
 
 ## Reproducing
 
-Run from `interpretability/`, with the packages in `../requirements.txt` and access to the gated Llama model (`HF_TOKEN` in the environment or in `interpretability/.env`, which is never committed):
+Run from `interpretability/`, with the packages in `requirements.txt` and access to the gated Llama model (`HF_TOKEN` in the environment or in `interpretability/.env`, which is never committed):
 
 ```bash
 python -m country_effect.part1_behavioral.build      # seconds; writes inputs/ and dataset/descriptions.csv

@@ -58,4 +58,4 @@ python -m country_effect.part1_behavioral.score      # 408,320 prompts, about 4.
 python -m country_effect.part1_behavioral.analyse    # tables, results.json, figures
 ```
 
-Rebuilding the materials themselves from the raw ACLED exports (`../conflict_data/`, not redistributed) is described in [MATERIALS.md § 6](MATERIALS.md#6-rebuilding-the-materials).
+Rebuilding the materials themselves from the raw ACLED exports in `../conflict_data/` is described in [MATERIALS.md § 6](MATERIALS.md#6-rebuilding-the-materials).

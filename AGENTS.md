@@ -1,15 +1,13 @@
 # Repository Guidance
 
-Use [README.md](README.md) for entry points and commands, and [PROJECT_PLAN.md](PROJECT_PLAN.md) for the research design.
-
-The interpretability exploration (`interpretability/`, `src/interp_*`, `tests/test_interp_*`) follows only [interpretability/README.md](interpretability/README.md) and the documents it links. PROJECT_PLAN.md's review process, analysis registry and endpoints do not apply to it. The implementation and data-handling rules below still apply.
+Use [README.md](README.md) for entry points and [interpretability/README.md](interpretability/README.md) for the project overview and commands. Follow the [study design](interpretability/country_effect/part1_behavioral/DESIGN.md) and [materials documentation](interpretability/MATERIALS.md). Proposed extensions are in [CONSTRUCTION.md](interpretability/CONSTRUCTION.md).
 
 ## Implementation
 
 - Keep the pipeline simple: Python 3.10+, standard library where practical, and focused scripts. Add dependencies only for a concrete need.
-- Keep preparation, experiment, analysis and evaluation code in `src/`, with `tests/` and data directories separate. Put repository-wide helpers in `src/utils.py`; keep domain-specific logic with its owning module.
+- Keep shared code in `interpretability/geoflip/` and study-specific code in `interpretability/country_effect/`. Keep data and reports separate from code, and domain-specific logic with its owning module.
 - Format changed Python files with Black targeting Python 3.10. Keep formatting separate from behavioral changes when requested.
-- Test input integrity, sampling, review decisions, and experiment invariants. Run the test suite before committing code changes; documentation-only changes need link and diff checks.
+- Verify input integrity, construction rules and experiment invariants. Run applicable tests and construction checks before committing code changes; documentation-only changes need link and diff checks.
 - Fail explicitly on invalid inputs. Do not silently relax quotas, eligibility rules, or sample separation.
 
 ## Professionalism
@@ -21,13 +19,13 @@ The interpretability exploration (`interpretability/`, `src/interp_*`, `tests/te
 ## Data and Review
 
 - Preserve raw CSVs and original note strings. Normalize text only for comparisons. Treat existing generated snapshots as immutable; reproduce into unused directories.
-- Use `data/accepted/` for experimental inputs. Keep `data/reviews/`: its assessments and adjudications are pipeline inputs, not disposable logs.
-- Carry source IDs, family IDs, conditions, changed spans, and case restrictions into derived artifacts. Follow the review rules in the project plan before releasing variants for inference.
-- Human review has been replaced by user-authorized adversarial AI review. Use separate review contexts, cite literal evidence, and adjudicate disagreements. Do not substitute keyword rules for semantic review or claim human verification.
+- Preserve `interpretability/inputs/` and the study's released inputs, datasets and results. Keep `conflict_data/` available for rebuilding the ACLED-derived materials.
+- Carry description IDs, design factors, country conditions and provenance into derived artifacts. Follow the current study design's eligibility, review and measurement rules.
+- Record the review method and evidence accurately. Do not claim human verification for AI assessments or substitute keyword checks for semantic review.
 - Record justified dataset corrections and update affected design figures. Generate checksums from actual artifacts; never change hashes or judgments merely to bypass validation. Existing manifests describe the code that produced their snapshots.
 
 ## Delivery
 
-- Keep README concise, design decisions in the project plan, and audit details in generated reports. Link rather than repeat.
+- Keep README concise, design decisions in the study documentation, and audit details in generated reports. Link rather than repeat.
 - Retain only necessary files. Use self-cleaning temporary directories and remove project scratch files without touching unrelated work. Never commit credentials.
 - Keep commits scoped to the request, report validation, and verify repository status and remote synchronization after a requested push.
