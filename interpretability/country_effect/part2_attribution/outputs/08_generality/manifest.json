@@ -1,0 +1,32 @@
+{
+  "code": {
+    "country_effect/part2_attribution/common.py": "e16e133d4df1d21a9c898c3eda4501521e59d1d80b454d9783e69a43ec364ec6",
+    "country_effect/part2_attribution/configs/mechanistic_panel.json": "671ac71577bf68150bd2aa8af86d897739b8bff626cd99b3f1c5adcc494e2ddd",
+    "country_effect/part2_attribution/configs/stimuli_controls.json": "a25e3aac3039b82d73932fcf5791a472b9436ea24c96e8e3749e991d022bffc5",
+    "country_effect/part2_attribution/scripts/08_run_generality_check.py": "5aaaf0c1631352edf9da9d4fd7e71530f391cd3e5b3c126a9378a31645f0df11",
+    "geoflip/attribution.py": "7ea89ce13e82cbb1dad9193a7ed15df04a9b085ef060312585a58c5d590c3af9",
+    "geoflip/hooks.py": "2fd52c114165e061ce143d93bf855a03a9bdd07728fd61f2b34dd28995f50be2",
+    "geoflip/render.py": "39f70abf04d19e5fb1ca243ae05330fdad9a073a700327819b714610bd27a562",
+    "geoflip/scoring.py": "6681f82c308e80a28e6c2b1a1052023f7606fd0fdc132205c1d0e738d9d503f3",
+    "geoflip/spans.py": "cd9af46bd094c4fe373deb29f9b3610794d7ecedd104ef7c4abca56851220cf7",
+    "geoflip/study.py": "6e177e7966b8e80b26150f2b706562555f884a9e2bd20300de0a8ef83082914d"
+  },
+  "environment": {
+    "gpu": null,
+    "platform": "Linux-5.14.0-741.22.1.el9_9.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.18",
+    "torch": "2.14.1+cu126",
+    "transformers": "5.22.1"
+  },
+  "git_commit": "9621dabebecb29ab285c268393a90acb11da416b",
+  "inputs": {
+    "country_effect/part1_behavioral/dataset/labels.csv.gz": "2b2eee20f64dc5b56c3e2f97a650b5c4f0338ce779d6c016d1ae148efc85a89d"
+  },
+  "outputs": {
+    "country_effect/part2_attribution/outputs/08_generality/qwen_BV.jsonl": "cf5e3ecb97c0399578f5f5c6661d3cc182e0c078ed2ffbad43fe96b7026a0dfb",
+    "country_effect/part2_attribution/outputs/08_generality/qwen_PR.jsonl": "e65fa2aa4babc43cf07b6f5431b8dfbfb32059e428ba5119260b809691572ee2",
+    "country_effect/part2_attribution/outputs/08_generality/results.json": "abca3068389d8fb58aa67138b7f0904cb82ab0cd972e5495ba13d8e43a38088e"
+  },
+  "script": "country_effect/part2_attribution/scripts/08_run_generality_check.py",
+  "written": "2026-11-21 17:13:46 EST"
+}

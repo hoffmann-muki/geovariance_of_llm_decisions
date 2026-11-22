@@ -1,0 +1,444 @@
+{
+  "baselines": {
+    "1": [
+      "Jupiter",
+      "Hogwarts",
+      "Zion"
+    ],
+    "3": [
+      "the Upper Valley",
+      "the Northern Territory",
+      "the Central Highlands"
+    ]
+  },
+  "names": {
+    "Albania": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        95733
+      ],
+      "tokens": 1
+    },
+    "Atlantis": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        88035
+      ],
+      "tokens": 1
+    },
+    "Babylon": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        64678
+      ],
+      "tokens": 1
+    },
+    "Bahrain": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        66739
+      ],
+      "tokens": 1
+    },
+    "Belize": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        98104
+      ],
+      "tokens": 1
+    },
+    "Comoros": {
+      "family": "small_state_multi",
+      "token_ids": [
+        1219,
+        269,
+        437
+      ],
+      "tokens": 3
+    },
+    "Cyprus": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        57784
+      ],
+      "tokens": 1
+    },
+    "Eden": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        51915
+      ],
+      "tokens": 1
+    },
+    "Estonia": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        69462
+      ],
+      "tokens": 1
+    },
+    "Fiji": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        86196
+      ],
+      "tokens": 1
+    },
+    "Gabon": {
+      "family": "small_state_multi",
+      "token_ids": [
+        24664,
+        263
+      ],
+      "tokens": 2
+    },
+    "Gotham": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        74982
+      ],
+      "tokens": 1
+    },
+    "Hogwarts": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        78253
+      ],
+      "tokens": 1
+    },
+    "Iceland": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        39496
+      ],
+      "tokens": 1
+    },
+    "Jupiter": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        50789
+      ],
+      "tokens": 1
+    },
+    "Kiribati": {
+      "family": "small_state_multi",
+      "token_ids": [
+        26608,
+        581,
+        9491
+      ],
+      "tokens": 3
+    },
+    "Kuwait": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        57111
+      ],
+      "tokens": 1
+    },
+    "Latvia": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        79258
+      ],
+      "tokens": 1
+    },
+    "Lesotho": {
+      "family": "small_state_multi",
+      "token_ids": [
+        11876,
+        8942,
+        78
+      ],
+      "tokens": 3
+    },
+    "Luxembourg": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        65971
+      ],
+      "tokens": 1
+    },
+    "Malta": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        61750
+      ],
+      "tokens": 1
+    },
+    "Mars": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        21725
+      ],
+      "tokens": 1
+    },
+    "Mercury": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        44662
+      ],
+      "tokens": 1
+    },
+    "Moldova": {
+      "family": "small_state_multi",
+      "token_ids": [
+        55263,
+        12949
+      ],
+      "tokens": 2
+    },
+    "Monaco": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        62651
+      ],
+      "tokens": 1
+    },
+    "Mongolia": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        91850
+      ],
+      "tokens": 1
+    },
+    "Nauru": {
+      "family": "small_state_multi",
+      "token_ids": [
+        452,
+        4202,
+        84
+      ],
+      "tokens": 3
+    },
+    "Neptune": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        80724
+      ],
+      "tokens": 1
+    },
+    "Olympus": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        97891
+      ],
+      "tokens": 1
+    },
+    "Oman": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        82225
+      ],
+      "tokens": 1
+    },
+    "Oz": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        36704
+      ],
+      "tokens": 1
+    },
+    "Palau": {
+      "family": "small_state_multi",
+      "token_ids": [
+        11165,
+        2933
+      ],
+      "tokens": 2
+    },
+    "Pluto": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        78681
+      ],
+      "tokens": 1
+    },
+    "Qatar": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        43018
+      ],
+      "tokens": 1
+    },
+    "Samoa": {
+      "family": "small_state_1tok",
+      "token_ids": [
+        88120
+      ],
+      "tokens": 1
+    },
+    "Saturn": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        50253
+      ],
+      "tokens": 1
+    },
+    "Tonga": {
+      "family": "small_state_multi",
+      "token_ids": [
+        51491,
+        64
+      ],
+      "tokens": 2
+    },
+    "Troy": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        44499
+      ],
+      "tokens": 1
+    },
+    "Venus": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        50076
+      ],
+      "tokens": 1
+    },
+    "Zion": {
+      "family": "nonplace_1tok",
+      "token_ids": [
+        41435
+      ],
+      "tokens": 1
+    },
+    "the Central District": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        10913,
+        11182
+      ],
+      "tokens": 3
+    },
+    "the Central Highlands": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        10913,
+        84025
+      ],
+      "tokens": 3
+    },
+    "the Central Region": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        10913,
+        17593
+      ],
+      "tokens": 3
+    },
+    "the Coastal Province": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        72658,
+        38894
+      ],
+      "tokens": 3
+    },
+    "the Eastern District": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        18516,
+        11182
+      ],
+      "tokens": 3
+    },
+    "the Eastern Province": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        18516,
+        38894
+      ],
+      "tokens": 3
+    },
+    "the Lower Valley": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        28636,
+        13345
+      ],
+      "tokens": 3
+    },
+    "the Northern Province": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        17355,
+        38894
+      ],
+      "tokens": 3
+    },
+    "the Northern Region": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        17355,
+        17593
+      ],
+      "tokens": 3
+    },
+    "the Northern Territory": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        17355,
+        49187
+      ],
+      "tokens": 3
+    },
+    "the Southern District": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        16642,
+        11182
+      ],
+      "tokens": 3
+    },
+    "the Southern Region": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        16642,
+        17593
+      ],
+      "tokens": 3
+    },
+    "the Upper Valley": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        31714,
+        13345
+      ],
+      "tokens": 3
+    },
+    "the Western Province": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        11104,
+        38894
+      ],
+      "tokens": 3
+    },
+    "the Western Region": {
+      "family": "region_3tok",
+      "token_ids": [
+        279,
+        11104,
+        17593
+      ],
+      "tokens": 3
+    }
+  },
+  "rejected": []
+}

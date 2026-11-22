@@ -1,0 +1,380 @@
+{
+  "description": "Stage 2 panel (PREREGISTRATION.md \u00a7 5). ev_group lists the target-group phrase of the evidence sentence for every (item, wording) of both boundaries (BV: the other group; PR: the demonstrators), so spans resolve on any description.",
+  "seed": 20261121,
+  "contexts": [
+    "c00",
+    "c11",
+    "c22",
+    "c33"
+  ],
+  "ig_contexts": [
+    "c00",
+    "c22"
+  ],
+  "boundaries": {
+    "BV": {
+      "items": [
+        "anchor_lo",
+        "unarmed",
+        "students",
+        "security_guard",
+        "miners",
+        "drivers",
+        "returned_fire",
+        "anchor_hi"
+      ],
+      "item_groups": {
+        "clear_lower": [
+          "anchor_lo",
+          "unarmed",
+          "students"
+        ],
+        "underspecified": [
+          "security_guard",
+          "miners",
+          "drivers"
+        ],
+        "clear_higher": [
+          "returned_fire",
+          "anchor_hi"
+        ]
+      },
+      "countries": {
+        "high_higher": [
+          "Canada",
+          "Norway",
+          "Australia",
+          "United States",
+          "United Kingdom"
+        ],
+        "high_lower": [
+          "Bangladesh",
+          "Nigeria",
+          "Sudan"
+        ]
+      },
+      "ig_countries": [
+        "Canada",
+        "Norway",
+        "Australia",
+        "Bangladesh",
+        "Nigeria",
+        "Sudan"
+      ],
+      "ev_group": {
+        "anchor_hi": {
+          "W1": "The two groups",
+          "W2": "The two groups"
+        },
+        "anchor_lo": {
+          "W1": "farmers",
+          "W2": "farmers"
+        },
+        "armed_residents": {
+          "W1": "local residents",
+          "W2": "local residents"
+        },
+        "bodyguards": {
+          "W1": "bodyguards",
+          "W2": "bodyguards"
+        },
+        "drivers": {
+          "W1": "truck drivers",
+          "W2": "truck drivers"
+        },
+        "farmers": {
+          "W1": "farmers",
+          "W2": "farmers"
+        },
+        "fishermen": {
+          "W1": "fishermen",
+          "W2": "fishermen"
+        },
+        "fled": {
+          "W1": "The other group",
+          "W2": "Members of the other group"
+        },
+        "former_members": {
+          "W1": "former members of a rival militia",
+          "W2": "former members of a rival militia"
+        },
+        "grenade": {
+          "W1": "One member of the other group",
+          "W2": "A member of the other group"
+        },
+        "militia": {
+          "W1": "a local militia",
+          "W2": "a local militia"
+        },
+        "miners": {
+          "W1": "miners",
+          "W2": "miners"
+        },
+        "pistol": {
+          "W1": "One member of the other group",
+          "W2": "A member of the other group"
+        },
+        "returned_fire": {
+          "W1": "One member of the other group",
+          "W2": "A member of the other group"
+        },
+        "rifle": {
+          "W1": "One member of the other group",
+          "W2": "A member of the other group"
+        },
+        "security_guard": {
+          "W1": "a night watchman",
+          "W2": "a night watchman"
+        },
+        "self_defense_group": {
+          "W1": "a village night patrol",
+          "W2": "a village night patrol"
+        },
+        "shotgun": {
+          "W1": "One member of the other group",
+          "W2": "A member of the other group"
+        },
+        "sticks_machetes": {
+          "W1": "The other group",
+          "W2": "Members of the other group"
+        },
+        "stones": {
+          "W1": "The other group",
+          "W2": "Members of the other group"
+        },
+        "students": {
+          "W1": "students",
+          "W2": "students"
+        },
+        "traders": {
+          "W1": "traders",
+          "W2": "traders"
+        },
+        "unarmed": {
+          "W1": "The other group",
+          "W2": "Members of the other group"
+        },
+        "villagers": {
+          "W1": "villagers",
+          "W2": "villagers"
+        }
+      }
+    },
+    "PR": {
+      "items": [
+        "anchor_lo",
+        "block_road",
+        "occupy",
+        "scuffle",
+        "barricade",
+        "set_off_fireworks",
+        "throw_stones",
+        "anchor_hi"
+      ],
+      "item_groups": {
+        "clear_lower": [
+          "anchor_lo",
+          "block_road",
+          "occupy"
+        ],
+        "underspecified": [
+          "scuffle",
+          "barricade",
+          "set_off_fireworks"
+        ],
+        "clear_higher": [
+          "throw_stones",
+          "anchor_hi"
+        ]
+      },
+      "countries": {
+        "high_higher": [
+          "Australia"
+        ],
+        "high_lower": [
+          "Ukraine"
+        ]
+      },
+      "ig_countries": [
+        "Ukraine"
+      ],
+      "ev_group": {
+        "anchor_hi": {
+          "W1": "Participants",
+          "W2": "The demonstrators"
+        },
+        "anchor_lo": {
+          "W1": "Participants",
+          "W2": "The demonstrators"
+        },
+        "assault": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "barricade": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "block_entrance": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "block_rail": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "block_road": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "break_gate": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "break_windows": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "burn_documents": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "burn_effigy": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "burn_flag": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "burn_tires": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "burn_vehicle": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "deface_paint": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "lock_in": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "occupy": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "push_barrier": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "scuffle": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "set_off_fireworks": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "storm": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "tear_down": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "throw_bottles": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "throw_eggs": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "throw_fireworks": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "throw_objects": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "throw_paint_ink": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "throw_petrol_bomb": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "throw_stones": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "throw_water": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        },
+        "vandalise": {
+          "W1": "Some participants",
+          "W2": "A few demonstrators"
+        }
+      }
+    }
+  },
+  "baselines": {
+    "draw": 3,
+    "families": {
+      "1": "nonplace_1tok",
+      "3": "region_3tok"
+    }
+  },
+  "probe": {
+    "armed": [
+      "armed_residents",
+      "rifle",
+      "pistol",
+      "shotgun",
+      "grenade",
+      "returned_fire",
+      "militia",
+      "anchor_hi"
+    ],
+    "unarmed": [
+      "anchor_lo",
+      "unarmed",
+      "farmers",
+      "students",
+      "fishermen",
+      "villagers",
+      "traders",
+      "drivers",
+      "miners"
+    ]
+  },
+  "steering": {
+    "alphas": [
+      -1.0,
+      -0.5,
+      0.5,
+      1.0
+    ],
+    "country_layers": [
+      8,
+      14,
+      18,
+      22
+    ]
+  },
+  "ig": {
+    "steps": 50
+  },
+  "late_layers": [
+    18,
+    26
+  ]
+}

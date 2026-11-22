@@ -1,0 +1,91 @@
+{
+  "code": {
+    "country_effect/part2_attribution/common.py": "e16e133d4df1d21a9c898c3eda4501521e59d1d80b454d9783e69a43ec364ec6",
+    "country_effect/part2_attribution/configs/mechanistic_panel.json": "671ac71577bf68150bd2aa8af86d897739b8bff626cd99b3f1c5adcc494e2ddd",
+    "country_effect/part2_attribution/configs/stimuli_controls.json": "a25e3aac3039b82d73932fcf5791a472b9436ea24c96e8e3749e991d022bffc5",
+    "country_effect/part2_attribution/scripts/05_run_activation_patching.py": "8f04c6949531cdd81703b5f1d805b892c15f4ada9fc9d977f76235ca5675f906",
+    "geoflip/attribution.py": "7ea89ce13e82cbb1dad9193a7ed15df04a9b085ef060312585a58c5d590c3af9",
+    "geoflip/hooks.py": "2fd52c114165e061ce143d93bf855a03a9bdd07728fd61f2b34dd28995f50be2",
+    "geoflip/render.py": "39f70abf04d19e5fb1ca243ae05330fdad9a073a700327819b714610bd27a562",
+    "geoflip/scoring.py": "6681f82c308e80a28e6c2b1a1052023f7606fd0fdc132205c1d0e738d9d503f3",
+    "geoflip/spans.py": "cd9af46bd094c4fe373deb29f9b3610794d7ecedd104ef7c4abca56851220cf7",
+    "geoflip/study.py": "6e177e7966b8e80b26150f2b706562555f884a9e2bd20300de0a8ef83082914d"
+  },
+  "environment": {
+    "gpu": null,
+    "platform": "Linux-5.14.0-741.22.1.el9_9.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.18",
+    "torch": "2.14.1+cu126",
+    "transformers": "5.22.1"
+  },
+  "git_commit": "9621dabebecb29ab285c268393a90acb11da416b",
+  "inputs": {
+    "country_effect/part2_attribution/outputs/01_controls/controls.json": "289165a86f7191c40dac30aa864dcf290b9222acc47aacd3cb7c993eec4ef7e0"
+  },
+  "outputs": {
+    "country_effect/part2_attribution/outputs/05_patching/patch_BV_0of2.jsonl": "2fbf7189364a3d86c65c2221b64178b664ed977a4fc4a422d34e8d33195e44d8",
+    "country_effect/part2_attribution/outputs/05_patching/patch_BV_1of2.jsonl": "4126349d3d5434b5c032eb5f7ddfd5b86bd9d85b1d9a8c4aef91e7089ae17c13",
+    "country_effect/part2_attribution/outputs/05_patching/patch_PR_0of1.jsonl": "e02f22b73248e35cbfbf3990169f3227aeab630c09414aaee1c81f5cd3c59180",
+    "country_effect/part2_attribution/outputs/05_patching/results.json": "63b4dfa00acb3a336cb93d780e2385a08d33a14653af4006b0955beb4466a8b4"
+  },
+  "rules": {
+    "BV": {
+      "high_higher": {
+        "H1_falsified_patching": false,
+        "H1_supported": false,
+        "H2_evidence_null": false,
+        "H2_supported_patching": false,
+        "anchor_lo_ge_security_guard": true,
+        "ev_all_F_max": 0.2585836933289747,
+        "ev_group_F_max": 0.1609442103310705,
+        "ev_group_F_max_ci_lo": 0.10263641970501837,
+        "ev_group_F_max_layer": 5,
+        "readout_F_late_mean": 1.012160234397572,
+        "underspecified_ev_group_gt_clear": false
+      },
+      "high_lower": {
+        "H1_falsified_patching": false,
+        "H1_supported": false,
+        "H2_evidence_null": false,
+        "H2_supported_patching": false,
+        "anchor_lo_ge_security_guard": true,
+        "ev_all_F_max": 0.22480280582167086,
+        "ev_group_F_max": 0.12927256907034607,
+        "ev_group_F_max_ci_lo": 0.11246817152311436,
+        "ev_group_F_max_layer": 5,
+        "readout_F_late_mean": 0.9427646302721876,
+        "underspecified_ev_group_gt_clear": true
+      }
+    },
+    "PR": {
+      "high_higher": {
+        "H1_falsified_patching": false,
+        "H1_supported": false,
+        "H2_evidence_null": true,
+        "H2_supported_patching": false,
+        "anchor_lo_ge_security_guard": null,
+        "ev_all_F_max": 0.07756231086558785,
+        "ev_group_F_max": 0.13296398931666295,
+        "ev_group_F_max_ci_lo": 0.05003858332533776,
+        "ev_group_F_max_layer": 2,
+        "readout_F_late_mean": 1.0233918044535864,
+        "underspecified_ev_group_gt_clear": true
+      },
+      "high_lower": {
+        "H1_falsified_patching": false,
+        "H1_supported": false,
+        "H2_evidence_null": false,
+        "H2_supported_patching": false,
+        "anchor_lo_ge_security_guard": null,
+        "ev_all_F_max": 2.456249939007686,
+        "ev_group_F_max": 0.37499997634440707,
+        "ev_group_F_max_ci_lo": -0.5298386352028963,
+        "ev_group_F_max_layer": 7,
+        "readout_F_late_mean": 0.8437499869666581,
+        "underspecified_ev_group_gt_clear": false
+      }
+    }
+  },
+  "script": "country_effect/part2_attribution/scripts/05_run_activation_patching.py",
+  "written": "2026-11-21 17:12:54 EST"
+}

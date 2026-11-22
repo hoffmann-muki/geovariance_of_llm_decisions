@@ -1,0 +1,60 @@
+{
+  "all_passed": true,
+  "checks": {
+    "hooks_and_embeds": {
+      "passed": true
+    },
+    "ig_endpoints": {
+      "completeness_error": 0.10409143567085266,
+      "d_base": -1.5,
+      "d_target": -2.0,
+      "embedding_row_sum": -0.4316560924053192,
+      "passed": true
+    },
+    "part1_reproduction": {
+      "max_abs_diff": 1.1920928955078125e-07,
+      "n_prompts": 100,
+      "passed": true
+    },
+    "pytest": {
+      "passed": true,
+      "summary": "10 passed in 11.93s"
+    }
+  },
+  "code": {
+    "country_effect/part2_attribution/common.py": "e16e133d4df1d21a9c898c3eda4501521e59d1d80b454d9783e69a43ec364ec6",
+    "country_effect/part2_attribution/configs/mechanistic_panel.json": "671ac71577bf68150bd2aa8af86d897739b8bff626cd99b3f1c5adcc494e2ddd",
+    "country_effect/part2_attribution/configs/stimuli_controls.json": "a25e3aac3039b82d73932fcf5791a472b9436ea24c96e8e3749e991d022bffc5",
+    "country_effect/part2_attribution/scripts/00_verify_parity.py": "bc261137e13a87f891cd139b171f138d9421f9c760bccd39c44dd3cce811ce13",
+    "geoflip/attribution.py": "7ea89ce13e82cbb1dad9193a7ed15df04a9b085ef060312585a58c5d590c3af9",
+    "geoflip/hooks.py": "2fd52c114165e061ce143d93bf855a03a9bdd07728fd61f2b34dd28995f50be2",
+    "geoflip/render.py": "39f70abf04d19e5fb1ca243ae05330fdad9a073a700327819b714610bd27a562",
+    "geoflip/scoring.py": "6681f82c308e80a28e6c2b1a1052023f7606fd0fdc132205c1d0e738d9d503f3",
+    "geoflip/spans.py": "cd9af46bd094c4fe373deb29f9b3610794d7ecedd104ef7c4abca56851220cf7",
+    "geoflip/study.py": "6e177e7966b8e80b26150f2b706562555f884a9e2bd20300de0a8ef83082914d"
+  },
+  "dtype": "bfloat16",
+  "environment": {
+    "gpu": "NVIDIA RTX A4000",
+    "platform": "Linux-5.14.0-741.22.1.el9_9.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.18",
+    "torch": "2.14.1+cu126",
+    "transformers": "5.22.1"
+  },
+  "git_commit": "9621dabebecb29ab285c268393a90acb11da416b",
+  "inputs": {
+    "country_effect/part1_behavioral/dataset/labels.csv.gz": "2b2eee20f64dc5b56c3e2f97a650b5c4f0338ce779d6c016d1ae148efc85a89d",
+    "country_effect/part1_behavioral/inputs/prompts.json": "131c703e44a821d74321a669d6d510a2850d6f5570d3f6f0c9a835583e75f890"
+  },
+  "model_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "outputs": {
+    "country_effect/part2_attribution/outputs/00_parity/reproduction.json": "66bc73270a7581aed41004b40521013391383f24bd4dac71f2b22ca697dd51b1",
+    "country_effect/part2_attribution/outputs/00_parity/walkthrough.txt": "6fac4fe69c33602aa82a4dd4e2ffb2c577215295332ea830bdbf2dbc947aa6ee"
+  },
+  "script": "country_effect/part2_attribution/scripts/00_verify_parity.py",
+  "timing_seconds": {
+    "forward": 0.03566868854977656,
+    "ig_pair_50_steps": 6.157817718019942
+  },
+  "written": "2026-11-21 17:14:48 EST"
+}

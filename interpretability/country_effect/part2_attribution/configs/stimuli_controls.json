@@ -1,0 +1,27 @@
+{
+  "description": "Stage 1A control names (PREREGISTRATION.md § 3). Lists are fixed candidate sets; 01_build_controls.py applies the token rules and the seeded draw. Populations are approximate 2023 figures in millions, used only for the < 5 million rule.",
+  "seed": 20261121,
+  "families": {
+    "nonplace_1tok": {
+      "rule": "mythic, fictional or ancient places and solar-system planets; ' ' + name is exactly one token",
+      "tokens": 1,
+      "candidates": ["Atlantis", "Eden", "Oz", "Gotham", "Olympus", "Hogwarts", "Babylon", "Troy", "Zion", "Mars", "Jupiter", "Venus", "Saturn", "Pluto", "Neptune", "Mercury"]
+    },
+    "small_state_1tok": {
+      "rule": "sovereign states with population under 5 million; exactly one token",
+      "tokens": 1,
+      "population_millions": {"Monaco": 0.04, "Malta": 0.54, "Luxembourg": 0.66, "Iceland": 0.39, "Fiji": 0.94, "Samoa": 0.22, "Belize": 0.41, "Mongolia": 3.4, "Qatar": 2.7, "Bahrain": 1.5, "Kuwait": 4.3, "Cyprus": 1.3, "Estonia": 1.3, "Latvia": 1.8, "Albania": 2.8, "Oman": 4.6}
+    },
+    "small_state_multi": {
+      "rule": "sovereign states with population under 5 million; 2-4 tokens; 8 drawn with the seed",
+      "tokens": [2, 3, 4],
+      "draw": 8,
+      "population_millions": {"Tuvalu": 0.01, "Nauru": 0.01, "Andorra": 0.08, "Liechtenstein": 0.04, "Bhutan": 0.79, "Lesotho": 2.3, "Eswatini": 1.2, "Vanuatu": 0.33, "Palau": 0.02, "Comoros": 0.85, "Djibouti": 1.1, "Kiribati": 0.13, "Tonga": 0.11, "Brunei": 0.45, "Suriname": 0.62, "Guyana": 0.81, "Gabon": 2.4, "Moldova": 2.5, "Eritrea": 3.7}
+    },
+    "region_3tok": {
+      "rule": "generic 'the <direction> <unit>' phrases without a country; exactly three tokens",
+      "tokens": 3,
+      "candidates": ["the Northern Province", "the Central Region", "the Eastern District", "the Western Province", "the Southern Region", "the Coastal Province", "the Northern Territory", "the Upper Valley", "the Eastern Province", "the Western Region", "the Central Highlands", "the Southern District", "the Northern Region", "the Central District", "the Lower Valley"]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "code": {
+    "country_effect/part2_attribution/common.py": "e16e133d4df1d21a9c898c3eda4501521e59d1d80b454d9783e69a43ec364ec6",
+    "country_effect/part2_attribution/configs/mechanistic_panel.json": "671ac71577bf68150bd2aa8af86d897739b8bff626cd99b3f1c5adcc494e2ddd",
+    "country_effect/part2_attribution/configs/stimuli_controls.json": "a25e3aac3039b82d73932fcf5791a472b9436ea24c96e8e3749e991d022bffc5",
+    "country_effect/part2_attribution/scripts/09_compile_report_artifacts.py": "aee5e4ad742ff9620b2ec25902e861a0e5213f44885efe5146a3eb222e180360",
+    "geoflip/attribution.py": "7ea89ce13e82cbb1dad9193a7ed15df04a9b085ef060312585a58c5d590c3af9",
+    "geoflip/hooks.py": "e3bd4c6970e67b1e5aa7104d4074781c15fe59356e80e39c107b8d6d1a6ebc8b",
+    "geoflip/render.py": "39f70abf04d19e5fb1ca243ae05330fdad9a073a700327819b714610bd27a562",
+    "geoflip/scoring.py": "6681f82c308e80a28e6c2b1a1052023f7606fd0fdc132205c1d0e738d9d503f3",
+    "geoflip/spans.py": "cd9af46bd094c4fe373deb29f9b3610794d7ecedd104ef7c4abca56851220cf7",
+    "geoflip/study.py": "6e177e7966b8e80b26150f2b706562555f884a9e2bd20300de0a8ef83082914d"
+  },
+  "environment": {
+    "gpu": null,
+    "platform": "Linux-5.14.0-741.22.1.el9_9.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.18",
+    "torch": "2.14.1+cu126",
+    "transformers": "5.22.1"
+  },
+  "git_commit": "9621dabebecb29ab285c268393a90acb11da416b",
+  "inputs": {
+    "country_effect/part2_attribution/outputs/04_logit_lens/results.json": "3f051d600777ffb820906ec0b015c47c93da5118745c0731b97c12494273f1e8",
+    "country_effect/part2_attribution/outputs/05_patching/results.json": "63b4dfa00acb3a336cb93d780e2385a08d33a14653af4006b0955beb4466a8b4",
+    "country_effect/part2_attribution/outputs/05b_span_control/results.json": "dcc182b831a0cd5f56b7ebe8f5e18724dcf06eee3e4edd76985185a8df0415c9",
+    "country_effect/part2_attribution/outputs/06_probes_steering/results.json": "e1e02b537466737fb2f432152df97affb4785fc288b70722f2cc170227f8ea28",
+    "country_effect/part2_attribution/outputs/07_ig/results.json": "f7d09b89f460848c134abae4bc5d610fcec059da80c3b15edc7fc0e128a4941a",
+    "country_effect/part2_attribution/outputs/08_generality/results.json": "abca3068389d8fb58aa67138b7f0904cb82ab0cd972e5495ba13d8e43a38088e"
+  },
+  "outputs": {
+    "country_effect/part2_attribution/report/facts.json": "d6d9c7a48594a576ee9dc52dd6a39a4a25e7cea9bef8c64ce79b3d9700e54084",
+    "country_effect/part2_attribution/report/figures/fig1_logit_lens.png": "043e40a664f1ea74815e6da24a7f8a92bc042fdbed1b62ef7a6784ebfa932e72",
+    "country_effect/part2_attribution/report/figures/fig2_patching.png": "c949a37358b382889e13a229c68e48cf75d6b7867871c2750025d128c4e8ee80",
+    "country_effect/part2_attribution/report/figures/fig3_span_control.png": "d3e419d1ab35944c6536dd1e50c6668b07711105676033c52c1e5ec9e2aa204e",
+    "country_effect/part2_attribution/report/figures/fig4_steering.png": "5a11559074bf2b536c0cb98a817dc30359391b1bcca02ce538257ebc6802760c",
+    "country_effect/part2_attribution/report/figures/fig5_ig.png": "f78d423e2e493afb0e9766673419552580503c60f0a3e07b5f6ae20fb8443476",
+    "country_effect/part2_attribution/report/figures/fig6_qwen.png": "b9dc7db2dafa3694f3dbe4b2ff9013306772667d3bd638300b64fe2dda591db3"
+  },
+  "script": "country_effect/part2_attribution/scripts/09_compile_report_artifacts.py",
+  "written": "2026-11-21 18:19:58 EST"
+}

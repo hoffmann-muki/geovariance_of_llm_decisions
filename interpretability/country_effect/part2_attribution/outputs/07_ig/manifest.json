@@ -1,0 +1,34 @@
+{
+  "code": {
+    "country_effect/part2_attribution/common.py": "e16e133d4df1d21a9c898c3eda4501521e59d1d80b454d9783e69a43ec364ec6",
+    "country_effect/part2_attribution/configs/mechanistic_panel.json": "671ac71577bf68150bd2aa8af86d897739b8bff626cd99b3f1c5adcc494e2ddd",
+    "country_effect/part2_attribution/configs/stimuli_controls.json": "a25e3aac3039b82d73932fcf5791a472b9436ea24c96e8e3749e991d022bffc5",
+    "country_effect/part2_attribution/scripts/07_run_matched_ig.py": "18e4028f687a6fe7e8e84aedbef17d6c85bbf199abd27418a97149cc3dcf2b98",
+    "geoflip/attribution.py": "7ea89ce13e82cbb1dad9193a7ed15df04a9b085ef060312585a58c5d590c3af9",
+    "geoflip/hooks.py": "2fd52c114165e061ce143d93bf855a03a9bdd07728fd61f2b34dd28995f50be2",
+    "geoflip/render.py": "39f70abf04d19e5fb1ca243ae05330fdad9a073a700327819b714610bd27a562",
+    "geoflip/scoring.py": "6681f82c308e80a28e6c2b1a1052023f7606fd0fdc132205c1d0e738d9d503f3",
+    "geoflip/spans.py": "cd9af46bd094c4fe373deb29f9b3610794d7ecedd104ef7c4abca56851220cf7",
+    "geoflip/study.py": "6e177e7966b8e80b26150f2b706562555f884a9e2bd20300de0a8ef83082914d"
+  },
+  "environment": {
+    "gpu": null,
+    "platform": "Linux-5.14.0-741.22.1.el9_9.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.18",
+    "torch": "2.14.1+cu126",
+    "transformers": "5.22.1"
+  },
+  "git_commit": "9621dabebecb29ab285c268393a90acb11da416b",
+  "grad_mode": "bf16 forward/backward, float32 accumulation of grad x delta-h",
+  "inputs": {
+    "country_effect/part2_attribution/outputs/01_controls/controls.json": "289165a86f7191c40dac30aa864dcf290b9222acc47aacd3cb7c993eec4ef7e0"
+  },
+  "outputs": {
+    "country_effect/part2_attribution/outputs/07_ig/ig_BV_0of1.jsonl": "1b876440766879f5681e56452cdb7b7135f3c3775ec5367e843b897b2a27dbc6",
+    "country_effect/part2_attribution/outputs/07_ig/ig_PR_0of1.jsonl": "859812ac5cc1be37f7297dd108d44f44a944c0eb68450c46a119ff730e3410eb",
+    "country_effect/part2_attribution/outputs/07_ig/results.json": "f7d09b89f460848c134abae4bc5d610fcec059da80c3b15edc7fc0e128a4941a"
+  },
+  "script": "country_effect/part2_attribution/scripts/07_run_matched_ig.py",
+  "steps": 50,
+  "written": "2026-11-21 17:24:26 EST"
+}

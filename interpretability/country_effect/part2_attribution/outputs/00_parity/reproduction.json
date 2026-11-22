@@ -1,0 +1,702 @@
+[
+  {
+    "d": -1.125,
+    "description_id": "BV|miners|f2|W2|BV_c12",
+    "name": "Russia",
+    "order": "A",
+    "part1": -1.125
+  },
+  {
+    "d": 2.125,
+    "description_id": "BV|miners|f2|W2|BV_c12",
+    "name": "Russia",
+    "order": "B",
+    "part1": 2.125
+  },
+  {
+    "d": -0.5,
+    "description_id": "BV|militia|f2|W1|BV_c11",
+    "name": "Kenya",
+    "order": "A",
+    "part1": -0.5
+  },
+  {
+    "d": 0.625,
+    "description_id": "BV|militia|f2|W1|BV_c11",
+    "name": "Kenya",
+    "order": "B",
+    "part1": 0.625
+  },
+  {
+    "d": -1.625,
+    "description_id": "BV|drivers|f2|W2|BV_c33",
+    "name": "Iran",
+    "order": "A",
+    "part1": -1.625
+  },
+  {
+    "d": 1.25,
+    "description_id": "BV|drivers|f2|W2|BV_c33",
+    "name": "Iran",
+    "order": "B",
+    "part1": 1.25
+  },
+  {
+    "d": -1.0,
+    "description_id": "BV|stones|f1|W1|BV_c21",
+    "name": "Mexico",
+    "order": "A",
+    "part1": -1.0
+  },
+  {
+    "d": 2.5,
+    "description_id": "BV|stones|f1|W1|BV_c21",
+    "name": "Mexico",
+    "order": "B",
+    "part1": 2.5
+  },
+  {
+    "d": -2.25,
+    "description_id": "BV|fishermen|f1|W2|BV_c33",
+    "name": "Kenya",
+    "order": "A",
+    "part1": -2.25
+  },
+  {
+    "d": 1.0,
+    "description_id": "BV|fishermen|f1|W2|BV_c33",
+    "name": "Kenya",
+    "order": "B",
+    "part1": 1.0
+  },
+  {
+    "d": 0.125,
+    "description_id": "BV|returned_fire|f2|W1|BV_c20",
+    "name": "Venezuela",
+    "order": "A",
+    "part1": 0.125
+  },
+  {
+    "d": 1.0,
+    "description_id": "BV|returned_fire|f2|W1|BV_c20",
+    "name": "Venezuela",
+    "order": "B",
+    "part1": 1.0
+  },
+  {
+    "d": -1.0,
+    "description_id": "BV|armed_residents|f2|W2|BV_c03",
+    "name": "Trara",
+    "order": "A",
+    "part1": -1.0
+  },
+  {
+    "d": 1.625,
+    "description_id": "BV|armed_residents|f2|W2|BV_c03",
+    "name": "Trara",
+    "order": "B",
+    "part1": 1.625
+  },
+  {
+    "d": 0.4999999701976776,
+    "description_id": "BV|returned_fire|f1|W2|BV_c13",
+    "name": "Colombia",
+    "order": "A",
+    "part1": 0.5
+  },
+  {
+    "d": 2.0,
+    "description_id": "BV|returned_fire|f1|W2|BV_c13",
+    "name": "Colombia",
+    "order": "B",
+    "part1": 2.0
+  },
+  {
+    "d": -5.625,
+    "description_id": "BV|anchor_lo|f1|W1|BV_c20",
+    "name": "Yemen",
+    "order": "A",
+    "part1": -5.625
+  },
+  {
+    "d": -3.75,
+    "description_id": "BV|anchor_lo|f1|W1|BV_c20",
+    "name": "Yemen",
+    "order": "B",
+    "part1": -3.75
+  },
+  {
+    "d": 0.375,
+    "description_id": "BV|militia|f2|W2|BV_c02",
+    "name": "none",
+    "order": "A",
+    "part1": 0.375
+  },
+  {
+    "d": 2.125,
+    "description_id": "BV|militia|f2|W2|BV_c02",
+    "name": "none",
+    "order": "B",
+    "part1": 2.125
+  },
+  {
+    "d": -0.375,
+    "description_id": "BV|militia|f1|W1|BV_c20",
+    "name": "Syria",
+    "order": "A",
+    "part1": -0.375
+  },
+  {
+    "d": 1.8749998807907104,
+    "description_id": "BV|militia|f1|W1|BV_c20",
+    "name": "Syria",
+    "order": "B",
+    "part1": 1.875
+  },
+  {
+    "d": 0.0,
+    "description_id": "BV|stones|f2|W1|BV_c10",
+    "name": "Germany",
+    "order": "A",
+    "part1": 0.0
+  },
+  {
+    "d": 1.375,
+    "description_id": "BV|stones|f2|W1|BV_c10",
+    "name": "Germany",
+    "order": "B",
+    "part1": 1.375
+  },
+  {
+    "d": -0.75,
+    "description_id": "BV|stones|f1|W1|BV_c31",
+    "name": "Grarand",
+    "order": "A",
+    "part1": -0.75
+  },
+  {
+    "d": 2.875,
+    "description_id": "BV|stones|f1|W1|BV_c31",
+    "name": "Grarand",
+    "order": "B",
+    "part1": 2.875
+  },
+  {
+    "d": -0.875,
+    "description_id": "BV|militia|f1|W2|BV_c31",
+    "name": "Geborstoran",
+    "order": "A",
+    "part1": -0.875
+  },
+  {
+    "d": 2.25,
+    "description_id": "BV|militia|f1|W2|BV_c31",
+    "name": "Geborstoran",
+    "order": "B",
+    "part1": 2.25
+  },
+  {
+    "d": -0.875,
+    "description_id": "BV|militia|f1|W2|BV_c00",
+    "name": "Krunstamiren",
+    "order": "A",
+    "part1": -0.875
+  },
+  {
+    "d": 2.125,
+    "description_id": "BV|militia|f1|W2|BV_c00",
+    "name": "Krunstamiren",
+    "order": "B",
+    "part1": 2.125
+  },
+  {
+    "d": -2.5,
+    "description_id": "BV|fishermen|f1|W1|BV_c02",
+    "name": "Nilia",
+    "order": "A",
+    "part1": -2.5
+  },
+  {
+    "d": 1.25,
+    "description_id": "BV|fishermen|f1|W1|BV_c02",
+    "name": "Nilia",
+    "order": "B",
+    "part1": 1.25
+  },
+  {
+    "d": -0.125,
+    "description_id": "BV|stones|f2|W1|BV_c21",
+    "name": "Indonesia",
+    "order": "A",
+    "part1": -0.125
+  },
+  {
+    "d": 1.125,
+    "description_id": "BV|stones|f2|W1|BV_c21",
+    "name": "Indonesia",
+    "order": "B",
+    "part1": 1.125
+  },
+  {
+    "d": -0.25,
+    "description_id": "BV|sticks_machetes|f2|W1|BV_c12",
+    "name": "Libya",
+    "order": "A",
+    "part1": -0.25
+  },
+  {
+    "d": 1.0,
+    "description_id": "BV|sticks_machetes|f2|W1|BV_c12",
+    "name": "Libya",
+    "order": "B",
+    "part1": 1.0
+  },
+  {
+    "d": -0.25,
+    "description_id": "BV|stones|f1|W1|BV_c33",
+    "name": "Colombia",
+    "order": "A",
+    "part1": -0.25
+  },
+  {
+    "d": 2.0,
+    "description_id": "BV|stones|f1|W1|BV_c33",
+    "name": "Colombia",
+    "order": "B",
+    "part1": 2.0
+  },
+  {
+    "d": -0.75,
+    "description_id": "BV|stones|f1|W1|BV_c00",
+    "name": "Brazil",
+    "order": "A",
+    "part1": -0.75
+  },
+  {
+    "d": 2.125,
+    "description_id": "BV|stones|f1|W1|BV_c00",
+    "name": "Brazil",
+    "order": "B",
+    "part1": 2.125
+  },
+  {
+    "d": -2.625,
+    "description_id": "BV|fishermen|f1|W2|BV_c00",
+    "name": "Geborstoran",
+    "order": "A",
+    "part1": -2.625
+  },
+  {
+    "d": 1.375,
+    "description_id": "BV|fishermen|f1|W2|BV_c00",
+    "name": "Geborstoran",
+    "order": "B",
+    "part1": 1.375
+  },
+  {
+    "d": -1.0,
+    "description_id": "BV|self_defense_group|f2|W1|BV_c30",
+    "name": "Reine",
+    "order": "A",
+    "part1": -1.0
+  },
+  {
+    "d": 0.625,
+    "description_id": "BV|self_defense_group|f2|W1|BV_c30",
+    "name": "Reine",
+    "order": "B",
+    "part1": 0.625
+  },
+  {
+    "d": -1.875,
+    "description_id": "BV|farmers|f2|W2|BV_c11",
+    "name": "Canada",
+    "order": "A",
+    "part1": -1.875
+  },
+  {
+    "d": 0.8749999403953552,
+    "description_id": "BV|farmers|f2|W2|BV_c11",
+    "name": "Canada",
+    "order": "B",
+    "part1": 0.875
+  },
+  {
+    "d": -1.375,
+    "description_id": "BV|pistol|f1|W1|BV_c11",
+    "name": "Sudan",
+    "order": "A",
+    "part1": -1.375
+  },
+  {
+    "d": 2.0,
+    "description_id": "BV|pistol|f1|W1|BV_c11",
+    "name": "Sudan",
+    "order": "B",
+    "part1": 2.0
+  },
+  {
+    "d": 0.375,
+    "description_id": "BV|returned_fire|f1|W2|BV_c33",
+    "name": "India",
+    "order": "A",
+    "part1": 0.375
+  },
+  {
+    "d": 2.25,
+    "description_id": "BV|returned_fire|f1|W2|BV_c33",
+    "name": "India",
+    "order": "B",
+    "part1": 2.25
+  },
+  {
+    "d": 0.125,
+    "description_id": "PR|vandalise|f2|W2|PR_c12",
+    "name": "Russia",
+    "order": "A",
+    "part1": 0.125
+  },
+  {
+    "d": 1.625,
+    "description_id": "PR|vandalise|f2|W2|PR_c12",
+    "name": "Russia",
+    "order": "B",
+    "part1": 1.625
+  },
+  {
+    "d": -7.0,
+    "description_id": "PR|deface_paint|f2|W2|PR_c00",
+    "name": "South Korea",
+    "order": "A",
+    "part1": -7.0
+  },
+  {
+    "d": -2.5,
+    "description_id": "PR|deface_paint|f2|W2|PR_c00",
+    "name": "South Korea",
+    "order": "B",
+    "part1": -2.5
+  },
+  {
+    "d": -2.875,
+    "description_id": "PR|block_rail|f2|W2|PR_c10",
+    "name": "Russia",
+    "order": "A",
+    "part1": -2.875
+  },
+  {
+    "d": -1.0,
+    "description_id": "PR|block_rail|f2|W2|PR_c10",
+    "name": "Russia",
+    "order": "B",
+    "part1": -1.0
+  },
+  {
+    "d": -0.125,
+    "description_id": "PR|burn_effigy|f2|W2|PR_c13",
+    "name": "Myanmar",
+    "order": "A",
+    "part1": -0.125
+  },
+  {
+    "d": 2.75,
+    "description_id": "PR|burn_effigy|f2|W2|PR_c13",
+    "name": "Myanmar",
+    "order": "B",
+    "part1": 2.75
+  },
+  {
+    "d": -2.75,
+    "description_id": "PR|storm|f1|W2|PR_c22",
+    "name": "South Africa",
+    "order": "A",
+    "part1": -2.75
+  },
+  {
+    "d": -0.375,
+    "description_id": "PR|storm|f1|W2|PR_c22",
+    "name": "South Africa",
+    "order": "B",
+    "part1": -0.375
+  },
+  {
+    "d": 0.25,
+    "description_id": "PR|burn_effigy|f2|W2|PR_c31",
+    "name": "Tistrulova",
+    "order": "A",
+    "part1": 0.25
+  },
+  {
+    "d": 3.625,
+    "description_id": "PR|burn_effigy|f2|W2|PR_c31",
+    "name": "Tistrulova",
+    "order": "B",
+    "part1": 3.625
+  },
+  {
+    "d": 2.875,
+    "description_id": "PR|burn_flag|f1|W2|PR_c03",
+    "name": "Nesar",
+    "order": "A",
+    "part1": 2.875
+  },
+  {
+    "d": 3.875,
+    "description_id": "PR|burn_flag|f1|W2|PR_c03",
+    "name": "Nesar",
+    "order": "B",
+    "part1": 3.875
+  },
+  {
+    "d": 0.25,
+    "description_id": "PR|burn_documents|f2|W2|PR_c21",
+    "name": "Ukraine",
+    "order": "A",
+    "part1": 0.25
+  },
+  {
+    "d": 3.5,
+    "description_id": "PR|burn_documents|f2|W2|PR_c21",
+    "name": "Ukraine",
+    "order": "B",
+    "part1": 3.5
+  },
+  {
+    "d": -4.75,
+    "description_id": "PR|scuffle|f2|W2|PR_c10",
+    "name": "Australia",
+    "order": "A",
+    "part1": -4.75
+  },
+  {
+    "d": -0.9999999403953552,
+    "description_id": "PR|scuffle|f2|W2|PR_c10",
+    "name": "Australia",
+    "order": "B",
+    "part1": -1.0
+  },
+  {
+    "d": -1.8750001192092896,
+    "description_id": "PR|lock_in|f2|W1|PR_c22",
+    "name": "Sarand",
+    "order": "A",
+    "part1": -1.875
+  },
+  {
+    "d": 1.125,
+    "description_id": "PR|lock_in|f2|W1|PR_c22",
+    "name": "Sarand",
+    "order": "B",
+    "part1": 1.125
+  },
+  {
+    "d": 0.8750000596046448,
+    "description_id": "PR|tear_down|f1|W1|PR_c21",
+    "name": "Yemen",
+    "order": "A",
+    "part1": 0.875
+  },
+  {
+    "d": 2.125,
+    "description_id": "PR|tear_down|f1|W1|PR_c21",
+    "name": "Yemen",
+    "order": "B",
+    "part1": 2.125
+  },
+  {
+    "d": -2.75,
+    "description_id": "PR|storm|f1|W2|PR_c21",
+    "name": "Sunderia",
+    "order": "A",
+    "part1": -2.75
+  },
+  {
+    "d": 0.125,
+    "description_id": "PR|storm|f1|W2|PR_c21",
+    "name": "Sunderia",
+    "order": "B",
+    "part1": 0.125
+  },
+  {
+    "d": 2.375,
+    "description_id": "PR|burn_vehicle|f2|W1|PR_c30",
+    "name": "Karasen",
+    "order": "A",
+    "part1": 2.375
+  },
+  {
+    "d": 4.0,
+    "description_id": "PR|burn_vehicle|f2|W1|PR_c30",
+    "name": "Karasen",
+    "order": "B",
+    "part1": 4.0
+  },
+  {
+    "d": -0.625,
+    "description_id": "PR|burn_documents|f2|W2|PR_c10",
+    "name": "Taroar",
+    "order": "A",
+    "part1": -0.625
+  },
+  {
+    "d": 2.375,
+    "description_id": "PR|burn_documents|f2|W2|PR_c10",
+    "name": "Taroar",
+    "order": "B",
+    "part1": 2.375
+  },
+  {
+    "d": 2.125,
+    "description_id": "PR|throw_objects|f1|W2|PR_c33",
+    "name": "Nigeria",
+    "order": "A",
+    "part1": 2.125
+  },
+  {
+    "d": 3.625,
+    "description_id": "PR|throw_objects|f1|W2|PR_c33",
+    "name": "Nigeria",
+    "order": "B",
+    "part1": 3.625
+  },
+  {
+    "d": -1.5,
+    "description_id": "PR|barricade|f2|W1|PR_c13",
+    "name": "South Korea",
+    "order": "A",
+    "part1": -1.5
+  },
+  {
+    "d": 0.6249999403953552,
+    "description_id": "PR|barricade|f2|W1|PR_c13",
+    "name": "South Korea",
+    "order": "B",
+    "part1": 0.625
+  },
+  {
+    "d": -8.375,
+    "description_id": "PR|anchor_lo|f2|W1|PR_c20",
+    "name": "South Africa",
+    "order": "A",
+    "part1": -8.375
+  },
+  {
+    "d": -4.0,
+    "description_id": "PR|anchor_lo|f2|W1|PR_c20",
+    "name": "South Africa",
+    "order": "B",
+    "part1": -4.0
+  },
+  {
+    "d": 2.625,
+    "description_id": "PR|throw_fireworks|f1|W1|PR_c00",
+    "name": "Myanmar",
+    "order": "A",
+    "part1": 2.625
+  },
+  {
+    "d": 3.625,
+    "description_id": "PR|throw_fireworks|f1|W1|PR_c00",
+    "name": "Myanmar",
+    "order": "B",
+    "part1": 3.625
+  },
+  {
+    "d": 3.5,
+    "description_id": "PR|vandalise|f1|W1|PR_c20",
+    "name": "Iraq",
+    "order": "A",
+    "part1": 3.5
+  },
+  {
+    "d": 4.0,
+    "description_id": "PR|vandalise|f1|W1|PR_c20",
+    "name": "Iraq",
+    "order": "B",
+    "part1": 4.0
+  },
+  {
+    "d": -0.5,
+    "description_id": "PR|deface_paint|f1|W1|PR_c12",
+    "name": "Afghanistan",
+    "order": "A",
+    "part1": -0.5
+  },
+  {
+    "d": 1.375,
+    "description_id": "PR|deface_paint|f1|W1|PR_c12",
+    "name": "Afghanistan",
+    "order": "B",
+    "part1": 1.375
+  },
+  {
+    "d": 1.625,
+    "description_id": "PR|throw_fireworks|f2|W2|PR_c03",
+    "name": "Tistrulova",
+    "order": "A",
+    "part1": 1.625
+  },
+  {
+    "d": 2.375,
+    "description_id": "PR|throw_fireworks|f2|W2|PR_c03",
+    "name": "Tistrulova",
+    "order": "B",
+    "part1": 2.375
+  },
+  {
+    "d": 3.0,
+    "description_id": "PR|storm|f1|W1|PR_c03",
+    "name": "Ethiopia",
+    "order": "A",
+    "part1": 3.0
+  },
+  {
+    "d": 3.875,
+    "description_id": "PR|storm|f1|W1|PR_c03",
+    "name": "Ethiopia",
+    "order": "B",
+    "part1": 3.875
+  },
+  {
+    "d": 2.125,
+    "description_id": "PR|burn_vehicle|f2|W2|PR_c32",
+    "name": "Canada",
+    "order": "A",
+    "part1": 2.125
+  },
+  {
+    "d": 4.125,
+    "description_id": "PR|burn_vehicle|f2|W2|PR_c32",
+    "name": "Canada",
+    "order": "B",
+    "part1": 4.125
+  },
+  {
+    "d": 0.125,
+    "description_id": "PR|deface_paint|f2|W1|PR_c32",
+    "name": "Afghanistan",
+    "order": "A",
+    "part1": 0.125
+  },
+  {
+    "d": 2.875,
+    "description_id": "PR|deface_paint|f2|W1|PR_c32",
+    "name": "Afghanistan",
+    "order": "B",
+    "part1": 2.875
+  },
+  {
+    "d": -3.375,
+    "description_id": "PR|barricade|f2|W2|PR_c13",
+    "name": "Brazil",
+    "order": "A",
+    "part1": -3.375
+  },
+  {
+    "d": -0.25,
+    "description_id": "PR|barricade|f2|W2|PR_c13",
+    "name": "Brazil",
+    "order": "B",
+    "part1": -0.25
+  }
+]

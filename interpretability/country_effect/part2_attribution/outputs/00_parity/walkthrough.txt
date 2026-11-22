@@ -1,0 +1,124 @@
+Description BV|security_guard|f1|W1|BV_c00
+Evidence: The other group included a night watchman.
+
+--- full rendered prompt (order A, no country) ---
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Below is a short report of a violent incident. Assign it to one of the two event types used in conflict monitoring that are listed below.
+
+Battle: a fight between organized armed sides, each capable of hurting the other.
+
+Violence against civilians: an organized armed group purposely harms unarmed civilians who are unable to protect themselves.
+
+A. Battle
+B. Violence against civilians
+
+Give your answer as one letter: A or B.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Members of an armed group and members of another group were involved in a shooting on a coastal road at dawn. The other group included a night watchman.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+
+
+=== name=None order=A (A = Battle) ===
+  name                                   None
+  ev_group  [(141, 145)]                 ' a night watchman'
+  ev_rest   [(137, 141), (145, 146)]     ' The other group included.'
+  ev_end    [(145, 146)]                 '.'
+  bridge    [(134, 137), (146, 150)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(150, 151)]                 '\n\n'
+  lpA=-1.9108 lpB=-0.1608 d=-1.7500
+  logit-lens d by layer: +1.79 +0.38 +0.46 +1.71 +2.24 +1.88 +0.20 +0.28 -0.08 -0.20 +1.90 +2.25 +1.24 +0.30 -1.15 -1.80 -2.02 -1.12 -1.00 -1.59 -0.06 -5.38 -4.19 -1.62 -2.75 -4.56 -1.50 -1.75
+
+=== name=None order=B (B = Battle) ===
+  name                                   None
+  ev_group  [(141, 145)]                 ' a night watchman'
+  ev_rest   [(137, 141), (145, 146)]     ' The other group included.'
+  ev_end    [(145, 146)]                 '.'
+  bridge    [(134, 137), (146, 150)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(150, 151)]                 '\n\n'
+  lpA=-1.7018 lpB=-0.2018 d=+1.5000
+  logit-lens d by layer: -1.77 -0.40 -0.46 -1.73 -2.24 -1.96 -0.24 -0.33 -0.07 -0.11 -2.02 -2.15 -1.23 -0.00 +1.00 +1.90 +2.12 +1.41 +1.28 +1.81 +0.41 +4.50 +2.94 +0.94 +2.19 +3.56 +0.50 +1.50
+
+=== name='the United States' order=A (A = Battle) ===
+  name      [(135, 138)]                 ' the United States'
+  ev_group  [(145, 149)]                 ' a night watchman'
+  ev_rest   [(141, 145), (149, 150)]     ' The other group included.'
+  ev_end    [(149, 150)]                 '.'
+  bridge    [(138, 141), (150, 154)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(154, 155)]                 '\n\n'
+  lpA=-1.2242 lpB=-0.3492 d=-0.8750
+  logit-lens d by layer: +1.80 +0.46 +0.56 +1.86 +2.29 +1.95 +0.37 +0.27 +0.23 +0.01 +1.94 +2.21 +1.18 +0.07 -1.17 -1.56 -1.56 -0.69 -0.28 -0.88 +0.72 -4.19 -3.06 -0.50 -1.75 -2.38 -0.12 -0.88
+
+=== name='the United States' order=B (B = Battle) ===
+  name      [(135, 138)]                 ' the United States'
+  ev_group  [(145, 149)]                 ' a night watchman'
+  ev_rest   [(141, 145), (149, 150)]     ' The other group included.'
+  ev_end    [(149, 150)]                 '.'
+  bridge    [(138, 141), (150, 154)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(154, 155)]                 '\n\n'
+  lpA=-2.1273 lpB=-0.1273 d=+2.0000
+  logit-lens d by layer: -1.80 -0.51 -0.58 -1.89 -2.31 -2.00 -0.43 -0.35 -0.38 -0.25 -2.05 -2.14 -1.15 +0.19 +1.02 +2.37 +2.45 +1.55 +1.41 +2.09 +0.69 +5.16 +3.88 +1.75 +2.94 +5.25 +1.25 +2.00
+
+=== name='the Central Region' order=A (A = Battle) ===
+  name      [(135, 138)]                 ' the Central Region'
+  ev_group  [(145, 149)]                 ' a night watchman'
+  ev_rest   [(141, 145), (149, 150)]     ' The other group included.'
+  ev_end    [(149, 150)]                 '.'
+  bridge    [(138, 141), (150, 154)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(154, 155)]                 '\n\n'
+  lpA=-2.0181 lpB=-0.1431 d=-1.8750
+  logit-lens d by layer: +1.81 +0.52 +0.61 +1.85 +2.27 +1.89 +0.28 +0.22 +0.11 -0.12 +1.87 +2.25 +1.21 +0.18 -1.27 -1.94 -2.12 -1.12 -0.94 -1.47 +0.09 -5.62 -4.50 -1.81 -2.94 -5.06 -1.75 -1.88
+
+=== name='the Central Region' order=B (B = Battle) ===
+  name      [(135, 138)]                 ' the Central Region'
+  ev_group  [(145, 149)]                 ' a night watchman'
+  ev_rest   [(141, 145), (149, 150)]     ' The other group included.'
+  ev_end    [(149, 150)]                 '.'
+  bridge    [(138, 141), (150, 154)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(154, 155)]                 '\n\n'
+  lpA=-1.4065 lpB=-0.2815 d=+1.1250
+  logit-lens d by layer: -1.79 -0.52 -0.59 -1.83 -2.27 -1.93 -0.32 -0.25 -0.24 -0.14 -1.99 -2.18 -1.16 +0.08 +1.15 +1.84 +2.08 +1.36 +1.16 +1.66 +0.25 +4.31 +2.69 +0.75 +2.06 +3.12 +0.25 +1.12
+
+=== name='Bangladesh' order=A (A = Battle) ===
+  name      [(135, 136)]                 ' Bangladesh'
+  ev_group  [(143, 147)]                 ' a night watchman'
+  ev_rest   [(139, 143), (147, 148)]     ' The other group included.'
+  ev_end    [(147, 148)]                 '.'
+  bridge    [(136, 139), (148, 152)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(152, 153)]                 '\n\n'
+  lpA=-2.1273 lpB=-0.1273 d=-2.0000
+  logit-lens d by layer: +1.80 +0.45 +0.53 +1.81 +2.19 +1.80 +0.24 +0.32 +0.03 -0.12 +1.93 +2.20 +1.13 +0.18 -1.27 -1.90 -2.05 -1.16 -1.00 -1.59 -0.09 -5.72 -4.62 -1.94 -3.06 -5.19 -2.00 -2.00
+
+=== name='Bangladesh' order=B (B = Battle) ===
+  name      [(135, 136)]                 ' Bangladesh'
+  ev_group  [(143, 147)]                 ' a night watchman'
+  ev_rest   [(139, 143), (147, 148)]     ' The other group included.'
+  ev_end    [(147, 148)]                 '.'
+  bridge    [(136, 139), (148, 152)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(152, 153)]                 '\n\n'
+  lpA=-1.1372 lpB=-0.3872 d=+0.7500
+  logit-lens d by layer: -1.79 -0.44 -0.54 -1.84 -2.23 -1.86 -0.25 -0.30 -0.18 -0.13 -2.03 -2.12 -1.14 +0.10 +1.16 +1.62 +1.78 +1.20 +1.03 +1.50 +0.03 +3.81 +2.00 +0.06 +1.44 +1.62 -0.50 +0.75
+
+=== name='Atlantis' order=A (A = Battle) ===
+  name      [(135, 136)]                 ' Atlantis'
+  ev_group  [(143, 147)]                 ' a night watchman'
+  ev_rest   [(139, 143), (147, 148)]     ' The other group included.'
+  ev_end    [(147, 148)]                 '.'
+  bridge    [(136, 139), (148, 152)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(152, 153)]                 '\n\n'
+  lpA=-1.7021 lpB=-0.2021 d=-1.5000
+  logit-lens d by layer: +1.79 +0.43 +0.54 +1.83 +2.22 +1.76 +0.15 +0.30 +0.07 -0.11 +1.85 +2.35 +1.45 +0.38 -0.98 -1.66 -1.86 -1.03 -0.84 -1.44 +0.09 -5.31 -4.31 -1.56 -2.62 -4.44 -1.12 -1.50
+
+=== name='Atlantis' order=B (B = Battle) ===
+  name      [(135, 136)]                 ' Atlantis'
+  ev_group  [(143, 147)]                 ' a night watchman'
+  ev_rest   [(139, 143), (147, 148)]     ' The other group included.'
+  ev_end    [(147, 148)]                 '.'
+  bridge    [(136, 139), (148, 152)]     ' at dawn.<|eot_id|><|start_header_id|>assistant<|end_header_id|>'
+  readout   [(152, 153)]                 '\n\n'
+  lpA=-1.5025 lpB=-0.2525 d=+1.2500
+  logit-lens d by layer: -1.80 -0.45 -0.54 -1.83 -2.17 -1.77 -0.12 -0.31 -0.22 -0.14 -1.99 -2.29 -1.44 -0.10 +0.79 +1.64 +1.88 +1.22 +1.16 +1.72 +0.19 +4.44 +2.94 +0.94 +2.12 +3.44 +0.38 +1.25
+
