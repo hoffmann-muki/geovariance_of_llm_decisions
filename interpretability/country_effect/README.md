@@ -8,7 +8,9 @@ The study and its report. Shared code is in `../geoflip/`, and the materials it 
    - **Dataset:** 3,520 evidence-backed conflict-event descriptions. They vary systematically in evidence item (ACLED-attested acts), sentence frame, wording, actors, grievances, places and times.
    - **Manipulation:** each description is held fixed while only the country name changes, across 37 real countries, 20 invented placebo names, and no country.
    - **Measurement:** Llama-3.2-3B-Instruct labels every version, Protest vs Riot (PR) and Battle vs Violence against civilians (BV), in both option orders (408,320 prompts).
-2. **Part 2: why the country matters** ([part2_attribution/](part2_attribution/)). Planned: token attribution on the descriptions identified in Part 1.
+2. **Part 2: how the country reaches the decision** ([part2_attribution/](part2_attribution/)). Done for BV.
+   - **Panel:** 128 BV descriptions; each country prompt is paired with a baseline prompt whose name has the same token length.
+   - **Methods:** logit lens, activation patching with matched-norm random controls, layer-wise integrated gradients, and steering with a difference-of-means direction; a Qwen3-4B comparison.
 
 ## Reports
 
@@ -16,6 +18,7 @@ The study and its report. Shared code is in `../geoflip/`, and the materials it 
 | --- | --- |
 | [main.tex](main.tex) | Midterm project report (ACL format). References to add to `custom.bib` are in [custom_additions.bib](custom_additions.bib); figures are read from `part1_behavioral/report/figures/` |
 | [part1_behavioral/report/preliminary_report.md](part1_behavioral/report/preliminary_report.md) | Longer version of the Part 1 results, with all figures |
+| [part2_attribution/report/part2_report.md](part2_attribution/report/part2_report.md) | Part 2 paper draft; the LaTeX section for `main.tex` is `part2_attribution/report/part2_section.tex` |
 
 ## Fixed Choices for Part 1
 
@@ -35,7 +38,7 @@ The study and its report. Shared code is in `../geoflip/`, and the materials it 
 | `part1_behavioral/inputs/` | Contexts, names (real and placebo), the four task prompts, prompt-selection gates, and a manifest of input and output hashes |
 | `part1_behavioral/dataset/` | The released dataset (see below) |
 | `part1_behavioral/report/` | `results.json` (every reported number), `figures/`, and the markdown report |
-| `part2_attribution/` | Part 2 (placeholder) |
+| `part2_attribution/` | Part 2 (see its README) |
 
 ### Released Dataset
 

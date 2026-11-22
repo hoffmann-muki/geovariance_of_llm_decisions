@@ -12,15 +12,19 @@ Code, data and reports for the project by Hoffmann Muki and Pritika Ramu.
 
 **Main result.** For BV, the country shifts the model's judgement in a stable, geographically ordered way that placebo names do not reproduce, and it changes the label in 8.1% of descriptions. For PR, country effects are at placebo level.
 
+**How it happens (Part 2).** The country leaves no trace in the answer prediction until the second half of the network. Its influence is carried from the name, through the chat-template tokens before the answer (and, for VAC-leaning countries, partly through the evidence sentence), to the final position by layer 14. There a single direction carries it: adding that direction reproduces the item-by-item pattern of the behavioural effect.
+
 ## Where to Start
 
 | You want | Go to |
 | --- | --- |
-| The report | [country_effect/main.tex](country_effect/main.tex) (midterm report) or [country_effect/part1_behavioral/report/preliminary_report.md](country_effect/part1_behavioral/report/preliminary_report.md) (longer version) |
+| The report | [country_effect/main.tex](country_effect/main.tex) (midterm report) |
+| Part 1 in full | [country_effect/part1_behavioral/report/preliminary_report.md](country_effect/part1_behavioral/report/preliminary_report.md) |
+| Part 2 paper draft | [country_effect/part2_attribution/report/part2_report.md](country_effect/part2_attribution/report/part2_report.md) |
 | How the study was designed and analysed | [country_effect/part1_behavioral/DESIGN.md](country_effect/part1_behavioral/DESIGN.md) |
 | How the materials (ACLED items, frames, names, prompts) were built | [MATERIALS.md](MATERIALS.md) |
 | The dataset | [country_effect/part1_behavioral/dataset/](country_effect/part1_behavioral/dataset/) |
-| Every number in the report | [country_effect/part1_behavioral/report/results.json](country_effect/part1_behavioral/report/results.json) |
+| Every reported number | [part1 results.json](country_effect/part1_behavioral/report/results.json), [part2 facts.json](country_effect/part2_attribution/report/facts.json) |
 | Planned extensions of the dataset construction | [CONSTRUCTION.md](CONSTRUCTION.md) |
 
 ## Layout
@@ -39,12 +43,16 @@ interpretability/
 │   ├── render.py           renders a description with a country phrase
 │   ├── scoring.py          chat-template rendering and first-token A/B log-probabilities
 │   ├── study.py            V0 rules, task-prompt rendering, cached scorer, prompt-selection pilot
+│   ├── spans.py            token spans of a prompt from character offsets (Part 2)
+│   ├── hooks.py            residual-stream capture, patching and steering (Part 2)
+│   ├── attribution.py      layer-wise integrated gradients (Part 2)
+│   ├── tests/              Part 2 invariant tests
 │   └── utils.py
 ├── inputs/v4/              materials: ACLED act table, items, frames, names, task prompts, pilot contexts
 └── country_effect/         the study (see country_effect/README.md)
     ├── main.tex            midterm report
     ├── part1_behavioral/   build, score, analyse; inputs, dataset, results, figures, DESIGN.md
-    └── part2_attribution/  planned
+    └── part2_attribution/  logit lens, patching, IG, steering; outputs, figures, paper draft
 ```
 
 ## Reproducing
@@ -57,5 +65,7 @@ python -m country_effect.part1_behavioral.build      # dataset/descriptions.csv
 python -m country_effect.part1_behavioral.score      # 408,320 prompts, about 4.3 h on one RTX A4000
 python -m country_effect.part1_behavioral.analyse    # tables, results.json, figures
 ```
+
+Part 2 needs a GPU and runs stage by stage; see [country_effect/part2_attribution/README.md](country_effect/part2_attribution/README.md).
 
 Rebuilding the materials themselves from the raw ACLED exports in `../conflict_data/` is described in [MATERIALS.md § 6](MATERIALS.md#6-rebuilding-the-materials).

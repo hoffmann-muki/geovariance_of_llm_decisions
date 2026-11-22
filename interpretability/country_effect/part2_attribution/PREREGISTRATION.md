@@ -1,6 +1,6 @@
 # Part 2 Pre-Registration: Where Country Names Enter the Decision
 
-Written 21 November 2026, before any Part 2 prompt was scored. It fixes the stimuli, subsets, metrics and decision rules for the hypotheses in [AGENT_SPEC.md § 2](AGENT_SPEC.md). Later changes are logged in § 9 with their reason; the original text stays.
+Written 21 November 2026, before any Part 2 prompt was scored. It fixes the stimuli, subsets, metrics and decision rules for the hypotheses in AGENT_SPEC.md § 2 (removed from the tree; see commit 08ed146). Later changes are logged in § 9 with their reason; the original text stays.
 
 Throughout: model `meta-llama/Llama-3.2-3B-Instruct` at revision `0cb88a4f764b7a12671c53f0838cd831a0843b95`, bf16, one prompt per forward pass, the Part 1 system prompts (`part1_behavioral/inputs/prompts.json`), both option orders. The score of a prompt pair is s = (d_A + d_B) / 2 with d = log P(higher letter) − log P(lower letter). A **country effect** is Δ_ic = s_ic − mean of s over the 20 Part 1 placebos of the same description, and a name's effect is the mean of Δ over descriptions (as in Part 1). Bootstrap intervals resample descriptions (2,000 draws, seed 20261121).
 
@@ -103,3 +103,4 @@ The report states for each hypothesis whether its behavioural and mechanistic pr
 
 - **2026-11-21, before any Stage 2 run on the full panel: probe folds by item, not by context.** A code smoke test (pilot contexts 0 and 4, frame f1) gave 100% two-fold accuracy at layer 1 with folds by context. With context folds every test item also occurs in training, so a detector of item wording passes; the rule would pick an early lexical layer rather than an armed-status representation. Folds are now by item (alternate items of each class list in `configs/mechanistic_panel.json`), so accuracy measures generalisation to unseen items. The smoke test also ran scripts 04–07 on three study-panel pairs to check the code; those runs were written to scratch and are not used.
 - **2026-11-21: order lengths.** AGENT_SPEC § 3.2 expects the two option orders to differ in token length; for both boundaries they are equal (PR 88, BV 85 system-prompt tokens). Spans are still resolved per prompt.
+- **2026-11-21, after all runs: AGENT_SPEC.md removed.** The task spec this plan cites is no longer in the tree; it is preserved in git history at commit 08ed146. Nothing in the plan changed.
