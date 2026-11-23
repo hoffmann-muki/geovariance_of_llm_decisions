@@ -1,6 +1,6 @@
 # Investigating the Influence of Geography on LLM Decision-Making in Ambiguous Contexts
 
-Code, data and reports for the project by Hoffmann Muki and Pritika Ramu.
+Code, data and logs for the project by Hoffmann Muki and Pritika Ramu.
 
 **Question.** When a conflict-event description is held fixed and only the name of the country where it happened changes, does a language model's event label change? The task uses two ACLED distinctions: Protest vs Riot (PR), and Battle vs Violence against civilians (BV).
 
@@ -18,9 +18,6 @@ Code, data and reports for the project by Hoffmann Muki and Pritika Ramu.
 
 | You want | Go to |
 | --- | --- |
-| The report | [country_effect/main.tex](country_effect/main.tex) (midterm report) |
-| Part 1 in full | [country_effect/part1_behavioral/report/preliminary_report.md](country_effect/part1_behavioral/report/preliminary_report.md) |
-| Part 2 paper draft | [country_effect/part2_attribution/report/part2_report.md](country_effect/part2_attribution/report/part2_report.md) |
 | How the study was designed and analysed | [country_effect/part1_behavioral/DESIGN.md](country_effect/part1_behavioral/DESIGN.md) |
 | How the materials (ACLED items, frames, names, prompts) were built | [MATERIALS.md](MATERIALS.md) |
 | The dataset | [country_effect/part1_behavioral/dataset/](country_effect/part1_behavioral/dataset/) |
@@ -50,9 +47,8 @@ interpretability/
 │   └── utils.py
 ├── inputs/v4/              materials: ACLED act table, items, frames, names, task prompts, pilot contexts
 └── country_effect/         the study (see country_effect/README.md)
-    ├── main.tex            midterm report
     ├── part1_behavioral/   build, score, analyse; inputs, dataset, results, figures, DESIGN.md
-    └── part2_attribution/  logit lens, patching, IG, steering; outputs, figures, paper draft
+    └── part2_attribution/  logit lens, patching, IG, steering; outputs, figures
 ```
 
 ## Reproducing

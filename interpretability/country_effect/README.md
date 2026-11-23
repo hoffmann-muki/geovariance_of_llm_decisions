@@ -1,6 +1,6 @@
 # Country Effects in LLM Conflict-Event Coding
 
-The study and its report. Shared code is in `../geoflip/`, and the materials it builds on are in `../inputs/v4/` (described in `../MATERIALS.md`).
+The study: code, dataset and results. Shared code is in `../geoflip/`, and the materials it builds on are in `../inputs/v4/` (described in `../MATERIALS.md`).
 
 ## The Study
 
@@ -11,14 +11,6 @@ The study and its report. Shared code is in `../geoflip/`, and the materials it 
 2. **Part 2: how the country reaches the decision** ([part2_attribution/](part2_attribution/)). Done for BV.
    - **Panel:** 128 BV descriptions; each country prompt is paired with a baseline prompt whose name has the same token length.
    - **Methods:** logit lens, activation patching with matched-norm random controls, layer-wise integrated gradients, and steering with a difference-of-means direction; a Qwen3-4B comparison.
-
-## Reports
-
-| Report | Contents |
-| --- | --- |
-| [main.tex](main.tex) | Midterm project report (ACL format). References to add to `custom.bib` are in [custom_additions.bib](custom_additions.bib); figures are read from `part1_behavioral/report/figures/` |
-| [part1_behavioral/report/preliminary_report.md](part1_behavioral/report/preliminary_report.md) | Longer version of the Part 1 results, with all figures |
-| [part2_attribution/report/part2_report.md](part2_attribution/report/part2_report.md) | Part 2 paper draft; the LaTeX section for `main.tex` is `part2_attribution/report/part2_section.tex` |
 
 ## Fixed Choices for Part 1
 
@@ -37,7 +29,7 @@ The study and its report. Shared code is in `../geoflip/`, and the materials it 
 | `part1_behavioral/analyse.py` | Label tables, flip rates, country effects, figures and `report/results.json` |
 | `part1_behavioral/inputs/` | Contexts, names (real and placebo), the four task prompts, prompt-selection gates, and a manifest of input and output hashes |
 | `part1_behavioral/dataset/` | The released dataset (see below) |
-| `part1_behavioral/report/` | `results.json` (every reported number), `figures/`, and the markdown report |
+| `part1_behavioral/report/` | `results.json` (every reported number) and `figures/` |
 | `part2_attribution/` | Part 2 (see its README) |
 
 ### Released Dataset
